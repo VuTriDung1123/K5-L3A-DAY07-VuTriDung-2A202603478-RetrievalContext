@@ -1,0 +1,21 @@
+[
+  {"query_id": "q01", "answer_grade": 2, "citation_support": [true], "notes": "Accurate Anaconda 2020 collection/cleaning share; p021:para:c000."},
+  {"query_id": "q02", "answer_grade": 2, "citation_support": [true], "notes": "Accurate 200-seat restriction making class size finite/discrete; p028:para:c005."},
+  {"query_id": "q03", "answer_grade": 0, "citation_support": [], "notes": "False abstention due to trace eviction: first search found p023:para:c001, then extra read_page_chunks(24) evicted p023:para:c001 from active_context_ids causing fallback rejection."},
+  {"query_id": "q04", "answer_grade": 2, "citation_support": [true], "notes": "Accurate 409 items, 7 attributes, index 2; p038:para:c001."},
+  {"query_id": "q05", "answer_grade": 2, "citation_support": [true], "notes": "Languages, time zones, typos/blanks all covered; p021:para:c003."},
+  {"query_id": "q06", "answer_grade": 2, "citation_support": [true], "notes": "Code cell and text cell covered; p041:para:c003."},
+  {"query_id": "q07", "answer_grade": 2, "citation_support": [true], "notes": "Simple first questions rapport + pilot testing covered; p071:para:c005."},
+  {"query_id": "q08", "answer_grade": 2, "citation_support": [true, true], "notes": "Both sampling bias and closed-ended questions covered & cited; p072:para:c001, c002."},
+  {"query_id": "q09", "answer_grade": 2, "citation_support": [true], "notes": "Hard-to-reach populations and bias/generalizability covered; p074:para:c002."},
+  {"query_id": "q10", "answer_grade": 2, "citation_support": [true, true], "notes": "MCAR vs MAR contrasted & cited; p087:para:c001, c002."},
+  {"query_id": "q11", "answer_grade": 2, "citation_support": [true, true], "notes": "Lossy (MP3, JPEG) vs Lossless (ZIP, RAR, PNG) cited; p098:para:c005, c006."},
+  {"query_id": "q12", "answer_grade": 2, "citation_support": [true, true], "notes": "Individual autonomy + fitness app example covered & cited; p388:para:c001, c002."},
+  {"query_id": "q13", "answer_grade": 2, "citation_support": [true], "notes": "Anonymization vs pseudonymization accurately contrasted; p401:para:c005."},
+  {"query_id": "q14", "answer_grade": 2, "citation_support": [true, true, true], "notes": "Outliers and limited features accurately explained across p400:c000 and p407:c000/c002."},
+  {"query_id": "q15", "answer_grade": 1, "citation_support": [true], "notes": "Partial (1/2): states >14% emissions by 2040 (p404:para:c002) but omits 1-1.5% electricity share."},
+  {"query_id": "u01", "abstention_correct": true, "citation_support": [], "notes": "Correct abstention on Python vs R %."},
+  {"query_id": "u02", "abstention_correct": true, "citation_support": [], "notes": "Correct abstention on Huffman numeric compression ratio."},
+  {"query_id": "u03", "abstention_correct": true, "citation_support": [], "notes": "Correct abstention on GDPR fine amount."}
+]
+

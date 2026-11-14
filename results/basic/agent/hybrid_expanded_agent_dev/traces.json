@@ -1,0 +1,2203 @@
+[
+  {
+    "query_id": "q01",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "According to the Anaconda 2020 survey cited in the textbook, data scientists spend about half of the entire process on data collection and cleaning [openstax-pds-2025:p021:para:c000].",
+    "citations": [
+      "openstax-pds-2025:p021:para:c000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Anaconda 2020 survey data collection cleaning data science process fraction percentage",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p021:para:c000",
+            "page": 21,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p084:para:c000",
+            "page": 84,
+            "score": 0.027693,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p078:para:c000",
+            "page": 78,
+            "score": 0.025158,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p021:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 21 | section 1.1]\nFigure 1.3 The Data Science Cycle\n\nAlthough data collection and preparation may sound like simple tasks compared to the more important work of analysis, they are actually the most time- and effort-consuming steps in the data science cycle. According to a survey conducted by Anaconda (2020), data scientists spend about half of the entire process in data collection and cleaning, while data analysis and communication take about a quarter to a third of the time each, depending on the job.\n\n[openstax-pds-2025:p078:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 78 | section 2.3]\nAn example of social media data collection is conducting a Twitter survey on customer satisfaction for a food delivery company. Data scientists can use Twitter's API to collect tweets containing specific hashtags related to the company and analyze them to understand customers' opinions and preferences. They can also use social listening to monitor conversations and identify trends in customer behavior. Additionally, creating a social media survey on Twitter can provide more targeted insights into customer satisfaction and preferences. This data can then be analyzed using data science techniques to identify key areas for improvement and drive informed business decisions.\n\n[openstax-pds-2025:p084:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 84 | section 2.3]\ncleaning process includes identifying and correcting any errors, inconsistencies, and missing values in a dataset and is essential for ensuring that the data is accurate, reliable, and usable for analysis or other purposes. Python is often utilized for data processing due to its flexibility and ease of use, and it offers a wide range of tools and libraries specifically designed for data processing. Once the data is processed, it needs to be stored for future use. (We will cover data storage in Data Cleaning and Preprocessing.) Python has several libraries that allow for efficient storage and manipulation of data in the form of DataFrames.",
+        "context_ids": [
+          "openstax-pds-2025:p021:para:c000",
+          "openstax-pds-2025:p078:para:c000",
+          "openstax-pds-2025:p084:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1544.54,
+          "embed_tokens": 14,
+          "embed_cost_usd": 2.8e-07,
+          "embed_reference_cost_usd": 2.8e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p021:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 21 | section 1.1]\nFigure 1.3 The Data Science Cycle\n\nAlthough data collection and preparation may sound like simple tasks compared to the more important work of analysis, they are actually the most time- and effort-consuming steps in the data science cycle. According to a survey conducted by Anaconda (2020), data scientists spend about half of the entire process in data collection and cleaning, while data analysis and communication take about a quarter to a third of the time each, depending on the job.\n\n[openstax-pds-2025:p078:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 78 | section 2.3]\nAn example of social media data collection is conducting a Twitter survey on customer satisfaction for a food delivery company. Data scientists can use Twitter's API to collect tweets containing specific hashtags related to the company and analyze them to understand customers' opinions and preferences. They can also use social listening to monitor conversations and identify trends in customer behavior. Additionally, creating a social media survey on Twitter can provide more targeted insights into customer satisfaction and preferences. This data can then be analyzed using data science techniques to identify key areas for improvement and drive informed business decisions.\n\n[openstax-pds-2025:p084:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 84 | section 2.3]\ncleaning process includes identifying and correcting any errors, inconsistencies, and missing values in a dataset and is essential for ensuring that the data is accurate, reliable, and usable for analysis or other purposes. Python is often utilized for data processing due to its flexibility and ease of use, and it offers a wide range of tools and libraries specifically designed for data processing. Once the data is processed, it needs to be stored for future use. (We will cover data storage in Data Cleaning and Preprocessing.) Python has several libraries that allow for efficient storage and manipulation of data in the form of DataFrames.",
+    "context_ids": [
+      "openstax-pds-2025:p021:para:c000",
+      "openstax-pds-2025:p078:para:c000",
+      "openstax-pds-2025:p084:para:c000"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 1955,
+    "llm_completion_tokens": 133,
+    "rerank_tokens": 0,
+    "embed_tokens": 14,
+    "estimated_cost_usd": 0.00068853,
+    "live_cost_usd": 0.00068853,
+    "elapsed_seconds": 3.19,
+    "split": "dev",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "According to the Anaconda 2020 survey cited in the textbook, roughly what fraction of the data science process do data scientists spend on data collection and cleaning?"
+  },
+  {
+    "query_id": "q02",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "Class size data shifts from being treated as continuous data to discrete data if the campus enforces a restriction that all classes must be 200 seats or less [openstax-pds-2025:p028:para:c005].",
+    "citations": [
+      "openstax-pds-2025:p028:para:c005"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "class size continuous discrete data campus restriction",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p028:para:c005",
+            "page": 28,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p028:para:c004",
+            "page": 28,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p027:para:c002",
+            "page": 27,
+            "score": 0.031746,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p028:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 28 | section 1.3]\n1. The semester the course was offered—Fall 2020, Spring 2021, ..., Fall 2022, Spring 2023\n2. The instructor—A and B\n3. The class size—100, 50, 120, 40, 110, 50\n4. The course rating—“Not recommended at all,” ..., “Highly recommended”\n\nThere are two primary types of quantitative data—numeric and categorical—and each of these can be divided into a few subtypes. Numeric data is represented in numbers that indicate measurable quantities. It may be followed by some symbols to indicate units. Numeric data is further divided into continuous data and discrete data. With continuous data, the values can be any number. In other words, a value is chosen from an infinite set of numbers. With discrete data, the values follow a specific precision, which makes the set of possible values finite.\n\n[openstax-pds-2025:p028:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 28 | section 1.3]\nFrom the previous example, the class size 100, 150, etc. are numbers with the implied unit “students.” Also, they indicate measurable quantities as they are head counts. Therefore, the class size is numeric data. It is also continuous data since the size numbers seem to be any natural numbers and these numbers are chosen from an infinite set of numbers, the set of natural numbers. Note that whether data is continuous (or discrete) also depends on the context. For example, the same class size data can be discrete if the campus enforces all classes to be 200 seats or less. Such restriction makes the class size values be chosen from a finite set of 200 numbers: 1, 2, 3, ..., 198, 199, 200.",
+        "context_ids": [
+          "openstax-pds-2025:p028:para:c004",
+          "openstax-pds-2025:p028:para:c005"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 2518.83,
+          "embed_tokens": 7,
+          "embed_cost_usd": 1.4e-07,
+          "embed_reference_cost_usd": 1.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "campus enforces all classes to be 200 seats or less",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p028:para:c005",
+            "page": 28,
+            "score": 0.032522,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p400:para:c005",
+            "page": 400,
+            "score": 0.028612,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p075:para:c005",
+            "page": 75,
+            "score": 0.028259,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p028:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 28 | section 1.3]\nFrom the previous example, the class size 100, 150, etc. are numbers with the implied unit “students.” Also, they indicate measurable quantities as they are head counts. Therefore, the class size is numeric data. It is also continuous data since the size numbers seem to be any natural numbers and these numbers are chosen from an infinite set of numbers, the set of natural numbers. Note that whether data is continuous (or discrete) also depends on the context. For example, the same class size data can be discrete if the campus enforces all classes to be 200 seats or less. Such restriction makes the class size values be chosen from a finite set of 200 numbers: 1, 2, 3, ..., 198, 199, 200.\n\n[openstax-pds-2025:p075:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 75 | section 2.2]\n1. Sampling bias. One potential source of bias in this study is self-selection bias. As the participants are all college students, they may not be representative of the larger population, as college students tend to have more access and motivation to exercise compared to the general population. This could limit the generalizability of the study's findings. In addition, if the researchers only recruit participants from one university, there may be under-coverage bias. This means that certain groups of individuals, such as nonstudents or students from other universities, may be excluded from the study, potentially leading to biased results.\n\n[openstax-pds-2025:p400:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 400 | section 8.2]\na. Dataset 1, containing information from 5,000 college graduates b. Dataset 2, containing information provided by the first 200 people who passed by the bank during the previous week c. Dataset 3, containing information from 3,500 individuals who were selected from different socioeconomic backgrounds, genders, ages, and demographic groups\n\n[openstax-pds-2025:p400:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 400 | section 8.2]\nSolution\n\nThe correct answer is C. The most appropriate training set for this system would be Dataset 3 (C), as it includes a broadly representative range of individuals. While Dataset 2 (B) may also represent a diverse",
+        "context_ids": [
+          "openstax-pds-2025:p028:para:c005",
+          "openstax-pds-2025:p075:para:c005",
+          "openstax-pds-2025:p400:para:c005",
+          "openstax-pds-2025:p400:para:c006"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 996.81,
+          "embed_tokens": 13,
+          "embed_cost_usd": 2.6e-07,
+          "embed_reference_cost_usd": 2.6e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p028:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 28 | section 1.3]\nFrom the previous example, the class size 100, 150, etc. are numbers with the implied unit “students.” Also, they indicate measurable quantities as they are head counts. Therefore, the class size is numeric data. It is also continuous data since the size numbers seem to be any natural numbers and these numbers are chosen from an infinite set of numbers, the set of natural numbers. Note that whether data is continuous (or discrete) also depends on the context. For example, the same class size data can be discrete if the campus enforces all classes to be 200 seats or less. Such restriction makes the class size values be chosen from a finite set of 200 numbers: 1, 2, 3, ..., 198, 199, 200.\n\n[openstax-pds-2025:p075:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 75 | section 2.2]\n1. Sampling bias. One potential source of bias in this study is self-selection bias. As the participants are all college students, they may not be representative of the larger population, as college students tend to have more access and motivation to exercise compared to the general population. This could limit the generalizability of the study's findings. In addition, if the researchers only recruit participants from one university, there may be under-coverage bias. This means that certain groups of individuals, such as nonstudents or students from other universities, may be excluded from the study, potentially leading to biased results.\n\n[openstax-pds-2025:p400:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 400 | section 8.2]\na. Dataset 1, containing information from 5,000 college graduates b. Dataset 2, containing information provided by the first 200 people who passed by the bank during the previous week c. Dataset 3, containing information from 3,500 individuals who were selected from different socioeconomic backgrounds, genders, ages, and demographic groups\n\n[openstax-pds-2025:p400:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 400 | section 8.2]\nSolution\n\nThe correct answer is C. The most appropriate training set for this system would be Dataset 3 (C), as it includes a broadly representative range of individuals. While Dataset 2 (B) may also represent a diverse",
+    "context_ids": [
+      "openstax-pds-2025:p028:para:c005",
+      "openstax-pds-2025:p075:para:c005",
+      "openstax-pds-2025:p400:para:c005",
+      "openstax-pds-2025:p400:para:c006"
+    ],
+    "search_calls": 2,
+    "turns": 3,
+    "llm_prompt_tokens": 3909,
+    "llm_completion_tokens": 156,
+    "rerank_tokens": 0,
+    "embed_tokens": 20,
+    "estimated_cost_usd": 0.00121165,
+    "live_cost_usd": 0.00121165,
+    "elapsed_seconds": 6.574,
+    "split": "dev",
+    "answerable": true,
+    "type": "dieu_kien_ngoai_le",
+    "question": "Under what campus restriction does class size data shift from being treated as continuous data to discrete data?"
+  },
+  {
+    "query_id": "q03",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "Ahead of Hurricane Frances in 2004, Walmart staff looked back at historical sales data from Hurricane Charley (which had hit several weeks earlier) to forecast product demand [openstax-pds-2025:p023:para:c001]. Through this analysis, executives discovered that sales of strawberry Pop-Tarts had increased by about sevenfold during the previous storm [openstax-pds-2025:p023:para:c001]. Consequently, in the days leading up to Hurricane Frances, Walmart shipped extra supplies of strawberry Pop-Tarts to the stores in the path of the storm [openstax-pds-2025:p023:para:c001]. The data analysis also guided decisions on how many checkout associates to assign at various times of the day, product placement, and other sales details [openstax-pds-2025:p023:para:c001].",
+    "citations": [
+      "openstax-pds-2025:p023:para:c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Walmart Hurricane Frances 2004 historical storm sales data inventory",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p023:para:c001",
+            "page": 23,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p023:para:c000",
+            "page": 23,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p091:para:c005",
+            "page": 91,
+            "score": 0.029857,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p023:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23 | section 1.2]\nRetail giant Walmart is known for using business analytics to improve the company’s bottom line. Walmart collects multiple petabytes (1 petabyte = 1,024 terabytes) of unstructured data every hour from millions of customers (commonly referred to as “big data”); as of 2024, Walmart’s customer data included roughly 255 million weekly customer visits (Statista, 2024). Walmart uses this big data to investigate consumer patterns and adjust its inventories. Such analysis helps the company avoid overstocking or understocking and resulted in an estimated online sales increase of between 10% and 15%, translating to an extra $1 billion in revenue (ProjectPro, 2015). One often-reported example includes the predictive technology Walmart used to prepare for Hurricane Frances in 2004.\n\n[openstax-pds-2025:p023:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23 | section 1.2]\nA week before the hurricane’s arrival, staff were asked to look back at their data on sales during Hurricane Charley, which hit several weeks earlier, and then come up with some forecasts about product demand ahead of Frances (Hays, 2004). Among other insights, the executives discovered that strawberry Pop-Tart sales increased by about sevenfold during that time. As a result, in the days before Hurricane Frances, Walmart shipped extra supplies of strawberry Pop-Tarts to stores in the storm’s path (Hays, 2004). The analysis also provided insights on how many checkout associates to assign at different times of the day, where to place popular products, and many other sales and product details.\n\n[openstax-pds-2025:p091:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 91 | section 2.4]\nBranch Product Sales ($) Profits ($)\n\nBranch 1 Jewelry 50000 20000\n\nBranch 2 TV Accessories 25000 12500\n\nBranch 3 Beauty Products 30000 15000 Branch 4 DVDs 15000 7500 Branch 5 Kids’ Toys 45000 22500 Branch 6 Video Games 35000 17500 Branch 7 Women’s Boutique Apparel 40000 20000 Branch 8 Designer & Fashion 55000 27500 Sunglasses\n\nTable 2.5 Retail Company Sales and Profits",
+        "context_ids": [
+          "openstax-pds-2025:p023:para:c000",
+          "openstax-pds-2025:p023:para:c001",
+          "openstax-pds-2025:p091:para:c005"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 962.47,
+          "embed_tokens": 12,
+          "embed_cost_usd": 2.4e-07,
+          "embed_reference_cost_usd": 2.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Hurricane Frances Pop-Tart Walmart",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p023:para:c001",
+            "page": 23,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p023:para:c000",
+            "page": 23,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p023:para:c003",
+            "page": 23,
+            "score": 0.03125,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p023:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23 | section 1.2]\nRetail giant Walmart is known for using business analytics to improve the company’s bottom line. Walmart collects multiple petabytes (1 petabyte = 1,024 terabytes) of unstructured data every hour from millions of customers (commonly referred to as “big data”); as of 2024, Walmart’s customer data included roughly 255 million weekly customer visits (Statista, 2024). Walmart uses this big data to investigate consumer patterns and adjust its inventories. Such analysis helps the company avoid overstocking or understocking and resulted in an estimated online sales increase of between 10% and 15%, translating to an extra $1 billion in revenue (ProjectPro, 2015). One often-reported example includes the predictive technology Walmart used to prepare for Hurricane Frances in 2004.\n\n[openstax-pds-2025:p023:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23 | section 1.2]\nA week before the hurricane’s arrival, staff were asked to look back at their data on sales during Hurricane Charley, which hit several weeks earlier, and then come up with some forecasts about product demand ahead of Frances (Hays, 2004). Among other insights, the executives discovered that strawberry Pop-Tart sales increased by about sevenfold during that time. As a result, in the days before Hurricane Frances, Walmart shipped extra supplies of strawberry Pop-Tarts to stores in the storm’s path (Hays, 2004). The analysis also provided insights on how many checkout associates to assign at different times of the day, where to place popular products, and many other sales and product details.\n\n[openstax-pds-2025:p023:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23 | section 1.2]\nIn addition, the company has launched social media analytics efforts to investigate hot keywords on social media and promptly make related products available (ProjectPro, 2015).",
+        "context_ids": [
+          "openstax-pds-2025:p023:para:c000",
+          "openstax-pds-2025:p023:para:c001",
+          "openstax-pds-2025:p023:para:c002"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 2352.5,
+          "embed_tokens": 7,
+          "embed_cost_usd": 1.4e-07,
+          "embed_reference_cost_usd": 1.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p023:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23 | section 1.2]\nRetail giant Walmart is known for using business analytics to improve the company’s bottom line. Walmart collects multiple petabytes (1 petabyte = 1,024 terabytes) of unstructured data every hour from millions of customers (commonly referred to as “big data”); as of 2024, Walmart’s customer data included roughly 255 million weekly customer visits (Statista, 2024). Walmart uses this big data to investigate consumer patterns and adjust its inventories. Such analysis helps the company avoid overstocking or understocking and resulted in an estimated online sales increase of between 10% and 15%, translating to an extra $1 billion in revenue (ProjectPro, 2015). One often-reported example includes the predictive technology Walmart used to prepare for Hurricane Frances in 2004.\n\n[openstax-pds-2025:p023:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23 | section 1.2]\nA week before the hurricane’s arrival, staff were asked to look back at their data on sales during Hurricane Charley, which hit several weeks earlier, and then come up with some forecasts about product demand ahead of Frances (Hays, 2004). Among other insights, the executives discovered that strawberry Pop-Tart sales increased by about sevenfold during that time. As a result, in the days before Hurricane Frances, Walmart shipped extra supplies of strawberry Pop-Tarts to stores in the storm’s path (Hays, 2004). The analysis also provided insights on how many checkout associates to assign at different times of the day, where to place popular products, and many other sales and product details.\n\n[openstax-pds-2025:p023:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23 | section 1.2]\nIn addition, the company has launched social media analytics efforts to investigate hot keywords on social media and promptly make related products available (ProjectPro, 2015).",
+    "context_ids": [
+      "openstax-pds-2025:p023:para:c000",
+      "openstax-pds-2025:p023:para:c001",
+      "openstax-pds-2025:p023:para:c002"
+    ],
+    "search_calls": 2,
+    "turns": 3,
+    "llm_prompt_tokens": 4174,
+    "llm_completion_tokens": 313,
+    "rerank_tokens": 0,
+    "embed_tokens": 19,
+    "estimated_cost_usd": 0.00151338,
+    "live_cost_usd": 0.00151338,
+    "elapsed_seconds": 6.219,
+    "split": "dev",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "question": "How did Walmart use historical storm sales data to prepare inventory ahead of Hurricane Frances in 2004?"
+  },
+  {
+    "query_id": "q04",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "According to Example 1.8, there are 409 items in the Jeopardy dataset and seven attributes (\"category\", \"air_date\", \"question\", \"value\", \"answer\", \"round\", and \"show_number\"). The third item is located at index 2 [openstax-pds-2025:p038:para:c001].",
+    "citations": [
+      "openstax-pds-2025:p038:para:c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Example 1.8 JSON Jeopardy dataset items attributes list index",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p038:para:c000",
+            "page": 38,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p038:para:c001",
+            "page": 38,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p034:para:c001",
+            "page": 34,
+            "score": 0.031498,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p034:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 34 | section 1.3]\nCourseEvaluations.json (https://openstax.org/r/filed1v) has one key-value pair at the highest level: \"Members\": [...]. You can see that each item of the dataset is listed in the form of an array or list under the key \"Members\". Inside the array, each item is also bound by curly braces and has a list of key-value pairs, separated by commas. Keys are used to describe attributes in the dataset, and values are used to define the corresponding values. For example, the first item in the JSON dataset above has four keys, each of which maps to each attribute—Semester, Instructor, Class Size, and Rating. Their values are \"Fall 2020\", \"A\", 100, and \"Not recommended at all\".\n\n[openstax-pds-2025:p038:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 38 | section 1.4]\nEXAMPLE 1.8\n\nProblem\n\nThe Jeopardy dataset (ch1-jeopardy.json (https://openstax.org/r/filed15)) is formatted in JSON. Download and open it with a code editor (e.g., Notepad, Sublime Text, Xcode, Visual Studio Code).\n\n• How many items are there in the dataset?\n• How many attributes are there in the dataset?\n• What is the third item in the dataset?\n\n[openstax-pds-2025:p038:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 38 | section 1.4]\nSolution\n\nThere are 409 items in the dataset, and each item has seven attributes: “category”, “air_date”, “question”, “value”, “answer”, “round”, and “show_number”. The third item is located at index 2 of the first list as shown in Figure 1.14.\n\nFigure 1.14 The Third Item in the Jeopardy Dataset\n\n[openstax-pds-2025:p038:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 38 | section 1.4]\n1.4 Using Technology for Data Science\n\nLearning Outcomes\n\nBy the end of this section, you should be able to:\n• 1.4.1 Explain how statistical software can help with data analysis.\n• 1.4.2 Explain the uses of different programs and programming languages for data manipulation, analysis, and visualizations.\n• 1.4.3 Explain the uses of various data analysis tools used in data science applications.",
+        "context_ids": [
+          "openstax-pds-2025:p034:para:c001",
+          "openstax-pds-2025:p038:para:c000",
+          "openstax-pds-2025:p038:para:c001",
+          "openstax-pds-2025:p038:para:c002"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 996.31,
+          "embed_tokens": 14,
+          "embed_cost_usd": 2.8e-07,
+          "embed_reference_cost_usd": 2.8e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p034:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 34 | section 1.3]\nCourseEvaluations.json (https://openstax.org/r/filed1v) has one key-value pair at the highest level: \"Members\": [...]. You can see that each item of the dataset is listed in the form of an array or list under the key \"Members\". Inside the array, each item is also bound by curly braces and has a list of key-value pairs, separated by commas. Keys are used to describe attributes in the dataset, and values are used to define the corresponding values. For example, the first item in the JSON dataset above has four keys, each of which maps to each attribute—Semester, Instructor, Class Size, and Rating. Their values are \"Fall 2020\", \"A\", 100, and \"Not recommended at all\".\n\n[openstax-pds-2025:p038:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 38 | section 1.4]\nEXAMPLE 1.8\n\nProblem\n\nThe Jeopardy dataset (ch1-jeopardy.json (https://openstax.org/r/filed15)) is formatted in JSON. Download and open it with a code editor (e.g., Notepad, Sublime Text, Xcode, Visual Studio Code).\n\n• How many items are there in the dataset?\n• How many attributes are there in the dataset?\n• What is the third item in the dataset?\n\n[openstax-pds-2025:p038:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 38 | section 1.4]\nSolution\n\nThere are 409 items in the dataset, and each item has seven attributes: “category”, “air_date”, “question”, “value”, “answer”, “round”, and “show_number”. The third item is located at index 2 of the first list as shown in Figure 1.14.\n\nFigure 1.14 The Third Item in the Jeopardy Dataset\n\n[openstax-pds-2025:p038:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 38 | section 1.4]\n1.4 Using Technology for Data Science\n\nLearning Outcomes\n\nBy the end of this section, you should be able to:\n• 1.4.1 Explain how statistical software can help with data analysis.\n• 1.4.2 Explain the uses of different programs and programming languages for data manipulation, analysis, and visualizations.\n• 1.4.3 Explain the uses of various data analysis tools used in data science applications.",
+    "context_ids": [
+      "openstax-pds-2025:p034:para:c001",
+      "openstax-pds-2025:p038:para:c000",
+      "openstax-pds-2025:p038:para:c001",
+      "openstax-pds-2025:p038:para:c002"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 2139,
+    "llm_completion_tokens": 158,
+    "rerank_tokens": 0,
+    "embed_tokens": 14,
+    "estimated_cost_usd": 0.00077203,
+    "live_cost_usd": 0.00077203,
+    "elapsed_seconds": 3.006,
+    "split": "dev",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "In Example 1.8, how many items and attributes are in the JSON Jeopardy dataset, and at what list index is the third item located?"
+  },
+  {
+    "query_id": "q05",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "Global search keywords cannot be analyzed directly without preprocessing because:\n1. The search keywords will likely be in different languages [openstax-pds-2025:p021:para:c003].\n2. Because users live all around the Earth, nighttime varies depending on each user's time zone [openstax-pds-2025:p021:para:c003].\n3. Some search keywords may contain typos, not make sense, or remain blank if the server failed to store a specific record properly [openstax-pds-2025:p021:para:c003].",
+    "citations": [
+      "openstax-pds-2025:p021:para:c003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "global search keywords preprocessing nighttime food searches",
+        "filter": {
+          "chapter": "Chapter 1"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p021:para:c003",
+            "page": 21,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p023:para:c002",
+            "page": 23,
+            "score": 0.032002,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p030:para:c003",
+            "page": 30,
+            "score": 0.031754,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p021:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 21 | section 1.1]\nOften the collected data is not in an optimal form for analysis. It needs to be processed somehow so that it can be analyzed, in the phase called data preparation or data processing. Suppose you work for Google and want to know what kind of food people around the globe search about the most during the night. You have users’ search history from around the globe, but you probably cannot use the search history data as is. The search keywords will probably be in different languages, and users live all around the Earth, so nighttime will vary by each user’s time zone. Even then, some search keywords would have some typos, simply not make sense, or even remain blank if the Google server somehow failed to store that specific search history record.\n\n[openstax-pds-2025:p021:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 21 | section 1.1]\nNote that all these scenarios are possible, and therefore data preparation should address these issues so that the actual analysis can draw more accurate results. There are many different ways to manage these issues, which we will discuss more fully in Collecting and Preparing Data.\n\n[openstax-pds-2025:p023:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23 | section 1.2]\nIn addition, the company has launched social media analytics efforts to investigate hot keywords on social media and promptly make related products available (ProjectPro, 2015).\n\n[openstax-pds-2025:p030:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 30 | section 1.3]\nSolution\n\nThe dataset has four entries, each of which is identified with a specific date (Oct. 10, Oct. 11, Oct. 12, Oct. 13). The dataset has three attributes—Date, Temperature, Needed a Jacket.\n\nEXAMPLE 1.5\n\nProblem\n\nA dataset has a list of keywords that were searched on a web search engine in the past week. Is this dataset structured or unstructured?\n\n[openstax-pds-2025:p030:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 30 | section 1.3]\nSolution\n\nThe dataset is an unstructured dataset since each entry in the dataset can be a freeform text: a single word, multiple words, or even multiple sentences.",
+        "context_ids": [
+          "openstax-pds-2025:p021:para:c003",
+          "openstax-pds-2025:p021:para:c004",
+          "openstax-pds-2025:p023:para:c002",
+          "openstax-pds-2025:p030:para:c003",
+          "openstax-pds-2025:p030:para:c004"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1178.06,
+          "embed_tokens": 7,
+          "embed_cost_usd": 1.4e-07,
+          "embed_reference_cost_usd": 1.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p021:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 21 | section 1.1]\nOften the collected data is not in an optimal form for analysis. It needs to be processed somehow so that it can be analyzed, in the phase called data preparation or data processing. Suppose you work for Google and want to know what kind of food people around the globe search about the most during the night. You have users’ search history from around the globe, but you probably cannot use the search history data as is. The search keywords will probably be in different languages, and users live all around the Earth, so nighttime will vary by each user’s time zone. Even then, some search keywords would have some typos, simply not make sense, or even remain blank if the Google server somehow failed to store that specific search history record.\n\n[openstax-pds-2025:p021:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 21 | section 1.1]\nNote that all these scenarios are possible, and therefore data preparation should address these issues so that the actual analysis can draw more accurate results. There are many different ways to manage these issues, which we will discuss more fully in Collecting and Preparing Data.\n\n[openstax-pds-2025:p023:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23 | section 1.2]\nIn addition, the company has launched social media analytics efforts to investigate hot keywords on social media and promptly make related products available (ProjectPro, 2015).\n\n[openstax-pds-2025:p030:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 30 | section 1.3]\nSolution\n\nThe dataset has four entries, each of which is identified with a specific date (Oct. 10, Oct. 11, Oct. 12, Oct. 13). The dataset has three attributes—Date, Temperature, Needed a Jacket.\n\nEXAMPLE 1.5\n\nProblem\n\nA dataset has a list of keywords that were searched on a web search engine in the past week. Is this dataset structured or unstructured?\n\n[openstax-pds-2025:p030:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 30 | section 1.3]\nSolution\n\nThe dataset is an unstructured dataset since each entry in the dataset can be a freeform text: a single word, multiple words, or even multiple sentences.",
+    "context_ids": [
+      "openstax-pds-2025:p021:para:c003",
+      "openstax-pds-2025:p021:para:c004",
+      "openstax-pds-2025:p023:para:c002",
+      "openstax-pds-2025:p030:para:c003",
+      "openstax-pds-2025:p030:para:c004"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 2160,
+    "llm_completion_tokens": 227,
+    "rerank_tokens": 0,
+    "embed_tokens": 7,
+    "estimated_cost_usd": 0.00088064,
+    "live_cost_usd": 0.00088064,
+    "elapsed_seconds": 2.83,
+    "split": "dev",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "question": "Why can't global search keywords collected by a search engine be analyzed directly without preprocessing when studying nighttime food searches?"
+  },
+  {
+    "query_id": "q06",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "In Google Colaboratory notebooks, the '+ Code' button adds a **code cell** (used for code you want to run), and the '+ Text' button adds a **text cell** (used to add any text descriptions or notes) [openstax-pds-2025:p041:para:c003].",
+    "citations": [
+      "openstax-pds-2025:p041:para:c003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Google Colaboratory notebooks cell types Code Text buttons",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p041:para:c003",
+            "page": 41,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p041:para:c001",
+            "page": 41,
+            "score": 0.032002,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p041:para:c002",
+            "page": 41,
+            "score": 0.031754,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p041:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 41 | section 1.5]\nJupyter Notebook on Google Colaboratory\n\nJupyter Notebook is a web-based environment that allows you to run a Python program more interactively, using programming code, math equations, visualizations, and plain texts. There are multiple web applications or software you could use to edit a Jupyter Notebook, but in this textbook we will use Google’s free application named Google Colaboratory (Colab) (https://openstax.org/r/colab1), often abbreviated as Colab. It is a cloud- based platform, which means that you can open, edit, run, and save a Jupyter Notebook on your Google Drive.\n\n[openstax-pds-2025:p041:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 41 | section 1.5]\nSetting up Colab is simple. On your Google Drive, click New > More. If your Google Drive has already installed Colab before, you will see Colaboratory under More. If not, click “Connect more apps” and install Colab by searching “Colaboratory” on the app store (Figure 1.15). For further information, see the Google Colaboratory Ecosystem (https://openstax.org/r/1pp) animation.\n\nFigure 1.15 Install Google Colaboratory (Colab)\n\nNow click New > More > Google Laboratory. A new, empty Jupyter Notebook will show up as in Figure 1.16.\n\nFigure 1.16 Google Colaboratory Notebook\n\n[openstax-pds-2025:p041:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 41 | section 1.5]\nThe gray area with the play button is called a cell. A cell is a block where you can type either code or plain text. Notice that there are two buttons on top of the first cell—“+ Code” and “+ Text.” These two buttons add a code or text cell, respectively. A code cell is for the code you want to run; a text cell is to add any text description or note.\n\nLet’s run a Python program on Colab. Type the following code in a code cell.",
+        "context_ids": [
+          "openstax-pds-2025:p041:para:c001",
+          "openstax-pds-2025:p041:para:c002",
+          "openstax-pds-2025:p041:para:c003"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 83.02,
+          "embed_tokens": 10,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 2e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "code cell text cell buttons Google Colaboratory",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p041:para:c003",
+            "page": 41,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p046:para:c000",
+            "page": 46,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p041:para:c001",
+            "page": 41,
+            "score": 0.030159,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p041:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 41 | section 1.5]\nJupyter Notebook on Google Colaboratory\n\nJupyter Notebook is a web-based environment that allows you to run a Python program more interactively, using programming code, math equations, visualizations, and plain texts. There are multiple web applications or software you could use to edit a Jupyter Notebook, but in this textbook we will use Google’s free application named Google Colaboratory (Colab) (https://openstax.org/r/colab1), often abbreviated as Colab. It is a cloud- based platform, which means that you can open, edit, run, and save a Jupyter Notebook on your Google Drive.\n\n[openstax-pds-2025:p041:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 41 | section 1.5]\nThe gray area with the play button is called a cell. A cell is a block where you can type either code or plain text. Notice that there are two buttons on top of the first cell—“+ Code” and “+ Text.” These two buttons add a code or text cell, respectively. A code cell is for the code you want to run; a text cell is to add any text description or note.\n\nLet’s run a Python program on Colab. Type the following code in a code cell.\n\n[openstax-pds-2025:p046:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 46 | section 1.5]\npublic dataset, ch1-movieprofit.csv (https://openstax.org/r/movieprofit), and store it in a Google Drive folder. Then open a new Notebook in that folder by entering that folder and clicking New > More > Google Colaboratory.\n\nOpen the Notebook and allow it to access files in your Google Drive by following these steps:\n\nFirst, click the Files icon on the side tab (Figure 1.18).\n\nFigure 1.18 Side Tab of Colab\n\nThen click the Mount Drive icon (Figure 1.19) and select “Connect to Google Drive” on the pop-up window.\n\nFigure 1.19 Features under Files on Colab\n\nNotice that a new cell has been inserted on the Notebook as a result (Figure 1.20).\n\nFigure 1.20 An Inserted Cell to Mount Your Google Drive",
+        "context_ids": [
+          "openstax-pds-2025:p041:para:c001",
+          "openstax-pds-2025:p041:para:c003",
+          "openstax-pds-2025:p046:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1044.63,
+          "embed_tokens": 9,
+          "embed_cost_usd": 1.8e-07,
+          "embed_reference_cost_usd": 1.8e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p041:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 41 | section 1.5]\nJupyter Notebook on Google Colaboratory\n\nJupyter Notebook is a web-based environment that allows you to run a Python program more interactively, using programming code, math equations, visualizations, and plain texts. There are multiple web applications or software you could use to edit a Jupyter Notebook, but in this textbook we will use Google’s free application named Google Colaboratory (Colab) (https://openstax.org/r/colab1), often abbreviated as Colab. It is a cloud- based platform, which means that you can open, edit, run, and save a Jupyter Notebook on your Google Drive.\n\n[openstax-pds-2025:p041:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 41 | section 1.5]\nThe gray area with the play button is called a cell. A cell is a block where you can type either code or plain text. Notice that there are two buttons on top of the first cell—“+ Code” and “+ Text.” These two buttons add a code or text cell, respectively. A code cell is for the code you want to run; a text cell is to add any text description or note.\n\nLet’s run a Python program on Colab. Type the following code in a code cell.\n\n[openstax-pds-2025:p046:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 46 | section 1.5]\npublic dataset, ch1-movieprofit.csv (https://openstax.org/r/movieprofit), and store it in a Google Drive folder. Then open a new Notebook in that folder by entering that folder and clicking New > More > Google Colaboratory.\n\nOpen the Notebook and allow it to access files in your Google Drive by following these steps:\n\nFirst, click the Files icon on the side tab (Figure 1.18).\n\nFigure 1.18 Side Tab of Colab\n\nThen click the Mount Drive icon (Figure 1.19) and select “Connect to Google Drive” on the pop-up window.\n\nFigure 1.19 Features under Files on Colab\n\nNotice that a new cell has been inserted on the Notebook as a result (Figure 1.20).\n\nFigure 1.20 An Inserted Cell to Mount Your Google Drive",
+    "context_ids": [
+      "openstax-pds-2025:p041:para:c001",
+      "openstax-pds-2025:p041:para:c003",
+      "openstax-pds-2025:p046:para:c000"
+    ],
+    "search_calls": 2,
+    "turns": 3,
+    "llm_prompt_tokens": 4049,
+    "llm_completion_tokens": 172,
+    "rerank_tokens": 0,
+    "embed_tokens": 19,
+    "estimated_cost_usd": 0.00127063,
+    "live_cost_usd": 0.00127043,
+    "elapsed_seconds": 3.666,
+    "split": "dev",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "In Google Colaboratory notebooks, what are the two cell types added by the '+ Code' and '+ Text' buttons?"
+  },
+  {
+    "query_id": "q07",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "Based on the text, a survey questionnaire should begin with simple and easy-to-answer questions (progressing later to more complex or sensitive ones) in order to help build a rapport with respondents and increase their willingness to answer more difficult questions [openstax-pds-2025:p071:para:c005]. \n\nIt should undergo a pilot test with a small group of individuals from the target population to ensure the quality of the data collected, allowing the researcher to identify any potential issues or confusion with the questions and make necessary adjustments before administering the survey to the larger population [openstax-pds-2025:p071:para:c005].",
+    "citations": [
+      "openstax-pds-2025:p071:para:c005"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "survey questionnaire simple questions pilot test full deployment",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p071:para:c005",
+            "page": 71,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p071:para:c006",
+            "page": 71,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p072:para:c000",
+            "page": 72,
+            "score": 0.030769,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p071:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71 | section 2.2]\nDesigning the Survey\n\nThe process of data collection through surveys is a crucial aspect of research—and one that requires careful planning and execution to gather accurate and reliable data. The first step, as stated earlier, is to clearly define the research objectives and determine the appropriate target population. This will help you structure the survey and identify the specific questions that need to be included.\n\n[openstax-pds-2025:p071:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71 | section 2.2]\nConstructing good surveys is hard. A survey should begin with simple and easy-to-answer questions and progress to more complex or sensitive ones. This can help build a rapport with the respondents and increase their willingness to answer more difficult questions. Additionally, the researcher may consider mixing up the response options for multiple-choice questions to avoid response bias. To ensure the quality of the data collected, the survey questionnaire should undergo a pilot test with a small group of individuals from the target population. This allows the researcher to identify any potential issues or confusion with the questions and make necessary adjustments before administering the survey to the larger population.\n\n[openstax-pds-2025:p071:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71 | section 2.2]\nOpen-Ended Versus Closed-Ended Questions\n\nSurveys should generally contain a mix of closed-ended and open-ended questions to gather both quantitative and qualitative data.\n\n[openstax-pds-2025:p072:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nOpen-ended questions allow for more in-depth responses and provide the opportunity for unexpected insights. They also allow respondents to elaborate on their thoughts and provide detailed and personal responses. Closed-ended questions have predetermined answer choices and are effective in gathering quantitative data. They are quick and easy to answer, and their clear and structured format allows for quantifiable results.",
+        "context_ids": [
+          "openstax-pds-2025:p071:para:c004",
+          "openstax-pds-2025:p071:para:c005",
+          "openstax-pds-2025:p071:para:c006",
+          "openstax-pds-2025:p072:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1037.06,
+          "embed_tokens": 8,
+          "embed_cost_usd": 1.6e-07,
+          "embed_reference_cost_usd": 1.6e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p071:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71 | section 2.2]\nDesigning the Survey\n\nThe process of data collection through surveys is a crucial aspect of research—and one that requires careful planning and execution to gather accurate and reliable data. The first step, as stated earlier, is to clearly define the research objectives and determine the appropriate target population. This will help you structure the survey and identify the specific questions that need to be included.\n\n[openstax-pds-2025:p071:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71 | section 2.2]\nConstructing good surveys is hard. A survey should begin with simple and easy-to-answer questions and progress to more complex or sensitive ones. This can help build a rapport with the respondents and increase their willingness to answer more difficult questions. Additionally, the researcher may consider mixing up the response options for multiple-choice questions to avoid response bias. To ensure the quality of the data collected, the survey questionnaire should undergo a pilot test with a small group of individuals from the target population. This allows the researcher to identify any potential issues or confusion with the questions and make necessary adjustments before administering the survey to the larger population.\n\n[openstax-pds-2025:p071:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71 | section 2.2]\nOpen-Ended Versus Closed-Ended Questions\n\nSurveys should generally contain a mix of closed-ended and open-ended questions to gather both quantitative and qualitative data.\n\n[openstax-pds-2025:p072:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nOpen-ended questions allow for more in-depth responses and provide the opportunity for unexpected insights. They also allow respondents to elaborate on their thoughts and provide detailed and personal responses. Closed-ended questions have predetermined answer choices and are effective in gathering quantitative data. They are quick and easy to answer, and their clear and structured format allows for quantifiable results.",
+    "context_ids": [
+      "openstax-pds-2025:p071:para:c004",
+      "openstax-pds-2025:p071:para:c005",
+      "openstax-pds-2025:p071:para:c006",
+      "openstax-pds-2025:p072:para:c000"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 1975,
+    "llm_completion_tokens": 222,
+    "rerank_tokens": 0,
+    "embed_tokens": 8,
+    "estimated_cost_usd": 0.00082691,
+    "live_cost_usd": 0.00082691,
+    "elapsed_seconds": 2.986,
+    "split": "dev",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "Why should a survey questionnaire begin with simple questions and undergo a pilot test before full deployment?"
+  },
+  {
+    "query_id": "q08",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "The 1936 *Literary Digest* election poll wrongly predicted a victory for Alf Landon over Franklin D. Roosevelt due to sampling bias and the use of primarily closed-ended questions [openstax-pds-2025:p072:para:c001, openstax-pds-2025:p072:para:c002]. Specifically, the survey relied on a mailing list compiled from telephone and automobile owners, which was biased toward more affluent individuals and favored Republican voters, failing to accurately capture the opinions of the broader voting population [openstax-pds-2025:p072:para:c001, openstax-pds-2025:p072:para:c002]. [openstax-pds-2025:p072:para:c001] [openstax-pds-2025:p072:para:c002]",
+    "citations": [
+      "openstax-pds-2025:p072:para:c001",
+      "openstax-pds-2025:p072:para:c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "1936 Literary Digest election poll Alf Landon Franklin D Roosevelt wrong prediction cause",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p072:para:c001",
+            "page": 72,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p085:para:c000",
+            "page": 85,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p084:para:c003",
+            "page": 84,
+            "score": 0.029911,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p072:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nAvoiding Bias in Survey Questions\n\nUnbiased sampling and unbiased survey methodology are essential for ensuring accurate and reliable results. One well-known real-life instance of sampling bias leading to inaccurate findings is the 1936 Literary Digest poll. This survey aimed to forecast the results of the US presidential election and utilized a mailing list of telephone and automobile owners. This approach was considered biased toward affluent individuals and therefore favored Republican voters. As a consequence, the poll predicted a victory for Republican nominee Alf Landon. However, the actual outcome was a landslide win for Franklin D. Roosevelt (Lusinchi, 2012).\n\n[openstax-pds-2025:p072:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nThis discrepancy can be attributed to the biased sampling method as well as the use of primarily closed-ended questions, which may not have accurately captured the opinions of all voters.\n\nAn example of a biased survey question in a survey conducted by a shampoo company might be \"Do you prefer our brand of shampoo over cheaper alternatives?\" This question is biased because it assumes that the respondent prefers the company's brand over others. A more unbiased and accurate question would be \"What factors do you consider when choosing a shampoo brand?\" This allows for a more detailed and accurate response. The biased question could have led to inflated results in favor of the company's brand.\n\n[openstax-pds-2025:p085:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 85 | section 2.3]\n\"26\": [\"Theodore Roosevelt\", \"New York\"], \"27\": [\"William Howard Taft\", \"Ohio\"], \"28\": [\"Woodrow Wilson\", \"Virginia\"], \"29\": [\"Warren G. Harding\", \"Ohio\"], \"30\": [\"Calvin Coolidge\", \"Vermont\"], \"31\": [\"Herbert Hoover\", \"Iowa\"], \"32\": [\"Franklin D. Roosevelt\", \"New York\"], \"33\": [\"Harry S. Truman\", \"Missouri\"], \"34\": [\"Dwight D. Eisenhower\", \"Texas\"], \"35\": [\"John F. Kennedy\", \"Massachusetts\"], \"36\": [\"Lyndon B. Johnson\", \"Texas\"], \"37\": [\"Richard Nixon\", \"California\"], \"38\": [\"Gerald Ford\", \"Nebraska\"], \"39\": [\"Jimmy Carter\", \"Georgia\"], \"40\": [\"Ronald Reagan\", \"Illinois\"], \"41\": [\"George H. W. Bush\", \"Massachusetts\"], \"42\": [\"Bill Clinton\", \"Arkansas\"], \"43\": [\"George W.",
+        "context_ids": [
+          "openstax-pds-2025:p072:para:c001",
+          "openstax-pds-2025:p072:para:c002",
+          "openstax-pds-2025:p085:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 991.01,
+          "embed_tokens": 15,
+          "embed_cost_usd": 3e-07,
+          "embed_reference_cost_usd": 3e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Literary Digest 1936 poll sampling bias",
+        "filter": {
+          "chapter": "Chapter 2"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p072:para:c001",
+            "page": 72,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p074:para:c007",
+            "page": 74,
+            "score": 0.032002,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p073:para:c000",
+            "page": 73,
+            "score": 0.03055,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p072:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nAvoiding Bias in Survey Questions\n\nUnbiased sampling and unbiased survey methodology are essential for ensuring accurate and reliable results. One well-known real-life instance of sampling bias leading to inaccurate findings is the 1936 Literary Digest poll. This survey aimed to forecast the results of the US presidential election and utilized a mailing list of telephone and automobile owners. This approach was considered biased toward affluent individuals and therefore favored Republican voters. As a consequence, the poll predicted a victory for Republican nominee Alf Landon. However, the actual outcome was a landslide win for Franklin D. Roosevelt (Lusinchi, 2012).\n\n[openstax-pds-2025:p073:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 73 | section 2.2]\nfor quality control testing. In the political arena, simple random sampling is commonly used to select randomly registered voters for polls or surveys, ensuring equal representation and minimizing bias in the data collected.\n2. Stratified sampling. Stratified sampling involves splitting the population into subgroups based on specified factors, such as age, area, income, or education level, and taking a random sample from each stratum in proportion to its size in the population. Stratified sampling allows for a more accurate representation of the population as it ensures that all subgroups are adequately represented in the sample. This can be especially useful when the variables being studied vary significantly between the stratified groups.\n\n[openstax-pds-2025:p074:para:c007 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\nSampling Bias\n\nSampling bias occurs when the sample used in a study isn’t representative of the population it intends to generalize to, leading to skewed or inaccurate conclusions. This bias can take many forms, such as selection bias, where certain groups are systematically over- or underrepresented, or volunteer bias, where only a specific subset of the population participates. Researchers use the sampling techniques summarized earlier to avoid sampling bias and ensure that each member of the population has an equal chance of being included in",
+        "context_ids": [
+          "openstax-pds-2025:p072:para:c001",
+          "openstax-pds-2025:p073:para:c000",
+          "openstax-pds-2025:p074:para:c007"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1003.37,
+          "embed_tokens": 9,
+          "embed_cost_usd": 1.8e-07,
+          "embed_reference_cost_usd": 1.8e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "read_page_chunks",
+        "query": "page:72",
+        "filter": {
+          "page": 72,
+          "document_id": "openstax-pds-2025"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p072:para:c000",
+            "page": 72,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p072:para:c001",
+            "page": 72,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p072:para:c002",
+            "page": 72,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p072:para:c003",
+            "page": 72,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p072:para:c004",
+            "page": 72,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p072:para:c005",
+            "page": 72,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p072:para:c006",
+            "page": 72,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p072:para:c007",
+            "page": 72,
+            "score": 1.0
+          }
+        ],
+        "context": "[openstax-pds-2025:p072:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nOpen-ended questions allow for more in-depth responses and provide the opportunity for unexpected insights. They also allow respondents to elaborate on their thoughts and provide detailed and personal responses. Closed-ended questions have predetermined answer choices and are effective in gathering quantitative data. They are quick and easy to answer, and their clear and structured format allows for quantifiable results.\n\n[openstax-pds-2025:p072:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nAvoiding Bias in Survey Questions\n\nUnbiased sampling and unbiased survey methodology are essential for ensuring accurate and reliable results. One well-known real-life instance of sampling bias leading to inaccurate findings is the 1936 Literary Digest poll. This survey aimed to forecast the results of the US presidential election and utilized a mailing list of telephone and automobile owners. This approach was considered biased toward affluent individuals and therefore favored Republican voters. As a consequence, the poll predicted a victory for Republican nominee Alf Landon. However, the actual outcome was a landslide win for Franklin D. Roosevelt (Lusinchi, 2012).\n\n[openstax-pds-2025:p072:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nThis discrepancy can be attributed to the biased sampling method as well as the use of primarily closed-ended questions, which may not have accurately captured the opinions of all voters.\n\nAn example of a biased survey question in a survey conducted by a shampoo company might be \"Do you prefer our brand of shampoo over cheaper alternatives?\" This question is biased because it assumes that the respondent prefers the company's brand over others. A more unbiased and accurate question would be \"What factors do you consider when choosing a shampoo brand?\" This allows for a more detailed and accurate response. The biased question could have led to inflated results in favor of the company's brand.",
+        "context_ids": [
+          "openstax-pds-2025:p072:para:c000",
+          "openstax-pds-2025:p072:para:c001",
+          "openstax-pds-2025:p072:para:c002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p072:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nOpen-ended questions allow for more in-depth responses and provide the opportunity for unexpected insights. They also allow respondents to elaborate on their thoughts and provide detailed and personal responses. Closed-ended questions have predetermined answer choices and are effective in gathering quantitative data. They are quick and easy to answer, and their clear and structured format allows for quantifiable results.\n\n[openstax-pds-2025:p072:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nAvoiding Bias in Survey Questions\n\nUnbiased sampling and unbiased survey methodology are essential for ensuring accurate and reliable results. One well-known real-life instance of sampling bias leading to inaccurate findings is the 1936 Literary Digest poll. This survey aimed to forecast the results of the US presidential election and utilized a mailing list of telephone and automobile owners. This approach was considered biased toward affluent individuals and therefore favored Republican voters. As a consequence, the poll predicted a victory for Republican nominee Alf Landon. However, the actual outcome was a landslide win for Franklin D. Roosevelt (Lusinchi, 2012).\n\n[openstax-pds-2025:p072:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nThis discrepancy can be attributed to the biased sampling method as well as the use of primarily closed-ended questions, which may not have accurately captured the opinions of all voters.\n\nAn example of a biased survey question in a survey conducted by a shampoo company might be \"Do you prefer our brand of shampoo over cheaper alternatives?\" This question is biased because it assumes that the respondent prefers the company's brand over others. A more unbiased and accurate question would be \"What factors do you consider when choosing a shampoo brand?\" This allows for a more detailed and accurate response. The biased question could have led to inflated results in favor of the company's brand.",
+    "context_ids": [
+      "openstax-pds-2025:p072:para:c000",
+      "openstax-pds-2025:p072:para:c001",
+      "openstax-pds-2025:p072:para:c002"
+    ],
+    "search_calls": 3,
+    "turns": 4,
+    "llm_prompt_tokens": 6898,
+    "llm_completion_tokens": 352,
+    "rerank_tokens": 0,
+    "embed_tokens": 24,
+    "estimated_cost_usd": 0.00225298,
+    "live_cost_usd": 0.00225298,
+    "elapsed_seconds": 6.721,
+    "split": "dev",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "question": "What caused the 1936 Literary Digest election poll to wrongly predict a victory for Alf Landon over Franklin D. Roosevelt?"
+  },
+  {
+    "query_id": "q09",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "Snowball sampling is typically used when it is difficult to access a particular population, making it useful for studying hard-to-reach or sensitive populations [openstax-pds-2025:p074:para:c002]. Its major drawback is that it may be biased, which limits the generalizability of its findings [openstax-pds-2025:p074:para:c002].",
+    "citations": [
+      "openstax-pds-2025:p074:para:c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "snowball sampling appropriate drawback limitations",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p074:para:c002",
+            "page": 74,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p072:para:c005",
+            "page": 72,
+            "score": 0.02967,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p074:para:c007",
+            "page": 74,
+            "score": 0.029199,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p072:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nA number of sampling techniques and their advantages are described below. The most frequently used among these are simple random selection, stratified sampling, cluster sampling, and convenience sampling.\n\n[openstax-pds-2025:p074:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\n7. Snowball sampling. Snowball sampling is typically used in situations where it is difficult to access a particular population; it relies on the assumption that people with similar characteristics or experiences tend to associate with each other and can provide valuable referrals. This type of sampling can be useful in studying hard-to-reach or sensitive populations, but it may also be biased and limit the generalizability of findings.\n\n[openstax-pds-2025:p074:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\nSampling Error\n\nSampling error is the difference between the results obtained from a sample and the true value of the population parameter it is intended to represent. It is caused by chance and is inherent in any sampling method. The goal of researchers is to minimize sampling errors and increase the accuracy of the results. To avoid sampling error, researchers can increase sample size, use probability sampling methods, control for extraneous variables, use multiple modes of data collection, and pay careful attention to question formulation.\n\n[openstax-pds-2025:p074:para:c007 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\nSampling Bias\n\nSampling bias occurs when the sample used in a study isn’t representative of the population it intends to generalize to, leading to skewed or inaccurate conclusions. This bias can take many forms, such as selection bias, where certain groups are systematically over- or underrepresented, or volunteer bias, where only a specific subset of the population participates. Researchers use the sampling techniques summarized earlier to avoid sampling bias and ensure that each member of the population has an equal chance of being included in",
+        "context_ids": [
+          "openstax-pds-2025:p072:para:c005",
+          "openstax-pds-2025:p074:para:c002",
+          "openstax-pds-2025:p074:para:c006",
+          "openstax-pds-2025:p074:para:c007"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1037.41,
+          "embed_tokens": 6,
+          "embed_cost_usd": 1.2e-07,
+          "embed_reference_cost_usd": 1.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "read_page_chunks",
+        "query": "page:75",
+        "filter": {
+          "page": 75,
+          "document_id": "openstax-pds-2025"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p075:para:c000",
+            "page": 75,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p075:para:c001",
+            "page": 75,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p075:para:c002",
+            "page": 75,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p075:para:c003",
+            "page": 75,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p075:para:c004",
+            "page": 75,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p075:para:c005",
+            "page": 75,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p075:para:c006",
+            "page": 75,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p075:para:c007",
+            "page": 75,
+            "score": 1.0
+          }
+        ],
+        "context": "[openstax-pds-2025:p075:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 75 | section 2.2]\nthe sample. Additionally, careful consideration of the sampling frame should ideally encompass all members of the target population and provide a clear and accessible way to identify and select individuals or units for inclusion in the sample. Sampling bias can occur at various stages of the sampling process, and it can greatly impact the accuracy and validity of research findings.\n\n[openstax-pds-2025:p075:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 75 | section 2.2]\nMeasurement Error\n\nMeasurement errors are inaccuracies or discrepancies that surface during the process of collecting, recording, or analyzing data. They may occur due to human error, environmental factors, or inherent inconsistencies in the phenomena being studied. Random error, which arises unpredictably, can affect the precision of measurements, and systematic error may consistently bias measurements in a particular direction. In data analysis, addressing measurement error is crucial for ensuring the reliability and validity of results.\n\n[openstax-pds-2025:p075:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 75 | section 2.2]\nTechniques for mitigating measurement error include improving data collection methods, calibrating instruments, conducting validation studies, and employing statistical methods like error modeling or sensitivity analysis to account for and minimize the impact of measurement inaccuracies on the analysis outcomes.\n\n[openstax-pds-2025:p075:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 75 | section 2.2]\nA Sampling Case Study\n\nConsider a research study that wants to randomly select a group of college students from a larger population to examine the effects of exercise on their mental health outcomes. Using student ID numbers generated by a computer program, 100 participants from the larger population were randomly selected to participate in the study to achieve the desired accuracy. This process ensured that every student in the university had an equal chance of being selected to participate. The participants were then randomly assigned to either the exercise group or the control group.",
+        "context_ids": [
+          "openstax-pds-2025:p075:para:c000",
+          "openstax-pds-2025:p075:para:c001",
+          "openstax-pds-2025:p075:para:c002",
+          "openstax-pds-2025:p075:para:c003"
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "\"Snowball sampling\"",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p074:para:c002",
+            "page": 74,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p073:para:c005",
+            "page": 73,
+            "score": 0.030018,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p074:para:c005",
+            "page": 74,
+            "score": 0.029911,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p073:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 73 | section 2.2]\n5. Systematic sampling. Systematic sampling is based on starting at a random location in the dataset and then selecting every nth member from a population to be contained in the sample. This process is straightforward to implement, and it provides a representative sample when the population is randomly distributed. However, if there is a pattern in the sampling frame (the organizing structure that represents the population from which a sample is drawn), it may lead to a biased sample.\n\n[openstax-pds-2025:p074:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\n7. Snowball sampling. Snowball sampling is typically used in situations where it is difficult to access a particular population; it relies on the assumption that people with similar characteristics or experiences tend to associate with each other and can provide valuable referrals. This type of sampling can be useful in studying hard-to-reach or sensitive populations, but it may also be biased and limit the generalizability of findings.\n\n[openstax-pds-2025:p074:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\ntoward certain characteristics. Therefore, the findings from studies using quota sampling should be interpreted with caution.\n\n[openstax-pds-2025:p074:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\n9. Volunteer sampling. Volunteer sampling refers to the fact that the participants are not picked at random by the researcher, but instead volunteer themselves to be a part of the study. This type of sampling is commonly used in studies that involve recruiting participants from a specific population, such as a specific community or organization. It is also often used in studies where convenience and accessibility are important factors, as participants may be more likely to volunteer if the study is easily accessible to them. Volunteer sampling is not considered a random or representative sampling technique, as the participants may not accurately represent the larger population. Therefore, the results obtained from volunteer sampling may not be generalizable to the entire population.",
+        "context_ids": [
+          "openstax-pds-2025:p073:para:c005",
+          "openstax-pds-2025:p074:para:c002",
+          "openstax-pds-2025:p074:para:c004",
+          "openstax-pds-2025:p074:para:c005"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1032.53,
+          "embed_tokens": 5,
+          "embed_cost_usd": 1e-07,
+          "embed_reference_cost_usd": 1e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p073:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 73 | section 2.2]\n5. Systematic sampling. Systematic sampling is based on starting at a random location in the dataset and then selecting every nth member from a population to be contained in the sample. This process is straightforward to implement, and it provides a representative sample when the population is randomly distributed. However, if there is a pattern in the sampling frame (the organizing structure that represents the population from which a sample is drawn), it may lead to a biased sample.\n\n[openstax-pds-2025:p074:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\n7. Snowball sampling. Snowball sampling is typically used in situations where it is difficult to access a particular population; it relies on the assumption that people with similar characteristics or experiences tend to associate with each other and can provide valuable referrals. This type of sampling can be useful in studying hard-to-reach or sensitive populations, but it may also be biased and limit the generalizability of findings.\n\n[openstax-pds-2025:p074:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\ntoward certain characteristics. Therefore, the findings from studies using quota sampling should be interpreted with caution.\n\n[openstax-pds-2025:p074:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\n9. Volunteer sampling. Volunteer sampling refers to the fact that the participants are not picked at random by the researcher, but instead volunteer themselves to be a part of the study. This type of sampling is commonly used in studies that involve recruiting participants from a specific population, such as a specific community or organization. It is also often used in studies where convenience and accessibility are important factors, as participants may be more likely to volunteer if the study is easily accessible to them. Volunteer sampling is not considered a random or representative sampling technique, as the participants may not accurately represent the larger population. Therefore, the results obtained from volunteer sampling may not be generalizable to the entire population.",
+    "context_ids": [
+      "openstax-pds-2025:p073:para:c005",
+      "openstax-pds-2025:p074:para:c002",
+      "openstax-pds-2025:p074:para:c004",
+      "openstax-pds-2025:p074:para:c005"
+    ],
+    "search_calls": 3,
+    "turns": 4,
+    "llm_prompt_tokens": 6668,
+    "llm_completion_tokens": 222,
+    "rerank_tokens": 0,
+    "embed_tokens": 11,
+    "estimated_cost_usd": 0.00200022,
+    "live_cost_usd": 0.00200022,
+    "elapsed_seconds": 6.062,
+    "split": "dev",
+    "answerable": true,
+    "type": "dieu_kien_ngoai_le",
+    "question": "When is snowball sampling appropriate, and what major drawback limits its conclusions?"
+  },
+  {
+    "query_id": "q10",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "In terms of variable dependencies, MCAR (missing completely at random) data is missing data that is not related to any other variables, with no underlying cause for its absence [openstax-pds-2025:p087:para:c001]. In contrast, MAR (missing at random) data is missing data that is related to other (observed) variables, but not to any unknown or unmeasured variables [openstax-pds-2025:p087:para:c002].",
+    "citations": [
+      "openstax-pds-2025:p087:para:c001",
+      "openstax-pds-2025:p087:para:c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "MAR MCAR missing completely at random missing at random variable dependencies",
+        "filter": {
+          "chapter": "Chapter 2"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p087:para:c001",
+            "page": 87,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p087:para:c002",
+            "page": 87,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p087:para:c003",
+            "page": 87,
+            "score": 0.031746,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p087:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 87 | section 2.4]\nIt is important to distinguish between different types of missing data. MCAR (missing completely at random) data is missing data not related to any other variables, with no underlying cause for its absence. Consider data collection with a survey asking about driving habits. One of the demographic questions asks for income level. Some respondents accidentally skip this question, and so there is missing data for income, but this is not related to the variables being collected related to driving habits.\n\n[openstax-pds-2025:p087:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 87 | section 2.4]\nMAR (missing at random) data is missing data related to other variables but not to any unknown or unmeasured variables. As an example, during data collection, a survey is sent to respondents and the survey asks about loneliness. One of the questions asks about memory retention. Some older respondents might skip this question since they may be unwilling to share this type of information. The likelihood of missing data for loneliness factors is related to age (older respondents). Thus, the missing data is related to an observed variable of age but not directly related to loneliness measurements.\n\n[openstax-pds-2025:p087:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 87 | section 2.4]\nMNAR (missing not at random) data refers to a situation in which the absence of data depends on observed data but not on unobserved data. For example, during data collection, a survey is sent to respondents and the survey asks about debt levels. One of the questions asks about outstanding debt that the customers have such as credit card debt. Some respondents with high credit card debt are less likely to respond to certain questions. Here the missing credit card information is related to the unobserved debt levels.",
+        "context_ids": [
+          "openstax-pds-2025:p087:para:c001",
+          "openstax-pds-2025:p087:para:c002",
+          "openstax-pds-2025:p087:para:c003"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 43.63,
+          "embed_tokens": 12,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 2.4000000000000003e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p087:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 87 | section 2.4]\nIt is important to distinguish between different types of missing data. MCAR (missing completely at random) data is missing data not related to any other variables, with no underlying cause for its absence. Consider data collection with a survey asking about driving habits. One of the demographic questions asks for income level. Some respondents accidentally skip this question, and so there is missing data for income, but this is not related to the variables being collected related to driving habits.\n\n[openstax-pds-2025:p087:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 87 | section 2.4]\nMAR (missing at random) data is missing data related to other variables but not to any unknown or unmeasured variables. As an example, during data collection, a survey is sent to respondents and the survey asks about loneliness. One of the questions asks about memory retention. Some older respondents might skip this question since they may be unwilling to share this type of information. The likelihood of missing data for loneliness factors is related to age (older respondents). Thus, the missing data is related to an observed variable of age but not directly related to loneliness measurements.\n\n[openstax-pds-2025:p087:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 87 | section 2.4]\nMNAR (missing not at random) data refers to a situation in which the absence of data depends on observed data but not on unobserved data. For example, during data collection, a survey is sent to respondents and the survey asks about debt levels. One of the questions asks about outstanding debt that the customers have such as credit card debt. Some respondents with high credit card debt are less likely to respond to certain questions. Here the missing credit card information is related to the unobserved debt levels.",
+    "context_ids": [
+      "openstax-pds-2025:p087:para:c001",
+      "openstax-pds-2025:p087:para:c002",
+      "openstax-pds-2025:p087:para:c003"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 1952,
+    "llm_completion_tokens": 228,
+    "rerank_tokens": 0,
+    "embed_tokens": 12,
+    "estimated_cost_usd": 0.00083024,
+    "live_cost_usd": 0.00083,
+    "elapsed_seconds": 2.185,
+    "split": "dev",
+    "answerable": true,
+    "type": "dieu_kien_ngoai_le",
+    "question": "How does MAR (missing at random) differ from MCAR (missing completely at random) in terms of variable dependencies?"
+  },
+  {
+    "query_id": "q11",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "The difference between lossy and lossless compression is:\n\n* **Lossy compression** reduces file size by permanently extracting data considered irrelevant or redundant, resulting in a loss of some data (though often unnoticeable to the human eye). Examples cited include **MP3** and **JPEG** [openstax-pds-2025:p098:para:c005].\n* **Lossless compression** reduces file size without removing any data by finding patterns and redundancies and representing them more efficiently, allowing the original data to be reconstructed without any loss in quality. Examples cited include **ZIP**, **RAR**, and **PNG** [openstax-pds-2025:p098:para:c006].",
+    "citations": [
+      "openstax-pds-2025:p098:para:c005",
+      "openstax-pds-2025:p098:para:c006"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "lossy compression lossless compression file formats examples",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p098:para:c005",
+            "page": 98,
+            "score": 0.032522,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c006",
+            "page": 98,
+            "score": 0.032522,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p099:para:c000",
+            "page": 99,
+            "score": 0.031746,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p098:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98 | section 2.5]\nData Compression\n\nData compression is a method of reducing file size while retaining essential information; it can be applied to many types of databases. Data compression is classified into two categories, lossy and lossless:\n\n• Lossy compression reduces the size of data by permanently extracting particular data that is considered irrelevant or redundant. This method can significantly decrease file sizes, but it also results in a loss of some data. Lossy compression is often utilized for multimedia files and images, where slight modifications in quality may not be noticeable to the human eye. Examples of lossy compression include MP3 and JPEG.\n\n[openstax-pds-2025:p098:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98 | section 2.5]\n• Lossless compression aims to reduce file size without removing any data. This method achieves compression by finding patterns and redundancies in the data and representing them more efficiently. This allows for the reconstruction of the original data without any loss in quality. Lossless compression is commonly used for text and numerical data, where every piece of information is crucial. Examples of lossless compression include ZIP, RAR, and PNG.\n\nThere are several methods of data lossless compression, including Huffman coding. Huffman coding works by assigning shorter binary codes to the most frequently used characters or symbols in a given dataset and longer codes to less frequently used characters, as shown in Figure 2.4. This results in a more\n\n[openstax-pds-2025:p099:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 99 | section 2.5]\nefficient use of binary digits and reduces the overall size of the data without losing any information during compression. Huffman coding is applied to data that require fast and efficient compression, such as video compression, image compression, and data transmission and storage.\n\nFigure 2.4 Huffman Tree Diagrams Data Storage",
+        "context_ids": [
+          "openstax-pds-2025:p098:para:c005",
+          "openstax-pds-2025:p098:para:c006",
+          "openstax-pds-2025:p099:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 33.3,
+          "embed_tokens": 9,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 1.7999999999999997e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p098:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98 | section 2.5]\nData Compression\n\nData compression is a method of reducing file size while retaining essential information; it can be applied to many types of databases. Data compression is classified into two categories, lossy and lossless:\n\n• Lossy compression reduces the size of data by permanently extracting particular data that is considered irrelevant or redundant. This method can significantly decrease file sizes, but it also results in a loss of some data. Lossy compression is often utilized for multimedia files and images, where slight modifications in quality may not be noticeable to the human eye. Examples of lossy compression include MP3 and JPEG.\n\n[openstax-pds-2025:p098:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98 | section 2.5]\n• Lossless compression aims to reduce file size without removing any data. This method achieves compression by finding patterns and redundancies in the data and representing them more efficiently. This allows for the reconstruction of the original data without any loss in quality. Lossless compression is commonly used for text and numerical data, where every piece of information is crucial. Examples of lossless compression include ZIP, RAR, and PNG.\n\nThere are several methods of data lossless compression, including Huffman coding. Huffman coding works by assigning shorter binary codes to the most frequently used characters or symbols in a given dataset and longer codes to less frequently used characters, as shown in Figure 2.4. This results in a more\n\n[openstax-pds-2025:p099:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 99 | section 2.5]\nefficient use of binary digits and reduces the overall size of the data without losing any information during compression. Huffman coding is applied to data that require fast and efficient compression, such as video compression, image compression, and data transmission and storage.\n\nFigure 2.4 Huffman Tree Diagrams Data Storage",
+    "context_ids": [
+      "openstax-pds-2025:p098:para:c005",
+      "openstax-pds-2025:p098:para:c006",
+      "openstax-pds-2025:p099:para:c000"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 1917,
+    "llm_completion_tokens": 257,
+    "rerank_tokens": 0,
+    "embed_tokens": 9,
+    "estimated_cost_usd": 0.00086493,
+    "live_cost_usd": 0.00086475,
+    "elapsed_seconds": 1.907,
+    "split": "dev",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "What is the difference between lossy compression and lossless compression, and which file formats are cited as examples of each?"
+  },
+  {
+    "query_id": "q12",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "In ethical data collection, individual autonomy means that individuals maintain control over decisions regarding the collection and use of their data, allowing them to manage their personal data and make informed choices about what they are comfortable sharing [openstax-pds-2025:p388:para:c001, openstax-pds-2025:p388:para:c002]. \n\nThe fitness app example illustrating this is when a user wants to track their daily steps and heart rate but not their location or sleep patterns; individual autonomy means they have the choice to select which data points they want to collect and which ones they do not, as well as choosing their preferred method of data collection (such as manually inputting data versus automatic collection via a smart device) [openstax-pds-2025:p388:para:c002]. [openstax-pds-2025:p388:para:c001]",
+    "citations": [
+      "openstax-pds-2025:p388:para:c001",
+      "openstax-pds-2025:p388:para:c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "individual autonomy ethical data collection fitness app",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p388:para:c002",
+            "page": 388,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p388:para:c001",
+            "page": 388,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p388:para:c003",
+            "page": 388,
+            "score": 0.030798,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p388:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388 | section 8.1]\nData collection is an essential practice in many fields, and those performing the data collection are responsible for adhering to the highest ethical standards so that the best interest of every any party affected by the project is maintained. These standards include respecting individuals’ privacy, accurately representing data, and disclosing collection intentions. First and foremost, it is important to ensure that data is used appropriately within the boundaries of the collected data’s purpose and that individual autonomy is respected—in other words, that individuals maintain control over the decisions regarding the collection and use of their data.\n\n[openstax-pds-2025:p388:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388 | section 8.1]\nFor example, if someone is using a fitness tracking app, they may want to track their daily steps and heart rate but not their location or sleep patterns. They should have the autonomy to choose which data points they want to collect and which ones they do not. Similarly, individuals should also have the autonomy to choose the method of data collection they are most comfortable with. For some, manually inputting data may be preferable, while for others, using a smart device to collect data automatically may be more convenient. In addition, individuals should have control over these decisions—they should be able to manage their own personal data and make informed choices about what they are comfortable sharing.\n\n[openstax-pds-2025:p388:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388 | section 8.1]\nThis promotes transparency and empowers individuals to fully participate in the data collection process.\n\nTo ensure ethical data collection, autonomy of personal data, and data security, it is essential to consult and adhere to the industry standards in data science as developed by organizations such as IADSS Initiative for Analytics and Data Science Standards (https://openstax.org/r/iadss)), DSA (Data Science Association (https://openstax.org/r/datascienceassn)), and ADaSci (Association of Data Scientists (https://openstax.org/r/adasci)). In addition, one must be fully aware of governmental regulations and industry standards.",
+        "context_ids": [
+          "openstax-pds-2025:p388:para:c001",
+          "openstax-pds-2025:p388:para:c002",
+          "openstax-pds-2025:p388:para:c003"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 41.48,
+          "embed_tokens": 7,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 1.3999999999999993e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p388:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388 | section 8.1]\nData collection is an essential practice in many fields, and those performing the data collection are responsible for adhering to the highest ethical standards so that the best interest of every any party affected by the project is maintained. These standards include respecting individuals’ privacy, accurately representing data, and disclosing collection intentions. First and foremost, it is important to ensure that data is used appropriately within the boundaries of the collected data’s purpose and that individual autonomy is respected—in other words, that individuals maintain control over the decisions regarding the collection and use of their data.\n\n[openstax-pds-2025:p388:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388 | section 8.1]\nFor example, if someone is using a fitness tracking app, they may want to track their daily steps and heart rate but not their location or sleep patterns. They should have the autonomy to choose which data points they want to collect and which ones they do not. Similarly, individuals should also have the autonomy to choose the method of data collection they are most comfortable with. For some, manually inputting data may be preferable, while for others, using a smart device to collect data automatically may be more convenient. In addition, individuals should have control over these decisions—they should be able to manage their own personal data and make informed choices about what they are comfortable sharing.\n\n[openstax-pds-2025:p388:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388 | section 8.1]\nThis promotes transparency and empowers individuals to fully participate in the data collection process.\n\nTo ensure ethical data collection, autonomy of personal data, and data security, it is essential to consult and adhere to the industry standards in data science as developed by organizations such as IADSS Initiative for Analytics and Data Science Standards (https://openstax.org/r/iadss)), DSA (Data Science Association (https://openstax.org/r/datascienceassn)), and ADaSci (Association of Data Scientists (https://openstax.org/r/adasci)). In addition, one must be fully aware of governmental regulations and industry standards.",
+    "context_ids": [
+      "openstax-pds-2025:p388:para:c001",
+      "openstax-pds-2025:p388:para:c002",
+      "openstax-pds-2025:p388:para:c003"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 1973,
+    "llm_completion_tokens": 288,
+    "rerank_tokens": 0,
+    "embed_tokens": 7,
+    "estimated_cost_usd": 0.00092539,
+    "live_cost_usd": 0.00092525,
+    "elapsed_seconds": 2.208,
+    "split": "dev",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "What does individual autonomy mean in ethical data collection, and what fitness app example illustrates it?"
+  },
+  {
+    "query_id": "q13",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "Anonymization and pseudonymization differ in how they handle personally identifiable information (PII) within a dataset:\n\n* **Anonymization** is the process of removing personal identifying information from a dataset (such as through removal or encryption) so that sensitive information can be used for analysis without the risk of exposing personal identities [openstax-pds-2025:p390:para:c001, openstax-pds-2025:p401:para:c005]. \n* **Pseudonymization** involves masking, encoding, or replacing specific features of the data (such as names or Social Security numbers) with artificial identifiers or codes, rather than removing them completely [openstax-pds-2025:p390:para:c001, openstax-pds-2025:p401:para:c005, openstax-pds-2025:p402:para:c000]. Crucially, pseudonymized data can potentially be reversed or re-linked later using a secure lookup table or decryption algorithm if needed [openstax-pds-2025:p401:para:c005].",
+    "citations": [
+      "openstax-pds-2025:p401:para:c005"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "anonymization pseudonymization sensitive personal information dataset",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p390:para:c001",
+            "page": 390,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p401:para:c005",
+            "page": 401,
+            "score": 0.032002,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p402:para:c000",
+            "page": 402,
+            "score": 0.032002,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p390:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 390 | section 8.1]\nBased on the project's purposes, data may need to be either anonymized or pseudonymized. Anonymization is the act of removing personal identifying information from datasets and other forms of data to make sensitive information usable for analysis without the risk of exposing personal information. This can involve techniques such as removing or encrypting identifying information. Pseudonymization is the act of replacing sensitive information in a dataset with artificial identifiers or codes while still maintaining its usefulness for analysis. These techniques may be required to comply with data protection laws.\n\n[openstax-pds-2025:p401:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 401 | section 8.2]\nData Anonymization\n\nAs discussed in Ethics in Data Collection, the process of removing or modifying personally identifiable information is called data anonymization or pseudonymization, respectively. Anonymized data can usually still be utilized for analysis without compromising the individual's identity. Pseudonymization of data involves masking, encoding, or encrypting the values of specific features of the data. Features such as names or Social Security numbers can be exchanged with artificial values. If needed, these values can be replaced later using a secure lookup table or decryption algorithm.\n\n[openstax-pds-2025:p402:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 402 | section 8.2]\nwhich the last name and student ID are combined into a codeword, which may be used to access that student’s grade information from the server. This is an example of pseudonymization, as the PII is encoded rather than removed from the dataset.\n\nRobust data anonymization should follow a policy of k-anonymization, which is the principle of ensuring that each record within a dataset is indistinguishable from at least other records with respect to a specified set of identifying attributes or features. This approach helps reduce the risk of re-identifying individuals in a dataset, allowing organizations to protect clients and their information without restricting their ability to use the data to gain insight and make decisions.",
+        "context_ids": [
+          "openstax-pds-2025:p390:para:c001",
+          "openstax-pds-2025:p401:para:c005",
+          "openstax-pds-2025:p402:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 27.74,
+          "embed_tokens": 10,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 1.9999999999999978e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "via": "text_fallback"
+      }
+    ],
+    "context": "[openstax-pds-2025:p390:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 390 | section 8.1]\nBased on the project's purposes, data may need to be either anonymized or pseudonymized. Anonymization is the act of removing personal identifying information from datasets and other forms of data to make sensitive information usable for analysis without the risk of exposing personal information. This can involve techniques such as removing or encrypting identifying information. Pseudonymization is the act of replacing sensitive information in a dataset with artificial identifiers or codes while still maintaining its usefulness for analysis. These techniques may be required to comply with data protection laws.\n\n[openstax-pds-2025:p401:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 401 | section 8.2]\nData Anonymization\n\nAs discussed in Ethics in Data Collection, the process of removing or modifying personally identifiable information is called data anonymization or pseudonymization, respectively. Anonymized data can usually still be utilized for analysis without compromising the individual's identity. Pseudonymization of data involves masking, encoding, or encrypting the values of specific features of the data. Features such as names or Social Security numbers can be exchanged with artificial values. If needed, these values can be replaced later using a secure lookup table or decryption algorithm.\n\n[openstax-pds-2025:p402:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 402 | section 8.2]\nwhich the last name and student ID are combined into a codeword, which may be used to access that student’s grade information from the server. This is an example of pseudonymization, as the PII is encoded rather than removed from the dataset.\n\nRobust data anonymization should follow a policy of k-anonymization, which is the principle of ensuring that each record within a dataset is indistinguishable from at least other records with respect to a specified set of identifying attributes or features. This approach helps reduce the risk of re-identifying individuals in a dataset, allowing organizations to protect clients and their information without restricting their ability to use the data to gain insight and make decisions.",
+    "context_ids": [
+      "openstax-pds-2025:p390:para:c001",
+      "openstax-pds-2025:p401:para:c005",
+      "openstax-pds-2025:p402:para:c000"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 1945,
+    "llm_completion_tokens": 300,
+    "rerank_tokens": 0,
+    "embed_tokens": 10,
+    "estimated_cost_usd": 0.00093645,
+    "live_cost_usd": 0.00093625,
+    "elapsed_seconds": 52.054,
+    "split": "dev",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "How do anonymization and pseudonymization differ when protecting sensitive personal information in a dataset?"
+  },
+  {
+    "query_id": "q14",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "Based on Chapter 8 of the textbook, outliers and limited features introduce bias into an analytical algorithm in the following ways:\n\n* **Outliers:** An outlier can cause an algorithm to drastically change its outcomes due to its abnormality compared to the rest of the data [openstax-pds-2025:p400:para:c000].\n* **Limited features:** If there are not enough features to represent the data accurately or completely, the algorithm will likely have an incomplete understanding of the data, which leads to inaccurate outcomes or biased decisions [openstax-pds-2025:p400:para:c000].",
+    "citations": [
+      "openstax-pds-2025:p400:para:c000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "outliers limited features bias analytical algorithm",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p400:para:c000",
+            "page": 400,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p399:para:c004",
+            "page": 399,
+            "score": 0.03125,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p400:para:c001",
+            "page": 400,
+            "score": 0.030536,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p399:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 399 | section 8.2]\nWhen data is biased, the resulting models and algorithms may lead to misinformed decisions, inaccurate predictions, or unfair outcomes. A real-world example of how bias in data science methods or data collection can ruin an analysis is seen in the case of the COMPAS algorithm used in the U.S. criminal justice system. COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) is an algorithm designed to predict the likelihood of a defendant reoffending (Berk et al., 2021). However, an investigation in 2016 found that the algorithm was biased against Black defendants. The analysis revealed that the algorithm incorrectly flagged Black defendants as high risk at nearly twice the rate as White defendants.\n\n[openstax-pds-2025:p400:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 400 | section 8.2]\n1. Outliers. An outlier might cause an algorithm to drastically change its outcomes due to its abnormality compared to the rest of the data.\n2. Unrepresentative samples. If the data employed to train an algorithm lacks significant representations of a particular group, then that algorithm will not be qualified to properly serve that group.\n3. Imbalance of classes. If the data factors are weighted disproportionately to one class group, then the algorithm may be biased toward that particular group.\n4. Limited features. If there are not enough features to represent the data accurately or completely, the algorithm will likely have an incomplete understanding of the data, leading to inaccurate outcomes or biased decisions.\n\n[openstax-pds-2025:p400:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 400 | section 8.2]\n5. Overfitting. Overfitted models are trained on specific data models that cause them to be unable to generalize the data that they have not seen before, causing bias.\n6. Data quality. Poorly formatted data, inaccurately labeled data, or misplaced data can cause an algorithm to base its decisions on irrelevant or invalid information, resulting in a bias.",
+        "context_ids": [
+          "openstax-pds-2025:p399:para:c004",
+          "openstax-pds-2025:p400:para:c000",
+          "openstax-pds-2025:p400:para:c001"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 31.52,
+          "embed_tokens": 7,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 1.4000000000000035e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "outliers limited features bias",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p400:para:c000",
+            "page": 400,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p407:para:c002",
+            "page": 407,
+            "score": 0.031498,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p400:para:c001",
+            "page": 400,
+            "score": 0.029958,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p400:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 400 | section 8.2]\n1. Outliers. An outlier might cause an algorithm to drastically change its outcomes due to its abnormality compared to the rest of the data.\n2. Unrepresentative samples. If the data employed to train an algorithm lacks significant representations of a particular group, then that algorithm will not be qualified to properly serve that group.\n3. Imbalance of classes. If the data factors are weighted disproportionately to one class group, then the algorithm may be biased toward that particular group.\n4. Limited features. If there are not enough features to represent the data accurately or completely, the algorithm will likely have an incomplete understanding of the data, leading to inaccurate outcomes or biased decisions.\n\n[openstax-pds-2025:p400:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 400 | section 8.2]\n5. Overfitting. Overfitted models are trained on specific data models that cause them to be unable to generalize the data that they have not seen before, causing bias.\n6. Data quality. Poorly formatted data, inaccurately labeled data, or misplaced data can cause an algorithm to base its decisions on irrelevant or invalid information, resulting in a bias.\n\n[openstax-pds-2025:p400:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 400 | section 8.2]\nFactors That Generally Lead to Fairness\n\nThe factors that yield fairness throughout a data science project process include the following:\n\n1. Representative data. The data used to train and test models should represent the entire population it seeks to address to ensure fairness.\n2. Feature selection. Careful consideration of the features utilized by a model will ensure that aspects unrelated to the outcome, such as gender or race are not used for prediction.\n\n[openstax-pds-2025:p407:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 407 | section 8.3]\nThe second data scientist chooses to remove the outliers from the data and only includes the data points that fall within a certain range. This results in a cleaner and more consistent trend in the graph, as the outliers are not shown to skew the data. However, removing the outliers may cause important information about the sales performance to not be accurately represented.",
+        "context_ids": [
+          "openstax-pds-2025:p400:para:c000",
+          "openstax-pds-2025:p400:para:c001",
+          "openstax-pds-2025:p400:para:c002",
+          "openstax-pds-2025:p407:para:c002"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 35.16,
+          "embed_tokens": 5,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 9.999999999999989e-08,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "via": "text_fallback"
+      }
+    ],
+    "context": "[openstax-pds-2025:p400:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 400 | section 8.2]\n1. Outliers. An outlier might cause an algorithm to drastically change its outcomes due to its abnormality compared to the rest of the data.\n2. Unrepresentative samples. If the data employed to train an algorithm lacks significant representations of a particular group, then that algorithm will not be qualified to properly serve that group.\n3. Imbalance of classes. If the data factors are weighted disproportionately to one class group, then the algorithm may be biased toward that particular group.\n4. Limited features. If there are not enough features to represent the data accurately or completely, the algorithm will likely have an incomplete understanding of the data, leading to inaccurate outcomes or biased decisions.\n\n[openstax-pds-2025:p400:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 400 | section 8.2]\n5. Overfitting. Overfitted models are trained on specific data models that cause them to be unable to generalize the data that they have not seen before, causing bias.\n6. Data quality. Poorly formatted data, inaccurately labeled data, or misplaced data can cause an algorithm to base its decisions on irrelevant or invalid information, resulting in a bias.\n\n[openstax-pds-2025:p400:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 400 | section 8.2]\nFactors That Generally Lead to Fairness\n\nThe factors that yield fairness throughout a data science project process include the following:\n\n1. Representative data. The data used to train and test models should represent the entire population it seeks to address to ensure fairness.\n2. Feature selection. Careful consideration of the features utilized by a model will ensure that aspects unrelated to the outcome, such as gender or race are not used for prediction.\n\n[openstax-pds-2025:p407:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 407 | section 8.3]\nThe second data scientist chooses to remove the outliers from the data and only includes the data points that fall within a certain range. This results in a cleaner and more consistent trend in the graph, as the outliers are not shown to skew the data. However, removing the outliers may cause important information about the sales performance to not be accurately represented.",
+    "context_ids": [
+      "openstax-pds-2025:p400:para:c000",
+      "openstax-pds-2025:p400:para:c001",
+      "openstax-pds-2025:p400:para:c002",
+      "openstax-pds-2025:p407:para:c002"
+    ],
+    "search_calls": 2,
+    "turns": 3,
+    "llm_prompt_tokens": 4039,
+    "llm_completion_tokens": 204,
+    "rerank_tokens": 0,
+    "embed_tokens": 12,
+    "estimated_cost_usd": 0.00131599,
+    "live_cost_usd": 0.00131575,
+    "elapsed_seconds": 3.035,
+    "split": "dev",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "question": "How can outliers and limited features introduce bias into an analytical algorithm?"
+  },
+  {
+    "query_id": "q15",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "Based on the textbook, greenhouse gas emissions from information and communication technology sources (which provide significant support for data science tasks) are expected to exceed 14% of global greenhouse gas emissions by 2040 [openstax-pds-2025:p404:para:c002].",
+    "citations": [
+      "openstax-pds-2025:p404:para:c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "large scale data science ICT energy consumption 2040 environmental concern",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p404:para:c002",
+            "page": 404,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p024:para:c003",
+            "page": 24,
+            "score": 0.032002,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p404:para:c001",
+            "page": 404,
+            "score": 0.031754,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p024:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 24 | section 1.2]\nEXPLORING FURTHER\n\nSensor Networks to Monitor Energy Consumption\n\nSee how Songdo (https://openstax.org/r/youtube4) monitors energy consumption and safety with sensor networks.\n\nData Science in Education\n\nData science also influences education. Traditional instruction, especially in higher education, has been provided in a one-size-fits-all form, such as many students listening to a single instructor’s lecture in a classroom. This makes it difficult for an instructor to keep track of each individual student’s learning progress. However, many educational platforms these days are online and can produce an enormous amount of student data, allowing instructors to investigate everyone's learning based on these collected data.\n\n[openstax-pds-2025:p404:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 404 | section 8.2]\nEXPLORING FURTHER\n\nThe Environmental Impact of Data Science\n\nThis section has focused on the ethics of data and how it is used in modeling and data science. But did you know that data science also carries with it a substantial environmental impact? As datasets grow larger and modeling techniques, including AI, get more and more complex, vast arrays of computer servers are required to do the analysis and number crunching. The sheer number of computer servers, along with all the technology and devices that support them, greatly raises the carbon footprint of data science. The increased use of energy directly affects greenhouse gas emissions, which contributes to climate change and depletes valuable resources, leading to increased inequalities around the world.\n\n[openstax-pds-2025:p404:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 404 | section 8.2]\nGlobal electricity consumption related to information and communication technology (of which significant support goes to data science tasks) is estimated to account for between 1 and 1.5% of all global electricity demand (https://openstax.org/r/iea), and greenhouse gas emissions from these sources are expected to exceed 14% of global emissions of greenhouse gasses by 2040 (Nordgren, 2023). The environmental effects of data science must be considered alongside other ethical issues if we hope to maintain a sustainable relationship with the Earth.",
+        "context_ids": [
+          "openstax-pds-2025:p024:para:c003",
+          "openstax-pds-2025:p404:para:c001",
+          "openstax-pds-2025:p404:para:c002"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1511.09,
+          "embed_tokens": 12,
+          "embed_cost_usd": 2.4e-07,
+          "embed_reference_cost_usd": 2.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "2040 greenhouse gas emissions information and communication technology Nordgren",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p404:para:c002",
+            "page": 404,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p404:para:c001",
+            "page": 404,
+            "score": 0.031754,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p412:para:c004",
+            "page": 412,
+            "score": 0.028986,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p404:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 404 | section 8.2]\nEXPLORING FURTHER\n\nThe Environmental Impact of Data Science\n\nThis section has focused on the ethics of data and how it is used in modeling and data science. But did you know that data science also carries with it a substantial environmental impact? As datasets grow larger and modeling techniques, including AI, get more and more complex, vast arrays of computer servers are required to do the analysis and number crunching. The sheer number of computer servers, along with all the technology and devices that support them, greatly raises the carbon footprint of data science. The increased use of energy directly affects greenhouse gas emissions, which contributes to climate change and depletes valuable resources, leading to increased inequalities around the world.\n\n[openstax-pds-2025:p404:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 404 | section 8.2]\nGlobal electricity consumption related to information and communication technology (of which significant support goes to data science tasks) is estimated to account for between 1 and 1.5% of all global electricity demand (https://openstax.org/r/iea), and greenhouse gas emissions from these sources are expected to exceed 14% of global emissions of greenhouse gasses by 2040 (Nordgren, 2023). The environmental effects of data science must be considered alongside other ethical issues if we hope to maintain a sustainable relationship with the Earth.\n\n[openstax-pds-2025:p412:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 412 | section 8.3]\nAddressing the digital divide through investments in infrastructure (e.g., developing reliable internet access in underserved areas), digital literacy education, and inclusive data collection (methods that do not rely solely on participants having access to technology) will ultimately narrow this divide and foster greater social and economic equity.",
+        "context_ids": [
+          "openstax-pds-2025:p404:para:c001",
+          "openstax-pds-2025:p404:para:c002",
+          "openstax-pds-2025:p412:para:c004"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1049.45,
+          "embed_tokens": 11,
+          "embed_cost_usd": 2.2e-07,
+          "embed_reference_cost_usd": 2.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "via": "text_fallback"
+      }
+    ],
+    "context": "[openstax-pds-2025:p404:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 404 | section 8.2]\nEXPLORING FURTHER\n\nThe Environmental Impact of Data Science\n\nThis section has focused on the ethics of data and how it is used in modeling and data science. But did you know that data science also carries with it a substantial environmental impact? As datasets grow larger and modeling techniques, including AI, get more and more complex, vast arrays of computer servers are required to do the analysis and number crunching. The sheer number of computer servers, along with all the technology and devices that support them, greatly raises the carbon footprint of data science. The increased use of energy directly affects greenhouse gas emissions, which contributes to climate change and depletes valuable resources, leading to increased inequalities around the world.\n\n[openstax-pds-2025:p404:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 404 | section 8.2]\nGlobal electricity consumption related to information and communication technology (of which significant support goes to data science tasks) is estimated to account for between 1 and 1.5% of all global electricity demand (https://openstax.org/r/iea), and greenhouse gas emissions from these sources are expected to exceed 14% of global emissions of greenhouse gasses by 2040 (Nordgren, 2023). The environmental effects of data science must be considered alongside other ethical issues if we hope to maintain a sustainable relationship with the Earth.\n\n[openstax-pds-2025:p412:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 412 | section 8.3]\nAddressing the digital divide through investments in infrastructure (e.g., developing reliable internet access in underserved areas), digital literacy education, and inclusive data collection (methods that do not rely solely on participants having access to technology) will ultimately narrow this divide and foster greater social and economic equity.",
+    "context_ids": [
+      "openstax-pds-2025:p404:para:c001",
+      "openstax-pds-2025:p404:para:c002",
+      "openstax-pds-2025:p412:para:c004"
+    ],
+    "search_calls": 2,
+    "turns": 3,
+    "llm_prompt_tokens": 3968,
+    "llm_completion_tokens": 125,
+    "rerank_tokens": 0,
+    "embed_tokens": 23,
+    "estimated_cost_usd": 0.00117996,
+    "live_cost_usd": 0.00117996,
+    "elapsed_seconds": 5.747,
+    "split": "dev",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "question": "What environmental concern does the textbook raise regarding large-scale data science and ICT energy consumption by 2040?"
+  },
+  {
+    "query_id": "u01",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "The retrieved text mentions the Anaconda (2020) survey in Chapter 1 regarding how much time data scientists spend on data collection and cleaning [openstax-pds-2025:p021:para:c000], but it does not contain the exact percentages of respondents reporting using Python versus R as their primary programming language.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Anaconda 2020 survey Python R primary programming language percentage",
+        "filter": {
+          "chapter": "Chapter 1"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p039:para:c004",
+            "page": 39,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p039:para:c002",
+            "page": 39,
+            "score": 0.031514,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p041:para:c000",
+            "page": 41,
+            "score": 0.031258,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p039:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 39 | section 1.4]\nThe user interfaces for both Excel and Google Sheets make these programs very user-friendly for many applications. But these programs have some limitations when it comes to large databases or complex analyses. In these instances, data scientists will often turn to a programming language such as Python, R, or SPSS.\n\n[openstax-pds-2025:p039:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 39 | section 1.4]\nProgramming Languages\n\nA programming language is a formal language that consists of a set of instructions or commands used to communicate with a computer and to instruct it to perform specific tasks that may include data manipulation, computation, and input/output operations. Programming languages allow developers to write algorithms, create software applications, and automate tasks and are better suited than spreadsheet programs to handle complex analyses.\n\n[openstax-pds-2025:p039:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 39 | section 1.4]\nPython and R are two of the most commonly used programming languages today. Both are open-source programming languages. While Python started as a general-purpose language that covers various types of tasks (e.g., numerical computation, data analysis, image processing, and web development), R is more specifically designed for statistical computing and graphics. Both use simple syntax compared to conventional programming languages such as Java or C/C++. They offer a broad collection of packages for data manipulation, statistical analysis, visualization, machine learning, and complex data modeling tasks.\n\n[openstax-pds-2025:p041:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 41 | section 1.5]\nEXPLORING FURTHER\n\nPython Programming\n\nIn the discussion below, we assume you are familiar with basic Python syntax and know how to write a simple program using Python. If you need a refresher on the basics, please refer to Das, U., Lawson, A., Mayfield, C., & Norouzi, N. (2024). Introduction to Python Programming. OpenStax. https://openstax.org/books/introduction-python-programming/pages/1-introduction (https://openstax.org/r/page1).",
+        "context_ids": [
+          "openstax-pds-2025:p039:para:c002",
+          "openstax-pds-2025:p039:para:c003",
+          "openstax-pds-2025:p039:para:c004",
+          "openstax-pds-2025:p041:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 30.8,
+          "embed_tokens": 12,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 2.399999999999998e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Anaconda 2020 survey Python R primary programming language percentage",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p039:para:c004",
+            "page": 39,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p039:para:c002",
+            "page": 39,
+            "score": 0.031514,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p041:para:c000",
+            "page": 41,
+            "score": 0.031258,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p039:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 39 | section 1.4]\nThe user interfaces for both Excel and Google Sheets make these programs very user-friendly for many applications. But these programs have some limitations when it comes to large databases or complex analyses. In these instances, data scientists will often turn to a programming language such as Python, R, or SPSS.\n\n[openstax-pds-2025:p039:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 39 | section 1.4]\nProgramming Languages\n\nA programming language is a formal language that consists of a set of instructions or commands used to communicate with a computer and to instruct it to perform specific tasks that may include data manipulation, computation, and input/output operations. Programming languages allow developers to write algorithms, create software applications, and automate tasks and are better suited than spreadsheet programs to handle complex analyses.\n\n[openstax-pds-2025:p039:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 39 | section 1.4]\nPython and R are two of the most commonly used programming languages today. Both are open-source programming languages. While Python started as a general-purpose language that covers various types of tasks (e.g., numerical computation, data analysis, image processing, and web development), R is more specifically designed for statistical computing and graphics. Both use simple syntax compared to conventional programming languages such as Java or C/C++. They offer a broad collection of packages for data manipulation, statistical analysis, visualization, machine learning, and complex data modeling tasks.\n\n[openstax-pds-2025:p041:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 41 | section 1.5]\nEXPLORING FURTHER\n\nPython Programming\n\nIn the discussion below, we assume you are familiar with basic Python syntax and know how to write a simple program using Python. If you need a refresher on the basics, please refer to Das, U., Lawson, A., Mayfield, C., & Norouzi, N. (2024). Introduction to Python Programming. OpenStax. https://openstax.org/books/introduction-python-programming/pages/1-introduction (https://openstax.org/r/page1).",
+        "context_ids": [
+          "openstax-pds-2025:p039:para:c002",
+          "openstax-pds-2025:p039:para:c003",
+          "openstax-pds-2025:p039:para:c004",
+          "openstax-pds-2025:p041:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 65.51,
+          "embed_tokens": 12,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 2.399999999999998e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Anaconda",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p021:para:c000",
+            "page": 21,
+            "score": 0.032266,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p052:para:c001",
+            "page": 52,
+            "score": 0.016393,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p057:para:c003",
+            "page": 57,
+            "score": 0.016129,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p021:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 21 | section 1.1]\nFigure 1.3 The Data Science Cycle\n\nAlthough data collection and preparation may sound like simple tasks compared to the more important work of analysis, they are actually the most time- and effort-consuming steps in the data science cycle. According to a survey conducted by Anaconda (2020), data scientists spend about half of the entire process in data collection and cleaning, while data analysis and communication take about a quarter to a third of the time each, depending on the job.\n\n[openstax-pds-2025:p021:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 21 | section 1.1]\nProblem Definition, Data Collection, and Data Preparation\n\nThe first step in the data science cycle is a precise definition of the problem statement to establish clear objectives for the goal and scope of the data analysis project. Once the problem has been well defined, the data must be generated and collected. Data collection is the systematic process of gathering information on variables of interest. Data is often collected purposefully by domain experts to find answers to predefined problems. One example is data on customer responses to a product satisfaction survey. These survey questions will likely be crafted by the product sales and marketing representatives, who likely have a specific plan for how they wish to use the response data once it is collected.\n\n[openstax-pds-2025:p052:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 52 | section 1.5]\nPYTHON CODE\n\ndata.iloc[:, 1] # select all values in the second column (index 1)\n\nThe resulting output will look like this:\n\n0 Avatar 1 Avengers: Endgame 2 Titanic 3 Star Wars: Episode VII - The Force Awakens 4 Avengers: Infinity War ... 961 The A-Team 962 Tootsie 963 In the Line of Fire 964 Analyze This 965 The Hitman's Bodyguard Name: Title, Length: 966, dtype: object\n\n[openstax-pds-2025:p057:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 57 | section 1.5]\nPYTHON CODE\n\ndata = pd.read_csv(\"[Path to ch1-movieprofit.csv]\")",
+        "context_ids": [
+          "openstax-pds-2025:p021:para:c000",
+          "openstax-pds-2025:p021:para:c001",
+          "openstax-pds-2025:p052:para:c001",
+          "openstax-pds-2025:p057:para:c003"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 31.64,
+          "embed_tokens": 2,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 4.0000000000000014e-08,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "survey R Python percentage",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p079:para:c000",
+            "page": 79,
+            "score": 0.02971,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p074:para:c003",
+            "page": 74,
+            "score": 0.028439,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p049:para:c001",
+            "page": 49,
+            "score": 0.028382,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p049:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 49 | section 1.5]\nSummarize Data Using Python Pandas\n\nYou can compute basic statistics for data quite quickly by using the DataFrame.describe() method. Add and run the following code in a new cell. It calls the describe() method upon data, the DataFrame we defined earlier with ch1-movieprofit.csv (https://openstax.org/r/movieprofit).\n\n[openstax-pds-2025:p074:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\n8. Quota sampling. Quota sampling is a non-probability sampling technique in which experimenters select participants based on predetermined quotas to guarantee that a certain number or percentage of the population of interest is represented in the sample. These quotas are based on specific demographic characteristics, such as age, gender, ethnicity, and occupation, which are believed to have a direct or indirect relationship with the research topic. Quota sampling is generally used in market research and opinion polls, as it allows for a fast and cost-effective way to gather data from a diverse range of individuals. However, it is important to note that the results of quota sampling may not accurately represent the entire population, as the sample is not randomly selected and may be biased\n\n[openstax-pds-2025:p074:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\ntoward certain characteristics. Therefore, the findings from studies using quota sampling should be interpreted with caution.\n\n[openstax-pds-2025:p079:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 79 | section 2.3]\ntask more manageable and streamlined.\n\nEXAMPLE 2.4\n\nProblem\n\nExtract data table \"Current Population Survey: Household Data: (Table A-13). Employed and unemployed persons by occupation, Not seasonally adjusted\" from the FRED (Federal Reserve Economic Data) (https://openstax.org/r/fred) website in the link (https://fred.stlouisfed.org/release/tables?rid=50&eid=3149#snid=4498 (https://openstax.org/r/stlouisfed)) using Python code. The data in this table provides a representation of the overall employment and unemployment situation in the United States. The table is organized into two main sections: employed persons and unemployed persons.",
+        "context_ids": [
+          "openstax-pds-2025:p049:para:c001",
+          "openstax-pds-2025:p074:para:c003",
+          "openstax-pds-2025:p074:para:c004",
+          "openstax-pds-2025:p079:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1049.45,
+          "embed_tokens": 4,
+          "embed_cost_usd": 8e-08,
+          "embed_reference_cost_usd": 8e-08,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p049:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 49 | section 1.5]\nSummarize Data Using Python Pandas\n\nYou can compute basic statistics for data quite quickly by using the DataFrame.describe() method. Add and run the following code in a new cell. It calls the describe() method upon data, the DataFrame we defined earlier with ch1-movieprofit.csv (https://openstax.org/r/movieprofit).\n\n[openstax-pds-2025:p074:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\n8. Quota sampling. Quota sampling is a non-probability sampling technique in which experimenters select participants based on predetermined quotas to guarantee that a certain number or percentage of the population of interest is represented in the sample. These quotas are based on specific demographic characteristics, such as age, gender, ethnicity, and occupation, which are believed to have a direct or indirect relationship with the research topic. Quota sampling is generally used in market research and opinion polls, as it allows for a fast and cost-effective way to gather data from a diverse range of individuals. However, it is important to note that the results of quota sampling may not accurately represent the entire population, as the sample is not randomly selected and may be biased\n\n[openstax-pds-2025:p074:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\ntoward certain characteristics. Therefore, the findings from studies using quota sampling should be interpreted with caution.\n\n[openstax-pds-2025:p079:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 79 | section 2.3]\ntask more manageable and streamlined.\n\nEXAMPLE 2.4\n\nProblem\n\nExtract data table \"Current Population Survey: Household Data: (Table A-13). Employed and unemployed persons by occupation, Not seasonally adjusted\" from the FRED (Federal Reserve Economic Data) (https://openstax.org/r/fred) website in the link (https://fred.stlouisfed.org/release/tables?rid=50&eid=3149#snid=4498 (https://openstax.org/r/stlouisfed)) using Python code. The data in this table provides a representation of the overall employment and unemployment situation in the United States. The table is organized into two main sections: employed persons and unemployed persons.",
+    "context_ids": [
+      "openstax-pds-2025:p049:para:c001",
+      "openstax-pds-2025:p074:para:c003",
+      "openstax-pds-2025:p074:para:c004",
+      "openstax-pds-2025:p079:para:c000"
+    ],
+    "search_calls": 4,
+    "turns": 6,
+    "llm_prompt_tokens": 15117,
+    "llm_completion_tokens": 223,
+    "rerank_tokens": 0,
+    "embed_tokens": 30,
+    "estimated_cost_usd": 0.00411435,
+    "live_cost_usd": 0.00411383,
+    "elapsed_seconds": 7.917,
+    "split": "dev",
+    "answerable": false,
+    "type": "unanswerable_near_topic",
+    "question": "According to the Anaconda 2020 survey cited in Chapter 1, what exact percentage of respondents reported using Python versus R as their primary programming language?"
+  },
+  {
+    "query_id": "u02",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "The retrieved text in Section 2.5 discusses Huffman coding and lossless compression in general terms—stating that it assigns shorter binary codes to frequently used characters and longer codes to less frequently used characters to reduce overall data size—but it does not report any specific numerical compression ratio or file-size reduction percentage for standard English text files [openstax-pds-2025:p098:para:c006, openstax-pds-2025:p099:para:c000]. [openstax-pds-2025:p098:para:c006] [openstax-pds-2025:p099:para:c000]",
+    "citations": [
+      "openstax-pds-2025:p098:para:c006",
+      "openstax-pds-2025:p099:para:c000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Huffman coding compression ratio file-size reduction percentage standard English text files",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p098:para:c006",
+            "page": 98,
+            "score": 0.032522,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p099:para:c000",
+            "page": 99,
+            "score": 0.032522,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c005",
+            "page": 98,
+            "score": 0.031746,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p098:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98 | section 2.5]\nData Compression\n\nData compression is a method of reducing file size while retaining essential information; it can be applied to many types of databases. Data compression is classified into two categories, lossy and lossless:\n\n• Lossy compression reduces the size of data by permanently extracting particular data that is considered irrelevant or redundant. This method can significantly decrease file sizes, but it also results in a loss of some data. Lossy compression is often utilized for multimedia files and images, where slight modifications in quality may not be noticeable to the human eye. Examples of lossy compression include MP3 and JPEG.\n\n[openstax-pds-2025:p098:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98 | section 2.5]\n• Lossless compression aims to reduce file size without removing any data. This method achieves compression by finding patterns and redundancies in the data and representing them more efficiently. This allows for the reconstruction of the original data without any loss in quality. Lossless compression is commonly used for text and numerical data, where every piece of information is crucial. Examples of lossless compression include ZIP, RAR, and PNG.\n\nThere are several methods of data lossless compression, including Huffman coding. Huffman coding works by assigning shorter binary codes to the most frequently used characters or symbols in a given dataset and longer codes to less frequently used characters, as shown in Figure 2.4. This results in a more\n\n[openstax-pds-2025:p099:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 99 | section 2.5]\nefficient use of binary digits and reduces the overall size of the data without losing any information during compression. Huffman coding is applied to data that require fast and efficient compression, such as video compression, image compression, and data transmission and storage.\n\nFigure 2.4 Huffman Tree Diagrams Data Storage",
+        "context_ids": [
+          "openstax-pds-2025:p098:para:c005",
+          "openstax-pds-2025:p098:para:c006",
+          "openstax-pds-2025:p099:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1114.5,
+          "embed_tokens": 13,
+          "embed_cost_usd": 2.6e-07,
+          "embed_reference_cost_usd": 2.6e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Huffman coding English text compression ratio percentage",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p099:para:c000",
+            "page": 99,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c006",
+            "page": 98,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c005",
+            "page": 98,
+            "score": 0.031746,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p098:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98 | section 2.5]\nData Compression\n\nData compression is a method of reducing file size while retaining essential information; it can be applied to many types of databases. Data compression is classified into two categories, lossy and lossless:\n\n• Lossy compression reduces the size of data by permanently extracting particular data that is considered irrelevant or redundant. This method can significantly decrease file sizes, but it also results in a loss of some data. Lossy compression is often utilized for multimedia files and images, where slight modifications in quality may not be noticeable to the human eye. Examples of lossy compression include MP3 and JPEG.\n\n[openstax-pds-2025:p098:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98 | section 2.5]\n• Lossless compression aims to reduce file size without removing any data. This method achieves compression by finding patterns and redundancies in the data and representing them more efficiently. This allows for the reconstruction of the original data without any loss in quality. Lossless compression is commonly used for text and numerical data, where every piece of information is crucial. Examples of lossless compression include ZIP, RAR, and PNG.\n\nThere are several methods of data lossless compression, including Huffman coding. Huffman coding works by assigning shorter binary codes to the most frequently used characters or symbols in a given dataset and longer codes to less frequently used characters, as shown in Figure 2.4. This results in a more\n\n[openstax-pds-2025:p099:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 99 | section 2.5]\nefficient use of binary digits and reduces the overall size of the data without losing any information during compression. Huffman coding is applied to data that require fast and efficient compression, such as video compression, image compression, and data transmission and storage.\n\nFigure 2.4 Huffman Tree Diagrams Data Storage",
+        "context_ids": [
+          "openstax-pds-2025:p098:para:c005",
+          "openstax-pds-2025:p098:para:c006",
+          "openstax-pds-2025:p099:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1166.66,
+          "embed_tokens": 8,
+          "embed_cost_usd": 1.6e-07,
+          "embed_reference_cost_usd": 1.6e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Huffman coding standard English text files",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p098:para:c006",
+            "page": 98,
+            "score": 0.032522,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p099:para:c000",
+            "page": 99,
+            "score": 0.032522,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p032:para:c003",
+            "page": 32,
+            "score": 0.028898,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p032:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 32 | section 1.3]\nCOMMA FOR NEW LINE?\n\nThere is some flexibility on how to end a line with CSV files. It is acceptable to end with or without commas, as some software or programming languages automatically add a comma when generating a CSV dataset.\n\nCSV files can be opened with spreadsheet software such as MS Excel and Google Sheets. The spreadsheet software visualizes CSV files more intuitively in the form of a table (see Figure 1.5). We will cover the basic use of Python for analyzing CSV files in Data Science with Python.\n\n[openstax-pds-2025:p098:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98 | section 2.5]\n• Lossless compression aims to reduce file size without removing any data. This method achieves compression by finding patterns and redundancies in the data and representing them more efficiently. This allows for the reconstruction of the original data without any loss in quality. Lossless compression is commonly used for text and numerical data, where every piece of information is crucial. Examples of lossless compression include ZIP, RAR, and PNG.\n\nThere are several methods of data lossless compression, including Huffman coding. Huffman coding works by assigning shorter binary codes to the most frequently used characters or symbols in a given dataset and longer codes to less frequently used characters, as shown in Figure 2.4. This results in a more\n\n[openstax-pds-2025:p099:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 99 | section 2.5]\nefficient use of binary digits and reduces the overall size of the data without losing any information during compression. Huffman coding is applied to data that require fast and efficient compression, such as video compression, image compression, and data transmission and storage.\n\nFigure 2.4 Huffman Tree Diagrams Data Storage",
+        "context_ids": [
+          "openstax-pds-2025:p032:para:c003",
+          "openstax-pds-2025:p098:para:c006",
+          "openstax-pds-2025:p099:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1064.31,
+          "embed_tokens": 7,
+          "embed_cost_usd": 1.4e-07,
+          "embed_reference_cost_usd": 1.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Figure 2.4 Huffman",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p099:para:c000",
+            "page": 99,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c006",
+            "page": 98,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p091:para:c005",
+            "page": 91,
+            "score": 0.025487,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p091:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 91 | section 2.4]\nBranch Product Sales ($) Profits ($)\n\nBranch 1 Jewelry 50000 20000\n\nBranch 2 TV Accessories 25000 12500\n\nBranch 3 Beauty Products 30000 15000 Branch 4 DVDs 15000 7500 Branch 5 Kids’ Toys 45000 22500 Branch 6 Video Games 35000 17500 Branch 7 Women’s Boutique Apparel 40000 20000 Branch 8 Designer & Fashion 55000 27500 Sunglasses\n\nTable 2.5 Retail Company Sales and Profits\n\n[openstax-pds-2025:p098:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98 | section 2.5]\n• Lossless compression aims to reduce file size without removing any data. This method achieves compression by finding patterns and redundancies in the data and representing them more efficiently. This allows for the reconstruction of the original data without any loss in quality. Lossless compression is commonly used for text and numerical data, where every piece of information is crucial. Examples of lossless compression include ZIP, RAR, and PNG.\n\nThere are several methods of data lossless compression, including Huffman coding. Huffman coding works by assigning shorter binary codes to the most frequently used characters or symbols in a given dataset and longer codes to less frequently used characters, as shown in Figure 2.4. This results in a more\n\n[openstax-pds-2025:p099:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 99 | section 2.5]\nefficient use of binary digits and reduces the overall size of the data without losing any information during compression. Huffman coding is applied to data that require fast and efficient compression, such as video compression, image compression, and data transmission and storage.\n\nFigure 2.4 Huffman Tree Diagrams Data Storage",
+        "context_ids": [
+          "openstax-pds-2025:p091:para:c005",
+          "openstax-pds-2025:p098:para:c006",
+          "openstax-pds-2025:p099:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 63.24,
+          "embed_tokens": 6,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 1.2000000000000012e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p091:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 91 | section 2.4]\nBranch Product Sales ($) Profits ($)\n\nBranch 1 Jewelry 50000 20000\n\nBranch 2 TV Accessories 25000 12500\n\nBranch 3 Beauty Products 30000 15000 Branch 4 DVDs 15000 7500 Branch 5 Kids’ Toys 45000 22500 Branch 6 Video Games 35000 17500 Branch 7 Women’s Boutique Apparel 40000 20000 Branch 8 Designer & Fashion 55000 27500 Sunglasses\n\nTable 2.5 Retail Company Sales and Profits\n\n[openstax-pds-2025:p098:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98 | section 2.5]\n• Lossless compression aims to reduce file size without removing any data. This method achieves compression by finding patterns and redundancies in the data and representing them more efficiently. This allows for the reconstruction of the original data without any loss in quality. Lossless compression is commonly used for text and numerical data, where every piece of information is crucial. Examples of lossless compression include ZIP, RAR, and PNG.\n\nThere are several methods of data lossless compression, including Huffman coding. Huffman coding works by assigning shorter binary codes to the most frequently used characters or symbols in a given dataset and longer codes to less frequently used characters, as shown in Figure 2.4. This results in a more\n\n[openstax-pds-2025:p099:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 99 | section 2.5]\nefficient use of binary digits and reduces the overall size of the data without losing any information during compression. Huffman coding is applied to data that require fast and efficient compression, such as video compression, image compression, and data transmission and storage.\n\nFigure 2.4 Huffman Tree Diagrams Data Storage",
+    "context_ids": [
+      "openstax-pds-2025:p091:para:c005",
+      "openstax-pds-2025:p098:para:c006",
+      "openstax-pds-2025:p099:para:c000"
+    ],
+    "search_calls": 4,
+    "turns": 6,
+    "llm_prompt_tokens": 13139,
+    "llm_completion_tokens": 320,
+    "rerank_tokens": 0,
+    "embed_tokens": 34,
+    "estimated_cost_usd": 0.00376543,
+    "live_cost_usd": 0.00376531,
+    "elapsed_seconds": 49.64,
+    "split": "dev",
+    "answerable": false,
+    "type": "unanswerable_near_topic",
+    "question": "What specific numerical compression ratio or file-size reduction percentage does Section 2.5 report for Huffman coding on standard English text files?"
+  },
+  {
+    "query_id": "u03",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "The retrieved text from Section 8.1 mentions the General Data Protection Regulation (GDPR) and notes that regulations demand secure and transparent collection and processing of data, but it does not specify the maximum monetary fine or percentage of global annual turnover for non-compliance.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "GDPR maximum monetary fine euros percentage global annual turnover",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p388:para:c006",
+            "page": 388,
+            "score": 0.032522,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p389:para:c000",
+            "page": 389,
+            "score": 0.032522,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p388:para:c005",
+            "page": 388,
+            "score": 0.031025,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p388:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388 | section 8.1]\nA good summary of these laws and other privacy regulations can be found at the GAO’s Protecting Personal Privacy (https://openstax.org/r/gao) site.\n\nIndustry and Global Standards\n\nData privacy compliance requirements vary depending on the industry and the standards or laws that govern the organization’s operations. Failure to comply with these requirements can result in penalties and legal consequences for the organization, so data scientists in these industries need to be aware of and adhere to these regulations to avoid any potential repercussions.\n\n[openstax-pds-2025:p388:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388 | section 8.1]\nData Security Regulations are based on data protection laws, such as the General Data Protection Regulation in the European Union (https://openstax.org/r/gdpr) (GDPR) and the 2018 California Consumer Privacy Act (https://openstax.org/r/privacy) (CCPA) in the United States, with its amendment, CPRA (2023). These regulations demand that organizations collect, process, and accumulate confidential data securely and\n\n[openstax-pds-2025:p389:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 389 | section 8.1]\ntransparently. Figure 8.2 and Figure 8.3 summarize the GDPR and CCPA/CPRA principles. This GDPR Checklist for Data Controllers (https://openstax.org/r/gdpr1) on the EU website presents the principles in an actionable format for organizations.\n\nFigure 8.2 GDPR Principles\n\nFigure 8.3 CCPA/CPRA Principles",
+        "context_ids": [
+          "openstax-pds-2025:p388:para:c005",
+          "openstax-pds-2025:p388:para:c006",
+          "openstax-pds-2025:p389:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1147.43,
+          "embed_tokens": 10,
+          "embed_cost_usd": 2e-07,
+          "embed_reference_cost_usd": 2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "GDPR fine euro turnover",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p389:para:c000",
+            "page": 389,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p388:para:c006",
+            "page": 388,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p389:para:c001",
+            "page": 389,
+            "score": 0.015873,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p388:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388 | section 8.1]\nData Security Regulations are based on data protection laws, such as the General Data Protection Regulation in the European Union (https://openstax.org/r/gdpr) (GDPR) and the 2018 California Consumer Privacy Act (https://openstax.org/r/privacy) (CCPA) in the United States, with its amendment, CPRA (2023). These regulations demand that organizations collect, process, and accumulate confidential data securely and\n\n[openstax-pds-2025:p389:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 389 | section 8.1]\ntransparently. Figure 8.2 and Figure 8.3 summarize the GDPR and CCPA/CPRA principles. This GDPR Checklist for Data Controllers (https://openstax.org/r/gdpr1) on the EU website presents the principles in an actionable format for organizations.\n\nFigure 8.2 GDPR Principles\n\nFigure 8.3 CCPA/CPRA Principles\n\n[openstax-pds-2025:p389:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 389 | section 8.1]\nSome countries have laws regarding data sovereignty that require data collected from their citizens to be stored and processed within their borders, making it important to understand where data is being collected and stored. Many countries have also enacted laws and regulations involving data retention, or how long personal data may be stored (e.g., the Sarbanes-Oxley Act [SOX] in the United States or the Data Protection Act [DPA] in the United Kingdom); data breach notification, or what to do when data is stolen by a malicious third party (Gramm-Leach-Bliley Act [GLBA] in the United States or the Personal Information Protection and Electronic Documents Act [PIPEDA] in Canada); and many other issues of data privacy, security, and integrity.",
+        "context_ids": [
+          "openstax-pds-2025:p388:para:c006",
+          "openstax-pds-2025:p389:para:c000",
+          "openstax-pds-2025:p389:para:c001"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1064.94,
+          "embed_tokens": 5,
+          "embed_cost_usd": 1e-07,
+          "embed_reference_cost_usd": 1e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "fine percentage turnover",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p410:para:c001",
+            "page": 410,
+            "score": 0.031319,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p410:para:c002",
+            "page": 410,
+            "score": 0.031281,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p407:para:c001",
+            "page": 407,
+            "score": 0.016393,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p389:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 389 | section 8.1]\ntransparently. Figure 8.2 and Figure 8.3 summarize the GDPR and CCPA/CPRA principles. This GDPR Checklist for Data Controllers (https://openstax.org/r/gdpr1) on the EU website presents the principles in an actionable format for organizations.\n\nFigure 8.2 GDPR Principles\n\nFigure 8.3 CCPA/CPRA Principles\n\n[openstax-pds-2025:p407:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 407 | section 8.3]\nBy excluding the low sales points, the second data scientist is not presenting the complete picture, and it can cause misleading insights and decisions being made based on incomplete information. Additionally, the assumption is that the low sales points are genuine measurements and so may not in fact be random outliers. c. In terms of accuracy, it is difficult to say which presentation is more accurate. In general, it is important to carefully consider the impact of outliers before deciding whether or not to include them in the data analysis. However, if there are clear errors or irregularities in the data, it may be appropriate to remove them to prevent them from skewing the results. Ultimately, both approaches have their merits and limitations. d.\n\n[openstax-pds-2025:p410:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 410 | section 8.3]\na. The percentage of participants in each group to accurately depict the proportion of participants in each age group b. The total number of participants to demonstrate the scope of the results c. The number of participants in each age group for a comprehensive overview of the data d. Options A, B, and C should all be included in the chart\n\n[openstax-pds-2025:p410:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 410 | section 8.3]\nAge Participants\n\n18–26 100 27–36 120 37–46 107 47–56 71\n\n57–66 89 67+ 113\n\nTable 8.2 Statistical Data about Clinical Trials Participants\n\nFigure 8.9 Insufficient Information on Participants in Clinical Trials Solution\n\nThe correct answer is D. This is the most appropriate choice because the presentation of results needs to be improved to accurately depict the data. This includes clearly indicating the percentage and total number of participants in each group and the overall number of participants as given in Figure 8.10. See Statistical",
+        "context_ids": [
+          "openstax-pds-2025:p389:para:c000",
+          "openstax-pds-2025:p407:para:c001",
+          "openstax-pds-2025:p410:para:c001",
+          "openstax-pds-2025:p410:para:c002"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1033.17,
+          "embed_tokens": 3,
+          "embed_cost_usd": 6e-08,
+          "embed_reference_cost_usd": 6e-08,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Figure 8.2 GDPR Principles",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p389:para:c000",
+            "page": 389,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p387:para:c000",
+            "page": 387,
+            "score": 0.03125,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p388:para:c006",
+            "page": 388,
+            "score": 0.031054,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p387:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 387 | section 8.0]\nFigure 8.1 Balancing the ethical aspects of the evolving practice of data science requires a careful approach throughout the data science cycle (i.e., during collection, analysis, and use of data, as well as its dissemination). (credit: modification of work \"Data Security Breach\" by https://www.blogtrepreneur.com, CC BY 2.0)\n\nChapter Outline\n8.1 Ethics in Data Collection\n8.2 Ethics in Data Analysis and Modeling\n8.3 Ethics in Visualization and Reporting\n\n[openstax-pds-2025:p388:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388 | section 8.1]\nData Security Regulations are based on data protection laws, such as the General Data Protection Regulation in the European Union (https://openstax.org/r/gdpr) (GDPR) and the 2018 California Consumer Privacy Act (https://openstax.org/r/privacy) (CCPA) in the United States, with its amendment, CPRA (2023). These regulations demand that organizations collect, process, and accumulate confidential data securely and\n\n[openstax-pds-2025:p389:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 389 | section 8.1]\ntransparently. Figure 8.2 and Figure 8.3 summarize the GDPR and CCPA/CPRA principles. This GDPR Checklist for Data Controllers (https://openstax.org/r/gdpr1) on the EU website presents the principles in an actionable format for organizations.\n\nFigure 8.2 GDPR Principles\n\nFigure 8.3 CCPA/CPRA Principles\n\n[openstax-pds-2025:p389:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 389 | section 8.1]\nSome countries have laws regarding data sovereignty that require data collected from their citizens to be stored and processed within their borders, making it important to understand where data is being collected and stored. Many countries have also enacted laws and regulations involving data retention, or how long personal data may be stored (e.g., the Sarbanes-Oxley Act [SOX] in the United States or the Data Protection Act [DPA] in the United Kingdom); data breach notification, or what to do when data is stolen by a malicious third party (Gramm-Leach-Bliley Act [GLBA] in the United States or the Personal Information Protection and Electronic Documents Act [PIPEDA] in Canada); and many other issues of data privacy, security, and integrity.",
+        "context_ids": [
+          "openstax-pds-2025:p387:para:c000",
+          "openstax-pds-2025:p388:para:c006",
+          "openstax-pds-2025:p389:para:c000",
+          "openstax-pds-2025:p389:para:c001"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1071.73,
+          "embed_tokens": 7,
+          "embed_cost_usd": 1.4e-07,
+          "embed_reference_cost_usd": 1.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p387:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 387 | section 8.0]\nFigure 8.1 Balancing the ethical aspects of the evolving practice of data science requires a careful approach throughout the data science cycle (i.e., during collection, analysis, and use of data, as well as its dissemination). (credit: modification of work \"Data Security Breach\" by https://www.blogtrepreneur.com, CC BY 2.0)\n\nChapter Outline\n8.1 Ethics in Data Collection\n8.2 Ethics in Data Analysis and Modeling\n8.3 Ethics in Visualization and Reporting\n\n[openstax-pds-2025:p388:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388 | section 8.1]\nData Security Regulations are based on data protection laws, such as the General Data Protection Regulation in the European Union (https://openstax.org/r/gdpr) (GDPR) and the 2018 California Consumer Privacy Act (https://openstax.org/r/privacy) (CCPA) in the United States, with its amendment, CPRA (2023). These regulations demand that organizations collect, process, and accumulate confidential data securely and\n\n[openstax-pds-2025:p389:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 389 | section 8.1]\ntransparently. Figure 8.2 and Figure 8.3 summarize the GDPR and CCPA/CPRA principles. This GDPR Checklist for Data Controllers (https://openstax.org/r/gdpr1) on the EU website presents the principles in an actionable format for organizations.\n\nFigure 8.2 GDPR Principles\n\nFigure 8.3 CCPA/CPRA Principles\n\n[openstax-pds-2025:p389:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 389 | section 8.1]\nSome countries have laws regarding data sovereignty that require data collected from their citizens to be stored and processed within their borders, making it important to understand where data is being collected and stored. Many countries have also enacted laws and regulations involving data retention, or how long personal data may be stored (e.g., the Sarbanes-Oxley Act [SOX] in the United States or the Data Protection Act [DPA] in the United Kingdom); data breach notification, or what to do when data is stolen by a malicious third party (Gramm-Leach-Bliley Act [GLBA] in the United States or the Personal Information Protection and Electronic Documents Act [PIPEDA] in Canada); and many other issues of data privacy, security, and integrity.",
+    "context_ids": [
+      "openstax-pds-2025:p387:para:c000",
+      "openstax-pds-2025:p388:para:c006",
+      "openstax-pds-2025:p389:para:c000",
+      "openstax-pds-2025:p389:para:c001"
+    ],
+    "search_calls": 4,
+    "turns": 6,
+    "llm_prompt_tokens": 14492,
+    "llm_completion_tokens": 239,
+    "rerank_tokens": 0,
+    "embed_tokens": 25,
+    "estimated_cost_usd": 0.003982,
+    "live_cost_usd": 0.003982,
+    "elapsed_seconds": 9.969,
+    "split": "dev",
+    "answerable": false,
+    "type": "unanswerable_near_topic",
+    "question": "Under GDPR as described in Section 8.1, what is the maximum monetary fine (in euros or percentage of global annual turnover) for regulatory non-compliance?"
+  }
+]

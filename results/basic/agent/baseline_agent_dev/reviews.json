@@ -1,0 +1,21 @@
+[
+  {"query_id": "q01", "answer_grade": 2, "citation_support": [true], "notes": "States about half (50%) on collection/cleaning, supported by p021:para:c000."},
+  {"query_id": "q02", "answer_grade": 2, "citation_support": [true], "notes": "Accurately identifies 200 seats or less cap forming finite set 1..200; p028:para:c005."},
+  {"query_id": "q03", "answer_grade": 2, "citation_support": [true], "notes": "Covers Hurricane Charley forecast, 7x Pop-Tarts surge, extra shipments; p023:para:c001."},
+  {"query_id": "q04", "answer_grade": 0, "citation_support": [], "notes": "False abstention: retrieved question p038:para:c000, clipped solution chunk p038:para:c001 under 800-char greedy budget."},
+  {"query_id": "q05", "answer_grade": 0, "citation_support": [], "notes": "False abstention: dense+800-char greedy failed to retrieve/pack p021:para:c003."},
+  {"query_id": "q06", "answer_grade": 2, "citation_support": [true], "notes": "Correctly explains code cell and text cell; p041:para:c003."},
+  {"query_id": "q07", "answer_grade": 0, "citation_support": [], "notes": "False abstention: missed/clipped p071:para:c005."},
+  {"query_id": "q08", "answer_grade": 1, "citation_support": [true], "notes": "Partial (1/2): explains telephone/car affluent sampling bias from p072:para:c001, misses closed-ended questions in clipped neighbor p072:para:c002."},
+  {"query_id": "q09", "answer_grade": 2, "citation_support": [true], "notes": "Covers hard-to-reach populations and bias/generalizability limitation; p074:para:c002."},
+  {"query_id": "q10", "answer_grade": 0, "citation_support": [], "notes": "False abstention: retrieved MCAR chunk p087:para:c001 but 800-char budget clipped neighbor MAR chunk p087:para:c002."},
+  {"query_id": "q11", "answer_grade": 0, "citation_support": [], "notes": "False abstention: retrieved lossy p098:para:c005 but clipped lossless p098:para:c006."},
+  {"query_id": "q12", "answer_grade": 0, "citation_support": [], "notes": "False abstention: retrieved definition p388:para:c001 but clipped fitness-app example p388:para:c002."},
+  {"query_id": "q13", "answer_grade": 2, "citation_support": [true], "notes": "Clearly contrasts anonymization vs pseudonymization; p390:para:c001."},
+  {"query_id": "q14", "answer_grade": 0, "citation_support": [], "notes": "False abstention: hit p407:para:c002 on outliers instead of bias list p400:para:c000."},
+  {"query_id": "q15", "answer_grade": 1, "citation_support": [true], "notes": "Partial (1/2): states >14% GHG by 2040 from p404:para:c002, omits 1-1.5% global electricity share."},
+  {"query_id": "u01", "abstention_correct": true, "citation_support": [], "notes": "Correctly abstained on Python vs R %."},
+  {"query_id": "u02", "abstention_correct": true, "citation_support": [], "notes": "Correctly abstained on Huffman numeric compression ratio."},
+  {"query_id": "u03", "abstention_correct": true, "citation_support": [], "notes": "Correctly abstained on GDPR fine amount."}
+]
+

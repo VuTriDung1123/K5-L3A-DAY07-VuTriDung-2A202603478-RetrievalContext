@@ -1,0 +1,2186 @@
+[
+  {
+    "query_id": "adv_test_t01",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "According to Table SPM.1, for pathways limiting warming to 2°C (>67%), the median CO2 emission reductions from 2019 levels are:\n*   **2035:** 37% [21–59% interval]\n*   **2050:** 73% [55–90% interval] [ipcc-ar6-syr-2023:p037:table:table_spm1:c01]",
+    "citations": [
+      "ipcc-ar6-syr-2023:p037:table:table_spm1:c01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table SPM.1 median CO2 emission reductions 2035 2050 2°C (>67%)",
+        "modality": "table",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p037:table:table_spm1:c01",
+          "ipcc-ar6-syr-2023:p037:table:table_spm1:c02",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c03",
+          "ipcc-ar6-syr-2023:p026:table:box_spm1_t1:c02"
+        ],
+        "pages": [
+          26,
+          37,
+          100
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p037:table:table_spm1:c01 | table | Summary for Policymakers | PDF p.37 | asset=table_spm1 | crop=starter/data/advanced/crops/table_spm1_p037.png]\nTITLE: Table SPM.1: Greenhouse gas and CO2 emission reductions from 2019 (median and 5-95 percentiles)\nASSET_ID: table_spm1\nMODALITY: table\nPDF_PAGES: [37] (caption pages: [37])\n\nCAPTION:\nTable SPM.1: Greenhouse gas and CO2 emission reductions from 2019, median and 5-95 percentiles. {3.3.1, 4.1, Table 3.1, Figure 2.5, Box SPM.1} Reductions from 2019 emission levels (%) 2030 2035 2040 2050 Limit warming to1.5°C (>50%) with no or limited overshoot GHG 43 [34-60] 60 [49-77] 69 [58-90] 84 [73-98] CO2 48 [36-69] 65 [50-96] 80 [61-109] 99 [79-119] Limit warming to 2°C (>67%) GHG 21 [1-42] 35 [22-55] 46 [34-63] 64 [53-77] CO2 22 [1-44] 37 [21-59] 51 [36-70] 73 [55-90] B.6.2 Reaching net zero CO2 or GHG emissions primarily requires deep and rapid reductions in gross emissions of CO2, as well as substantial reductions of non-CO2 GHG emissions (high confidence). For example, in modelled pathways that limit warming to 1.5°C (>50%) with no or limited overshoot, global methane emissions are reduced by 34 [21–57]% by 2030 relative to 2019. However, some hard-to-abate residual GHG emissions (e.g., some emissions from agriculture, aviation, shipping, and industrial processes) remain and would need to be counterbalanced by deployment of CDR methods to achieve net zero CO2 or GHG emissions (high confidence). As a result, net zero CO2 is reached earlier than net zero GHGs (high confidence). {3.3.2, 3.3.3, Table 3.1, Figure 3.5} (Figure SPM.5) B.6.3 Global modelled mitigation pathways reaching net zero CO2 and GHG emissions include transitioning from fossil fuels without carbon capture and storage (CCS) to very low- or zero-carbon energy sources, such as renewables or fossil fuels with CCS, demand-side measures and improving efficiency, reducing non-CO2 GHG emissions, and CDR47.",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p037:table:table_spm1:c01"
+    ],
+    "search_calls": 1,
+    "vision_calls": 0,
+    "turns": 2,
+    "llm_prompt_tokens": 2083,
+    "llm_completion_tokens": 216,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 22,
+    "estimated_cost_usd": 0.00084519,
+    "live_cost_usd": 0.00084519,
+    "elapsed_seconds": 4.079,
+    "split": "test",
+    "answerable": true,
+    "group": "table",
+    "question": "In Table SPM.1, what are the median CO2 emission reductions (and 5–95th percentile intervals) from 2019 levels in 2035 and 2050 for pathways limiting warming to 2°C (>67%)?"
+  },
+  {
+    "query_id": "adv_test_t02",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "According to Table 2.2, the median projected global emissions in 2030 (GtCO2-eq/yr) are:\n*   **Implied by policies implemented by the end of 2020:** 57 [52–60] GtCO2-eq/yr [ipcc-ar6-syr-2023:p074:table:table_2_2:c03].\n*   **Implied by unconditional NDCs:** 53 [50–57] GtCO2-eq/yr [ipcc-ar6-syr-2023:p074:table:table_2_2:c03].\n*   **Implied by conditional NDCs (including conditional elements):** 50 [47–55] GtCO2-eq/yr [ipcc-ar6-syr-2023:p074:table:table_2_2:c03].",
+    "citations": [
+      "ipcc-ar6-syr-2023:p074:table:table_2_2:c03"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table 2.2 median projected global emissions 2030 GtCO2-eq/yr implemented policies unconditional NDCs conditional NDCs",
+        "modality": "table",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p074:table:table_2_2:c03",
+          "ipcc-ar6-syr-2023:p074:table:table_2_2:c02",
+          "ipcc-ar6-syr-2023:p074:table:table_2_2:c01",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c03"
+        ],
+        "pages": [
+          74,
+          100
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p074:table:table_2_2:c03 | table | Section 2: Current Status and Trends | PDF p.74 | asset=table_2_2 | crop=starter/data/advanced/crops/table_2_2_p074.png]\nlementation gap between implemented policies and NDCs (median) | – | 4 | 7 |\n|  | Emissions gap between NDCs and pathways that limit warming to 2°C (>67%) with immediate action |  | – | 10–16 | 6–14 |\n|  | Emissions gap between NDCs and pathways that limit warming to 1.5°C (>50%) with no or limited overshoot with immediate action |  | – | 19–26 | 16–23 |\n\nVISUAL_STRUCTURED_EXTRACTION:\n| Emission and implementation gaps associated with projected global emissions in 2030 under Nationally Determined Contributions (NDCs) and implemented policies | Implied by policies implemented by the end of 2020 ($\\text{GtCO}_2\\text{-eq/yr}$) | Implied by Nationally Determined Contributions (NDCs) announced prior to COP26 | |\n| --- | --- | --- | --- |\n| | | Unconditional elements ($\\text{GtCO}_2\\text{-eq/yr}$) | Including conditional elements ($\\text{GtCO}_2\\text{-eq/yr}$) |\n| Median projected global emissions (min–max)* | 57 [52–60] | 53 [50–57] | 50 [47–55] |\n| Implementation gap between implemented policies and NDCs (median) | – | 4 | 7 |\n| Emissions gap between NDCs and pathways that limit warming to 2°C (>67%) with immediate action | – | 10–16 | 6–14 |\n| Emissions gap between NDCs and pathways that limit warming to 1.5°C (>50%) with no or limited overshoot with immediate action | – | 19–26 | 16–23 |",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p074:table:table_2_2:c03"
+    ],
+    "search_calls": 1,
+    "vision_calls": 0,
+    "turns": 2,
+    "llm_prompt_tokens": 1861,
+    "llm_completion_tokens": 334,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 30,
+    "estimated_cost_usd": 0.00096685,
+    "live_cost_usd": 0.00096685,
+    "elapsed_seconds": 6.914,
+    "split": "test",
+    "answerable": true,
+    "group": "table",
+    "question": "According to Table 2.2, what are the median projected global emissions in 2030 (GtCO2-eq/yr, min–max) implied by implemented policies by end of 2020 versus unconditional NDCs versus conditional NDCs?"
+  },
+  {
+    "query_id": "adv_test_t03",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "According to Table 2.2, the 2030 emissions gaps between NDCs and pathways that limit warming to 1.5°C (>50%) with no or limited overshoot with immediate action are:\n*   **19–26 GtCO2-eq/yr** for NDCs with unconditional elements.\n*   **16–23 GtCO2-eq/yr** for NDCs including conditional elements. [ipcc-ar6-syr-2023:p074:table:table_2_2:c03]",
+    "citations": [
+      "ipcc-ar6-syr-2023:p074:table:table_2_2:c03"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table 2.2 2030 emissions gaps GtCO2-eq/yr NDCs 1.5°C",
+        "modality": "table",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p074:table:table_2_2:c03",
+          "ipcc-ar6-syr-2023:p074:table:table_2_2:c01",
+          "ipcc-ar6-syr-2023:p074:table:table_2_2:c02",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c03"
+        ],
+        "pages": [
+          74,
+          100
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p074:table:table_2_2:c03 | table | Section 2: Current Status and Trends | PDF p.74 | asset=table_2_2 | crop=starter/data/advanced/crops/table_2_2_p074.png]\nlementation gap between implemented policies and NDCs (median) | – | 4 | 7 |\n|  | Emissions gap between NDCs and pathways that limit warming to 2°C (>67%) with immediate action |  | – | 10–16 | 6–14 |\n|  | Emissions gap between NDCs and pathways that limit warming to 1.5°C (>50%) with no or limited overshoot with immediate action |  | – | 19–26 | 16–23 |\n\nVISUAL_STRUCTURED_EXTRACTION:\n| Emission and implementation gaps associated with projected global emissions in 2030 under Nationally Determined Contributions (NDCs) and implemented policies | Implied by policies implemented by the end of 2020 ($\\text{GtCO}_2\\text{-eq/yr}$) | Implied by Nationally Determined Contributions (NDCs) announced prior to COP26 | |\n| --- | --- | --- | --- |\n| | | Unconditional elements ($\\text{GtCO}_2\\text{-eq/yr}$) | Including conditional elements ($\\text{GtCO}_2\\text{-eq/yr}$) |\n| Median projected global emissions (min–max)* | 57 [52–60] | 53 [50–57] | 50 [47–55] |\n| Implementation gap between implemented policies and NDCs (median) | – | 4 | 7 |\n| Emissions gap between NDCs and pathways that limit warming to 2°C (>67%) with immediate action | – | 10–16 | 6–14 |\n| Emissions gap between NDCs and pathways that limit warming to 1.5°C (>50%) with no or limited overshoot with immediate action | – | 19–26 | 16–23 |",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p074:table:table_2_2:c03"
+    ],
+    "search_calls": 1,
+    "vision_calls": 0,
+    "turns": 2,
+    "llm_prompt_tokens": 1871,
+    "llm_completion_tokens": 233,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 26,
+    "estimated_cost_usd": 0.00081777,
+    "live_cost_usd": 0.00081777,
+    "elapsed_seconds": 5.838,
+    "split": "test",
+    "answerable": true,
+    "group": "table",
+    "question": "In Table 2.2, what are the 2030 emissions gaps (GtCO2-eq/yr) between NDCs (both unconditional and including conditional elements) and pathways limiting warming to 1.5°C (>50%) with no or limited overshoot with immediate action?"
+  },
+  {
+    "query_id": "adv_test_t04",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu đã cung cấp để trả lời câu hỏi này.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table 2.1 Human contribution assessment Antarctic ice sheet mass loss acidification global surface ocean",
+        "modality": "table",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p063:table:table_2_1:c04",
+          "ipcc-ar6-syr-2023:p063:table:table_2_1:c03",
+          "ipcc-ar6-syr-2023:p063:table:table_2_1:c02",
+          "ipcc-ar6-syr-2023:p063:table:table_2_1:c01"
+        ],
+        "pages": [
+          63
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Table 2.1 colour Key confidence likelihood categories",
+        "modality": "table",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p063:table:table_2_1:c01",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c05",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c02",
+          "ipcc-ar6-syr-2023:p063:table:table_2_1:c05"
+        ],
+        "pages": [
+          63,
+          100
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Table 2.1 colour key categories",
+        "modality": "table",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p063:table:table_2_1:c01",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c02",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c01",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c05"
+        ],
+        "pages": [
+          63,
+          100
+        ]
+      },
+      {
+        "event": "abstain",
+        "reason": "turn_limit"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p063:table:table_2_1:c01 | table | Section 2: Current Status and Trends | PDF p.63 | asset=table_2_1 | crop=starter/data/advanced/crops/table_2_1_p063.png]\nTITLE: Table 2.1: Assessment of observed changes in large-scale climate indicators and human influence\nASSET_ID: table_2_1\nMODALITY: table\nPDF_PAGES: [63] (caption pages: [63])\n\nCAPTION:\nTable 2.1: Assessment of observed changes in large-scale indicators of mean climate across climate system components, and their attribution to human influence. The colour coding indicates the assessed confidence in / likelihood76 of the observed change and the human contribution as a driver or main driver (specified in that case) where available (see colour key). Otherwise, explanatory text is provided. {WGI Table TS.1} 76 Based on scientific understanding, key findings can be formulated as statements of fact or associated with an assessed level of confidence indicated using the IPCC calibrated language.\n\n[ipcc-ar6-syr-2023:p063:table:table_2_1:c05 | table | Section 2: Current Status and Trends | PDF p.63 | asset=table_2_1 | crop=starter/data/advanced/crops/table_2_1_p063.png]\nand climate** | | |\n| Mean surface air temperature over land (about 40% larger than global mean warming) | ![fact](https://raw.githubusercontent.com/.../fact.png) | Main driver |\n| **Synthesis** | | |\n| Warming of the global climate system since preindustrial times | ![fact](https://raw.githubusercontent.com/.../fact.png) | ![fact](https://raw.githubusercontent.com/.../fact.png) |\n\n*(Note: Color-coded assessment cells are transcribed based on the key at the bottom of the table, showing levels of confidence/likelihood ranging from medium confidence to fact).*",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p063:table:table_2_1:c01",
+      "ipcc-ar6-syr-2023:p063:table:table_2_1:c05"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 8,
+    "llm_prompt_tokens": 17533,
+    "llm_completion_tokens": 257,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 36,
+    "estimated_cost_usd": 0.00476947,
+    "live_cost_usd": 0.00476947,
+    "elapsed_seconds": 24.047,
+    "split": "test",
+    "answerable": true,
+    "group": "table",
+    "question": "In Table 2.1, what exact text annotations appear in the 'Human contribution assessment' column for (a) Antarctic ice sheet mass loss since 1990s and (b) Acidification of the global surface ocean, and what six confidence/likelihood categories appear in the colour Key?"
+  },
+  {
+    "query_id": "adv_test_t05",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "Based on Table 3.1 in the IPCC AR6 Synthesis Report:\n\n(1) **Global mean temperature change in 2100 (°C):**\n*   **Category C3:** The median projected temperature change in 2100 is 1.6°C (with a 5th–95th percentile interval of 1.5–1.8°C) [chunk_id: ipcc-ar6-syr-2023:p100:table:table_3_1:c08].\n*   **Category C6:** The median projected temperature change in 2100 is 2.1°C (with a 5th–95th percentile interval of 1.9–2.5°C) [chunk_id: ipcc-ar6-syr-2023:p100:table:table_3_1:c08].\n\n(2) **Likelihood (%) of peak warming staying below 2.0°C:**\nThe provided document excerpt for Table 3.1 does not explicitly list the numerical likelihood percentages for staying below 2.0°C for categories C3 and C6 [chunk_id: ipcc-ar6-syr-2023:p100:table:table_3_1:c08]. [ipcc-ar6-syr-2023:p100:table:table_3_1:c08]",
+    "citations": [
+      "ipcc-ar6-syr-2023:p100:table:table_3_1:c08"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table 3.1 category C3 C6 global mean temperature change 2100 likelihood peak warming below 2.0°C",
+        "modality": "table",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c08",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c01",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c05",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c02"
+        ],
+        "pages": [
+          100
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Table 3.1 category C3 C6 likelihood peak warming below 2.0°C",
+        "modality": "table",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c08",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c01",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c02",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c05"
+        ],
+        "pages": [
+          100
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Table 3.1 \"Likelihood of peak global warming staying below (%)\" \"<2.0°C\"",
+        "modality": "table",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c08",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c01",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c05",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c06"
+        ],
+        "pages": [
+          100
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p100:table:table_3_1:c08 | table | Section 3: Long-Term Climate and Development Futures | PDF p.100 | asset=table_3_1 | crop=starter/data/advanced/crops/table_3_1_p100.png]\n0–2090] | [...] (0%) [...-...] | 2070–2075 (87%) [2055-...] | [...] (30%) [2075-...] | [...] (24%) [2080-...] | [...] (41%) [2075-...] | [...] (31%) [2075-...] | [...] (12%) [2090-...] | no net-zero |\n| **Cumulative $\\text{CO}_2$ emissions [$\\text{Gt CO}_2$] (6)** | **2020 to net zero $\\text{CO}_2$** | Median cumulative net $\\text{CO}_2$ emissions across the projected scenarios in this category until reaching net-zero or until 2100, with the 5th-95th percentile interval in square brackets. | 510 [330–710] | 550 [340–760] | 460 [320–590] | 720 [530–930] | 890 [640–1160] | 860 [640–1180] | 910 [720–1150] | 1210 [970–1490] | 1780 [1400–2360] | no net-zero |\n| | **2020–2100** | 320 [-210–570] | 160 [-220–620] | 360 [10–540] | 400 [-90–620] | 800 [510–1140] | 790 [480–1150] | 800 [560–1050] | 1160 [700–1490] | 1780 [1260–2360] | 2790 [2440–3520] |\n| **Global mean temperature changes 50% probability (°C)** | **at peak warming** | Projected temperature change of pathways in this category (50% probability across the range of climate uncertainties), relative to 1850–1900, at peak warming and in 2100, for the median value across the scenarios and the 5th-95th percentile interval in square brackets. | 1.6 [1.4–1.6] | 1.6 [1.4–1.6] | 1.6 [1.5–1.6] | 1.7 [1.5–1.8] | 1.7 [1.6–1.8] | 1.7 [1.6–1.8] | 1.8 [1.6–1.8] | 1.9 [1.7–2.0] | 2.2 [1.9–2.5] | no peaking by 2100 |\n| | **2100** | 1.3 [1.1–1.5] | 1.2 [1.1–1.4] | 1.4 [1.3–1.5] | 1.4 [1.2–1.5] | 1.6 [1.5–1.8] | 1.6 [1.5–1.8] | 1.6 [1.5–1.7] | 1.8 [1.5–2.0] | 2.1 [1.9–2.5] | 2.7 [2.4–2.9] |\n| **Likelihood of peak global warming staying below (%)** | **<1.5°C** | Median likelihood that the projected pathways in this category stay below a given global warming level, with the 5th-95th percentile interval in square",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p100:table:table_3_1:c08"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 5,
+    "llm_prompt_tokens": 13401,
+    "llm_completion_tokens": 540,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 67,
+    "estimated_cost_usd": 0.00416159,
+    "live_cost_usd": 0.00416159,
+    "elapsed_seconds": 63.624,
+    "split": "test",
+    "answerable": true,
+    "group": "table",
+    "question": "In Table 3.1, compare category C3 (limit warming to 2°C (>67%)) and category C6 (limit warming to 3°C (>50%)) on (1) global mean temperature change in 2100 (°C) and (2) likelihood (%) of peak warming staying below 2.0°C."
+  },
+  {
+    "query_id": "adv_test_t06",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu đã cung cấp để trả lời câu hỏi này.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table 3.1 C1a C1b pathways cumulative net CO2 emissions net zero GHGs",
+        "modality": "table",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c07",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c06",
+          "ipcc-ar6-syr-2023:p037:table:table_spm1:c01",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c01"
+        ],
+        "pages": [
+          37,
+          100
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Table 3.1 number of pathways C1a C1b cumulative net CO2 emissions 2020-2050",
+        "modality": "table",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c07",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c03",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c06",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c04"
+        ],
+        "pages": [
+          100
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Table 3.1 number of pathways C1a C1b cumulative net CO2 emissions 2020-2050",
+        "modality": "text",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p101:text:c005",
+          "ipcc-ar6-syr-2023:p101:text:c004",
+          "ipcc-ar6-syr-2023:p100:text:c005",
+          "ipcc-ar6-syr-2023:p075:text:c003"
+        ],
+        "pages": [
+          75,
+          100,
+          101
+        ]
+      },
+      {
+        "event": "abstain",
+        "reason": "turn_limit"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p101:text:c005 | text | Section 3: Long-Term Climate and Development Futures | PDF p.101]\nific milestones over the 21st century. Percentiles reported across all pathways in\nthat category include those that do not reach net zero before 2100.\n5 For cases where models do not report all GHGs, missing GHG species are infilled and aggregated into a Kyoto basket of GHG emissions in CO2-eq defined by the 100-year\nglobal warming potential. For each pathway, reporting of CO2, CH4, and N2O emissions was the minimum required for the assessment of the climate response and the assignment\nto a climate category. Emissions pathways without climate assessment are not included in the ranges presented here. See WGIII Annex III.II.5.\n6 Cumulative emissions are calculated from the start of 2020 to the time of net zero and 2100, respectively. They are based on harmonised net CO2 emissions, ensuring\nconsistency with the WG I assessment of the remaining carbon budget. {WGIII Box 3.4, WGIII SPM Footnote 50}\n\n[ipcc-ar6-syr-2023:p101:text:c004 | text | Section 3: Long-Term Climate and Development Futures | PDF p.101]\neported in WGIII SPM Section B and WGIII Chapter 2; this ensures internal consistency in assumptions about emission sources and activities, as well as\nconsistency with temperature projections based on the physical climate science assessment by WGI (see WGIII SPM Footnote 49). Negative values (e.g., in C5, C6) represent\nan increase in emissions. The modelled GHG emissions in 2019 are 55 [53–58] GtCO2-eq, thus within the uncertainty ranges of estimates for 2019 emissions [53-66] GtCO2-eq\n(see 2.1.1).\n4 Emissions milestones are provided for 5-year intervals in order to be consistent with the underlying 5-year time-step data of the modelled pathways. Ranges in square\nbrackets underneath refer to the range across the pathways, comprising the lower bound of the 5th percentile 5-year interval and the upper bound of the 95th percentile\n5-year interval. Numbers in round brackets signify the fraction of pathways that reach specific milestones over the 21st century. Percentiles reported across all pathways in\nthat category include those that do not reach net zero before 2100.",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p101:text:c005",
+      "ipcc-ar6-syr-2023:p101:text:c004"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 8,
+    "llm_prompt_tokens": 22864,
+    "llm_completion_tokens": 356,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 71,
+    "estimated_cost_usd": 0.00625142,
+    "live_cost_usd": 0.00625092,
+    "elapsed_seconds": 20.971,
+    "split": "test",
+    "answerable": true,
+    "group": "table",
+    "question": "In Table 3.1, compare subcategories C1a ('with net zero GHGs') and C1b ('without net zero GHGs') on their number of pathways, cumulative net CO2 emissions from 2020 to net zero CO2, and percentage reaching net zero GHGs."
+  },
+  {
+    "query_id": "adv_test_d01",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu đã cung cấp để trả lời câu hỏi này.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure SPM.3 \"Risk of species losses\" \"Heat-humidity risks to human health\"",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p032:text:c003",
+          "ipcc-ar6-syr-2023:p089:text:c003",
+          "ipcc-ar6-syr-2023:p032:diagram_map:fig_spm3:c04",
+          "ipcc-ar6-syr-2023:p089:diagram_map:fig_3_2:c03"
+        ],
+        "pages": [
+          32,
+          89
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure SPM.3 \"Risk of species losses\" number of species",
+        "modality": "chart",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p033:chart:fig_spm4:c01",
+          "ipcc-ar6-syr-2023:p091:chart:fig_3_3:c05",
+          "ipcc-ar6-syr-2023:p033:chart:fig_spm4:c04",
+          "ipcc-ar6-syr-2023:p033:chart:fig_spm4:c02"
+        ],
+        "pages": [
+          33,
+          91
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure SPM.3 \"Heat-humidity risks to human health\" scale range days/year",
+        "modality": "chart",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p033:chart:fig_spm4:c03",
+          "ipcc-ar6-syr-2023:p033:chart:fig_spm4:c06",
+          "ipcc-ar6-syr-2023:p033:chart:fig_spm4:c01",
+          "ipcc-ar6-syr-2023:p033:chart:fig_spm4:c02"
+        ],
+        "pages": [
+          33
+        ]
+      },
+      {
+        "event": "abstain",
+        "reason": "turn_limit"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p033:chart:fig_spm4:c03 | chart | Summary for Policymakers | PDF p.33 | asset=fig_spm4 | crop=starter/data/advanced/crops/fig_spm4_p033.png]\n(coloured lines and shading) are assessed consistently with observational constraints based on emulation of CMIP, ice-sheet, and glacier models, and likely ranges are shown for SSP1-2.6 and SSP3-7.0. Right - Assessment of the combined risk of coastal flooding, erosion and salinization for four illustrative coastal geographies in 2100, due to changing mean and extreme sea levels, under two response scenarios, with respect to the SROCC baseline period (1986–2005). The assessment does not account for changes in extreme sea level beyond those directly induced by mean sea level rise; risk levels could increase if other changes in extreme sea levels were considered (e.g., due to changes in cyclone intensity). “No-to-moderate response” describes efforts as of today (i.e., no further significant action or new types of actions). “Maximum potential response” represent a combination\n\nVISUAL_STRUCTURED_EXTRACTION:\nBased on the provided IPCC AR6 Summary for Policymakers chart (**Figure SPM.4: Assessed temperature outcomes and Risks are increasing with every increment of warming**), here is a detailed, structured extraction of all visible elements, text, panels, axes, and scales.\n\n---\n\n### **1. Overall Header & Context**\n* **Title:** *Risks are increasing with every increment of warming*\n* **Figure Identifier:** (From context) Figure SPM.4 — Subset of assessed climate outcomes and associated global and regional climate risks.\n\n---\n\n### **2. Panel (a): Global Surface Temperature Change & Reasons for Concern (RFCs)**\n* **Title:** `a) High risks are now assessed to occur at lower global warming levels`\n* **Left Sub-Panel (Global surface temperature change relative to 1850–1900):**",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p033:chart:fig_spm4:c03"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 8,
+    "llm_prompt_tokens": 17489,
+    "llm_completion_tokens": 268,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 52,
+    "estimated_cost_usd": 0.00477529,
+    "live_cost_usd": 0.00477529,
+    "elapsed_seconds": 22.594,
+    "split": "test",
+    "answerable": true,
+    "group": "diagram_image",
+    "question": "In Figure SPM.3 Panels (a) and (b), how many species are included in the 'Risk of species losses' maps, and how many morbidity/mortality threshold cases underpin the 'Heat-humidity risks to human health' panel (along with its scale range in days/year)?"
+  },
+  {
+    "query_id": "adv_test_d02",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "In Cross-Section Box.2 Figure 1, the four 'Determinants of risk' arranged around the central 'Risk' in Panel (c) are Climatic Impact-Drivers, Vulnerability, Exposure, and Response [ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c04]. Regarding the dashed arrow in Panel (a), the requested information is not present in the provided context [ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c04].",
+    "citations": [
+      "ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c04"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Cross-Section Box.2 Figure 1 Determinants of risk Panel (c) dashed arrow Panel (a)",
+        "modality": "diagram_map",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c04",
+          "ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c01",
+          "ipcc-ar6-syr-2023:p116:diagram_map:fig_4_3:c05",
+          "ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c02"
+        ],
+        "pages": [
+          81,
+          116
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Cross-Section Box.2 Figure 1 Panel (a) dashed arrow Impacts/Risks Socio-economic changes",
+        "modality": "text",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p079:text:c001",
+          "ipcc-ar6-syr-2023:p082:text:c001",
+          "ipcc-ar6-syr-2023:p093:text:c005",
+          "ipcc-ar6-syr-2023:p093:text:c002"
+        ],
+        "pages": [
+          79,
+          82,
+          93
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Cross-Section Box.2 Figure 1 Panel (c) Determinants of risk four labels",
+        "modality": "diagram_map,text",
+        "returned_ids": [],
+        "pages": []
+      },
+      {
+        "event": "submit_repair_requested",
+        "via": "text_fallback"
+      },
+      {
+        "event": "citation_repair_requested",
+        "bad_citations": [
+          "ipcc-ar6-syr-2023:p082:text:c001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c04 | diagram_map | Section 2: Current Status and Trends | PDF p.81 | asset=fig_csb2_1 | crop=starter/data/advanced/crops/fig_csb2_1_p081.png]\nFC1 Unique and threatened systems* (represented by a gradient color bar transitioning from white/yellow to red/purple).\n\n---\n\n### **Panel (b): Scenarios and pathways across AR6 Working Group reports**\nA structured table mapping **Category in WGIII (C1–C8)** to **Category description**, **GHG emissions scenarios ($\\text{SSPx-y}^*$) in WGI & WGII**, and **$\\text{RCPy}^{**}$ in WGI & WGII**:\n\n| Category in WGIII | Category description | GHG emissions scenarios ($\\text{SSPx-y}^*$) in WGI & WGII | $\\text{RCP}^{**}$ in WGI & WGII |\n| :--- | :--- | :--- | :--- |\n| **C1** | limit warming to $1.5^\\circ\\text{C}$ ($>50\\%$) with no or limited overshoot | Very low (SSP1-1.9) | |\n| **C2** | return warming to $1.5^\\circ\\text{C}$ ($>50\\%$) after a high overshoot | | |\n| **C3** | limit warming to $2^\\circ\\text{C}$ ($>67\\%$) | Low (SSP1-2.6) | RCP2.6 |\n| **C4** | limit warming to $2^\\circ\\text{C}$ ($>50\\%$) | | |\n| **C5** | limit warming to $2.5^\\circ\\text{C}$ ($>50\\%$) | | |\n| **C6** | limit warming to $3^\\circ\\text{C}$ ($>50\\%$) | Intermediate (SSP2-4.5) | RCP4.5 |\n| **C7** | limit warming to $4^\\circ\\text{C}$ ($>50\\%$) | High (SSP3-7.0) | |\n| **C8** | exceed warming to $4^\\circ\\text{C}$ ($>50\\%$) | Very high (SSP5-8.5) | RCP8.5 |\n\n---\n\n### **Panel (c): Determinants of risk**\n* **Venn Diagram / Conceptual Intersect:**\n  * Shows **Risk** at the core intersection (red circle).\n  * Three surrounding overlapping circles/domains:\n    1. **Climatic Impact-Drivers** (Top-left, light green/grey)\n    2. **Vulnerability** (Top-right, yellow)\n    3. **Exposure** (Right, cyan)\n  * **Response** (Bottom orange box/arc) acting upon the risk framework.\n\n---\n\n### **Footnotes & Metadata (Bottom text)**",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c04"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 7,
+    "llm_prompt_tokens": 17204,
+    "llm_completion_tokens": 844,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 65,
+    "estimated_cost_usd": 0.0055683,
+    "live_cost_usd": 0.0055683,
+    "elapsed_seconds": 88.219,
+    "split": "test",
+    "answerable": true,
+    "group": "diagram_image",
+    "question": "In Cross-Section Box.2 Figure 1, name the four 'Determinants of risk' arranged around Risk in Panel (c), and explain what the dashed arrow from Impacts/Risks back to Socio-economic changes in Panel (a) indicates."
+  },
+  {
+    "query_id": "adv_test_d03",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "The provided IPCC AR6 Synthesis Report does not contain a \"Figure 2.3\" that includes hexagon labels for \"SAS,\" \"MED,\" and \"WCE,\" nor does it provide the specific observed change and confidence level ratings for those regions in the context of hot extremes or agricultural and ecological drought. Consequently, the requested information is not available in the document.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure 2.3 Panel (a) hexagon labels SAS MED WCE",
+        "modality": "diagram_map",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c01",
+          "ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c04",
+          "ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c02",
+          "ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c03"
+        ],
+        "pages": [
+          81
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 2.3 Panel (a) hexagon labels SAS MED WCE",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c01",
+          "ipcc-ar6-syr-2023:p064:text:c002",
+          "ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c04",
+          "ipcc-ar6-syr-2023:p081:diagram_map:fig_csb2_1:c02"
+        ],
+        "pages": [
+          64,
+          81
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 2.3",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p055:text:c001",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c05",
+          "ipcc-ar6-syr-2023:p055:diagram_map:fig_1_1:c01",
+          "ipcc-ar6-syr-2023:p099:chart:fig_3_5:c01"
+        ],
+        "pages": [
+          55,
+          99,
+          100
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p055:text:c001 | text | Section 1: Introduction | PDF p.55]\n39\nIntroduction\nSection 1\nFigure 1.1: The Synthesis Report figures key.\nItalicized ‘annotations’\nSimple explanations written\nin non-technical language\nAxis labels\nSynthesis Report\nﬁgures key\nthese help non-experts\nnavigate complex content\nGHG emissions\nTemperature\nCost or budget\nNet zero\n°C\nnet zero\n\n[ipcc-ar6-syr-2023:p100:table:table_3_1:c05 | table | Section 3: Long-Term Climate and Development Futures | PDF p.100 | asset=table_3_1 | crop=starter/data/advanced/crops/table_3_1_p100.png]\n80 [1400-2360] |  |\n|  |  | 320 [-210-570] | 160 [-220-620] | 360 [10-540] | 400 [-90-620] | 800 [510-1140] | 790 [480-1150] | 800 [560-1050] | 1160 [700-1490] | 1780 [1260-2360] | 2 790 [2440-3520] |\n| at peak )C°( warming naem erutarepmet %05 ytilibaborp segnahc labolG 2100 | Projected temperature change of pathways in this category (50% probability across the range of climate uncertainties), relative to 1850-1900, at peak warming and in 2100, for the median value across the scenarios and the 5th-95th percentile interval in square brackets. | 1.6 [1.4-1.6] | 1.6 [1.4-1.6] | 1.6 [1.5-1.6] | 1.7 [1.5-1.8] | 1.7 [1.6-1.8] | 1.7 [1.6-1.8] | 1.8 [1.6-1.8] | 1.9 [1.7-2.0] | 2.2 [1.9-2.5] |  |\n|  |  | 1.3 [1.1-1.5] | 1.2 [1.1-1.4] | 1.4 [1.3-1.5] | 1.4 [1.2-1.5] | 1.6 [1.5-1.8] | 1.6 [1.5-1.8] | 1.6 [1.5-1.7] | 1. 8 [1.5-2.0] | 2.1 [1.9-2.5] | 2.7 [2.4-2.9] |\n| gniyats <1.5°C kaep gnimraw <2.0°C fo doohilekiL )%( labolg woleb <3.0°C | Median likelihood that the projected pathways in this category stay below a given global warming level, with the 5th-95th percentile interval in square brackets. | 38 [33-58] | 38 [34-60] | 37 [33-56] | 24 [15-42] | 20 [13-41] | 21 [14-42] | 17 [12-35] | 11 [7-22] | 4 [0-10]Lik o |  |\n|  |  | 90 [86-97] | 90 [85-97] | 89 [87-96] | 82 [71-93] | 76 [68-91] | 78 [69-91] | 73 [67-87] | 59 [50-77] | 37 w [18-59] s be | global 8 arming tay[i2n-g18 ] low (%) |\n|  |  | 100 [99-100] | 100 [99-100] | 100 [99-100] | 100 [99-100] | 99 [98-100] | 100 [98-100] | 99 [98-99] | 98 [95-99] | 91 [83-98] |  |\n\nVISUAL_STRUCTURED_EXTRACTION:",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p055:text:c001",
+      "ipcc-ar6-syr-2023:p100:table:table_3_1:c05"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 5,
+    "llm_prompt_tokens": 10242,
+    "llm_completion_tokens": 232,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 37,
+    "estimated_cost_usd": 0.00290924,
+    "live_cost_usd": 0.00290892,
+    "elapsed_seconds": 29.737,
+    "split": "test",
+    "answerable": true,
+    "group": "diagram_image",
+    "question": "In Figure 2.3 Panel (a), what do the hexagon labels SAS, MED, and WCE stand for, and what observed change + confidence level ratings do SAS (for Hot extremes) and MED & WCE (for Agricultural and ecological drought) display?"
+  },
+  {
+    "query_id": "adv_test_d04",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "I abstain from answering this question because the provided document evidence does not contain the requested information regarding the lightning/wavy arrow legend in Figure 4.2. While the document does list conditions that constrain individual and collective actions in Figure 4.2, I am unable to provide a complete answer that satisfies the constraints of the system.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure 4.2 conditions that constrain individual and collective actions lightning wavy arrow legend",
+        "modality": "diagram_map",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p113:diagram_map:fig_4_2:c03",
+          "ipcc-ar6-syr-2023:p113:diagram_map:fig_4_2:c02",
+          "ipcc-ar6-syr-2023:p041:diagram_map:fig_spm6:c02",
+          "ipcc-ar6-syr-2023:p041:diagram_map:fig_spm6:c03"
+        ],
+        "pages": [
+          41,
+          113
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 4.2 legend lightning wavy arrow",
+        "modality": "diagram_map",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p055:diagram_map:fig_1_1:c02",
+          "ipcc-ar6-syr-2023:p055:diagram_map:fig_1_1:c01",
+          "ipcc-ar6-syr-2023:p089:diagram_map:fig_3_2:c02",
+          "ipcc-ar6-syr-2023:p086:diagram_map:fig_3_1:c01"
+        ],
+        "pages": [
+          55,
+          86,
+          89
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 4.2 legend lightning wavy arrow description",
+        "modality": "diagram_map",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p055:diagram_map:fig_1_1:c02",
+          "ipcc-ar6-syr-2023:p055:diagram_map:fig_1_1:c01",
+          "ipcc-ar6-syr-2023:p064:diagram_map:fig_2_3:c03",
+          "ipcc-ar6-syr-2023:p089:diagram_map:fig_3_2:c02"
+        ],
+        "pages": [
+          55,
+          64,
+          89
+        ]
+      },
+      {
+        "event": "citation_repair_requested",
+        "bad_citations": [
+          "ipcc-ar6-syr-2023:p113:diagram_map:fig_4_2:c03"
+        ]
+      },
+      {
+        "event": "citation_repair_requested",
+        "bad_citations": [
+          "ipcc-ar6-syr-2023:p113:diagram_map:fig_4_2:c03"
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p055:diagram_map:fig_1_1:c02 | diagram_map | Section 1: Introduction | PDF p.55 | asset=fig_1_1 | crop=starter/data/advanced/crops/fig_1_1_p055.png]\n*Label:* **Net zero**\n\n#### C. Annotations Explanation Section (Center-Right to Right)\n* **Visual Pointer:** A hand-drawn curved arrow pointing from right to left toward the axis labels/diagram area.\n* **Left Text (Italicized):** \n  * *\"these help non-experts navigate complex content\"*\n* **Right Heading & Text:** \n  * **Header (Bold/Italicized):** *Italicized ‘annotations’*\n  * **Sub-text:** *\"Simple explanations written in non-technical language\"*",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p055:diagram_map:fig_1_1:c02"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 7,
+    "llm_prompt_tokens": 11327,
+    "llm_completion_tokens": 599,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 38,
+    "estimated_cost_usd": 0.00373101,
+    "live_cost_usd": 0.00373101,
+    "elapsed_seconds": 18.138,
+    "split": "test",
+    "answerable": true,
+    "group": "diagram_image",
+    "question": "In Figure 4.2, list three 'Conditions that constrain individual and collective actions' on the lower left, and what does the lightning/wavy arrow legend at the bottom right represent?"
+  },
+  {
+    "query_id": "adv_test_d05",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "Based on Figure 4.5, the systems and their respective columns are as follows:\n\n*   **Systems with only an Adaptation column:** Ocean ecosystems; Society, livelihoods, and economies [chunk_id: c03].\n*   **Systems with only a Mitigation column:** Industry [chunk_id: c03].\n*   **Omitted SDG:** No SDG from 1 to 17 is omitted; all 17 SDGs are listed as vertical rows in the matrix [chunk_id: c03]. [ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c03]",
+    "citations": [
+      "ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c03"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure 4.5 SDGs synergies and trade-offs matrix",
+        "modality": "diagram_map",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c01",
+          "ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c04",
+          "ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c02",
+          "ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c03"
+        ],
+        "pages": [
+          125
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 4.5 SDGs synergies and trade-offs matrix rows and columns",
+        "modality": "diagram_map",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c02",
+          "ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c03",
+          "ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c01",
+          "ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c04"
+        ],
+        "pages": [
+          125
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 4.5 columns and rows list SDGs 1-17",
+        "modality": "diagram_map",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c03",
+          "ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c02",
+          "ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c04",
+          "ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c01"
+        ],
+        "pages": [
+          125
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c03 | diagram_map | Section 4: Near-Term Responses in a Changing Climate | PDF p.125 | asset=fig_4_5 | crop=starter/data/advanced/crops/fig_4_5_p125.png]\nfs\n  3. **Blue/Orange Striped:** Both synergies and trade-offs / mixed\n  4. **White/Grey Outline:** Limited evidence / no evidence / no assessment\n\n---\n\n### **2. Column Headers (Systems & Responses)**\nThe columns group options across five main systems, split into mitigation and/or adaptation responses:\n1. **Energy systems:** Mitigation | Adaptation\n2. **Urban and infrastructure:** Mitigation | Adaptation\n3. **Land system:** Mitigation | Adaptation\n4. **Ocean ecosystems:** Adaptation\n5. **Society, livelihoods, and economies:** Adaptation\n6. **Industry:** Mitigation\n\n---\n\n### **3. Row Headers (Sustainable Development Goals - SDGs)**\nEach row corresponds to an official UN SDG icon and theme:\n* **SDG 1:** No Poverty\n* **SDG 2:** Zero Hunger\n* **SDG 3:** Good Health and Well-being\n* **SDG 4:** Quality Education\n* **SDG 5:** Gender Equality\n* **SDG 6:** Clean Water and Sanitation\n* **SDG 7:** Affordable and Clean Energy\n* **SDG 8:** Decent Work and Economic Growth\n* **SDG 9:** Industry, Innovation and Infrastructure\n* **SDG 10:** Reduced Inequalities\n* **SDG 11:** Sustainable Cities and Communities\n* **SDG 12:** Responsible Consumption and Production\n* **SDG 13:** Climate Action *(Note: Not explicitly listed as a column, but implied)*\n* **SDG 14:** Life Below Water\n* **SDG 15:** Life on Land\n* **SDG 16:** Peace, Justice and Strong Institutions\n* **SDG 17:** Partnerships for the Goals\n\n---\n\n### **4. Visual Data Encoding within the Matrix Bars**\n* **Normalization:** The length of each bar represents 100% of the assessed options within that specific system/sector and SDG interaction. Proportions are displayed as horizontal stacked percentage bars (blue = synergies, orange = trade-offs, striped = mixed, white = unassessed/limited evidence).",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p125:diagram_map:fig_4_5:c03"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 4,
+    "llm_prompt_tokens": 5863,
+    "llm_completion_tokens": 282,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 44,
+    "estimated_cost_usd": 0.00188963,
+    "live_cost_usd": 0.00188963,
+    "elapsed_seconds": 14.102,
+    "split": "test",
+    "answerable": true,
+    "group": "diagram_image",
+    "question": "In Figure 4.5 (SDGs synergies and trade-offs matrix), which systems display only an Adaptation column, which displays only a Mitigation column, and which SDG number from 1 to 17 is omitted from the vertical rows?"
+  },
+  {
+    "query_id": "adv_test_c01",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "The provided IPCC AR6 Synthesis Report does not contain a \"Figure 2.1\" that displays atmospheric concentrations of CO2, CH4, and N2O for 2019, nor does it contain a panel (c) with the specified global surface temperature increase for 2011–2020. Consequently, the requested information is not available in the document.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure 2.1 Panels (b) and (c) CO2 CH4 N2O 2019 concentrations global surface temperature increase 2011-2020",
+        "modality": "chart",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p061:chart:fig_2_2:c02",
+          "ipcc-ar6-syr-2023:p038:chart:fig_spm5:c03",
+          "ipcc-ar6-syr-2023:p075:chart:fig_2_5:c04",
+          "ipcc-ar6-syr-2023:p038:chart:fig_spm5:c04"
+        ],
+        "pages": [
+          38,
+          61,
+          75
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 2.1 atmospheric concentrations CO2 CH4 N2O 2019 global surface temperature increase 2011-2020",
+        "modality": "chart",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p038:chart:fig_spm5:c03",
+          "ipcc-ar6-syr-2023:p075:chart:fig_2_5:c01",
+          "ipcc-ar6-syr-2023:p099:chart:fig_3_5:c01",
+          "ipcc-ar6-syr-2023:p099:chart:fig_3_5:c02"
+        ],
+        "pages": [
+          38,
+          75,
+          99
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 2.1 atmospheric concentrations CO2 CH4 N2O 2019 global surface temperature increase 2011-2020",
+        "modality": "chart",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p038:chart:fig_spm5:c03",
+          "ipcc-ar6-syr-2023:p075:chart:fig_2_5:c01",
+          "ipcc-ar6-syr-2023:p099:chart:fig_3_5:c01",
+          "ipcc-ar6-syr-2023:p099:chart:fig_3_5:c02"
+        ],
+        "pages": [
+          38,
+          75,
+          99
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p038:chart:fig_spm5:c03 | chart | Summary for Policymakers | PDF p.38 | asset=fig_spm5 | crop=starter/data/advanced/crops/fig_spm5_p038.png]\n($>67\\%$)\n* **Light Blue region:** Limit warming to 1.5°C ($>50\\%$) with no or limited overshoot\n* **Black solid line:** Past emissions (2000–2015)\n* **Error bar (I):** Model range for 2015 emissions\n* **Dotted/dashed line with error bars:** Past GHG emissions and uncertainty for 2015 and 2019 (dot indicates the median; 2019 emissions were 12% higher than 2010)\n\n---\n\n### **Panel (a): Net global greenhouse gas (GHG) emissions**\n* **Chart Type:** Multi-decadal emissions trajectory line graph with percentile range shading (Time vs. $\\text{GtCO}_2\\text{-eq/yr}$).\n* **Y-Axis:**\n  * Label: *Net global greenhouse gas (GHG) emissions ($\\text{GtCO}_2\\text{-eq/yr}$)*\n  * Ticks/Scale: From $-20$ to $80$ by increments of 20 ($-20, 0, 20, 40, 60, 80$). A horizontal reference line marks $0$ (net zero).\n* **X-Axis:**\n  * Label/Scale: Years from 2000 to 2100 by increments of 20 years ($2000, 2020, 2040, 2060, 2080, 2100$).\n* **Key Annotations & Callouts:**\n  * **Implemented policies text callout:** \"Implemented policies result in projected emissions that lead to warming of $3.2^\\circ\\text{C}$, with a range of $2.2^\\circ\\text{C}$ to $3.5^\\circ\\text{C}$ (medium confidence)\" pointing to the upper red shaded plume.\n  * **Nationally Determined Contributions (NDCs) range in 2030:** Highlighted vertical span around 2030 between the red and green/blue trajectories.\n  * **2019 emissions point:** Labeled with \"2019 emissions were 12% higher than 2010\".\n\n---\n\n### **Panel (b): Net global $\\text{CO}_2$ emissions**\n* **Chart Type:** Time-series emissions trajectory with uncertainty shading.\n* **Y-Axis:**\n  * Label: $\\text{GtCO}_2\\text{/yr}$\n  * Ticks/Scale: $-20, 0, 20, 40, 60, 80$. Zero marked with \"net zero\" threshold line.\n* **X-Axis:**\n  * Years: 2000 to 2100.",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p038:chart:fig_spm5:c03"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 7,
+    "llm_prompt_tokens": 16389,
+    "llm_completion_tokens": 432,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 88,
+    "estimated_cost_usd": 0.00474701,
+    "live_cost_usd": 0.00474647,
+    "elapsed_seconds": 20.728,
+    "split": "test",
+    "answerable": true,
+    "group": "chart",
+    "question": "In Figure 2.1 Panels (b) and (c), what exact 2019 atmospheric concentrations (with units) are labelled for CO2, CH4, and N2O, and what global surface temperature increase by 2011–2020 (compared to 1850–1900) is printed in Panel (c)?"
+  },
+  {
+    "query_id": "adv_test_c02",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "Global net anthropogenic GHG emissions in 2019 were estimated to be 59 ± 6.6 GtCO2-eq, which is approximately 12% (6.5 GtCO2-eq) higher than in 2010. Regarding Figure SPM.5 Panel (a), the document does not provide the specific median warming value and range for the \"Implemented policies\" scenario. Therefore, I abstain from providing the projected warming outcome for this scenario.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure SPM.5 Panel (a) projected global warming outcome implemented policies median range confidence level",
+        "modality": "chart",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p038:chart:fig_spm5:c02",
+          "ipcc-ar6-syr-2023:p033:chart:fig_spm4:c01",
+          "ipcc-ar6-syr-2023:p038:chart:fig_spm5:c01",
+          "ipcc-ar6-syr-2023:p033:chart:fig_spm4:c02"
+        ],
+        "pages": [
+          33,
+          38
+        ]
+      },
+      {
+        "event": "search",
+        "query": "2019 global GHG emissions compared to 2010",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p060:text:c001",
+          "ipcc-ar6-syr-2023:p020:text:c003",
+          "ipcc-ar6-syr-2023:p060:text:c003",
+          "ipcc-ar6-syr-2023:p020:text:c005"
+        ],
+        "pages": [
+          20,
+          60
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure SPM.5 Panel (a) projected global warming implemented policies median range",
+        "modality": "chart",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p038:chart:fig_spm5:c02",
+          "ipcc-ar6-syr-2023:p023:chart:fig_spm1:c03",
+          "ipcc-ar6-syr-2023:p038:chart:fig_spm5:c01",
+          "ipcc-ar6-syr-2023:p033:chart:fig_spm4:c01"
+        ],
+        "pages": [
+          23,
+          33,
+          38
+        ]
+      },
+      {
+        "event": "citation_repair_requested",
+        "bad_citations": [
+          "ipcc-ar6-syr-2023:p020:text:c003",
+          "ipcc-ar6-syr-2023:p060:text:c001"
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p038:chart:fig_spm5:c02 | chart | Summary for Policymakers | PDF p.38 | asset=fig_spm5 | crop=starter/data/advanced/crops/fig_spm5_p038.png]\ng warming to 2°C with less rapid mitigation initially followed by a gradual strengthening (IMP-GS). Positive and negative emissions for different IMPs are compared to GHG emissions from the year 2019. Energy supply (including electricity) includes bioenergy with carbon dioxide capture and storage and direct air carbon dioxide capture and storage. CO2 emissions from land-use change and forestry can only be shown as a net number as many models do not report emissions and sinks of this category separately. {Figure 3.6, 4.1} (Box SPM.1) Overshoot: Exceeding a Warming Level and Returning B.7 If warming exceeds a specified level such as 1.5°C, it could gradually be reduced again by achieving and sustaining net negative global CO2 emissions. This would require additional deployment of carbon dioxide removal, compared to path\n\nVISUAL_STRUCTURED_EXTRACTION:\nBased on the provided IPCC AR6 Summary for Policymakers chart (Figure SPM.5), here is a detailed, structured extraction of all visible information across all panels, axes, legends, annotations, and data elements.\n\n---\n\n### **Header Information**\n* **Main Title:** Limiting warming to **1.5°C** and **2°C** involves rapid, deep and in most cases immediate greenhouse gas emission reductions\n* **Subtitle:** Net zero $\\text{CO}_2$ and net zero GHG emissions can be achieved through strong reductions across all sectors\n\n---\n\n### **General Key (Panel A/Key Box)**\n* **Red region:** Implemented policies (median, with percentiles 25–75% and 5–95%)\n* **Green region:** Limit warming to 2°C ($>67\\%$)\n* **Light Blue region:** Limit warming to 1.5°C ($>50\\%$) with no or limited overshoot\n* **Black solid line:** Past emissions (2000–2015)\n* **Error bar (I):** Model range for 2015 emissions",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p038:chart:fig_spm5:c02"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 5,
+    "llm_prompt_tokens": 11805,
+    "llm_completion_tokens": 536,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 46,
+    "estimated_cost_usd": 0.00375617,
+    "live_cost_usd": 0.00375617,
+    "elapsed_seconds": 18.23,
+    "split": "test",
+    "answerable": true,
+    "group": "chart",
+    "question": "According to Figure SPM.5 Panel (a), what projected global warming outcome (median and range, with confidence level) do 'Implemented policies' lead to, and how did 2019 global GHG emissions compare to 2010?"
+  },
+  {
+    "query_id": "adv_test_c03",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu đã cung cấp để trả lời câu hỏi này.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure SPM.7 emission reduction 2030 100 USD tCO2-eq-1 Panel a demand-side reduction 2050 Buildings Industry Electricity Panel b",
+        "modality": "chart",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p043:chart:fig_spm7:c06",
+          "ipcc-ar6-syr-2023:p043:chart:fig_spm7:c05",
+          "ipcc-ar6-syr-2023:p119:chart:fig_4_4:c05",
+          "ipcc-ar6-syr-2023:p075:chart:fig_2_5:c04"
+        ],
+        "pages": [
+          43,
+          75,
+          119
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure SPM.7 Panel a 2030 emission reduction 100 USD tCO2-eq-1",
+        "modality": "chart",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p043:chart:fig_spm7:c06",
+          "ipcc-ar6-syr-2023:p075:chart:fig_2_5:c04",
+          "ipcc-ar6-syr-2023:p043:chart:fig_spm7:c01",
+          "ipcc-ar6-syr-2023:p043:chart:fig_spm7:c02"
+        ],
+        "pages": [
+          43,
+          75
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure SPM.7 Panel a 2030 emission reduction 100 USD tCO2-eq-1 value",
+        "modality": "text,chart",
+        "returned_ids": [],
+        "pages": []
+      },
+      {
+        "event": "abstain",
+        "reason": "turn_limit"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p043:chart:fig_spm7:c06 | chart | Summary for Policymakers | PDF p.43 | asset=fig_spm7 | crop=starter/data/advanced/crops/fig_spm7_p043.png]\ne level in potential feasibility and in synergies with mitigation:** High (`•••`), Medium (`••`), Low (`•`), Not assessed.\n\n---\n\n### **Panel (b): Potential of Demand-Side Mitigation Options by 2050**\n\n* **Subtitle / Note:** *\"the range of GHG emissions reduction potential is 40–70% in these end-use sectors\"*\n* **Sectors / End-Use Categories & Emission Reduction Percentages:**\n  * **Food:** 44% reduction\n  * **Land transport:** 67% reduction\n  * **Buildings:** 66% reduction\n  * **Industry:** 29% reduction\n  * **Electricity:** 73% reduction (before additional electrification) / Additional electrification (+60%)\n\n* **X-Axis Scale (Panel b):**\n  * **Unit:** $\\text{GtCO}_2\\text{-eq/yr}$\n  * **Ticks:** 0, 10, 20\n\n* **Panel (b) Bar Elements / Visual Encoding:**\n  * Grey bar segments: Total emissions (2050)\n  * Green percentage callouts with arrows: Percentage of possible reduction\n  * Striped/Patterned ranges: Demand-side mitigation potential / Potential range\n\n[ipcc-ar6-syr-2023:p043:chart:fig_spm7:c01 | chart | Summary for Policymakers | PDF p.43 | asset=fig_spm7 | crop=starter/data/advanced/crops/fig_spm7_p043.png]\nTITLE: Figure SPM.7: Potential GHG mitigation options, net emission reductions, and cost tiers by 2030\nASSET_ID: fig_spm7\nMODALITY: chart\nPDF_PAGES: [43] (caption pages: [43])\n\nCAPTION:\nFigure SPM.7: Multiple Opportunities for scaling up climate action. Panel (a) presents selected mitigation and adaptation options across different systems. The left-hand side of panel a shows climate responses and adaptation options assessed for their multidimensional feasibility at global scale, in the near term and up to 1.5°C global warming. As literature above 1.5°C is limited, feasibility at higher levels of warming may change, which is currently not possible to assess robustly. The term response is used here in addition to adaptation because some responses, such as migration, relocation and resettlement may or may not be considered to be adaptation.",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p043:chart:fig_spm7:c06",
+      "ipcc-ar6-syr-2023:p043:chart:fig_spm7:c01"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 8,
+    "llm_prompt_tokens": 18165,
+    "llm_completion_tokens": 379,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 78,
+    "estimated_cost_usd": 0.00511131,
+    "live_cost_usd": 0.00511131,
+    "elapsed_seconds": 73.48,
+    "split": "test",
+    "answerable": true,
+    "group": "chart",
+    "question": "In Figure SPM.7, what overall emission reduction by 2030 could options costing 100 USD tCO2-eq^-1 or less achieve (Panel a), and what 2050 demand-side reduction percentages are shown in Panel (b) for Buildings, Industry, and Electricity (before additional electrification)?"
+  },
+  {
+    "query_id": "adv_test_c04",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "According to Figure 4.6 in the IPCC AR6 Synthesis Report, the multiplication factors (representing the ratio between average yearly mitigation investment flows and annual needs until 2030) are as follows:\n\n1. **Agriculture, forestry and other land use (AFOLU):** Lower range: x10; Upper range: x31.\n2. **Developing countries:** Lower range: x4; Upper range: x7.\n3. **South-East Asia and Pacific:** Lower range: x6; Upper range: x12. [ipcc-ar6-syr-2023:p129:chart:fig_4_6:c03]",
+    "citations": [
+      "ipcc-ar6-syr-2023:p129:chart:fig_4_6:c03"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure 4.6 multiplication factors mitigation investment flows annual needs 2030 AFOLU Developing countries South-East Asia and Pacific",
+        "modality": "chart",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p129:chart:fig_4_6:c01",
+          "ipcc-ar6-syr-2023:p129:chart:fig_4_6:c04",
+          "ipcc-ar6-syr-2023:p129:chart:fig_4_6:c03",
+          "ipcc-ar6-syr-2023:p129:chart:fig_4_6:c02"
+        ],
+        "pages": [
+          129
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 4.6 multiplication factors AFOLU Developing countries South-East Asia and Pacific values",
+        "modality": "chart",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p129:chart:fig_4_6:c03",
+          "ipcc-ar6-syr-2023:p061:chart:fig_2_2:c05",
+          "ipcc-ar6-syr-2023:p129:chart:fig_4_6:c04",
+          "ipcc-ar6-syr-2023:p129:chart:fig_4_6:c01"
+        ],
+        "pages": [
+          61,
+          129
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p129:chart:fig_4_6:c03 | chart | Section 4: Near-Term Responses in a Changing Climate | PDF p.129 | asset=fig_4_6 | crop=starter/data/advanced/crops/fig_4_6_p129.png]\n* Middle East\n\n---\n\n### 3. Legend and Color Codes\n* **Yearly mitigation investment flows (USD 2015/yr) for Sectors and Economies:**\n  * Lightest blue bar: **2017**\n  * Medium-light blue bar: **2018**\n  * Medium-dark blue bar: **2019**\n  * Darkest blue bar: **2020**\n* **IEA Data (for Regions):**\n  * Medium purple-grey bar: **IEA data mean 2017–2020**\n  * Dark navy bar: **Average flows**\n* **Investment Needs:**\n  * Grey horizontal bars/ranges with arrows: **Annual mitigation investment needs (averaged until 2030)**\n\n---\n\n### 4. Right-Hand Column: Multiplication Factors\\*\n*Multiplication factors indicate the $x$-fold increase between yearly mitigation flows to average yearly mitigation investment needs (Lower range vs. Upper range):*\n\n* **By Sector:**\n  * **Energy efficiency:** Lower range: x2 | Upper range: x7\n  * **Transport:** Lower range: x7 | Upper range: x7\n  * **Electricity:** Lower range: x2 | Upper range: x5\n  * **Agriculture, forestry and other land use:** Lower range: x10 | Upper range: x31\n* **By Type of Economy:**\n  * **Developing countries:** Lower range: x4 | Upper range: x7\n  * **Developed countries:** Lower range: x3 | Upper range: x5\n* **By Region:**\n  * **Eastern Asia:** Lower range: x2 | Upper range: x4\n  * **North America:** Lower range: x3 | Upper range: x6\n  * **Europe:** Lower range: x2 | Upper range: x4\n  * **Southern Asia:** Lower range: x7 | Upper range: x14\n  * **Latin America and Caribbean:** Lower range: x4 | Upper range: x8\n  * **Australia, Japan and New Zealand:** Lower range: x3 | Upper range: x7\n  * **Eastern Europe and West-Central Asia:** Lower range: x7 | Upper range: x15\n  * **Africa:** Lower range: x5 | Upper range: x12\n  * **South-East Asia and Pacific:** Lower range: x6 | Upper range: x12",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p129:chart:fig_4_6:c03"
+    ],
+    "search_calls": 2,
+    "vision_calls": 0,
+    "turns": 3,
+    "llm_prompt_tokens": 3861,
+    "llm_completion_tokens": 263,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 43,
+    "estimated_cost_usd": 0.00136061,
+    "live_cost_usd": 0.00136061,
+    "elapsed_seconds": 14.534,
+    "split": "test",
+    "answerable": true,
+    "group": "chart",
+    "question": "According to Figure 4.6, what are the lower and upper 'Multiplication factors' between average yearly mitigation investment flows and annual needs until 2030 for (1) Agriculture, forestry and other land use (AFOLU), (2) Developing countries, and (3) South-East Asia and Pacific?"
+  },
+  {
+    "query_id": "adv_test_c05",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "The IPCC AR6 Synthesis Report Figure 3.4 does not provide data on the number of people exposed to sea level rise by 2050 or the frequency of once-per-century extreme sea level events; these metrics are instead addressed in Figure 4.3 (which discusses projections for 2040) [ipcc-ar6-syr-2023:p116:text:c002, ipcc-ar6-syr-2023:p117:text:c001].\n\nRegarding the typical lifetimes of coastal risk-management measures shown in Figure 3.4, Panel (b), the report specifies the following [ipcc-ar6-syr-2023:p096:chart:fig_3_4:c04]:\n\n*   **Elevating houses:** Lifetime extending past 2100.\n*   **Protect barriers:** Lifetime of approximately 100 years.\n*   **Planned relocation:** Lifetime of 100 years or more (≥100 years).\n\n[ipcc-ar6-syr-2023:p096:chart:fig_3_4:c04]",
+    "citations": [
+      "ipcc-ar6-syr-2023:p096:chart:fig_3_4:c04"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure 3.4 Panels (a) and (b) sea level rise 2050 exposure extreme sea level events lifetimes",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p096:chart:fig_3_4:c05",
+          "ipcc-ar6-syr-2023:p096:chart:fig_3_4:c01",
+          "ipcc-ar6-syr-2023:p116:diagram_map:fig_4_3:c03",
+          "ipcc-ar6-syr-2023:p097:text:c001"
+        ],
+        "pages": [
+          96,
+          97,
+          116
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 3.4 \"people are exposed\" \"once-per-century\"",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p116:text:c002",
+          "ipcc-ar6-syr-2023:p116:diagram_map:fig_4_3:c03",
+          "ipcc-ar6-syr-2023:p117:text:c001",
+          "ipcc-ar6-syr-2023:p116:diagram_map:fig_4_3:c02"
+        ],
+        "pages": [
+          116,
+          117
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"Figure 3.4\" \"elevating houses\" \"protect barriers\" \"planned relocation\"",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p096:chart:fig_3_4:c04",
+          "ipcc-ar6-syr-2023:p093:text:c004",
+          "ipcc-ar6-syr-2023:p096:text:c001",
+          "ipcc-ar6-syr-2023:p122:text:c001"
+        ],
+        "pages": [
+          93,
+          96,
+          122
+        ]
+      },
+      {
+        "event": "answer",
+        "via": "text_fallback"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p096:chart:fig_3_4:c04 | chart | Section 3: Long-Term Climate and Development Futures | PDF p.96 | asset=fig_3_4 | crop=starter/data/advanced/crops/fig_3_4_p096.png]\nent.\n* **Projections at 2100:**\n  * Label: *sea level rise by 2100 depends on the emissions scenario* (indicated by a downward bracket pointing to the fan of colored lines).\n* **Projections at 2150:**\n  * Label: *likely ranges of sea level rise* (colored vertical bars for different scenarios).\n* **Projections at 2300:**\n  * **Low emissions scenario range:** Blue/grey vertical bar.\n  * **Very high emissions scenario range:** Red/brown vertical bar (stretching up towards 5m–7m).\n  * **Extreme upper bound:** *Sea level rise greater than 15m cannot be ruled out with very high emissions* (break in axis at the top right, pointing to `>15m`).\n\n---\n\n### **Section Divider**\n* **Header:** Responding to sea level rise requires long-term planning\n\n---\n\n### **Panel (b): Typical timescales of coastal risk-management measures**\n\n#### **Chart Type & Axes**\n* Horizontal bar chart mapping adaptation strategies against timeline years (`2020`, `2050`, `2100`, `2150`).\n* **Key Indicators:**\n  * *Indicative time for planning and implementation* (Solid bars/blocks)\n  * *Typical intended lifetime of measures* (Striped/hatched bars)\n\n#### **Categories and Values (Measures & Timelines)**\n1. **Ecosystem-based adaptation**\n   * Planning time: ≈15 years\n   * Lifetime: Hatching extending past 2050\n2. **Sediment-based protection**\n   * Planning time: ≈15 years\n   * Lifetime: Hatching extending past 2050\n3. **Elevating houses**\n   * Planning time: ≈30 years\n   * Lifetime: Hatching extending past 2100\n4. **Long-living societal legacy group:**\n   * **Protect levees:** Planning ≈50 years; Lifetime extending past 2150\n   * **Protect barriers:** Planning long-term; Lifetime ≈100 years\n   * **Planned relocation:** Planning long-term; Lifetime ≥100 years\n\n#### **Inset Box (Top Right of Panel b)**",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p096:chart:fig_3_4:c04"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 5,
+    "llm_prompt_tokens": 10098,
+    "llm_completion_tokens": 411,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 63,
+    "estimated_cost_usd": 0.00314226,
+    "live_cost_usd": 0.00314226,
+    "elapsed_seconds": 25.136,
+    "split": "test",
+    "answerable": true,
+    "group": "chart",
+    "question": "In Figure 3.4 Panels (a) and (b), how many people are exposed to sea level rise by 2050 and how much more frequent do once-per-century extreme sea level events become, and what typical lifetimes are shown in Panel (b) for elevating houses, protect barriers, and planned relocation?"
+  },
+  {
+    "query_id": "adv_test_m01",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "The provided IPCC AR6 Synthesis Report does not contain a \"Figure 4.3\". The report's figures are numbered differently, and the requested data regarding specific regional breakdowns of coastal flooding exposed populations under SSP2-4.5 for the year 2040 is not available in the document. Consequently, I must abstain from answering this question.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure 4.3 Panel (a) coastal flooding 1-in-100-year events SSP2-4.5 2040 exposed population",
+        "modality": "chart",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p096:chart:fig_3_4:c02",
+          "ipcc-ar6-syr-2023:p096:chart:fig_3_4:c01",
+          "ipcc-ar6-syr-2023:p091:chart:fig_3_3:c04",
+          "ipcc-ar6-syr-2023:p096:chart:fig_3_4:c03"
+        ],
+        "pages": [
+          91,
+          96
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 3.4 Panel (a) SSP2-4.5 2020 to 2040",
+        "modality": "chart",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p033:chart:fig_spm4:c01",
+          "ipcc-ar6-syr-2023:p099:chart:fig_3_5:c01",
+          "ipcc-ar6-syr-2023:p099:chart:fig_3_5:c04",
+          "ipcc-ar6-syr-2023:p096:chart:fig_3_4:c02"
+        ],
+        "pages": [
+          33,
+          96,
+          99
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 4.3 coastal flooding 1-in-100-year events",
+        "modality": "chart,text",
+        "returned_ids": [],
+        "pages": []
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p096:chart:fig_3_4:c02 | chart | Section 3: Long-Term Climate and Development Futures | PDF p.96 | asset=fig_3_4 | crop=starter/data/advanced/crops/fig_3_4_p096.png]\nrepresenting the 17th–83rd percentile range for SSP1-2.6 (0.3 to 3.1 m) and SSP5-8.5 (1.7 to 6.8 m). Red dashed lines: Low-likelihood, high-impact storyline, including ice sheet instability processes. These indicate the potential impact of deeply uncertain processes, and show the 83rd percentile of SSP5-8.5 projections that include low-likelihood, high- impact processes that cannot be ruled out; because of low confidence in projections of these processes, this is not part of a likely range. IPCC AR6 global and regional sea level projections are hosted at https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool. The low-lying coastal zone is currently home to around 896 million people (nearly 11% of the 2020 global population), projected to reach more than one billion by 2050 across all five SSPs. Panel (b): Typical time scales for the planning, implementation (dashed bars) and operational lifetime of current coastal risk-management measures (blue bars). Higher rates of sea level rise\n\nVISUAL_STRUCTURED_EXTRACTION:\nBased on the provided IPCC AR6 Synthesis Report chart (Figure 3.4), here is a detailed, structured extraction of all visible elements, data, labels, and text.\n\n---\n\n### **Main Title & Context**\n* **Main Header:** Sea level rise will continue for millennia, but how fast and how much depends on future emissions\n* **Footnote / Page Index:** `80` (Bottom-left corner)\n\n---\n\n### **Panel (a): Sea level rise: observations and projections 2020-2100, 2150, 2300 (relative to 1900)**\n\n#### **Axes & Scales**\n* **Y-Axis (Left):** Global sea level rise in meters relative to 1900\n  * Scale ticks visible: `0`, `1m`, `2m`\n* **Y-Axis (Right):** Higher-resolution scale for extended projections up to 2300",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p096:chart:fig_3_4:c02"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 4,
+    "llm_prompt_tokens": 8319,
+    "llm_completion_tokens": 271,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 65,
+    "estimated_cost_usd": 0.00248755,
+    "live_cost_usd": 0.00248755,
+    "elapsed_seconds": 53.167,
+    "split": "test",
+    "answerable": true,
+    "group": "multihop",
+    "question": "Connecting Figure 4.3 Panel (a) and Figure 3.4 Panel (a), under SSP2-4.5 (2020 to 2040) coastal flooding of 1-in-100-year events in Figure 4.3(a), which region shows the highest total exposed population in 2040 (with its added millions) and which region shows the highest relative percentage increase (+%)?"
+  },
+  {
+    "query_id": "adv_test_m02",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "Global net anthropogenic GHG emissions were 54% (21 GtCO2-eq/yr) higher in 2019 than in 1990. Regarding 2018 CO2-FFI emissions per person (production- versus consumption-based), the data for North America and Southern Asia are as follows:\n\n*   **North America:** Production-based emissions were 15 tCO2-FFI per person, and consumption-based emissions were 17 tCO2-FFI per person.\n*   **Southern Asia:** Production-based emissions were 2.0 tCO2-FFI per person, and consumption-based emissions were 2.0 tCO2-FFI per person.\n\n(Note: Data for 2018 CO2-FFI emissions per person is sourced from the table in Figure 2.2, Panel (d) [p. 61].) [ipcc-ar6-syr-2023:p061:chart:fig_2_2:c05]",
+    "citations": [
+      "ipcc-ar6-syr-2023:p061:chart:fig_2_2:c05"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure 2.2 Panels (c) and (d) total annual global net anthropogenic GHG emissions 1990 2019 GtCO2-eq/yr North America Southern Asia 2018 production- versus consumption-based CO2-FFI emissions per person",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p061:chart:fig_2_2:c05",
+          "ipcc-ar6-syr-2023:p061:text:c002",
+          "ipcc-ar6-syr-2023:p061:chart:fig_2_2:c02",
+          "ipcc-ar6-syr-2023:p062:text:c002"
+        ],
+        "pages": [
+          61,
+          62
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 2.2 Panel (c) total annual global net anthropogenic GHG emissions 1990 2019 GtCO2-eq/yr",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p060:text:c001",
+          "ipcc-ar6-syr-2023:p062:text:c002",
+          "ipcc-ar6-syr-2023:p061:chart:fig_2_2:c02",
+          "ipcc-ar6-syr-2023:p061:text:c003"
+        ],
+        "pages": [
+          60,
+          61,
+          62
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"North America\" \"Southern Asia\" \"production-based\" \"consumption-based\" CO2-FFI 2018 per person",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p061:chart:fig_2_2:c05",
+          "ipcc-ar6-syr-2023:p061:text:c001",
+          "ipcc-ar6-syr-2023:p061:text:c002",
+          "ipcc-ar6-syr-2023:p061:chart:fig_2_2:c04"
+        ],
+        "pages": [
+          61
+        ]
+      },
+      {
+        "event": "citation_repair_requested",
+        "bad_citations": [
+          "ipcc-ar6-syr-2023:p060:text:c001"
+        ]
+      },
+      {
+        "event": "citation_repair_requested",
+        "bad_citations": [
+          "ipcc-ar6-syr-2023:p060:text:c001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p061:chart:fig_2_2:c05 | chart | Section 2: Current Status and Trends | PDF p.61 | asset=fig_2_2 | crop=starter/data/advanced/crops/fig_2_2_p061.png]\n**9%**\n  * **Africa:** 7% → 8% → 8% → **9%**\n  * **Southern Asia:** 7% → 8% → 8% → **8%**\n  * **Europe:** 16% → 13% → 10% → **8%**\n  * **Eastern Europe and West-Central Asia:** 14% → 8% → 7% → **6%**\n  * **Middle East:** 3% → 4% → 5% → **5%**\n  * **Australia, Japan and New Zealand:** 5% → 5% → 4% → **3%**\n  * **International shipping and aviation:** 2% → 2% → 2% → **2%**\n\n---\n\n### **5. Panel (d): Regional Indicators (2019) and Production vs. Consumption Accounting (2018)**\n*(Structured tabular extraction)*\n\n| Indicator / Region | Africa | Australia, Japan, New Zealand | Eastern Asia | Eastern Europe, West-Central Asia | Europe | Latin America and Caribbean | Middle East | North America | South-East Asia and Pacific | Southern Asia |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| **Population (million persons, 2019)** | 1292 | 157 | 1471 | 291 | 620 | 646 | 252 | 366 | 674 | 1836 |\n| **GDP per capita ($\\text{USD1000}_{\\text{PPP}}$ 2017 per person)**¹ | 5.0 | 43 | 17 | 20 | 43 | 15 | 20 | 61 | 12 | 6.2 |\n| **Net GHG 2019² (production basis):** | | | | | | | | | | |\n| GHG emissions intensity ($\\text{tCO}_2$-eq / $\\text{USD1000}_{\\text{PPP}}$ 2017) | 0.78 | 0.30 | 0.62 | 0.64 | 0.18 | 0.61 | 0.64 | 0.31 | 0.65 | 0.42 |\n| GHG emissions per capita ($\\text{tCO}_2$-eq per person) | 3.9 | 13 | 11 | 13 | 7.8 | 9.2 | 13 | 19 | 7.9 | 2.6 |\n| **$\\text{CO}_2\\text{FFI}$, 2018, per person:** | | | | | | | | | | |\n| Production-based emissions ($\\text{tCO}_2\\text{FFI}$ per person, 2018 data) | 1.2 | 10 | 8.",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p061:chart:fig_2_2:c05"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 7,
+    "llm_prompt_tokens": 19402,
+    "llm_completion_tokens": 994,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 115,
+    "estimated_cost_usd": 0.0063438,
+    "live_cost_usd": 0.0063438,
+    "elapsed_seconds": 31.202,
+    "split": "test",
+    "answerable": true,
+    "group": "multihop",
+    "question": "Combining Figure 2.2 Panels (c) and (d), how much did total annual global net anthropogenic GHG emissions rise from 1990 to 2019 (GtCO2-eq/yr), and how did North America compare with Southern Asia on 2018 production- versus consumption-based CO2-FFI emissions per person?"
+  },
+  {
+    "query_id": "adv_test_m03",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "The provided document does not contain the specific data required to answer all parts of your request within Table 3.1. While Figure 4.1 identifies the electricity/fossil fuel industries and land-use change as sectors reaching net zero CO2 earlier than transport, industry, and buildings, and identifies IMP-Neg as having 'High overshoot', Table 3.1 does not explicitly report the median 2050 total GHG reduction for category C1. Therefore, I must abstain.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure 4.1 Panel a b Table 3.1 1.5°C pathways net zero CO2 sectors C1 GHG reduction",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p110:text:c001",
+          "ipcc-ar6-syr-2023:p102:text:c002",
+          "ipcc-ar6-syr-2023:p110:chart:fig_4_1:c01",
+          "ipcc-ar6-syr-2023:p102:chart:fig_3_6:c01"
+        ],
+        "pages": [
+          102,
+          110
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Table 3.1 median 2050 total GHG reduction category C1",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p037:table:table_spm1:c01",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c06",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c03",
+          "ipcc-ar6-syr-2023:p037:table:table_spm1:c02"
+        ],
+        "pages": [
+          37,
+          100
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"Table 3.1\" \"category C1\" \"2050\"",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c01",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c02",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c05",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c06"
+        ],
+        "pages": [
+          100
+        ]
+      },
+      {
+        "event": "citation_repair_requested",
+        "bad_citations": [
+          "ipcc-ar6-syr-2023:p110:text:c001",
+          "ipcc-ar6-syr-2023:p037:table:table_spm1:c01"
+        ]
+      },
+      {
+        "event": "citation_repair_requested",
+        "bad_citations": [
+          "ipcc-ar6-syr-2023:p037:table:table_spm1:c01",
+          "ipcc-ar6-syr-2023:p110:text:c001"
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p100:table:table_3_1:c01 | table | Section 3: Long-Term Climate and Development Futures | PDF p.100 | asset=table_3_1 | crop=starter/data/advanced/crops/table_3_1_p100.png]\nTITLE: Table 3.1: Key characteristics of modelled global emissions pathways (C1-C6)\nASSET_ID: table_3_1\nMODALITY: table\nPDF_PAGES: [100] (caption pages: [100])\n\nCAPTION:\nTable 3.1: Key characteristics of the modelled global emissions pathways. Summary of projected CO2 and GHG emissions, projected net zero timings and the resulting global warming outcomes. Pathways are categorised (columns), according to their likelihood of limiting warming to different peak warming levels (if peak temperature occurs before 2100) and 2100 warming levels. Values shown are for the median [p50] and 5–95th percentiles [p5–p95], noting that not all pathways achieve net zero CO2 or GHGs. {WGIII Table SPM.2} 1 Detailed explanations on the Table are provided in WGIII Box SPM.1 and WGIII Table SPM.2. The relationship between the temperature categories and SSP/RCPs is discussed in Cross-Section Box.2. Values in the table refer to the 50th and [5–95th] percentile values across the pathways falling within a given category as defined in WGIII Box SPM.1. The three dots (…) sign denotes that the value cannot be given (as the value is after 2100 or, for net zero, net zero is not reached). Based on the assessment of climate emulators in AR6 WG I (Chapter 7, Box 7.1), two climate emulators were used for the probabilistic assessment of the resulting warming of the pathways. For the ‘Temperature Change’ and ‘Likelihood’ columns, the non-bracketed values represent the 50th percentile across the pathways in that category and the median [50th percentile] across the warming estimates of the probabilistic MAGICC climate model emulator.",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p100:table:table_3_1:c01"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 7,
+    "llm_prompt_tokens": 15390,
+    "llm_completion_tokens": 892,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 61,
+    "estimated_cost_usd": 0.00518672,
+    "live_cost_usd": 0.00518672,
+    "elapsed_seconds": 17.75,
+    "split": "test",
+    "answerable": true,
+    "group": "multihop",
+    "question": "Synthesizing Figure 4.1 (Panels a & b) and Table 3.1, in 1.5°C pathways which two sectors generally reach net zero CO2 earlier than Transport/industry/buildings, which IMP pathway in Figure 4.1(b) has '*High overshoot', and what median 2050 total GHG reduction does Table 3.1 report for category C1?"
+  },
+  {
+    "query_id": "adv_test_m04",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "Based on the IPCC AR6 Synthesis Report:\n\n*   **Comparison of Infrastructure Emissions to 1.5°C Budget:** Estimates of future CO2 emissions from existing fossil fuel infrastructure without additional abatement already exceed the remaining carbon budget for limiting warming to 1.5°C (50%) [p. 36, B.5.3]. Furthermore, projected cumulative future CO2 emissions over the lifetime of existing and planned fossil fuel infrastructure, if historical operating patterns are maintained and without additional abatement, are approximately equal to the remaining carbon budget for limiting warming to 2°C with a likelihood of 83% [p. 36, B.5.3].\n*   **Table 3.1 C1 Median Cumulative Net CO2 Emissions:** The provided document does not report the median cumulative net CO2 emissions (2020 to net zero CO2) for the C1 category in Table 3.1. While Table 3.1 provides information on emissions milestones, such as the median 5-year intervals at which pathways reach net-zero CO2, it does not contain the requested cumulative emissions data [p. 100]. [ipcc-ar6-syr-2023:p036:text:c001]",
+    "citations": [
+      "ipcc-ar6-syr-2023:p036:text:c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure 3.5 Panel (a) 1.5°C remaining carbon budget",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p098:text:c004",
+          "ipcc-ar6-syr-2023:p098:text:c002",
+          "ipcc-ar6-syr-2023:p098:text:c005",
+          "ipcc-ar6-syr-2023:p035:text:c006"
+        ],
+        "pages": [
+          35,
+          98
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Table 3.1 median cumulative net CO2 emissions 2020 to net zero CO2 C1",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c07",
+          "ipcc-ar6-syr-2023:p037:table:table_spm1:c01",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c04",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c08"
+        ],
+        "pages": [
+          37,
+          100
+        ]
+      },
+      {
+        "event": "search",
+        "query": "cumulative lifetime CO2 emissions from existing and planned fossil fuel infrastructure 1.5°C budget",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p036:text:c001",
+          "ipcc-ar6-syr-2023:p099:text:c001",
+          "ipcc-ar6-syr-2023:p074:text:c001",
+          "ipcc-ar6-syr-2023:p099:text:c002"
+        ],
+        "pages": [
+          36,
+          74,
+          99
+        ]
+      },
+      {
+        "event": "citation_repair_requested",
+        "bad_citations": [
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c07"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p036:text:c001 | text | Summary for Policymakers | PDF p.36]\n20\nSummary for Policymakers\nSummary for Policymakers\nB.5.3\nIf the annual CO2 emissions between 2020–2030 stayed, on average, at the same level as 2019, the resulting cumulative\nemissions would almost exhaust the remaining carbon budget for 1.5°C (50%), and deplete more than a third of the\nremaining carbon budget for 2°C (67%). Estimates of future CO2 emissions from existing fossil fuel infrastructures\nwithout additional abatement42 already exceed the remaining carbon budget for limiting warming to 1.5°C (50%)\n(high confidence). Projected cumulative future CO2 emissions over the lifetime of existing and planned fossil fuel\ninfrastructure, if historical operating patterns are maintained and without additional abatement43, are approximately\nequal to the remaining carbon budget for limiting warming to 2°C with a likelihood of 83%44 (high confidence). {2.3.1,\n3.3.1, Figure 3.5}\nB.5.4\nBased on central estimates only, historical cumulative net CO2 emissions between 1850 and 2019 amount to about\nfour fifths45 of the total carbon budget for a 50% probability of limiting global warming to 1.5°C (central estimate about\n\n[ipcc-ar6-syr-2023:p099:text:c002 | text | Section 3: Long-Term Climate and Development Futures | PDF p.99]\nSP5-8.5\n1000\n2000\n3000\n4000\n4500\n–0.5\n0\n0.5\n1\n1.5\n2\n2.5\n3\nhistorical\nsince 2020\nCumulative CO2 emissions (GtCO2)\nthis line indicates\nmaximum emissions\nto stay within 2°C\nof warming (with\n83% chance)\nEvery ton of CO2 adds to global warming\nb) Cumulative CO2 emissions and warming until 2050\nFigure 3.5: Cumulative past, projected, and committed emissions, and associated global temperature changes. Panel (a) Assessed remaining carbon budgets to limit\nwarming more likely than not to 1.5°C, to 2°C with a 83% and 67% likelihood, compared to cumulative emissions corresponding to constant 2019 emissions until 2030, existing and\nplanned fossil fuel infrastructures (in GtCO2). For remaining carbon budgets, thin lines indicate the uncertainty due to the contribution of non-CO2 warming. For lifetime emissions from\nfossil fuel infrastructure, thin lines indicate the assessed sensitivity range. Panel (b) Relationship between cumulative CO2 emissions and the increase in global surface temperature.",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p036:text:c001",
+      "ipcc-ar6-syr-2023:p099:text:c002"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 4,
+    "llm_prompt_tokens": 11662,
+    "llm_completion_tokens": 770,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 57,
+    "estimated_cost_usd": 0.00407164,
+    "live_cost_usd": 0.00407164,
+    "elapsed_seconds": 19.06,
+    "split": "test",
+    "answerable": true,
+    "group": "multihop",
+    "question": "Connecting Figure 3.5 Panel (a) and Table 3.1, how do cumulative lifetime CO2 emissions from existing (and existing+planned) fossil fuel infrastructure compare to the 1.5°C (>50%) remaining carbon budget in Figure 3.5(a), and what median cumulative net CO2 emissions (2020 to net zero CO2) does Table 3.1 report for C1?"
+  },
+  {
+    "query_id": "adv_test_x01",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "According to Summary for Policymakers A.1.5, in 2019, approximately 35% of the global population lived in countries emitting more than 9 tCO2-eq per capita (excluding CO2-LULUCF), while 41% lived in countries emitting less than 3 tCO2-eq per capita (excluding CO2-LULUCF) [ipcc-ar6-syr-2023:p021:text:c001]. \n\nThe per-capita emissions (excluding CO2-LULUCF) for these groups and the global average are as follows:\n*   **Least Developed Countries (LDCs):** 1.7 tCO2-eq per capita [ipcc-ar6-syr-2023:p021:text:c002]\n*   **Small Island Developing States (SIDS):** 4.6 tCO2-eq per capita [ipcc-ar6-syr-2023:p021:text:c002]\n*   **Global average:** 6.9 tCO2-eq per capita [ipcc-ar6-syr-2023:p021:text:c002]",
+    "citations": [
+      "ipcc-ar6-syr-2023:p021:text:c001",
+      "ipcc-ar6-syr-2023:p021:text:c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Summary for Policymakers A.1.5 global population 2019 emitting >9 tCO2-eq per capita <3 tCO2-eq per capita LDCs SIDS world",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p021:text:c001",
+          "ipcc-ar6-syr-2023:p021:text:c002",
+          "ipcc-ar6-syr-2023:p027:text:c001",
+          "ipcc-ar6-syr-2023:p037:text:c001"
+        ],
+        "pages": [
+          21,
+          27,
+          37
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p021:text:c001 | text | Summary for Policymakers | PDF p.21]\n5\nSummary for Policymakers\nSummary for Policymakers\nemissions came from the sectors of energy, industry, transport, and buildings together and 22%10 from agriculture,\nforestry and other land use (AFOLU). Emissions reductions in CO2-FFI due to improvements in energy intensity of GDP\nand carbon intensity of energy, have been less than emissions increases from rising global activity levels in industry,\nenergy supply, transport, agriculture and buildings. (high confidence) {2.1.1}\nA.1.5 Historical contributions of CO2 emissions vary substantially across regions in terms of total magnitude, but also in\nterms of contributions to CO2-FFI and net CO2 emissions from land use, land-use change and forestry (CO2-LULUCF).\nIn 2019, around 35% of the global population live in countries emitting more than 9 tCO2-eq per capita11 (excluding\nCO2-LULUCF) while 41% live in countries emitting less than 3 tCO2-eq per capita; of the latter a substantial share lacks\naccess to modern energy services. Least Developed Countries (LDCs) and Small Island Developing States (SIDS) have\n\n[ipcc-ar6-syr-2023:p021:text:c002 | text | Summary for Policymakers | PDF p.21]\nthe latter a substantial share lacks\naccess to modern energy services. Least Developed Countries (LDCs) and Small Island Developing States (SIDS) have\nmuch lower per capita emissions (1.7 tCO2-eq and 4.6 tCO2-eq, respectively) than the global average (6.9 tCO2-eq),\nexcluding CO2-LULUCF. The 10% of households with the highest per capita emissions contribute 34–45% of global\nconsumption-based household GHG emissions, while the bottom 50% contribute 13–15%. (high confidence) {2.1.1,\nFigure 2.2}\nObserved Changes and Impacts\nA.2\nWidespread and rapid changes in the atmosphere, ocean, cryosphere and biosphere have\noccurred. Human-caused climate change is already affecting many weather and climate\nextremes in every region across the globe. This has led to widespread adverse impacts and\nrelated losses and damages to nature and people (high confidence). Vulnerable communities\nwho have historically contributed the least to current climate change are disproportionately\naffected (high confidence). {2.1, Table 2.1, Figure 2.2, Figure 2.3} (Figure SPM.1)",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p021:text:c001",
+      "ipcc-ar6-syr-2023:p021:text:c002"
+    ],
+    "search_calls": 1,
+    "vision_calls": 0,
+    "turns": 2,
+    "llm_prompt_tokens": 2065,
+    "llm_completion_tokens": 421,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 40,
+    "estimated_cost_usd": 0.00114855,
+    "live_cost_usd": 0.00114855,
+    "elapsed_seconds": 13.029,
+    "split": "test",
+    "answerable": true,
+    "group": "text",
+    "question": "According to Summary for Policymakers A.1.5, what shares of the global population in 2019 lived in countries emitting >9 tCO2-eq per capita versus <3 tCO2-eq per capita (excluding CO2-LULUCF), and what are the per-capita averages for LDCs, SIDS, and the world?"
+  },
+  {
+    "query_id": "adv_test_x02",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "Section 4 of the IPCC AR6 Synthesis Report contrasts the decarbonization approaches for light industry/manufacturing and cement production as follows:\n\n*   **Light industry and manufacturing:** These sectors can be largely decarbonized using available abatement technologies, including material efficiency, circularity, electrification (such as heat pumps and electrothermal heating), and switching to low- or zero-GHG emitting fuels (e.g., hydrogen, ammonia, and bio-based or synthetic fuels) [chunk_id: ipcc-ar6-syr-2023:p121:text:c001].\n*   **Cement process emissions:** Deep reductions in this sector rely on the substitution of cementitious materials and the availability of Carbon Capture and Storage (CCS) until new chemistries are mastered [chunk_id: ipcc-ar6-syr-2023:p121:text:c001]. [ipcc-ar6-syr-2023:p121:text:c001]",
+    "citations": [
+      "ipcc-ar6-syr-2023:p121:text:c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Section 4 decarbonization light industry manufacturing cement process emissions",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p121:text:c001",
+          "ipcc-ar6-syr-2023:p120:text:c010",
+          "ipcc-ar6-syr-2023:p069:text:c003",
+          "ipcc-ar6-syr-2023:p121:text:c002"
+        ],
+        "pages": [
+          69,
+          120,
+          121
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p121:text:c001 | text | Section 4: Near-Term Responses in a Changing Climate | PDF p.121]\n105\nNear-Term Responses in a Changing Climate\nSection 4\ntransformational changes in production processes (high confidence).\nLight industry and manufacturing can be largely decarbonized through\navailable abatement technologies (e.g., material efficiency, circularity),\nelectrification (e.g., electrothermal heating, heat pumps), and switching\nto low- and zero-GHG emitting fuels (e.g., hydrogen, ammonia, and\nbio-based and other synthetic fuels) (high confidence), while deep\nreduction of cement process emissions will rely on cementitious\nmaterial substitution and the availability of Carbon Capture and Storage\n(CCS) until new chemistries are mastered (high confidence). Reducing\nemissions from the production and use of chemicals would need to rely\non a life cycle approach, including increased plastics recycling, fuel and\nfeedstock switching, and carbon sourced through biogenic sources, and,\ndepending on availability, Carbon Capture and Utilisation (CCU), direct\nair CO2 capture, as well as CCS (high confidence). Action to reduce\nindustry sector emissions may change the location of GHG-intensive\n\n[ipcc-ar6-syr-2023:p120:text:c010 | text | Section 4: Near-Term Responses in a Changing Climate | PDF p.120]\nWGIII TS.5.1}\n4.5.2. Industry\nThere are several options to reduce industrial emissions\nthat differ by type of industry; many industries are disrupted\nby climate change, especially from extreme events (high\nconfidence). Reducing industry emissions will entail coordinated\naction throughout value chains to promote all mitigation options,\nincluding demand management, energy and materials efficiency,\ncircular material flows, as well as abatement technologies and",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p121:text:c001",
+      "ipcc-ar6-syr-2023:p120:text:c010"
+    ],
+    "search_calls": 1,
+    "vision_calls": 0,
+    "turns": 2,
+    "llm_prompt_tokens": 1721,
+    "llm_completion_tokens": 271,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 12,
+    "estimated_cost_usd": 0.00083699,
+    "live_cost_usd": 0.00083699,
+    "elapsed_seconds": 9.89,
+    "split": "test",
+    "answerable": true,
+    "group": "text",
+    "question": "How does Section 4 contrast decarbonization approaches for light industry and manufacturing versus deep reductions of cement process emissions?"
+  },
+  {
+    "query_id": "adv_test_x03",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "According to the report, technological innovation can cause the following three negative trade-offs:\n1. Externalities such as new and greater environmental impacts and social inequalities [ipcc-ar6-syr-2023:p130:text:c001].\n2. Rebound effects that lead to lower net emission reductions or even increases in emissions [ipcc-ar6-syr-2023:p130:text:c001].\n3. Overdependence on foreign knowledge and providers [ipcc-ar6-syr-2023:p130:text:c001].\n\nDigital technologies can boost energy efficiency through coordination and an economic shift to services [ipcc-ar6-syr-2023:p130:text:c001].",
+    "citations": [
+      "ipcc-ar6-syr-2023:p130:text:c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Section 4 technological innovation negative trade-offs digital technologies energy efficiency",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p130:text:c001",
+          "ipcc-ar6-syr-2023:p069:text:c004",
+          "ipcc-ar6-syr-2023:p130:text:c002",
+          "ipcc-ar6-syr-2023:p121:text:c005"
+        ],
+        "pages": [
+          69,
+          121,
+          130
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p130:text:c001 | text | Section 4: Near-Term Responses in a Changing Climate | PDF p.130]\n114\nSection 4\nSection 1\nSection 4\nInternational cooperation on innovation works best when tailored to\nand beneficial for local value chains, when partners collaborate on an\nequal footing, and when capacity building is an integral part of the\neffort (medium confidence). {WGIII SPM E.4.4, WGIII SPM E.6.2}\nTechnological innovation can have trade-offs that include\nexternalities such as new and greater environmental impacts and\nsocial inequalities; rebound effects leading to lower net emission\nreductions or even emission increases; and overdependence on\nforeign knowledge and providers (high confidence). Appropriately\ndesigned policies and governance have helped address distributional\nimpacts and rebound effects (high confidence). For example, digital\ntechnologies can promote large increases in energy efficiency through\ncoordination and an economic shift to services (high confidence).\nHowever, societal digitalization can induce greater consumption of\ngoods and energy and increased electronic waste as well as negatively\nimpacting labour markets and worsening inequalities between\n\n[ipcc-ar6-syr-2023:p121:text:c005 | text | Section 4: Near-Term Responses in a Changing Climate | PDF p.121]\noptimisation of the use\nof buildings and their supply with low-emission energy sources;\nand at the disposal phase, recycling and re-using construction\nmaterials. Sufficiency155 measures can limit the demand for energy\nand materials over the lifecycle of buildings and appliances. (high\nconfidence) {WGII SPM C.2.5; WGIII SPM C.7.2}\nTransport-related GHG emissions can be reduced by demand-side\noptions and low-GHG emissions technologies. Changes in urban form,\nreallocation of street space for cycling and walking, digitalisation\n(e.g., teleworking) and programs that encourage changes in consumer\nbehaviour (e.g. transport, pricing) can reduce demand for transport\nservices and support the shift to more energy efficient transport\nmodes (high confidence). Electric vehicles powered by low-emissions\nelectricity offer the largest decarbonisation potential for land-based\ntransport, on a life cycle basis (high confidence). Costs of electrified\nvehicles are decreasing and their adoption is accelerating, but they\nrequire continued investments in supporting infrastructure to increase",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p130:text:c001",
+      "ipcc-ar6-syr-2023:p121:text:c005"
+    ],
+    "search_calls": 1,
+    "vision_calls": 0,
+    "turns": 2,
+    "llm_prompt_tokens": 1875,
+    "llm_completion_tokens": 262,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 12,
+    "estimated_cost_usd": 0.00086199,
+    "live_cost_usd": 0.00086199,
+    "elapsed_seconds": 4.801,
+    "split": "test",
+    "answerable": true,
+    "group": "text",
+    "question": "According to Section 4 (page 130 / report page 114), what three negative trade-offs can technological innovation cause, and how can digital technologies boost energy efficiency?"
+  },
+  {
+    "query_id": "adv_test_x04",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "According to the IPCC AR6 Synthesis Report Annex I (Glossary), **Net zero GHG emissions** is defined as a \"condition in which metric-weighted anthropogenic greenhouse gas (GHG) emissions are balanced by metric-weighted anthropogenic GHG removals over a specified period.\" The quantification of this state depends on the chosen GHG emission metric and the time horizon used to compare emissions and removals of different gases.\n\nAccording to Annex II (Acronyms and Units), the acronyms stand for:\n*   **AFOLU**: Agriculture, Forestry and Other Land Use [ipcc-ar6-syr-2023:p148:text:c001]\n*   **BECCS**: Bioenergy with Carbon Dioxide Capture and Storage [ipcc-ar6-syr-2023:p148:text:c001]\n*   **DACCS**: Direct Air Carbon Capture and Storage [ipcc-ar6-syr-2023:p148:text:c001]",
+    "citations": [
+      "ipcc-ar6-syr-2023:p148:text:c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "\"Net zero GHG emissions\" definition Annex I Glossary",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p143:text:c001",
+          "ipcc-ar6-syr-2023:p143:text:c002",
+          "ipcc-ar6-syr-2023:p142:text:c006",
+          "ipcc-ar6-syr-2023:p142:text:c007"
+        ],
+        "pages": [
+          142,
+          143
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"BECCS\" \"DACCS\" \"AFOLU\" acronyms Annex II",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p148:text:c001",
+          "ipcc-ar6-syr-2023:p149:text:c001",
+          "ipcc-ar6-syr-2023:p137:text:c002",
+          "ipcc-ar6-syr-2023:p137:text:c001"
+        ],
+        "pages": [
+          137,
+          148,
+          149
+        ]
+      },
+      {
+        "event": "citation_repair_requested",
+        "bad_citations": [
+          "ipcc-ar6-syr-2023:p143:text:c001"
+        ]
+      },
+      {
+        "event": "citation_repair_requested",
+        "bad_citations": [
+          "ipcc-ar6-syr-2023:p143:text:c001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p148:text:c001 | text | Annex II: Acronyms and Units | PDF p.148]\n132\nAnnex II\nAnnexes\nAFOLU\nAgriculture, Forestry and Other Land Use *\nAR5\nFifth Assessment Report\nAR6\nSixth Assessment Report\nBECCS\nBioenergy with Carbon Dioxide Capture and Storage *\nCCS\nCarbon Capture and Storage *\nCCU\nCarbon Capture and Utilization\nCDR\nCarbon Dioxide Removal *\nCH4\nMethane\nCID\nClimatic impact-driver *\nCMIP5\nCoupled Model Intercomparison Project Phase 5\nCMIP6\nCoupled Model Intercomparison Project Phase 6\nCO2\nCarbon Dioxide\nCO2-eq\nCarbon Dioxide Equivalent *\nCRD\nClimate Resilient Development *\nCO2-FFI\nCO2 from Fossil Fuel combustion and Industrial processes\nCO2-LULUCF\nCO2 from Land Use, Land-Use Change and Forestry\nCSB\nCross-Section Box\nDACCS\nDirect Air Carbon Capture and Storage\nDRM\nDisaster Risk Management *\nEbA\nEcosystem-based Adaptation *\nECS\nEquilibrium climate sensitivity *\nES\nExecutive Summary\nEV\nElectric Vehicle\nEWS\nEarly Warning System *\nFaIR\nFinite Amplitude Impulse Response simple climate model\nFAO\nFood and Agriculture Organization of the United Nations\nFFI\nFossil-Fuel combustion and Industrial processes\nF-gases\nFluorinated gases\nGDP\nGross Domestic Product\nGHG\nGreenhouse Gas *\nGt\nGigatonnes\nGW\nGigawatt\n\n[ipcc-ar6-syr-2023:p142:text:c007 | text | Annex I: Glossary | PDF p.142]\nerally\napplied to emissions and removals under direct control or territorial\nresponsibility of the reporting entity, while carbon neutrality generally\nincludes emissions and removals within and beyond the direct control",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p148:text:c001",
+      "ipcc-ar6-syr-2023:p142:text:c007"
+    ],
+    "search_calls": 2,
+    "vision_calls": 0,
+    "turns": 4,
+    "llm_prompt_tokens": 6872,
+    "llm_completion_tokens": 1008,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 31,
+    "estimated_cost_usd": 0.00323062,
+    "live_cost_usd": 0.00323062,
+    "elapsed_seconds": 8.356,
+    "split": "test",
+    "answerable": true,
+    "group": "text",
+    "question": "Using Annex I (Glossary) and Annex II (Acronyms), how is 'Net zero GHG emissions' defined and what do the acronyms BECCS, DACCS, and AFOLU stand for?"
+  },
+  {
+    "query_id": "adv_test_u01",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "The provided IPCC AR6 Synthesis Report (2023) does not contain information regarding the New Collective Quantified Goal (NCQG) or any climate finance figures adopted at COP29 in Baku, as these events occurred after the publication of the report.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "NCQG COP29 Baku climate finance",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p078:text:c004",
+          "ipcc-ar6-syr-2023:p069:text:c005",
+          "ipcc-ar6-syr-2023:p128:text:c002",
+          "ipcc-ar6-syr-2023:p027:text:c004"
+        ],
+        "pages": [
+          27,
+          69,
+          78,
+          128
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p078:text:c004 | text | Section 2: Current Status and Trends | PDF p.78]\nCCC and Paris Agreement\nto mobilise USD 100 billion per year by 2020 in the context of\nmeaningful mitigation action and transparency on implementation\n(medium confidence). Public and private finance flows for fossil fuels\nare still greater than those for climate adaptation and mitigation (high\nconfidence). The overwhelming majority of tracked climate finance\nis directed towards mitigation (very high confidence). Nevertheless,\naverage annual modelled investment requirements for 2020 to 2030\nin scenarios that limit warming to 2°C or 1.5°C are a factor of three\nto six greater than current levels, and total mitigation investments\n(public, private, domestic and international) would need to increase\nacross all sectors and regions (medium confidence). Challenges\nremain for green bonds and similar products, in particular around\nintegrity and additionality, as well as the limited applicability of\nthese markets to many developing countries (high confidence).\n{WGII SPM C.3.2, WGII SPM C.5.4; WGIII SPM B.5.4, WGIII SPM E.5.1}\nCurrent global financial flows for adaptation including from public\n\n[ipcc-ar6-syr-2023:p069:text:c005 | text | Section 2: Current Status and Trends | PDF p.69]\nment,\nand reduced food waste and loss, are technically viable, are becoming\nincreasingly cost effective and are generally supported by the public, and\nthis enables expanded deployment in many regions. (high confidence)\n{WGIII SPM B.4.3, WGIII SPM C.5.2, WGIII SPM C.7.2, WGIII SPM E.1.1,\nWGIII TS.6.5}\nThe magnitude of global climate finance flows has increased\nand financing channels have broadened (high confidence).\nAnnual tracked total financial flows for climate mitigation and\nadaptation increased by up to 60% between 2013/14 and 2019/20,\nbut average growth has slowed since 2018 (medium confidence) and\nmost climate finance stays within national borders (high confidence).\nMarkets for green bonds, environmental, social and governance and\nsustainable finance products have expanded significantly since AR5\n(high confidence). Investors, central banks, and financial regulators are\ndriving increased awareness of climate risk to support climate policy\ndevelopment and implementation (high confidence). Accelerated\ninternational financial cooperation is a critical enabler of low-GHG and",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p078:text:c004",
+      "ipcc-ar6-syr-2023:p069:text:c005"
+    ],
+    "search_calls": 1,
+    "vision_calls": 0,
+    "turns": 2,
+    "llm_prompt_tokens": 1895,
+    "llm_completion_tokens": 102,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 9,
+    "estimated_cost_usd": 0.00062693,
+    "live_cost_usd": 0.00062693,
+    "elapsed_seconds": 2.903,
+    "split": "test",
+    "answerable": false,
+    "group": "unanswerable",
+    "question": "What New Collective Quantified Goal (NCQG) annual climate finance figure in USD billions did countries adopt at COP29 in Baku?"
+  },
+  {
+    "query_id": "adv_test_u02",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "The IPCC AR6 Synthesis Report does not contain information regarding the power conversion efficiency percentage of commercial perovskite-silicon tandem solar modules.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "perovskite-silicon tandem solar modules efficiency",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p070:chart:fig_2_4:c03",
+          "ipcc-ar6-syr-2023:p070:chart:fig_2_4:c04",
+          "ipcc-ar6-syr-2023:p070:chart:fig_2_4:c01",
+          "ipcc-ar6-syr-2023:p070:chart:fig_2_4:c02"
+        ],
+        "pages": [
+          70
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"perovskite\"",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p148:text:c003",
+          "ipcc-ar6-syr-2023:p170:text:c001",
+          "ipcc-ar6-syr-2023:p170:text:c002",
+          "ipcc-ar6-syr-2023:p029:text:c003"
+        ],
+        "pages": [
+          29,
+          148,
+          170
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"Section 4\" perovskite",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p070:chart:fig_2_4:c04",
+          "ipcc-ar6-syr-2023:p112:text:c001",
+          "ipcc-ar6-syr-2023:p126:text:c001",
+          "ipcc-ar6-syr-2023:p121:text:c001"
+        ],
+        "pages": [
+          70,
+          112,
+          121,
+          126
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p070:chart:fig_2_4:c04 | chart | Section 2: Current Status and Trends | PDF p.70 | asset=fig_2_4 | crop=starter/data/advanced/crops/fig_2_4_p070.png]\nAxis Ticks:** 0, 10, 20, 30, 40\n* **Column 4 (Passenger electric vehicle):**\n  * **Y-Axis Label:** Adoption (millions of EVs)\n  * **Y-Axis Ticks:** 0, 2, 4, 6, 8\n* **X-Axis (all columns in panel b):**\n  * Time scale spanning from year 2000 to 2020, with a major vertical dashed reference line at **2010** across all sub-plots.\n\n---\n\n### **Key / Legend Categories & Color Codes**\nLocated at the bottom of the figure:\n* **Horizontal timeline axis:** Marked with years `2000`, `2010`, `2020`.\n* **Light Blue Shaded Area:** Market cost, with range (5th to 95th percentiles).\n* **Solid Blue Line:** Average unit cost in each year.\n* **Yellow Shaded Band:** Fossil fuel cost (2020).\n* **Solid Orange Line:** Adoption (note different scales).\n\n[ipcc-ar6-syr-2023:p112:text:c001 | text | Section 4: Near-Term Responses in a Changing Climate | PDF p.112]\n96\nSection 4\nSection 1\nSection 4\nScaling-up near-term climate actions (Section 4.1) will mobilise a\nmix of low-cost and high-cost options. High-cost options, as in energy\nand infrastructure, are needed to avoid future lock-ins, foster innovation\nand initiate transformational changes (Figure 4.4). Climate resilient\ndevelopment pathways in support of sustainable development for all are\nshaped by equity, and social and climate justice (very high confidence).\nEmbedding effective and equitable adaptation and mitigation in\ndevelopment planning can reduce vulnerability, conserve and restore\necosystems, and enable climate resilient development. This is especially\nchallenging in localities with persistent development gaps and limited\nresources. (high confidence) {WGII SPM C.5, WGII SPM D1; WGIII TS.5.2,\nWGIII 8.3.1, WGIII 8.3.4, WGIII 8.4.1, WGIII 8.6}\nScaling-up climate action may generate disruptive changes in\neconomic structure with distributional consequences and need\nto reconcile divergent interests, values and worldviews, within\nand between countries. Deeper fiscal, financial, institutional and\n\n[ipcc-ar6-syr-2023:p148:text:c003 | text | Annex II: Acronyms and Units | PDF p.148]\nh\nMegawatt hour\nN2O\nNitrous oxide\nNDC\nNationally Determined Contribution\nNF3\nNitrogen trifluoride\nO3\nOzone\nPFCs\nPerfluorocarbons\nppb\nparts per billion\nPPP\nPurchasing Power Parity",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p070:chart:fig_2_4:c04",
+      "ipcc-ar6-syr-2023:p112:text:c001",
+      "ipcc-ar6-syr-2023:p148:text:c003"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 5,
+    "llm_prompt_tokens": 10328,
+    "llm_completion_tokens": 139,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 26,
+    "estimated_cost_usd": 0.00279102,
+    "live_cost_usd": 0.00279102,
+    "elapsed_seconds": 14.755,
+    "split": "test",
+    "answerable": false,
+    "group": "unanswerable",
+    "question": "What power conversion efficiency percentage does Section 4 cite for commercial perovskite-silicon tandem solar modules?"
+  },
+  {
+    "query_id": "adv_test_u03",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "answered",
+    "answer": "The IPCC AR6 Synthesis Report Table 3.1 does not provide projected global mean sea level rise data for the year 2120. The table includes projections for global mean temperature changes and cumulative CO2 emissions, but it does not contain a row or column specifying sea level rise for the year 2120. [ipcc-ar6-syr-2023:p100:table:table_3_1:c08]",
+    "citations": [
+      "ipcc-ar6-syr-2023:p100:table:table_3_1:c08"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table 3.1 projected global mean sea level rise 2120 C3",
+        "modality": "table",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c08",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c01",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c05",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c06"
+        ],
+        "pages": [
+          100
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Table 3.1 sea level rise 2120",
+        "modality": "table",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c08",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c04",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c01",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c05"
+        ],
+        "pages": [
+          100
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Table 3.1 sea level rise 2100 2150",
+        "modality": "table",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c08",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c04",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c01",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c05"
+        ],
+        "pages": [
+          100
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p100:table:table_3_1:c08 | table | Section 3: Long-Term Climate and Development Futures | PDF p.100 | asset=table_3_1 | crop=starter/data/advanced/crops/table_3_1_p100.png]\n0–2090] | [...] (0%) [...-...] | 2070–2075 (87%) [2055-...] | [...] (30%) [2075-...] | [...] (24%) [2080-...] | [...] (41%) [2075-...] | [...] (31%) [2075-...] | [...] (12%) [2090-...] | no net-zero |\n| **Cumulative $\\text{CO}_2$ emissions [$\\text{Gt CO}_2$] (6)** | **2020 to net zero $\\text{CO}_2$** | Median cumulative net $\\text{CO}_2$ emissions across the projected scenarios in this category until reaching net-zero or until 2100, with the 5th-95th percentile interval in square brackets. | 510 [330–710] | 550 [340–760] | 460 [320–590] | 720 [530–930] | 890 [640–1160] | 860 [640–1180] | 910 [720–1150] | 1210 [970–1490] | 1780 [1400–2360] | no net-zero |\n| | **2020–2100** | 320 [-210–570] | 160 [-220–620] | 360 [10–540] | 400 [-90–620] | 800 [510–1140] | 790 [480–1150] | 800 [560–1050] | 1160 [700–1490] | 1780 [1260–2360] | 2790 [2440–3520] |\n| **Global mean temperature changes 50% probability (°C)** | **at peak warming** | Projected temperature change of pathways in this category (50% probability across the range of climate uncertainties), relative to 1850–1900, at peak warming and in 2100, for the median value across the scenarios and the 5th-95th percentile interval in square brackets. | 1.6 [1.4–1.6] | 1.6 [1.4–1.6] | 1.6 [1.5–1.6] | 1.7 [1.5–1.8] | 1.7 [1.6–1.8] | 1.7 [1.6–1.8] | 1.8 [1.6–1.8] | 1.9 [1.7–2.0] | 2.2 [1.9–2.5] | no peaking by 2100 |\n| | **2100** | 1.3 [1.1–1.5] | 1.2 [1.1–1.4] | 1.4 [1.3–1.5] | 1.4 [1.2–1.5] | 1.6 [1.5–1.8] | 1.6 [1.5–1.8] | 1.6 [1.5–1.7] | 1.8 [1.5–2.0] | 2.1 [1.9–2.5] | 2.7 [2.4–2.9] |\n| **Likelihood of peak global warming staying below (%)** | **<1.5°C** | Median likelihood that the projected pathways in this category stay below a given global warming level, with the 5th-95th percentile interval in square",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p100:table:table_3_1:c08"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 5,
+    "llm_prompt_tokens": 13077,
+    "llm_completion_tokens": 268,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 41,
+    "estimated_cost_usd": 0.00367207,
+    "live_cost_usd": 0.00367207,
+    "elapsed_seconds": 69.284,
+    "split": "test",
+    "answerable": false,
+    "group": "unanswerable",
+    "question": "What projected global mean sea level rise in meters does Table 3.1 report specifically for the year 2120 under category C3?"
+  },
+  {
+    "query_id": "adv_test_u04",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "The IPCC AR6 Synthesis Report does not contain information regarding a solid-state battery gravimetric energy density (Wh/kg) target for 2032. Section 2 and Figure 2.4 discuss general trends in mitigation technologies and battery costs, but they do not provide specific technical performance targets for solid-state batteries.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "solid-state battery gravimetric energy density 2032",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p069:text:c003",
+          "ipcc-ar6-syr-2023:p070:text:c002",
+          "ipcc-ar6-syr-2023:p070:chart:fig_2_4:c01",
+          "ipcc-ar6-syr-2023:p069:text:c007"
+        ],
+        "pages": [
+          69,
+          70
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 2.4",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p055:text:c001",
+          "ipcc-ar6-syr-2023:p100:table:table_3_1:c05",
+          "ipcc-ar6-syr-2023:p055:diagram_map:fig_1_1:c01",
+          "ipcc-ar6-syr-2023:p055:diagram_map:fig_1_1:c02"
+        ],
+        "pages": [
+          55,
+          100
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"solid-state\" battery",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p069:text:c003",
+          "ipcc-ar6-syr-2023:p070:text:c002",
+          "ipcc-ar6-syr-2023:p070:chart:fig_2_4:c02",
+          "ipcc-ar6-syr-2023:p121:text:c006"
+        ],
+        "pages": [
+          69,
+          70,
+          121
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p069:text:c003 | text | Section 2: Current Status and Trends | PDF p.69]\nthan electricity from\nfossil sources in many regions, electric vehicles are increasingly\ncompetitive with internal combustion engines, and large-scale\nbattery storage on electricity grids is increasingly viable. In\ncomparison to modular small-unit size technologies, the empirical\nrecord shows that multiple large-scale mitigation technologies, with\nfewer opportunities for learning, have seen minimal cost reductions\nand their adoption has grown slowly. Maintaining emission-intensive\nsystems may, in some regions and sectors, be more expensive than\ntransitioning to low emission systems. (high confidence) {WGIII SPM B.4,\nWGIII SPM B.4.1, WGIII SPM C.4.2, WGIII SPM C.5.2, WGIII SPM C.7.2,\nWGIII SPM C.8, WGIII Figure SPM.3, WGIII Figure SPM.3}\nFor almost all basic materials – primary metals, building materials and\nchemicals – many low- to zero-GHG intensity production processes are\nat the pilot to near-commercial and in some cases commercial stage\nbut they are not yet established industrial practice. Integrated design\nin construction and retrofit of buildings has led to increasing examples\n\n[ipcc-ar6-syr-2023:p070:text:c002 | text | Section 2: Current Status and Trends | PDF p.70]\n: Unit cost reductions and use in some rapidly changing mitigation technologies. The top panel (a) shows global costs per unit of energy (USD per MWh)\nfor some rapidly changing mitigation technologies. Solid blue lines indicate average unit cost in each year. Light blue shaded areas show the range between the 5th and 95th\npercentiles in each year. Yellow shading indicates the range of unit costs for new fossil fuel (coal and gas) power in 2020 (corresponding to USD 55 to 148 per MWh).\nIn 2020, the levelised costs of energy (LCOE) of the three renewable energy technologies could compete with fossil fuels in many places. For batteries, costs shown are for 1 kWh\nof battery storage capacity; for the others, costs are LCOE, which includes installation, capital, operations, and maintenance costs per MWh of electricity produced. The literature uses\nLCOE because it allows consistent comparisons of cost trends across a diverse set of energy technologies to be made. However, it does not include the costs of grid integration",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p069:text:c003",
+      "ipcc-ar6-syr-2023:p070:text:c002"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 4,
+    "llm_prompt_tokens": 7691,
+    "llm_completion_tokens": 161,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 21,
+    "estimated_cost_usd": 0.00216467,
+    "live_cost_usd": 0.00216467,
+    "elapsed_seconds": 19.305,
+    "split": "test",
+    "answerable": false,
+    "group": "unanswerable",
+    "question": "What solid-state battery gravimetric energy density (Wh/kg) target by 2032 is stated in Section 2 or Figure 2.4?"
+  },
+  {
+    "query_id": "adv_test_u05",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "The IPCC AR6 Synthesis Report does not contain information regarding specific carbon border adjustment tariff rates (EUR/tCO2) for imported steel or details regarding CBAM enforcement. Section 4 of the report discusses near-term responses in a changing climate, including decarbonization strategies for industry, but does not provide specific tariff rates or policy enforcement metrics for CBAM.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "\"carbon border adjustment\" \"CBAM\" steel tariff rate EUR/tCO2",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p137:text:c002",
+          "ipcc-ar6-syr-2023:p137:text:c004",
+          "ipcc-ar6-syr-2023:p137:text:c005",
+          "ipcc-ar6-syr-2023:p098:text:c004"
+        ],
+        "pages": [
+          98,
+          137
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"CBAM\" \"carbon border adjustment\"",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p137:text:c002",
+          "ipcc-ar6-syr-2023:p137:text:c004",
+          "ipcc-ar6-syr-2023:p137:text:c005",
+          "ipcc-ar6-syr-2023:p148:text:c001"
+        ],
+        "pages": [
+          137,
+          148
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"Section 4\" CBAM steel",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p121:text:c001",
+          "ipcc-ar6-syr-2023:p137:text:c002",
+          "ipcc-ar6-syr-2023:p112:text:c005",
+          "ipcc-ar6-syr-2023:p126:text:c001"
+        ],
+        "pages": [
+          112,
+          121,
+          126,
+          137
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p121:text:c001 | text | Section 4: Near-Term Responses in a Changing Climate | PDF p.121]\n105\nNear-Term Responses in a Changing Climate\nSection 4\ntransformational changes in production processes (high confidence).\nLight industry and manufacturing can be largely decarbonized through\navailable abatement technologies (e.g., material efficiency, circularity),\nelectrification (e.g., electrothermal heating, heat pumps), and switching\nto low- and zero-GHG emitting fuels (e.g., hydrogen, ammonia, and\nbio-based and other synthetic fuels) (high confidence), while deep\nreduction of cement process emissions will rely on cementitious\nmaterial substitution and the availability of Carbon Capture and Storage\n(CCS) until new chemistries are mastered (high confidence). Reducing\nemissions from the production and use of chemicals would need to rely\non a life cycle approach, including increased plastics recycling, fuel and\nfeedstock switching, and carbon sourced through biogenic sources, and,\ndepending on availability, Carbon Capture and Utilisation (CCU), direct\nair CO2 capture, as well as CCS (high confidence). Action to reduce\nindustry sector emissions may change the location of GHG-intensive\n\n[ipcc-ar6-syr-2023:p112:text:c005 | text | Section 4: Near-Term Responses in a Changing Climate | PDF p.112]\nacity-building\nand coordinated support to low-emission infrastructure (‘leap-frog’\npotential), especially in developing regions, and under debt stress\n(high confidence). (Section 4.8) {WGII SPM C.2, WGII SPM C.4.1,\nWGII SPM D.1.3, WGII SPM D.2, WGII SPM D.3.2, WGII SPM E.2.2,\nWGII SPM E.4, WGII SPM TS.2, WGII SPM TS.5.2, WGII TS.6.4,\nWGII TS.15, WGII TS Box TS.3; WGIII SPM B.4.2, WGIII SPM C.5.4,\nWGIII SPM C.6.2, WGIII SPM C.12.2, WGIII SPM D.3.4, WGIII SPM E.4.2,\nWGIII SPM E.4.5, WGIII SPM E.5.2, WGIII SPM E.5.3, WGIII TS.1, WGIII Box TS.15,\nWGIII 15.2, WGIII Cross-Chapter Box 1 on COVID in Chapter 1}",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p121:text:c001",
+      "ipcc-ar6-syr-2023:p112:text:c005"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 5,
+    "llm_prompt_tokens": 7074,
+    "llm_completion_tokens": 200,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 33,
+    "estimated_cost_usd": 0.00206916,
+    "live_cost_usd": 0.00206916,
+    "elapsed_seconds": 8.59,
+    "split": "test",
+    "answerable": false,
+    "group": "unanswerable",
+    "question": "What specific carbon border adjustment tariff rate per tonne of imported steel (EUR/tCO2) does Section 4 report for CBAM enforcement?"
+  },
+  {
+    "query_id": "adv_test_u06",
+    "config": "adv_baseline_dense",
+    "model": "gemini-3.1-flash-lite",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu đã cung cấp để trả lời câu hỏi này.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "\"nuclear fusion\" \"small modular reactors\" \"capital cost\" \"grid-connection date\"",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p070:text:c002",
+          "ipcc-ar6-syr-2023:p070:text:c001",
+          "ipcc-ar6-syr-2023:p070:chart:fig_2_4:c01",
+          "ipcc-ar6-syr-2023:p070:chart:fig_2_4:c03"
+        ],
+        "pages": [
+          70
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"Figure SPM.7\" \"nuclear fusion\" \"small modular reactors\"",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p149:text:c001",
+          "ipcc-ar6-syr-2023:p143:text:c006",
+          "ipcc-ar6-syr-2023:p088:text:c003",
+          "ipcc-ar6-syr-2023:p069:text:c003"
+        ],
+        "pages": [
+          69,
+          88,
+          143,
+          149
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"nuclear fusion\" OR \"small modular reactors\"",
+        "modality": "all",
+        "returned_ids": [
+          "ipcc-ar6-syr-2023:p069:text:c003",
+          "ipcc-ar6-syr-2023:p148:text:c002",
+          "ipcc-ar6-syr-2023:p120:text:c008",
+          "ipcc-ar6-syr-2023:p069:text:c002"
+        ],
+        "pages": [
+          69,
+          120,
+          148
+        ]
+      },
+      {
+        "event": "abstain",
+        "reason": "turn_limit"
+      }
+    ],
+    "context": "[ipcc-ar6-syr-2023:p069:text:c003 | text | Section 2: Current Status and Trends | PDF p.69]\nthan electricity from\nfossil sources in many regions, electric vehicles are increasingly\ncompetitive with internal combustion engines, and large-scale\nbattery storage on electricity grids is increasingly viable. In\ncomparison to modular small-unit size technologies, the empirical\nrecord shows that multiple large-scale mitigation technologies, with\nfewer opportunities for learning, have seen minimal cost reductions\nand their adoption has grown slowly. Maintaining emission-intensive\nsystems may, in some regions and sectors, be more expensive than\ntransitioning to low emission systems. (high confidence) {WGIII SPM B.4,\nWGIII SPM B.4.1, WGIII SPM C.4.2, WGIII SPM C.5.2, WGIII SPM C.7.2,\nWGIII SPM C.8, WGIII Figure SPM.3, WGIII Figure SPM.3}\nFor almost all basic materials – primary metals, building materials and\nchemicals – many low- to zero-GHG intensity production processes are\nat the pilot to near-commercial and in some cases commercial stage\nbut they are not yet established industrial practice. Integrated design\nin construction and retrofit of buildings has led to increasing examples\n\n[ipcc-ar6-syr-2023:p070:text:c002 | text | Section 2: Current Status and Trends | PDF p.70]\n: Unit cost reductions and use in some rapidly changing mitigation technologies. The top panel (a) shows global costs per unit of energy (USD per MWh)\nfor some rapidly changing mitigation technologies. Solid blue lines indicate average unit cost in each year. Light blue shaded areas show the range between the 5th and 95th\npercentiles in each year. Yellow shading indicates the range of unit costs for new fossil fuel (coal and gas) power in 2020 (corresponding to USD 55 to 148 per MWh).\nIn 2020, the levelised costs of energy (LCOE) of the three renewable energy technologies could compete with fossil fuels in many places. For batteries, costs shown are for 1 kWh\nof battery storage capacity; for the others, costs are LCOE, which includes installation, capital, operations, and maintenance costs per MWh of electricity produced. The literature uses\nLCOE because it allows consistent comparisons of cost trends across a diverse set of energy technologies to be made. However, it does not include the costs of grid integration",
+    "context_ids": [
+      "ipcc-ar6-syr-2023:p069:text:c003",
+      "ipcc-ar6-syr-2023:p070:text:c002"
+    ],
+    "search_calls": 3,
+    "vision_calls": 0,
+    "turns": 8,
+    "llm_prompt_tokens": 19440,
+    "llm_completion_tokens": 194,
+    "vision_prompt_tokens": 0,
+    "vision_completion_tokens": 0,
+    "embed_tokens": 48,
+    "estimated_cost_usd": 0.00515196,
+    "live_cost_usd": 0.00515196,
+    "elapsed_seconds": 11.416,
+    "split": "test",
+    "answerable": false,
+    "group": "unanswerable",
+    "question": "What commercial grid-connection date and capital cost per kW does Figure SPM.7 or Section 4 report for commercial nuclear fusion plants and small modular reactors (SMRs)?"
+  }
+]

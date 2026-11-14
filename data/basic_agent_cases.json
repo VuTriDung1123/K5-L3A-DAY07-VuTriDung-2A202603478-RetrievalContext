@@ -1,0 +1,395 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "According to the Anaconda 2020 survey cited in the textbook, roughly what fraction of the data science process do data scientists spend on data collection and cleaning?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "About half of the entire process is spent on data collection and cleaning, while data analysis and communication take roughly a quarter to a third each.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 21,
+    "required_clauses": [
+      "According to a survey conducted by Anaconda (2020), data scientists spend about half of the entire process in data collection and cleaning"
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Under what campus restriction does class size data shift from being treated as continuous data to discrete data?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "If the campus enforces all classes to be 200 seats or less, limiting values to the finite set 1 through 200.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 28,
+    "required_clauses": [
+      "the same class size data can be discrete if the campus enforces all classes to be 200 seats or less"
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "How did Walmart use historical storm sales data to prepare inventory ahead of Hurricane Frances in 2004?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Staff analyzed Hurricane Charley sales data, found strawberry Pop-Tart sales jumped sevenfold, and shipped extra supplies to stores in Hurricane Frances's path.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 23,
+    "required_clauses": [
+      "sales during Hurricane Charley",
+      "strawberry Pop-Tart sales increased by about sevenfold",
+      "shipped extra supplies of strawberry Pop-Tarts to stores in the storm’s path"
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "In Example 1.8, how many items and attributes are in the JSON Jeopardy dataset, and at what list index is the third item located?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "409 items, 7 attributes per item, and the third item is located at index 2.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 38,
+    "required_clauses": [
+      "There are 409 items in the dataset, and each item has seven attributes",
+      "The third item is located at index 2 of the first list"
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Why can't global search keywords collected by a search engine be analyzed directly without preprocessing when studying nighttime food searches?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Keywords appear in multiple languages, nighttime varies by each user's time zone, and records can contain typos, nonsensical strings, or blanks.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 21,
+    "required_clauses": [
+      "search keywords will probably be in different languages",
+      "nighttime will vary by each user’s time zone",
+      "typos, simply not make sense, or even remain blank"
+    ],
+    "filter": {
+      "chapter": "Chapter 1"
+    },
+    "filter_context": "Pre-supplied course module context: user is reviewing Chapter 1 (Data Science Cycle) where the Google nighttime food-search example appears."
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "In Google Colaboratory notebooks, what are the two cell types added by the '+ Code' and '+ Text' buttons?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "A code cell for runnable Python code and a text cell for written descriptions or notes.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 41,
+    "required_clauses": [
+      "two buttons on top of the first cell—“+ Code” and “+ Text.”",
+      "A code cell is for the code you want to run; a text cell is to add any text description or note."
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Why should a survey questionnaire begin with simple questions and undergo a pilot test before full deployment?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Starting with simple questions builds rapport so respondents are more willing to answer harder ones; pilot testing catches confusing questions and issues before full rollout.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 71,
+    "required_clauses": [
+      "build a rapport with the respondents and increase their willingness to answer more difficult questions",
+      "pilot test with a small group of individuals from the target population",
+      "identify any potential issues or confusion with the questions"
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "What caused the 1936 Literary Digest election poll to wrongly predict a victory for Alf Landon over Franklin D. Roosevelt?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "It drew from telephone and automobile owners (biasing toward affluent Republican voters) and relied primarily on closed-ended questions.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 72,
+    "required_clauses": [
+      "mailing list of telephone and automobile owners",
+      "biased toward affluent individuals and therefore favored Republican voters",
+      "biased sampling method as well as the use of primarily closed-ended questions"
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "When is snowball sampling appropriate, and what major drawback limits its conclusions?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "It is useful when studying hard-to-reach or sensitive populations through participant referrals, but it may introduce bias and limit generalizability.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 74,
+    "required_clauses": [
+      "difficult to access a particular population",
+      "studying hard-to-reach or sensitive populations, but it may also be biased and limit the generalizability of findings"
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "How does MAR (missing at random) differ from MCAR (missing completely at random) in terms of variable dependencies?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "MCAR is unrelated to any variables with no underlying cause, whereas MAR is related to other observed variables (such as age) but not to unknown or unmeasured variables.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 87,
+    "required_clauses": [
+      "MCAR (missing completely at random) data is missing data not related to any other variables, with no underlying cause for its absence.",
+      "MAR (missing at random) data is missing data related to other variables but not to any unknown or unmeasured variables."
+    ],
+    "filter": {
+      "chapter": "Chapter 2"
+    },
+    "filter_context": "Pre-supplied course module context: user is studying Chapter 2 (Data Cleaning and Preprocessing) and asks about missingness mechanisms."
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What is the difference between lossy compression and lossless compression, and which file formats are cited as examples of each?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Lossy permanently removes irrelevant/redundant data (e.g., MP3, JPEG), while lossless shrinks size without discarding data so the original can be reconstructed intact (e.g., ZIP, RAR, PNG).",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 98,
+    "required_clauses": [
+      "Lossy compression reduces the size of data by permanently extracting particular data",
+      "Examples of lossy compression include MP3 and JPEG.",
+      "Lossless compression aims to reduce file size without removing any data.",
+      "Examples of lossless compression include ZIP, RAR, and PNG."
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What does individual autonomy mean in ethical data collection, and what fitness app example illustrates it?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Individual autonomy means people retain control over what data is collected and how it is used, such as choosing in a fitness app to track steps and heart rate while declining location or sleep tracking.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 388,
+    "required_clauses": [
+      "individuals maintain control over the decisions regarding the collection and use of their data",
+      "fitness tracking app, they may want to track their daily steps and heart rate but not their location or sleep patterns"
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "How do anonymization and pseudonymization differ when protecting sensitive personal information in a dataset?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Anonymization strips or encrypts personally identifying information completely, whereas pseudonymization substitutes artificial identifiers or codes for sensitive fields while keeping records linkable for analysis.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 390,
+    "required_clauses": [
+      "Anonymization is the act of removing personal identifying information from datasets",
+      "Pseudonymization is the act of replacing sensitive information in a dataset with artificial identifiers or codes"
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "How can outliers and limited features introduce bias into an analytical algorithm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Outliers can drastically shift algorithmic outcomes due to extreme values, and limited features leave the model with an incomplete view of the data, causing inaccurate or biased decisions.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 400,
+    "required_clauses": [
+      "1. Outliers. An outlier might cause an algorithm to drastically change its outcomes due to its abnormality compared to the rest of the data.",
+      "4. Limited features. If there are not enough features to represent the data accurately or completely, the algorithm will likely have an incomplete understanding of the data, leading to inaccurate outcomes or biased decisions."
+    ],
+    "filter": {
+      "chapter": "Chapter 8"
+    },
+    "filter_context": "Pre-supplied course module context: user is studying Chapter 8 (Ethics in Data Analysis and Modeling) and asks specifically about algorithmic bias factors."
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "What environmental concern does the textbook raise regarding large-scale data science and ICT energy consumption by 2040?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "ICT (including heavy data science server workloads) uses 1%–1.5% of global electricity and its greenhouse gas emissions are projected to exceed 14% of global emissions by 2040.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 404,
+    "required_clauses": [
+      "between 1 and 1.5% of all global electricity demand",
+      "exceed 14% of global emissions of greenhouse gasses by 2040"
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Why could the 'Semester' attribute in the course evaluation example be treated as either nominal or ordinal depending on the analysis?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "It is nominal when treated purely as unordered labels, but can be treated as ordinal when chronological sequence (e.g., Fall 2020 before Spring 2021) matters, such as in time-series datasets.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 29,
+    "required_clauses": [
+      "semester and instructor do not have orders to follow",
+      "semester could have chronological ordering",
+      "you could consider the semester data to be ordinal as well"
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "When using pandas read_html() to scrape tables from a web page, what type of object does it return and which function converts string columns into numbers?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "read_html() returns a list of DataFrame objects, and pandas to_numeric() converts string values into numeric format.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 78,
+    "required_clauses": [
+      "read HTML tables from a web page and convert them into a list of DataFrame objects",
+      "to_numeric() function from pandas to convert strings to numbers"
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Why does data chunking attach metadata such as chunk number and total chunk count, and what are its four main benefits?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Metadata lets separately stored or transmitted chunks be reassembled into the original dataset; the four benefits are increased speed, better resource utilization, increased fault tolerance, and flexibility.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 100,
+    "required_clauses": [
+      "allows the chunks to be reassembled into the original dataset after being transmitted or stored separately",
+      "1. Increased speed.",
+      "2. Better utilization of resources.",
+      "3. Increased fault tolerance.",
+      "4. Flexibility."
+    ],
+    "filter": {
+      "chapter": "Chapter 2"
+    },
+    "filter_context": "Pre-supplied course module context: user is studying Chapter 2 (Section 2.5 Handling Large Datasets) and asks about distributed data chunking."
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "When an outside researcher requests access to medical records containing PII, which compliance regulation applies and when must access be revoked?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "The team must comply with HIPAA regulations, grant time-limited access only when needed, and revoke access immediately if the researcher's authorization or employment changes.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 395,
+    "required_clauses": [
+      "complies with HIPAA regulations because there are medical records involved",
+      "If the researcher's authorization or employment changes, their access should be revoked immediately"
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "What requirement applies when graphs or reports use data that is not publicly available, and what are the four reasons for data source attribution?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "For non-public data, prior permission must be obtained from the source alongside proper attribution and citation; the four reasons for attribution are accuracy/credibility, trust/transparency, accountability, and privacy considerations.",
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 411,
+    "required_clauses": [
+      "1. Accuracy and credibility.",
+      "2. Trust and transparency.",
+      "3. Accountability.",
+      "4. Privacy considerations.",
+      "if the data utilized in graphs or reports are not publicly available, permission must be obtained from the source"
+    ],
+    "filter": {
+      "chapter": "Chapter 8"
+    },
+    "filter_context": "Pre-supplied course module context: user is studying Chapter 8 (Section 8.3 Ethics in Visualization and Reporting)."
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "type": "unanswerable_near_topic",
+    "question": "According to the Anaconda 2020 survey cited in Chapter 1, what exact percentage of respondents reported using Python versus R as their primary programming language?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Page 21 only cites Anaconda (2020) for time spent on data collection/cleaning (~50%) vs analysis/communication (~25-33% each); verified across all 516 chunks in day6_lab that no Python-vs-R usage percentage from Anaconda 2020 appears anywhere in the 107 pages."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "type": "unanswerable_near_topic",
+    "question": "What specific numerical compression ratio or file-size reduction percentage does Section 2.5 report for Huffman coding on standard English text files?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Pages 98-99 explain lossless compression and Huffman coding qualitatively (shorter binary codes for frequent symbols, Figure 2.4 tree); verified across all 516 chunks that no numerical compression ratio or percentage for English text is stated."
+  },
+  {
+    "id": "u03",
+    "split": "dev",
+    "type": "unanswerable_near_topic",
+    "question": "Under GDPR as described in Section 8.1, what is the maximum monetary fine (in euros or percentage of global annual turnover) for regulatory non-compliance?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Pages 388-389 introduce GDPR and Figure 8.2 principles conceptually, and verified across all 516 chunks (0 matches for 'turnover'/'penalty'; 'euro' only appears inside 'European Union') that no fine amounts or turnover percentages are provided.",
+    "filter": {
+      "chapter": "Chapter 8"
+    },
+    "filter_context": "Pre-supplied course module context: user is studying Chapter 8 Section 8.1."
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "type": "unanswerable_near_topic",
+    "question": "What monthly per-user subscription price does Chapter 1 state for Tableau Desktop or Microsoft Power BI?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Pages 40 and 397 describe Tableau and PowerBI as user-friendly interactive visualization tools; verified across all 516 chunks that no software pricing or license fees are mentioned."
+  },
+  {
+    "id": "u05",
+    "split": "test",
+    "type": "unanswerable_near_topic",
+    "question": "In the 1936 Literary Digest election poll discussed in Section 2.2, how many million ballots were mailed out and what exact percentage of the popular vote did Alf Landon receive?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Page 72 explains why the Literary Digest poll wrongly predicted Alf Landon over Franklin D. Roosevelt due to affluent telephone/auto-owner bias and closed-ended questions; verified across all 516 chunks that ballot counts and exact vote percentages are absent.",
+    "filter": {
+      "chapter": "Chapter 2"
+    },
+    "filter_context": "Pre-supplied course module context: user is studying Chapter 2 Section 2.2."
+  },
+  {
+    "id": "u06",
+    "split": "test",
+    "type": "unanswerable_near_topic",
+    "question": "Under HIPAA regulations described in Section 8.1, within how many calendar days must an organization notify affected patients after discovering a medical data breach?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Pages 389, 392, and 395 discuss HIPAA protection for patient health records and general breach notification laws (GLBA/PIPEDA); verified across all 516 chunks that no specific day-count deadline for HIPAA breach notification appears in the corpus."
+  }
+]

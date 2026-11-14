@@ -1,0 +1,129 @@
+[
+  {
+    "query_id": "adv_dev_t01",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_dev_t02",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_dev_t03",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_dev_d01",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_dev_d02",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_dev_d03",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_dev_c01",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_dev_c02",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_dev_c03",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_dev_m01",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": 1
+  },
+  {
+    "query_id": "adv_dev_m02",
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_dev_m03",
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_dev_x01",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_dev_x02",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_dev_x03",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_dev_u01",
+    "citation_support": [],
+    "abstention_correct": true
+  },
+  {
+    "query_id": "adv_dev_u02",
+    "citation_support": [],
+    "abstention_correct": true
+  },
+  {
+    "query_id": "adv_dev_u03",
+    "citation_support": [],
+    "abstention_correct": true
+  }
+]

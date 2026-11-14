@@ -1,0 +1,18 @@
+{
+  "config": "adv_hybrid_vision_agent",
+  "split": "dev",
+  "model": "gemini-3.1-flash-lite",
+  "cases": 18,
+  "answered": 15,
+  "abstain": 3,
+  "errors": 0,
+  "total_seconds": 515.337,
+  "total_search_calls": 23,
+  "total_vision_calls": 6,
+  "total_llm_prompt_tokens": 226306,
+  "total_llm_completion_tokens": 8003,
+  "total_vision_prompt_tokens": 8970,
+  "total_vision_completion_tokens": 781,
+  "total_embed_tokens": 415,
+  "total_estimated_cost_usd": 0.0720033
+}

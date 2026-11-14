@@ -1,0 +1,483 @@
+[
+  {
+    "id": "adv_dev_t01",
+    "split": "dev",
+    "group": "table",
+    "answerable": true,
+    "question": "In Box SPM.1, Table 1, which WGIII category describes pathways that return warming to 1.5°C (>50%) after a high overshoot, and which SSP/RCP scenario labels are assigned to category C6?",
+    "reference_answer": "Category C2 describes pathways that return warming to 1.5°C (>50%) after a high overshoot. Category C6 (limit warming to 3°C (>50%)) is assigned Intermediate (SSP2-4.5) in WGI & WGII and RCP 4.5 in WGI & WGII.",
+    "gold_pages": [26],
+    "gold_assets": ["box_spm1_t1"]
+  },
+  {
+    "id": "adv_dev_t02",
+    "split": "dev",
+    "group": "table",
+    "answerable": true,
+    "question": "According to Table SPM.1, what are the median percentage reductions (and 5–95th percentile intervals) from 2019 GHG emission levels in 2030 and 2050 under pathways limiting warming to 1.5°C (>50%) with no or limited overshoot?",
+    "reference_answer": "Under pathways limiting warming to 1.5°C (>50%) with no or limited overshoot, global GHG reductions from 2019 levels are 43% [34-60] in 2030 and 84% [73-98] in 2050.",
+    "gold_pages": [37],
+    "gold_assets": ["table_spm1"]
+  },
+  {
+    "id": "adv_dev_t03",
+    "split": "dev",
+    "group": "table",
+    "answerable": true,
+    "question": "In Table 3.1, what are the median cumulative net CO2 emissions (GtCO2, with 5–95th percentile ranges) from 2020 to net zero CO2 and from 2020–2100 for category C1?",
+    "reference_answer": "For category C1, median cumulative net CO2 emissions are 510 [330-710] GtCO2 from 2020 to net zero CO2 and 320 [-210-570] GtCO2 from 2020–2100.",
+    "gold_pages": [100],
+    "gold_assets": ["table_3_1"]
+  },
+  {
+    "id": "adv_dev_d01",
+    "split": "dev",
+    "group": "diagram_image",
+    "answerable": true,
+    "question": "In Figure 1.1 ('The Synthesis Report figures key'), what four axis-label symbols/labels are defined, and what do italicized 'annotations' mean?",
+    "reference_answer": "Figure 1.1 defines four axis labels: GHG emissions (cloud/smoke icon), Temperature (thermometer °C), Cost or budget (dollar coin icon), and Net zero (boxed 'net zero'). Italicized 'annotations' provide simple explanations written in non-technical language to help non-experts navigate complex content.",
+    "gold_pages": [55],
+    "gold_assets": ["fig_1_1"]
+  },
+  {
+    "id": "adv_dev_d02",
+    "split": "dev",
+    "group": "diagram_image",
+    "answerable": true,
+    "question": "In Figure SPM.6, list at least four 'Conditions that enable individual and collective actions' shown on the upper left and name the three interacting actor groups in its icon diagram.",
+    "reference_answer": "Enabling conditions in Figure SPM.6 include Inclusive governance; Diverse knowledges and values; Finance and innovation; Integration across sectors and time scales; Ecosystem stewardship; Synergies between climate and development actions; and Behavioural change supported by policy, infrastructure and socio-cultural factors. The actor diagram shows Governments, Civil society, and Private sector.",
+    "gold_pages": [41],
+    "gold_assets": ["fig_spm6"]
+  },
+  {
+    "id": "adv_dev_d03",
+    "split": "dev",
+    "group": "diagram_image",
+    "answerable": true,
+    "question": "In Figure 4.3 Panel (c) ('Example of complex risk...'), what climate hazard triggers the cascading risks to smallholder farmers, and which immediate node directly links that hazard to 'Food yield and quality losses'?",
+    "reference_answer": "The cascading risk example in Figure 4.3 Panel (c) starts with more frequent and more intense 'Extreme heat and drought', which leads directly through 'Reduced soil moisture and health' to 'Food yield and quality losses'.",
+    "gold_pages": [116, 117],
+    "gold_assets": ["fig_4_3"]
+  },
+  {
+    "id": "adv_dev_c01",
+    "split": "dev",
+    "group": "chart",
+    "answerable": true,
+    "question": "According to Figure SPM.7 Panel (b), what percentage of possible demand-side GHG reduction by 2050 is shown for Food and for Land transport?",
+    "reference_answer": "Figure SPM.7 Panel (b) reports 44% possible demand-side reduction by 2050 for Food and 67% for Land transport.",
+    "gold_pages": [43, 44],
+    "gold_assets": ["fig_spm7"]
+  },
+  {
+    "id": "adv_dev_c02",
+    "split": "dev",
+    "group": "chart",
+    "answerable": true,
+    "question": "In Figure 2.2 Panel (a), what were the top three regions by share of historical cumulative net anthropogenic CO2 emissions (1850–2019), and what exact percentages are printed above their bars?",
+    "reference_answer": "The top three regions in Figure 2.2 Panel (a) are North America (23%), Europe (16%), and Eastern Asia (12%).",
+    "gold_pages": [61, 62],
+    "gold_assets": ["fig_2_2"]
+  },
+  {
+    "id": "adv_dev_c03",
+    "split": "dev",
+    "group": "chart",
+    "answerable": true,
+    "question": "In Figure 2.5 Panel (b), what percentage changes in 2030 relative to 2019 GHG levels are annotated for the four trajectories (+5%, -4%, -26%, -43%)?",
+    "reference_answer": "Relative to 2019 in 2030: Trend from implemented policies is +5%; pathways limiting warming to 2°C (>67%) or 1.5°C (>50%) after high overshoot with NDCs until 2030 is -4%; pathways limiting warming to 2°C (>67%) is -26%; and pathways limiting warming to 1.5°C (>50%) with no or limited overshoot is -43%.",
+    "gold_pages": [75],
+    "gold_assets": ["fig_2_5"]
+  },
+  {
+    "id": "adv_dev_m01",
+    "split": "dev",
+    "group": "multihop",
+    "answerable": true,
+    "question": "Combining Table SPM.1 and Table 3.1, what are the 2040 median GHG emission reductions (and 5–95% range) for limiting warming to 2°C (>67%), and what percentage and median timing of reaching net zero CO2 does Table 3.1 give for category C3?",
+    "reference_answer": "In Table SPM.1 (and Table 3.1 C3), 2040 median GHG reduction is 46% [34-63] for limiting warming to 2°C (>67%). In Table 3.1, 93% of category C3 pathways reach net zero CO2 with a median 5-year interval timing of 2070-2075 [2055-...].",
+    "gold_pages": [37, 100],
+    "gold_assets": ["table_spm1", "table_3_1"]
+  },
+  {
+    "id": "adv_dev_m02",
+    "split": "dev",
+    "group": "multihop",
+    "answerable": true,
+    "question": "Synthesizing Figure 2.2 Panel (c) and Figure 2.3 Panel (b), how did Southern Asia's percentage share of global GHG emissions change from 1990 (38 GtCO2-eq) to 2019 (59 GtCO2-eq), and what general relationship between national vulnerability and 2019 per capita emissions is annotated in Figure 2.3(b)?",
+    "reference_answer": "In Figure 2.2(c), Southern Asia's share increased from 7% of 38 GtCO2-eq in 1990 to 8% of 59 GtCO2-eq in 2019. In Figure 2.3(b), the annotation states that more vulnerable countries generally have lower emissions per capita (with data covering 180 nations).",
+    "gold_pages": [61, 65],
+    "gold_assets": ["fig_2_2", "fig_2_3"]
+  },
+  {
+    "id": "adv_dev_m03",
+    "split": "dev",
+    "group": "multihop",
+    "answerable": true,
+    "question": "Connecting Cross-Section Box.1, Figure 3.6(c), and Annex I (Glossary), does net zero CO2 or net zero GHG occur earlier in 1.5°C pathways, why, and what two choices determine the quantification of net zero GHG emissions?",
+    "reference_answer": "Net zero CO2 occurs earlier (median around 2050 in 1.5°C pathways) while total GHG reaches net zero later (and not all scenarios reach net zero GHG by 2100) because non-CO2 gases such as CH4 remain non-zero. Per Cross-Section Box.1 and Annex I Glossary, quantifying net zero GHG depends on the GHG emission metric (e.g., GWP100) and the time horizon chosen.",
+    "gold_pages": [76, 102, 143],
+    "gold_assets": ["fig_3_6"]
+  },
+  {
+    "id": "adv_dev_x01",
+    "split": "dev",
+    "group": "text",
+    "answerable": true,
+    "question": "According to Summary for Policymakers A.4.2, by what percentages did unit costs of solar energy, wind energy, and lithium-ion batteries decrease from 2010 to 2019, and what deployment increases occurred for solar and EVs?",
+    "reference_answer": "From 2010 to 2019, unit costs fell by 85% for solar energy, 55% for wind energy, and 85% for lithium-ion batteries, accompanied by >10x deployment growth for solar and >100x growth for electric vehicles (EVs).",
+    "gold_pages": [27],
+    "gold_assets": ["fig_2_4"]
+  },
+  {
+    "id": "adv_dev_x02",
+    "split": "dev",
+    "group": "text",
+    "answerable": true,
+    "question": "What does Section 3 assess regarding the Atlantic Meridional Overturning Circulation (AMOC) over the 21st century, including both likelihood/confidence levels?",
+    "reference_answer": "Section 3 assesses that the Atlantic Meridional Overturning Circulation is very likely to weaken over the 21st century for all considered scenarios (high confidence), though an abrupt collapse is not expected before 2100 (medium confidence).",
+    "gold_pages": [94],
+    "gold_assets": []
+  },
+  {
+    "id": "adv_dev_x03",
+    "split": "dev",
+    "group": "text",
+    "answerable": true,
+    "question": "According to Annex I (Glossary), how is 'Enabling conditions (for adaptation and mitigation options)' defined and what six examples/components are explicitly listed?",
+    "reference_answer": "Annex I defines enabling conditions as conditions that enhance the feasibility of adaptation and mitigation options, explicitly listing: finance, technological innovation, strengthening policy instruments, institutional capacity, multi-level governance, and changes in human behaviour and lifestyles.",
+    "gold_pages": [140],
+    "gold_assets": []
+  },
+  {
+    "id": "adv_dev_u01",
+    "split": "dev",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "What total initial capitalization pledge (in USD millions/billions) was officially announced for the Loss and Damage Fund at COP28 in Dubai?",
+    "reference_answer": null,
+    "gold_pages": [],
+    "gold_assets": []
+  },
+  {
+    "id": "adv_dev_u02",
+    "split": "dev",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "What target production cost in USD per kilogram of green hydrogen by 2030 is reported in Table 3.1 or Section 4?",
+    "reference_answer": null,
+    "gold_pages": [],
+    "gold_assets": []
+  },
+  {
+    "id": "adv_dev_u03",
+    "split": "dev",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "According to Section 2, what share of global electricity demand in 2022 was consumed by AI data centers and Bitcoin cryptocurrency mining?",
+    "reference_answer": null,
+    "gold_pages": [],
+    "gold_assets": []
+  },
+  {
+    "id": "adv_test_t01",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "In Table SPM.1, what are the median CO2 emission reductions (and 5–95th percentile intervals) from 2019 levels in 2035 and 2050 for pathways limiting warming to 2°C (>67%)?",
+    "reference_answer": "For pathways limiting warming to 2°C (>67%), median CO2 emission reductions from 2019 levels are 37% [21-59] in 2035 and 73% [55-90] in 2050.",
+    "gold_pages": [37],
+    "gold_assets": ["table_spm1"]
+  },
+  {
+    "id": "adv_test_t02",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "According to Table 2.2, what are the median projected global emissions in 2030 (GtCO2-eq/yr, min–max) implied by implemented policies by end of 2020 versus unconditional NDCs versus conditional NDCs?",
+    "reference_answer": "Table 2.2 reports 2030 median projected global emissions of 57 [52–60] GtCO2-eq/yr under implemented policies, 53 [50–57] GtCO2-eq/yr under unconditional NDCs, and 50 [47–55] GtCO2-eq/yr when including conditional NDC elements.",
+    "gold_pages": [74],
+    "gold_assets": ["table_2_2"]
+  },
+  {
+    "id": "adv_test_t03",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "In Table 2.2, what are the 2030 emissions gaps (GtCO2-eq/yr) between NDCs (both unconditional and including conditional elements) and pathways limiting warming to 1.5°C (>50%) with no or limited overshoot with immediate action?",
+    "reference_answer": "Table 2.2 gives the 2030 emissions gap to 1.5°C (>50%) pathways as 19–26 GtCO2-eq/yr for unconditional NDCs and 16–23 GtCO2-eq/yr when including conditional elements.",
+    "gold_pages": [74],
+    "gold_assets": ["table_2_2"]
+  },
+  {
+    "id": "adv_test_t04",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "In Table 2.1, what exact text annotations appear in the 'Human contribution assessment' column for (a) Antarctic ice sheet mass loss since 1990s and (b) Acidification of the global surface ocean, and what six confidence/likelihood categories appear in the colour Key?",
+    "reference_answer": "In Table 2.1, the Human contribution column states 'Limited evidence & medium agreement' for Antarctic ice sheet mass loss since 1990s, and 'Main driver' (virtually certain) for Acidification of the global surface ocean. The six Key levels from left to right are: medium confidence, likely / high confidence, very likely, extremely likely, virtually certain, and fact.",
+    "gold_pages": [63],
+    "gold_assets": ["table_2_1"]
+  },
+  {
+    "id": "adv_test_t05",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "In Table 3.1, compare category C3 (limit warming to 2°C (>67%)) and category C6 (limit warming to 3°C (>50%)) on (1) global mean temperature change in 2100 (°C) and (2) likelihood (%) of peak warming staying below 2.0°C.",
+    "reference_answer": "In Table 3.1, category C3 has a median 2100 warming of 1.6°C [1.5-1.8] and 76% [68-91] likelihood of staying below 2.0°C, whereas category C6 has a median 2100 warming of 2.7°C [2.4-2.9] and 8% [2-18] likelihood of staying below 2.0°C.",
+    "gold_pages": [100],
+    "gold_assets": ["table_3_1"]
+  },
+  {
+    "id": "adv_test_t06",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "In Table 3.1, compare subcategories C1a ('with net zero GHGs') and C1b ('without net zero GHGs') on their number of pathways, cumulative net CO2 emissions from 2020 to net zero CO2, and percentage reaching net zero GHGs.",
+    "reference_answer": "Table 3.1 shows C1a has 50 pathways, 550 [340-760] GtCO2 cumulative CO2 to net zero CO2, and 100% reaching net zero GHGs (median 2070-2075); C1b has 47 pathways, 460 [320-590] GtCO2 cumulative CO2 to net zero CO2, and 0% reaching net zero GHGs.",
+    "gold_pages": [100],
+    "gold_assets": ["table_3_1"]
+  },
+  {
+    "id": "adv_test_d01",
+    "split": "test",
+    "group": "diagram_image",
+    "answerable": true,
+    "question": "In Figure SPM.3 Panels (a) and (b), how many species are included in the 'Risk of species losses' maps, and how many morbidity/mortality threshold cases underpin the 'Heat-humidity risks to human health' panel (along with its scale range in days/year)?",
+    "reference_answer": "Footnote 2 in Figure SPM.3(a) specifies 30,652 species (birds, mammals, reptiles, amphibians, marine fish, benthic marine invertebrates, krill, cephalopods, corals, and seagrasses). Panel (b) uses a 0 to 365 days/year scale based on a single study synthesizing data from 783 cases (drawn largely from temperate climates).",
+    "gold_pages": [32, 33],
+    "gold_assets": ["fig_spm3"]
+  },
+  {
+    "id": "adv_test_d02",
+    "split": "test",
+    "group": "diagram_image",
+    "answerable": true,
+    "question": "In Cross-Section Box.2 Figure 1, name the four 'Determinants of risk' arranged around Risk in Panel (c), and explain what the dashed arrow from Impacts/Risks back to Socio-economic changes in Panel (a) indicates.",
+    "reference_answer": "Panel (c) arranges Vulnerability, Exposure, Response, and Hazard (linked to Climatic Impact-Drivers) around Risk. The dashed arrow in Panel (a) indicates that the influence/feedback from impacts and risks back onto socio-economic changes is not yet considered in the scenarios assessed in the AR6.",
+    "gold_pages": [81, 82],
+    "gold_assets": ["fig_csb2_1"]
+  },
+  {
+    "id": "adv_test_d03",
+    "split": "test",
+    "group": "diagram_image",
+    "answerable": true,
+    "question": "In Figure 2.3 Panel (a), what do the hexagon labels SAS, MED, and WCE stand for, and what observed change + confidence level ratings do SAS (for Hot extremes) and MED & WCE (for Agricultural and ecological drought) display?",
+    "reference_answer": "SAS stands for South Asia, MED for Mediterranean, and WCE for Western and Central Europe. Under Hot extremes, SAS shows Increase with High confidence (3 dots); under Agricultural and ecological drought, both MED and WCE show Increase with Medium confidence (2 dots).",
+    "gold_pages": [64, 65],
+    "gold_assets": ["fig_2_3"]
+  },
+  {
+    "id": "adv_test_d04",
+    "split": "test",
+    "group": "diagram_image",
+    "answerable": true,
+    "question": "In Figure 4.2, list three 'Conditions that constrain individual and collective actions' on the lower left, and what does the lightning/wavy arrow legend at the bottom right represent?",
+    "reference_answer": "Constraining conditions in Figure 4.2 include: Poverty, inequity and injustice; Economic, institutional, social and capacity barriers; Siloed responses; Lack of finance, and barriers to finance and technology; and Tradeoffs with SDGs. The lightning/wavy symbol represents an Illustrative 'shock' that disrupts development.",
+    "gold_pages": [113],
+    "gold_assets": ["fig_4_2"]
+  },
+  {
+    "id": "adv_test_d05",
+    "split": "test",
+    "group": "diagram_image",
+    "answerable": true,
+    "question": "In Figure 4.5 (SDGs synergies and trade-offs matrix), which systems display only an Adaptation column, which displays only a Mitigation column, and which SDG number from 1 to 17 is omitted from the vertical rows?",
+    "reference_answer": "In Figure 4.5, 'Ocean ecosystems' and 'Society, livelihoods, and economies' show only Adaptation; 'Industry' shows only Mitigation (while Energy systems, Urban and infrastructure, and Land system show both); and SDG 13 (Climate Action) is omitted from rows 1–12 and 14–17.",
+    "gold_pages": [125],
+    "gold_assets": ["fig_4_5"]
+  },
+  {
+    "id": "adv_test_c01",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "In Figure 2.1 Panels (b) and (c), what exact 2019 atmospheric concentrations (with units) are labelled for CO2, CH4, and N2O, and what global surface temperature increase by 2011–2020 (compared to 1850–1900) is printed in Panel (c)?",
+    "reference_answer": "Figure 2.1 Panel (b) labels 2019 concentrations of 410 ppm CO2, 1866 ppb CH4, and 332 ppb N2O; Panel (c) states global surface temperature has increased by 1.1°C by 2011–2020 compared to 1850–1900.",
+    "gold_pages": [59],
+    "gold_assets": ["fig_2_1"]
+  },
+  {
+    "id": "adv_test_c02",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "According to Figure SPM.5 Panel (a), what projected global warming outcome (median and range, with confidence level) do 'Implemented policies' lead to, and how did 2019 global GHG emissions compare to 2010?",
+    "reference_answer": "Figure SPM.5 Panel (a) notes that implemented policies result in projected emissions leading to warming of 3.2°C (range 2.2°C to 3.5°C, medium confidence), and 2019 emissions were 12% higher than 2010.",
+    "gold_pages": [38, 39],
+    "gold_assets": ["fig_spm5"]
+  },
+  {
+    "id": "adv_test_c03",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "In Figure SPM.7, what overall emission reduction by 2030 could options costing 100 USD tCO2-eq^-1 or less achieve (Panel a), and what 2050 demand-side reduction percentages are shown in Panel (b) for Buildings, Industry, and Electricity (before additional electrification)?",
+    "reference_answer": "Panel (a) annotates that options costing 100 USD tCO2-eq^-1 or less could reduce global emissions by at least half of the 2019 level by 2030. Panel (b) shows 2050 demand-side reductions of 66% for Buildings, 29% for Industry, and 73% for Electricity (before additional electrification, alongside +60% additional electrification).",
+    "gold_pages": [43, 44],
+    "gold_assets": ["fig_spm7"]
+  },
+  {
+    "id": "adv_test_c04",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "According to Figure 4.6, what are the lower and upper 'Multiplication factors' between average yearly mitigation investment flows and annual needs until 2030 for (1) Agriculture, forestry and other land use (AFOLU), (2) Developing countries, and (3) South-East Asia and Pacific?",
+    "reference_answer": "Figure 4.6 lists multiplication factors of x10 to x31 for Agriculture, forestry and other land use, x4 to x7 for Developing countries, and x6 to x12 for South-East Asia and Pacific.",
+    "gold_pages": [129],
+    "gold_assets": ["fig_4_6"]
+  },
+  {
+    "id": "adv_test_c05",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "In Figure 3.4 Panels (a) and (b), how many people are exposed to sea level rise by 2050 and how much more frequent do once-per-century extreme sea level events become, and what typical lifetimes are shown in Panel (b) for elevating houses, protect barriers, and planned relocation?",
+    "reference_answer": "Figure 3.4(a) states 1 billion people exposed by 2050 and once-per-century extreme sea level events becoming 20–30 times more frequent (plus sea level rise >15 m cannot be ruled out by 2300 with very high emissions). Panel (b) gives typical lifetimes of ~30 years for elevating houses, ~100 years for protect barriers, and >=100 years for planned relocation.",
+    "gold_pages": [96, 97],
+    "gold_assets": ["fig_3_4"]
+  },
+  {
+    "id": "adv_test_m01",
+    "split": "test",
+    "group": "multihop",
+    "answerable": true,
+    "question": "Connecting Figure 4.3 Panel (a) and Figure 3.4 Panel (a), under SSP2-4.5 (2020 to 2040) coastal flooding of 1-in-100-year events in Figure 4.3(a), which region shows the highest total exposed population in 2040 (with its added millions) and which region shows the highest relative percentage increase (+%)?",
+    "reference_answer": "In Figure 4.3 Panel (a), Asia has the largest total exposed population in 2040 at 63.81 million (+16.36 million, +26%), while Africa has the largest relative percentage increase at +95% (2.40 million, +2.29 million); meanwhile Figure 3.4(a) reports 1 billion people globally exposed by 2050.",
+    "gold_pages": [96, 116, 117],
+    "gold_assets": ["fig_4_3", "fig_3_4"]
+  },
+  {
+    "id": "adv_test_m02",
+    "split": "test",
+    "group": "multihop",
+    "answerable": true,
+    "question": "Combining Figure 2.2 Panels (c) and (d), how much did total annual global net anthropogenic GHG emissions rise from 1990 to 2019 (GtCO2-eq/yr), and how did North America compare with Southern Asia on 2018 production- versus consumption-based CO2-FFI emissions per person?",
+    "reference_answer": "In Figure 2.2(c), total global GHG emissions rose from 38 GtCO2-eq/yr in 1990 to 59 GtCO2-eq/yr in 2019. In Figure 2.2(d), 2018 CO2-FFI per person was 16 (production-based) vs 17 (consumption-based) tCO2-FFI/person for North America, compared to 1.6 (production) vs 1.5 (consumption) tCO2-FFI/person for Southern Asia.",
+    "gold_pages": [61, 62],
+    "gold_assets": ["fig_2_2"]
+  },
+  {
+    "id": "adv_test_m03",
+    "split": "test",
+    "group": "multihop",
+    "answerable": true,
+    "question": "Synthesizing Figure 4.1 (Panels a & b) and Table 3.1, in 1.5°C pathways which two sectors generally reach net zero CO2 earlier than Transport/industry/buildings, which IMP pathway in Figure 4.1(b) has '*High overshoot', and what median 2050 total GHG reduction does Table 3.1 report for category C1?",
+    "reference_answer": "In Figure 4.1(a), Land-use change and Energy supply (including electricity) reach net zero CO2 earlier (around ~2030 and ~2040-2045) than Transport, industry and buildings (post-2050). In Figure 4.1(b), IMP-Neg is labelled '*High overshoot' (High reliance on net negative emissions). Table 3.1 gives C1's median 2050 GHG reduction as 84% [73-98].",
+    "gold_pages": [100, 110, 111],
+    "gold_assets": ["fig_4_1", "table_3_1"]
+  },
+  {
+    "id": "adv_test_m04",
+    "split": "test",
+    "group": "multihop",
+    "answerable": true,
+    "question": "Connecting Figure 3.5 Panel (a) and Table 3.1, how do cumulative lifetime CO2 emissions from existing (and existing+planned) fossil fuel infrastructure compare to the 1.5°C (>50%) remaining carbon budget in Figure 3.5(a), and what median cumulative net CO2 emissions (2020 to net zero CO2) does Table 3.1 report for C1?",
+    "reference_answer": "Figure 3.5(a) shows that cumulative lifetime CO2 emissions from existing fossil fuel infrastructure alone (without additional abatement) already exceed the 1.5°C (>50% chance) remaining carbon budget vertical threshold (~500 GtCO2), and existing+planned infrastructure exceeds it even further. Table 3.1 reports 510 [330-710] GtCO2 median cumulative CO2 emissions from 2020 to net zero CO2 for category C1.",
+    "gold_pages": [99, 100],
+    "gold_assets": ["fig_3_5", "table_3_1"]
+  },
+  {
+    "id": "adv_test_x01",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "According to Summary for Policymakers A.1.5, what shares of the global population in 2019 lived in countries emitting >9 tCO2-eq per capita versus <3 tCO2-eq per capita (excluding CO2-LULUCF), and what are the per-capita averages for LDCs, SIDS, and the world?",
+    "reference_answer": "In 2019, around 35% of the global population lived in countries emitting >9 tCO2-eq per capita (excluding CO2-LULUCF) and 41% lived in countries emitting <3 tCO2-eq per capita. Per capita emissions were 1.7 tCO2-eq for LDCs and 4.6 tCO2-eq for SIDS, compared to the global average of 6.9 tCO2-eq.",
+    "gold_pages": [21],
+    "gold_assets": []
+  },
+  {
+    "id": "adv_test_x02",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "How does Section 4 contrast decarbonization approaches for light industry and manufacturing versus deep reductions of cement process emissions?",
+    "reference_answer": "Section 4 states that light industry and manufacturing can be largely decarbonized via material efficiency, circularity, electrification (electrothermal heating, heat pumps), and switching to low-/zero-GHG fuels (hydrogen, ammonia, bio-based/synthetic fuels), whereas deep reduction of cement process emissions relies on cementitious material substitution and Carbon Capture and Storage (CCS) until new chemistries are mastered.",
+    "gold_pages": [121],
+    "gold_assets": []
+  },
+  {
+    "id": "adv_test_x03",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "According to Section 4 (page 130 / report page 114), what three negative trade-offs can technological innovation cause, and how can digital technologies boost energy efficiency?",
+    "reference_answer": "Section 4 identifies three innovation trade-offs: new/greater environmental impacts and social inequalities; rebound effects leading to lower net reductions or higher emissions; and overdependence on foreign knowledge and providers. Digital technologies can promote large increases in energy efficiency through coordination and an economic shift to services.",
+    "gold_pages": [130],
+    "gold_assets": []
+  },
+  {
+    "id": "adv_test_x04",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "Using Annex I (Glossary) and Annex II (Acronyms), how is 'Net zero GHG emissions' defined and what do the acronyms BECCS, DACCS, and AFOLU stand for?",
+    "reference_answer": "Annex I defines 'Net zero GHG emissions' as a condition where metric-weighted anthropogenic GHG emissions are balanced by metric-weighted anthropogenic GHG removals over a specified period (depending on chosen GHG emission metric and time horizon). Annex II expands BECCS as Bioenergy with Carbon Dioxide Capture and Storage, DACCS as Direct Air Carbon Capture and Storage, and AFOLU as Agriculture, Forestry and Other Land Use.",
+    "gold_pages": [143, 148],
+    "gold_assets": []
+  },
+  {
+    "id": "adv_test_u01",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "What New Collective Quantified Goal (NCQG) annual climate finance figure in USD billions did countries adopt at COP29 in Baku?",
+    "reference_answer": null,
+    "gold_pages": [],
+    "gold_assets": []
+  },
+  {
+    "id": "adv_test_u02",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "What power conversion efficiency percentage does Section 4 cite for commercial perovskite-silicon tandem solar modules?",
+    "reference_answer": null,
+    "gold_pages": [],
+    "gold_assets": []
+  },
+  {
+    "id": "adv_test_u03",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "What projected global mean sea level rise in meters does Table 3.1 report specifically for the year 2120 under category C3?",
+    "reference_answer": null,
+    "gold_pages": [],
+    "gold_assets": []
+  },
+  {
+    "id": "adv_test_u04",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "What solid-state battery gravimetric energy density (Wh/kg) target by 2032 is stated in Section 2 or Figure 2.4?",
+    "reference_answer": null,
+    "gold_pages": [],
+    "gold_assets": []
+  },
+  {
+    "id": "adv_test_u05",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "What specific carbon border adjustment tariff rate per tonne of imported steel (EUR/tCO2) does Section 4 report for CBAM enforcement?",
+    "reference_answer": null,
+    "gold_pages": [],
+    "gold_assets": []
+  },
+  {
+    "id": "adv_test_u06",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "What commercial grid-connection date and capital cost per kW does Figure SPM.7 or Section 4 report for commercial nuclear fusion plants and small modular reactors (SMRs)?",
+    "reference_answer": null,
+    "gold_pages": [],
+    "gold_assets": []
+  }
+]
+

@@ -1,0 +1,678 @@
+{
+  "baseline_dense": [
+    {
+      "query_id": "q16",
+      "split": "test",
+      "config": "baseline_dense",
+      "question": "Why could the 'Semester' attribute in the course evaluation example be treated as either nominal or ordinal depending on the analysis?",
+      "filter": null,
+      "gold_source_id": "openstax-pds-2025",
+      "gold_page": 29,
+      "required_clauses": [
+        "semester and instructor do not have orders to follow",
+        "semester could have chronological ordering",
+        "you could consider the semester data to be ordinal as well"
+      ],
+      "results": [
+        {
+          "rank": 1,
+          "id": "openstax-pds-2025:p029:para:c001",
+          "page": 29,
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "score": 0.693008,
+          "strict_hit": true
+        },
+        {
+          "rank": 2,
+          "id": "openstax-pds-2025:p028:para:c004",
+          "page": 28,
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "score": 0.595175,
+          "strict_hit": false
+        },
+        {
+          "rank": 3,
+          "id": "openstax-pds-2025:p027:para:c003",
+          "page": 27,
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "score": 0.568256,
+          "strict_hit": false
+        }
+      ],
+      "context_ids": [
+        "openstax-pds-2025:p027:para:c003"
+      ],
+      "context_chars": 742,
+      "context": "[openstax-pds-2025:p027:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 27]\nThe course evaluation ratings themselves do not provide an idea on whether to take the course next semester. The ratings are just a phrase (e.g., “Highly recommended” or “Not quite recommended”) that encodes how recommended the course was in that semester. You need to analyze them to come up with a decision!\n\nNow let’s think about how to derive the information from these ratings. You would probably look at all the data, including when in the semester the course was offered, who the instructor is, and class size. These records would allow you to derive information that would help you decide “whether or not to take the course next semester.”",
+      "hit1": true,
+      "hit3": true,
+      "union3": true,
+      "context_hit": false,
+      "mrr3": 1.0,
+      "filter_ok": true,
+      "elapsed_ms": 1744.27,
+      "meta": {
+        "method": "dense",
+        "elapsed_ms": 1744.25,
+        "embed_tokens": 25,
+        "embed_cost_usd": 5e-07,
+        "embed_reference_cost_usd": 5e-07,
+        "embed_cached": false,
+        "rerank_tokens": 0,
+        "rerank_cost_usd": 0.0
+      }
+    },
+    {
+      "query_id": "q17",
+      "split": "test",
+      "config": "baseline_dense",
+      "question": "When using pandas read_html() to scrape tables from a web page, what type of object does it return and which function converts string columns into numbers?",
+      "filter": null,
+      "gold_source_id": "openstax-pds-2025",
+      "gold_page": 78,
+      "required_clauses": [
+        "read HTML tables from a web page and convert them into a list of DataFrame objects",
+        "to_numeric() function from pandas to convert strings to numbers"
+      ],
+      "results": [
+        {
+          "rank": 1,
+          "id": "openstax-pds-2025:p078:para:c002",
+          "page": 78,
+          "chapter": "Chapter 2",
+          "section": "2.3",
+          "score": 0.677353,
+          "strict_hit": false
+        },
+        {
+          "rank": 2,
+          "id": "openstax-pds-2025:p078:para:c003",
+          "page": 78,
+          "chapter": "Chapter 2",
+          "section": "2.3",
+          "score": 0.613437,
+          "strict_hit": false
+        },
+        {
+          "rank": 3,
+          "id": "openstax-pds-2025:p078:para:c004",
+          "page": 78,
+          "chapter": "Chapter 2",
+          "section": "2.3",
+          "score": 0.505077,
+          "strict_hit": false
+        }
+      ],
+      "context_ids": [
+        "openstax-pds-2025:p078:para:c002"
+      ],
+      "context_chars": 409,
+      "context": "[openstax-pds-2025:p078:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 78]\n2. Use the read_htmlread_html() function. This function is used to read HTML tables from a web page and convert them into a list of DataFrame objects. Recall from What Are Data and Data Science? that a DataFrame is a data type that pandas uses to store multi-column tabular data.\n\ndf = pd.read_html(\"https://......",
+      "hit1": false,
+      "hit3": false,
+      "union3": true,
+      "context_hit": false,
+      "mrr3": 0.0,
+      "filter_ok": true,
+      "elapsed_ms": 1173.11,
+      "meta": {
+        "method": "dense",
+        "elapsed_ms": 1173.08,
+        "embed_tokens": 30,
+        "embed_cost_usd": 6e-07,
+        "embed_reference_cost_usd": 6e-07,
+        "embed_cached": false,
+        "rerank_tokens": 0,
+        "rerank_cost_usd": 0.0
+      }
+    },
+    {
+      "query_id": "q18",
+      "split": "test",
+      "config": "baseline_dense",
+      "question": "Why does data chunking attach metadata such as chunk number and total chunk count, and what are its four main benefits?",
+      "filter": {
+        "chapter": "Chapter 2"
+      },
+      "gold_source_id": "openstax-pds-2025",
+      "gold_page": 100,
+      "required_clauses": [
+        "allows the chunks to be reassembled into the original dataset after being transmitted or stored separately",
+        "1. Increased speed.",
+        "2. Better utilization of resources.",
+        "3. Increased fault tolerance.",
+        "4. Flexibility."
+      ],
+      "results": [
+        {
+          "rank": 1,
+          "id": "openstax-pds-2025:p100:para:c002",
+          "page": 100,
+          "chapter": "Chapter 2",
+          "section": "2.5",
+          "score": 0.772606,
+          "strict_hit": false
+        },
+        {
+          "rank": 2,
+          "id": "openstax-pds-2025:p100:para:c001",
+          "page": 100,
+          "chapter": "Chapter 2",
+          "section": "2.5",
+          "score": 0.695184,
+          "strict_hit": false
+        },
+        {
+          "rank": 3,
+          "id": "openstax-pds-2025:p100:para:c003",
+          "page": 100,
+          "chapter": "Chapter 2",
+          "section": "2.5",
+          "score": 0.655358,
+          "strict_hit": false
+        }
+      ],
+      "context_ids": [
+        "openstax-pds-2025:p100:para:c002"
+      ],
+      "context_chars": 280,
+      "context": "[openstax-pds-2025:p100:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100]\nThis metadata allows the chunks to be reassembled into the original dataset after being transmitted or stored separately. Data chunking has several advantages, including the following:",
+      "hit1": false,
+      "hit3": false,
+      "union3": true,
+      "context_hit": false,
+      "mrr3": 0.0,
+      "filter_ok": true,
+      "elapsed_ms": 1054.62,
+      "meta": {
+        "method": "dense",
+        "elapsed_ms": 1054.61,
+        "embed_tokens": 24,
+        "embed_cost_usd": 4.8e-07,
+        "embed_reference_cost_usd": 4.8e-07,
+        "embed_cached": false,
+        "rerank_tokens": 0,
+        "rerank_cost_usd": 0.0
+      }
+    },
+    {
+      "query_id": "q19",
+      "split": "test",
+      "config": "baseline_dense",
+      "question": "When an outside researcher requests access to medical records containing PII, which compliance regulation applies and when must access be revoked?",
+      "filter": null,
+      "gold_source_id": "openstax-pds-2025",
+      "gold_page": 395,
+      "required_clauses": [
+        "complies with HIPAA regulations because there are medical records involved",
+        "If the researcher's authorization or employment changes, their access should be revoked immediately"
+      ],
+      "results": [
+        {
+          "rank": 1,
+          "id": "openstax-pds-2025:p395:para:c002",
+          "page": 395,
+          "chapter": "Chapter 8",
+          "section": "8.1",
+          "score": 0.585685,
+          "strict_hit": false
+        },
+        {
+          "rank": 2,
+          "id": "openstax-pds-2025:p395:para:c000",
+          "page": 395,
+          "chapter": "Chapter 8",
+          "section": "8.1",
+          "score": 0.562156,
+          "strict_hit": false
+        },
+        {
+          "rank": 3,
+          "id": "openstax-pds-2025:p388:para:c004",
+          "page": 388,
+          "chapter": "Chapter 8",
+          "section": "8.1",
+          "score": 0.54325,
+          "strict_hit": false
+        }
+      ],
+      "context_ids": [
+        "openstax-pds-2025:p395:para:c002"
+      ],
+      "context_chars": 719,
+      "context": "[openstax-pds-2025:p395:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395]\n3. Assess need-to-know: The team should evaluate whether the researcher has a legitimate need to know the data. If the data is not relevant to their research or can be obtained through alternative means, access may not be granted. This step ensures that only authorized parties have access to the sensitive data.\n4. Obtain consent from data owner: As the data pertains to confidential medical information of patients, it is important to obtain consent from the data owner before granting access to a third party. This can be done through a formal process where the data owner signs off on granting access to the researcher.",
+      "hit1": false,
+      "hit3": false,
+      "union3": false,
+      "context_hit": false,
+      "mrr3": 0.0,
+      "filter_ok": true,
+      "elapsed_ms": 1076.72,
+      "meta": {
+        "method": "dense",
+        "elapsed_ms": 1076.7,
+        "embed_tokens": 24,
+        "embed_cost_usd": 4.8e-07,
+        "embed_reference_cost_usd": 4.8e-07,
+        "embed_cached": false,
+        "rerank_tokens": 0,
+        "rerank_cost_usd": 0.0
+      }
+    },
+    {
+      "query_id": "q20",
+      "split": "test",
+      "config": "baseline_dense",
+      "question": "What requirement applies when graphs or reports use data that is not publicly available, and what are the four reasons for data source attribution?",
+      "filter": {
+        "chapter": "Chapter 8"
+      },
+      "gold_source_id": "openstax-pds-2025",
+      "gold_page": 411,
+      "required_clauses": [
+        "1. Accuracy and credibility.",
+        "2. Trust and transparency.",
+        "3. Accountability.",
+        "4. Privacy considerations.",
+        "if the data utilized in graphs or reports are not publicly available, permission must be obtained from the source"
+      ],
+      "results": [
+        {
+          "rank": 1,
+          "id": "openstax-pds-2025:p411:para:c003",
+          "page": 411,
+          "chapter": "Chapter 8",
+          "section": "8.3",
+          "score": 0.745458,
+          "strict_hit": false
+        },
+        {
+          "rank": 2,
+          "id": "openstax-pds-2025:p411:para:c002",
+          "page": 411,
+          "chapter": "Chapter 8",
+          "section": "8.3",
+          "score": 0.652966,
+          "strict_hit": false
+        },
+        {
+          "rank": 3,
+          "id": "openstax-pds-2025:p411:para:c001",
+          "page": 411,
+          "chapter": "Chapter 8",
+          "section": "8.3",
+          "score": 0.593892,
+          "strict_hit": false
+        }
+      ],
+      "context_ids": [
+        "openstax-pds-2025:p411:para:c003"
+      ],
+      "context_chars": 618,
+      "context": "[openstax-pds-2025:p411:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411]\nIt is important to note that if the data utilized in graphs or reports are not publicly available, permission must be obtained from the source before using it in new research or publication. This would also require proper attribution and citation to the source of the data.\n\nData source attribution is also closely tied to the principles of accessibility and inclusivity. By clearly stating the sources of data, it enables people with different backgrounds and abilities to access and understand the information presented.",
+      "hit1": false,
+      "hit3": false,
+      "union3": true,
+      "context_hit": false,
+      "mrr3": 0.0,
+      "filter_ok": true,
+      "elapsed_ms": 1044.67,
+      "meta": {
+        "method": "dense",
+        "elapsed_ms": 1044.65,
+        "embed_tokens": 26,
+        "embed_cost_usd": 5.2e-07,
+        "embed_reference_cost_usd": 5.2e-07,
+        "embed_cached": false,
+        "rerank_tokens": 0,
+        "rerank_cost_usd": 0.0
+      }
+    }
+  ],
+  "imp1_hybrid_expanded": [
+    {
+      "query_id": "q16",
+      "split": "test",
+      "config": "imp1_hybrid_expanded",
+      "question": "Why could the 'Semester' attribute in the course evaluation example be treated as either nominal or ordinal depending on the analysis?",
+      "filter": null,
+      "gold_source_id": "openstax-pds-2025",
+      "gold_page": 29,
+      "required_clauses": [
+        "semester and instructor do not have orders to follow",
+        "semester could have chronological ordering",
+        "you could consider the semester data to be ordinal as well"
+      ],
+      "results": [
+        {
+          "rank": 1,
+          "id": "openstax-pds-2025:p029:para:c001",
+          "page": 29,
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "score": 0.032787,
+          "strict_hit": true
+        },
+        {
+          "rank": 2,
+          "id": "openstax-pds-2025:p027:para:c003",
+          "page": 27,
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "score": 0.032002,
+          "strict_hit": false
+        },
+        {
+          "rank": 3,
+          "id": "openstax-pds-2025:p027:para:c002",
+          "page": 27,
+          "chapter": "Chapter 1",
+          "section": "1.3",
+          "score": 0.031258,
+          "strict_hit": false
+        }
+      ],
+      "context_ids": [
+        "openstax-pds-2025:p027:para:c003",
+        "openstax-pds-2025:p029:para:c001",
+        "openstax-pds-2025:p029:para:c002"
+      ],
+      "context_chars": 2110,
+      "context": "[openstax-pds-2025:p027:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 27 | section 1.3]\nThe course evaluation ratings themselves do not provide an idea on whether to take the course next semester. The ratings are just a phrase (e.g., “Highly recommended” or “Not quite recommended”) that encodes how recommended the course was in that semester. You need to analyze them to come up with a decision!\n\nNow let’s think about how to derive the information from these ratings. You would probably look at all the data, including when in the semester the course was offered, who the instructor is, and class size. These records would allow you to derive information that would help you decide “whether or not to take the course next semester.”\n\n[openstax-pds-2025:p029:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 29 | section 1.3]\nThe rest—semester, instructor, and ratings—are categorical data. They are represented in symbols (e.g., “Fall 2020,” “A”) or words (e.g., “Highly recommended”), and these values are chosen from the finite set of those symbols and words (e.g., A vs. B). The former two data are nominal since the semester and instructor do not have orders to follow, while the latter is ordinal since there is a notion of degree (Not recommended at all ~ Highly recommended). You may argue that the semester could have chronological ordering: Fall 2020 comes before Spring 2021, Fall 2021 follows Fall 2020. If you want to value that notion for your analysis, you could consider the semester data to be ordinal as well—the chronological ordering is indeed critical when you are looking at a time-series dataset.\n\n[openstax-pds-2025:p029:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 29 | section 1.3]\nYou will learn more about that in Time Series and Forecasting.\n\nEXAMPLE 1.2\n\nProblem\n\nConsider the jacket scenario in Example 1.1. In that example, we referred to two kinds of data:\n\n1. The temperature during past three days—90°F, 85°F, ...\n2. On each of those days, whether you needed a jacket—Yes, No, ...\n\nWhat is the type of each data?",
+      "hit1": true,
+      "hit3": true,
+      "union3": true,
+      "context_hit": true,
+      "mrr3": 1.0,
+      "filter_ok": true,
+      "elapsed_ms": 31.19,
+      "meta": {
+        "method": "hybrid_rrf",
+        "elapsed_ms": 31.06,
+        "embed_tokens": 25,
+        "embed_cost_usd": 0.0,
+        "embed_reference_cost_usd": 5e-07,
+        "embed_cached": true,
+        "rerank_tokens": 0,
+        "rerank_cost_usd": 0.0
+      }
+    },
+    {
+      "query_id": "q17",
+      "split": "test",
+      "config": "imp1_hybrid_expanded",
+      "question": "When using pandas read_html() to scrape tables from a web page, what type of object does it return and which function converts string columns into numbers?",
+      "filter": null,
+      "gold_source_id": "openstax-pds-2025",
+      "gold_page": 78,
+      "required_clauses": [
+        "read HTML tables from a web page and convert them into a list of DataFrame objects",
+        "to_numeric() function from pandas to convert strings to numbers"
+      ],
+      "results": [
+        {
+          "rank": 1,
+          "id": "openstax-pds-2025:p078:para:c002",
+          "page": 78,
+          "chapter": "Chapter 2",
+          "section": "2.3",
+          "score": 0.032787,
+          "strict_hit": false
+        },
+        {
+          "rank": 2,
+          "id": "openstax-pds-2025:p078:para:c003",
+          "page": 78,
+          "chapter": "Chapter 2",
+          "section": "2.3",
+          "score": 0.032258,
+          "strict_hit": false
+        },
+        {
+          "rank": 3,
+          "id": "openstax-pds-2025:p078:para:c004",
+          "page": 78,
+          "chapter": "Chapter 2",
+          "section": "2.3",
+          "score": 0.031498,
+          "strict_hit": false
+        }
+      ],
+      "context_ids": [
+        "openstax-pds-2025:p078:para:c002",
+        "openstax-pds-2025:p078:para:c003",
+        "openstax-pds-2025:p078:para:c004"
+      ],
+      "context_chars": 2070,
+      "context": "[openstax-pds-2025:p078:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 78 | section 2.3]\n2. Use the read_htmlread_html() function. This function is used to read HTML tables from a web page and convert them into a list of DataFrame objects. Recall from What Are Data and Data Science? that a DataFrame is a data type that pandas uses to store multi-column tabular data.\n\ndf = pd.read_html(\"https://......\n\n[openstax-pds-2025:p078:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 78 | section 2.3]\n3. Access the desired data. If the data on the web page is divided into different tables, we need to specify which table we want to extract. We have used indexing to access the desired table (for example: index 4) from the list of DataFrame objects returned by the read_html() function. The index here represents the table order in the web page.\n4. Store the data in a DataFrame. The result of the read_html() function is a list of DataFrame objects, and each DataFrame represents a table from the web page. We can store the desired data in a DataFrame variable for further analysis and manipulation.\n5. Display the DataFrame. By accessing the DataFrame variable, we can see the extracted data in a tabular format.\n\n[openstax-pds-2025:p078:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 78 | section 2.3]\n6. Convert strings to numbers. As noted in Chapter 1, a string is a data type used to represent a sequence of characters, such as letters, numbers, and symbols that are enclosed by matching single (') or double (\") quotes. If the data in the table is in string format and we want to perform any numerical operations on it, we need to convert the data to numerical format. We can use the to_numeric() function from pandas to convert strings to numbers and then store the result in a new column in the DataFrame.\n\ndf['column_name'] = pd.to_numeric(df['column_name'])\n\nThis will create a new column in the DataFrame with the converted numerical values, which can then be used for further analysis or visualization.",
+      "hit1": false,
+      "hit3": false,
+      "union3": true,
+      "context_hit": true,
+      "mrr3": 0.0,
+      "filter_ok": true,
+      "elapsed_ms": 25.92,
+      "meta": {
+        "method": "hybrid_rrf",
+        "elapsed_ms": 25.84,
+        "embed_tokens": 30,
+        "embed_cost_usd": 0.0,
+        "embed_reference_cost_usd": 6.000000000000001e-07,
+        "embed_cached": true,
+        "rerank_tokens": 0,
+        "rerank_cost_usd": 0.0
+      }
+    },
+    {
+      "query_id": "q18",
+      "split": "test",
+      "config": "imp1_hybrid_expanded",
+      "question": "Why does data chunking attach metadata such as chunk number and total chunk count, and what are its four main benefits?",
+      "filter": {
+        "chapter": "Chapter 2"
+      },
+      "gold_source_id": "openstax-pds-2025",
+      "gold_page": 100,
+      "required_clauses": [
+        "allows the chunks to be reassembled into the original dataset after being transmitted or stored separately",
+        "1. Increased speed.",
+        "2. Better utilization of resources.",
+        "3. Increased fault tolerance.",
+        "4. Flexibility."
+      ],
+      "results": [
+        {
+          "rank": 1,
+          "id": "openstax-pds-2025:p100:para:c001",
+          "page": 100,
+          "chapter": "Chapter 2",
+          "section": "2.5",
+          "score": 0.032522,
+          "strict_hit": false
+        },
+        {
+          "rank": 2,
+          "id": "openstax-pds-2025:p100:para:c002",
+          "page": 100,
+          "chapter": "Chapter 2",
+          "section": "2.5",
+          "score": 0.032018,
+          "strict_hit": false
+        },
+        {
+          "rank": 3,
+          "id": "openstax-pds-2025:p100:para:c003",
+          "page": 100,
+          "chapter": "Chapter 2",
+          "section": "2.5",
+          "score": 0.032002,
+          "strict_hit": false
+        }
+      ],
+      "context_ids": [
+        "openstax-pds-2025:p100:para:c001",
+        "openstax-pds-2025:p100:para:c002",
+        "openstax-pds-2025:p100:para:c003"
+      ],
+      "context_chars": 1935,
+      "context": "[openstax-pds-2025:p100:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\nData chunking is used in data storage systems and data transmission over networks, and it is especially useful when working with large datasets that exceed the capacity of a single machine or when transferring data over a network with limited bandwidth. The divided data in data chunking is known as a chunk or block. The size of each chunk can vary depending on the requirements and range from a few kilobytes to several gigabytes. These chunks are typically organized sequentially, with each chunk containing a set of data from the larger dataset. The process of data chunking also involves adding metadata (data that provides information about other data), such as the chunk number and the total number of chunks, to each chunk.\n\n[openstax-pds-2025:p100:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\nThis metadata allows the chunks to be reassembled into the original dataset after being transmitted or stored separately. Data chunking has several advantages, including the following:\n\n[openstax-pds-2025:p100:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\n1. Increased speed. By dividing a large dataset into smaller chunks, data processing and transmission can be performed more quickly, reducing the overall processing time.\n2. Better utilization of resources. Data chunking enables data to be distributed and processed across multiple machines, making better use of available computing resources.\n3. Increased fault tolerance. In case of data corruption or loss, data chunking allows for the retrieval of only the affected chunk rather than the entire dataset.\n4. Flexibility. Data chunking allows for the transfer and processing of only the required chunks rather than the entire dataset, providing flexibility in managing large datasets.",
+      "hit1": false,
+      "hit3": false,
+      "union3": true,
+      "context_hit": true,
+      "mrr3": 0.0,
+      "filter_ok": true,
+      "elapsed_ms": 37.14,
+      "meta": {
+        "method": "hybrid_rrf",
+        "elapsed_ms": 37.04,
+        "embed_tokens": 24,
+        "embed_cost_usd": 0.0,
+        "embed_reference_cost_usd": 4.800000000000001e-07,
+        "embed_cached": true,
+        "rerank_tokens": 0,
+        "rerank_cost_usd": 0.0
+      }
+    },
+    {
+      "query_id": "q19",
+      "split": "test",
+      "config": "imp1_hybrid_expanded",
+      "question": "When an outside researcher requests access to medical records containing PII, which compliance regulation applies and when must access be revoked?",
+      "filter": null,
+      "gold_source_id": "openstax-pds-2025",
+      "gold_page": 395,
+      "required_clauses": [
+        "complies with HIPAA regulations because there are medical records involved",
+        "If the researcher's authorization or employment changes, their access should be revoked immediately"
+      ],
+      "results": [
+        {
+          "rank": 1,
+          "id": "openstax-pds-2025:p395:para:c000",
+          "page": 395,
+          "chapter": "Chapter 8",
+          "section": "8.1",
+          "score": 0.032002,
+          "strict_hit": false
+        },
+        {
+          "rank": 2,
+          "id": "openstax-pds-2025:p395:para:c002",
+          "page": 395,
+          "chapter": "Chapter 8",
+          "section": "8.1",
+          "score": 0.031545,
+          "strict_hit": false
+        },
+        {
+          "rank": 3,
+          "id": "openstax-pds-2025:p394:para:c006",
+          "page": 394,
+          "chapter": "Chapter 8",
+          "section": "8.1",
+          "score": 0.030118,
+          "strict_hit": false
+        }
+      ],
+      "context_ids": [
+        "openstax-pds-2025:p394:para:c006",
+        "openstax-pds-2025:p395:para:c000",
+        "openstax-pds-2025:p395:para:c002"
+      ],
+      "context_chars": 1906,
+      "context": "[openstax-pds-2025:p394:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 394 | section 8.1]\nEXAMPLE 8.3\n\nProblem\n\nConsider a data science team working on a revolutionary data science project that would have a huge impact on the health care industry. The project involves gathering and analyzing sensitive medical information from patients, including full names, addresses, phone numbers, and medical histories. The team recognizes the critical importance of maintaining data security to ensure the success and ethical integrity of their work. One day, a request for access to the data is received from a researcher from an\n\n[openstax-pds-2025:p395:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\nagency outside of the team who has heard about their work. What steps should be taken to ensure data security?\n\nSolution\n\nThis data contains personally identifiable information (PII). Moreover, the team needs to ensure that the project complies with HIPAA regulations because there are medical records involved. The following measures should be taken at the beginning of the project and throughout the collection stage.\n\n[openstax-pds-2025:p395:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\n3. Assess need-to-know: The team should evaluate whether the researcher has a legitimate need to know the data. If the data is not relevant to their research or can be obtained through alternative means, access may not be granted. This step ensures that only authorized parties have access to the sensitive data.\n4. Obtain consent from data owner: As the data pertains to confidential medical information of patients, it is important to obtain consent from the data owner before granting access to a third party. This can be done through a formal process where the data owner signs off on granting access to the researcher.",
+      "hit1": false,
+      "hit3": false,
+      "union3": false,
+      "context_hit": false,
+      "mrr3": 0.0,
+      "filter_ok": true,
+      "elapsed_ms": 30.72,
+      "meta": {
+        "method": "hybrid_rrf",
+        "elapsed_ms": 30.63,
+        "embed_tokens": 24,
+        "embed_cost_usd": 0.0,
+        "embed_reference_cost_usd": 4.800000000000001e-07,
+        "embed_cached": true,
+        "rerank_tokens": 0,
+        "rerank_cost_usd": 0.0
+      }
+    },
+    {
+      "query_id": "q20",
+      "split": "test",
+      "config": "imp1_hybrid_expanded",
+      "question": "What requirement applies when graphs or reports use data that is not publicly available, and what are the four reasons for data source attribution?",
+      "filter": {
+        "chapter": "Chapter 8"
+      },
+      "gold_source_id": "openstax-pds-2025",
+      "gold_page": 411,
+      "required_clauses": [
+        "1. Accuracy and credibility.",
+        "2. Trust and transparency.",
+        "3. Accountability.",
+        "4. Privacy considerations.",
+        "if the data utilized in graphs or reports are not publicly available, permission must be obtained from the source"
+      ],
+      "results": [
+        {
+          "rank": 1,
+          "id": "openstax-pds-2025:p411:para:c003",
+          "page": 411,
+          "chapter": "Chapter 8",
+          "section": "8.3",
+          "score": 0.032787,
+          "strict_hit": false
+        },
+        {
+          "rank": 2,
+          "id": "openstax-pds-2025:p411:para:c002",
+          "page": 411,
+          "chapter": "Chapter 8",
+          "section": "8.3",
+          "score": 0.031281,
+          "strict_hit": false
+        },
+        {
+          "rank": 3,
+          "id": "openstax-pds-2025:p411:para:c000",
+          "page": 411,
+          "chapter": "Chapter 8",
+          "section": "8.3",
+          "score": 0.031258,
+          "strict_hit": false
+        }
+      ],
+      "context_ids": [
+        "openstax-pds-2025:p411:para:c000",
+        "openstax-pds-2025:p411:para:c002",
+        "openstax-pds-2025:p411:para:c003"
+      ],
+      "context_chars": 2002,
+      "context": "[openstax-pds-2025:p411:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\nInference and Confidence Intervals for a review of the significance and implications of accuracy and confidence in relation to data reliability and decision-making processes.\n\nFigure 8.10 Data-based Clinical Trials Participants\n\nData Source Attribution\n\nData source attribution is the important practice of clearly identifying and acknowledging the sources employed in the visualizations and reporting of data. It is the data scientist's responsibility to uphold these principles and present data in a manner that is both transparent and ethical. Data source attribution is demanded for several reasons:\n\n[openstax-pds-2025:p411:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\n3. Accountability. Featuring full attribution in the available results allows the rest of the research community to validate and further research the results provided. This safeguard enforces data integrity and holds developers accountable for the claims and conclusions put forth.\n4. Privacy considerations. In some circumstances, the data employed in visualizations may retain sensitive or personal information. Attributing the source of the data can help protect individuals' privacy and avoid potential harm or misuse of their information.\n\n[openstax-pds-2025:p411:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\nIt is important to note that if the data utilized in graphs or reports are not publicly available, permission must be obtained from the source before using it in new research or publication. This would also require proper attribution and citation to the source of the data.\n\nData source attribution is also closely tied to the principles of accessibility and inclusivity. By clearly stating the sources of data, it enables people with different backgrounds and abilities to access and understand the information presented.",
+      "hit1": false,
+      "hit3": false,
+      "union3": false,
+      "context_hit": false,
+      "mrr3": 0.0,
+      "filter_ok": true,
+      "elapsed_ms": 43.71,
+      "meta": {
+        "method": "hybrid_rrf",
+        "elapsed_ms": 43.6,
+        "embed_tokens": 26,
+        "embed_cost_usd": 0.0,
+        "embed_reference_cost_usd": 5.200000000000001e-07,
+        "embed_cached": true,
+        "rerank_tokens": 0,
+        "rerank_cost_usd": 0.0
+      }
+    }
+  ]
+}

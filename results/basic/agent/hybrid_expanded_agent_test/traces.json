@@ -1,0 +1,1421 @@
+[
+  {
+    "query_id": "q16",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "The 'Semester' attribute can be treated as **nominal** because semesters do not inherently have an order if viewed simply as categorical symbols (such as \"Fall 2020\" or \"Spring 2021\") [openstax-pds-2025:p029:para:c001]. However, it can also be treated as **ordinal** if your analysis values chronological ordering—such as when looking at a time-series dataset where Fall 2020 comes before Spring 2021 and Fall 2021 follows Fall 2020 [openstax-pds-2025:p029:para:c001].",
+    "citations": [
+      "openstax-pds-2025:p029:para:c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Semester attribute course evaluation nominal ordinal",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p029:para:c001",
+            "page": 29,
+            "score": 0.032522,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p027:para:c003",
+            "page": 27,
+            "score": 0.032018,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p027:para:c002",
+            "page": 27,
+            "score": 0.031746,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p027:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 27 | section 1.3]\nThe course evaluation ratings themselves do not provide an idea on whether to take the course next semester. The ratings are just a phrase (e.g., “Highly recommended” or “Not quite recommended”) that encodes how recommended the course was in that semester. You need to analyze them to come up with a decision!\n\nNow let’s think about how to derive the information from these ratings. You would probably look at all the data, including when in the semester the course was offered, who the instructor is, and class size. These records would allow you to derive information that would help you decide “whether or not to take the course next semester.”\n\n[openstax-pds-2025:p029:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 29 | section 1.3]\nThe rest—semester, instructor, and ratings—are categorical data. They are represented in symbols (e.g., “Fall 2020,” “A”) or words (e.g., “Highly recommended”), and these values are chosen from the finite set of those symbols and words (e.g., A vs. B). The former two data are nominal since the semester and instructor do not have orders to follow, while the latter is ordinal since there is a notion of degree (Not recommended at all ~ Highly recommended). You may argue that the semester could have chronological ordering: Fall 2020 comes before Spring 2021, Fall 2021 follows Fall 2020. If you want to value that notion for your analysis, you could consider the semester data to be ordinal as well—the chronological ordering is indeed critical when you are looking at a time-series dataset.\n\n[openstax-pds-2025:p029:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 29 | section 1.3]\nYou will learn more about that in Time Series and Forecasting.\n\nEXAMPLE 1.2\n\nProblem\n\nConsider the jacket scenario in Example 1.1. In that example, we referred to two kinds of data:\n\n1. The temperature during past three days—90°F, 85°F, ...\n2. On each of those days, whether you needed a jacket—Yes, No, ...\n\nWhat is the type of each data?",
+        "context_ids": [
+          "openstax-pds-2025:p027:para:c003",
+          "openstax-pds-2025:p029:para:c001",
+          "openstax-pds-2025:p029:para:c002"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 42.67,
+          "embed_tokens": 7,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 1.4e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p027:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 27 | section 1.3]\nThe course evaluation ratings themselves do not provide an idea on whether to take the course next semester. The ratings are just a phrase (e.g., “Highly recommended” or “Not quite recommended”) that encodes how recommended the course was in that semester. You need to analyze them to come up with a decision!\n\nNow let’s think about how to derive the information from these ratings. You would probably look at all the data, including when in the semester the course was offered, who the instructor is, and class size. These records would allow you to derive information that would help you decide “whether or not to take the course next semester.”\n\n[openstax-pds-2025:p029:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 29 | section 1.3]\nThe rest—semester, instructor, and ratings—are categorical data. They are represented in symbols (e.g., “Fall 2020,” “A”) or words (e.g., “Highly recommended”), and these values are chosen from the finite set of those symbols and words (e.g., A vs. B). The former two data are nominal since the semester and instructor do not have orders to follow, while the latter is ordinal since there is a notion of degree (Not recommended at all ~ Highly recommended). You may argue that the semester could have chronological ordering: Fall 2020 comes before Spring 2021, Fall 2021 follows Fall 2020. If you want to value that notion for your analysis, you could consider the semester data to be ordinal as well—the chronological ordering is indeed critical when you are looking at a time-series dataset.\n\n[openstax-pds-2025:p029:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 29 | section 1.3]\nYou will learn more about that in Time Series and Forecasting.\n\nEXAMPLE 1.2\n\nProblem\n\nConsider the jacket scenario in Example 1.1. In that example, we referred to two kinds of data:\n\n1. The temperature during past three days—90°F, 85°F, ...\n2. On each of those days, whether you needed a jacket—Yes, No, ...\n\nWhat is the type of each data?",
+    "context_ids": [
+      "openstax-pds-2025:p027:para:c003",
+      "openstax-pds-2025:p029:para:c001",
+      "openstax-pds-2025:p029:para:c002"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 2020,
+    "llm_completion_tokens": 223,
+    "rerank_tokens": 0,
+    "embed_tokens": 7,
+    "estimated_cost_usd": 0.00083964,
+    "live_cost_usd": 0.0008395,
+    "elapsed_seconds": 2.619,
+    "split": "test",
+    "answerable": true,
+    "type": "dieu_kien_ngoai_le",
+    "question": "Why could the 'Semester' attribute in the course evaluation example be treated as either nominal or ordinal depending on the analysis?"
+  },
+  {
+    "query_id": "q17",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "When using pandas `read_html()` to scrape tables from a web page, it returns a **list of DataFrame objects** [openstax-pds-2025:p078:para:c002]. \n\nTo convert string columns into numbers, you use the pandas **`to_numeric()`** function (e.g., `pd.to_numeric()`) [openstax-pds-2025:p078:para:c004].\n\n[openstax-pds-2025:p078:para:c002, openstax-pds-2025:p078:para:c004]",
+    "citations": [
+      "openstax-pds-2025:p078:para:c004"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "pandas read_html return type string columns into numbers",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p078:para:c002",
+            "page": 78,
+            "score": 0.032522,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p078:para:c004",
+            "page": 78,
+            "score": 0.032522,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p079:para:c001",
+            "page": 79,
+            "score": 0.031746,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p078:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 78 | section 2.3]\n2. Use the read_htmlread_html() function. This function is used to read HTML tables from a web page and convert them into a list of DataFrame objects. Recall from What Are Data and Data Science? that a DataFrame is a data type that pandas uses to store multi-column tabular data.\n\ndf = pd.read_html(\"https://......\n\n[openstax-pds-2025:p078:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 78 | section 2.3]\n6. Convert strings to numbers. As noted in Chapter 1, a string is a data type used to represent a sequence of characters, such as letters, numbers, and symbols that are enclosed by matching single (') or double (\") quotes. If the data in the table is in string format and we want to perform any numerical operations on it, we need to convert the data to numerical format. We can use the to_numeric() function from pandas to convert strings to numbers and then store the result in a new column in the DataFrame.\n\ndf['column_name'] = pd.to_numeric(df['column_name'])\n\nThis will create a new column in the DataFrame with the converted numerical values, which can then be used for further analysis or visualization.\n\n[openstax-pds-2025:p079:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 79 | section 2.3]\nSolution\n\nPYTHON CODE\n\n# Import pandas\nimport pandas as pd\n\n# Read data from the URL\ndf_list = pd.read_html(\n\"https://fred.stlouisfed.org/release/tables?rid=50&eid=3149#snid=4498\")\n\n# Since pd.read_html() returns a list of DataFrames, select the first DataFrame\ndf = df_list[0]\n\n# Print the first 5 rows of the DataFrame\nprint(df.head(5))\n\nThe resulting output will look like this:",
+        "context_ids": [
+          "openstax-pds-2025:p078:para:c002",
+          "openstax-pds-2025:p078:para:c004",
+          "openstax-pds-2025:p079:para:c001"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 53.87,
+          "embed_tokens": 10,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 2e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "to_numeric",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p078:para:c004",
+            "page": 78,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p092:para:c002",
+            "page": 92,
+            "score": 0.016129,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p090:para:c002",
+            "page": 90,
+            "score": 0.015873,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p078:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 78 | section 2.3]\n6. Convert strings to numbers. As noted in Chapter 1, a string is a data type used to represent a sequence of characters, such as letters, numbers, and symbols that are enclosed by matching single (') or double (\") quotes. If the data in the table is in string format and we want to perform any numerical operations on it, we need to convert the data to numerical format. We can use the to_numeric() function from pandas to convert strings to numbers and then store the result in a new column in the DataFrame.\n\ndf['column_name'] = pd.to_numeric(df['column_name'])\n\nThis will create a new column in the DataFrame with the converted numerical values, which can then be used for further analysis or visualization.\n\n[openstax-pds-2025:p090:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 90 | section 2.4]\nformat Validation To improve the Include data In a survey, the respondent’s age quality of data profiling, data audits, is recorded as 150 years. used in analysis. It and data cleansing. Through data validation, this ensures that the value can be identified as data is accurate, erroneous. relevant, and consistent.\n\nTable 2.4 Comparison of Data Standardization, Transformation, and Validation Processes\n\n[openstax-pds-2025:p092:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 92 | section 2.4]\nData Transformation\n\nData transformation is a statistical technique used to modify the original structure of the data in order to make it more suitable for analysis. Data transformation can involve various mathematical operations such as logarithmic, square root, or exponential transformations. One of the main reasons for transforming data is to address issues related to statistical assumptions. For example, some statistical models assume that the data is normally distributed. If the data is not distributed normally, this can lead to incorrect results and interpretations. In such cases, transforming the data can help to make it closer to a normal distribution and improve the accuracy of the analysis.",
+        "context_ids": [
+          "openstax-pds-2025:p078:para:c004",
+          "openstax-pds-2025:p090:para:c002",
+          "openstax-pds-2025:p092:para:c002"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1671.31,
+          "embed_tokens": 2,
+          "embed_cost_usd": 4e-08,
+          "embed_reference_cost_usd": 4e-08,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "via": "text_fallback"
+      }
+    ],
+    "context": "[openstax-pds-2025:p078:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 78 | section 2.3]\n6. Convert strings to numbers. As noted in Chapter 1, a string is a data type used to represent a sequence of characters, such as letters, numbers, and symbols that are enclosed by matching single (') or double (\") quotes. If the data in the table is in string format and we want to perform any numerical operations on it, we need to convert the data to numerical format. We can use the to_numeric() function from pandas to convert strings to numbers and then store the result in a new column in the DataFrame.\n\ndf['column_name'] = pd.to_numeric(df['column_name'])\n\nThis will create a new column in the DataFrame with the converted numerical values, which can then be used for further analysis or visualization.\n\n[openstax-pds-2025:p090:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 90 | section 2.4]\nformat Validation To improve the Include data In a survey, the respondent’s age quality of data profiling, data audits, is recorded as 150 years. used in analysis. It and data cleansing. Through data validation, this ensures that the value can be identified as data is accurate, erroneous. relevant, and consistent.\n\nTable 2.4 Comparison of Data Standardization, Transformation, and Validation Processes\n\n[openstax-pds-2025:p092:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 92 | section 2.4]\nData Transformation\n\nData transformation is a statistical technique used to modify the original structure of the data in order to make it more suitable for analysis. Data transformation can involve various mathematical operations such as logarithmic, square root, or exponential transformations. One of the main reasons for transforming data is to address issues related to statistical assumptions. For example, some statistical models assume that the data is normally distributed. If the data is not distributed normally, this can lead to incorrect results and interpretations. In such cases, transforming the data can help to make it closer to a normal distribution and improve the accuracy of the analysis.",
+    "context_ids": [
+      "openstax-pds-2025:p078:para:c004",
+      "openstax-pds-2025:p090:para:c002",
+      "openstax-pds-2025:p092:para:c002"
+    ],
+    "search_calls": 2,
+    "turns": 3,
+    "llm_prompt_tokens": 3933,
+    "llm_completion_tokens": 202,
+    "rerank_tokens": 0,
+    "embed_tokens": 12,
+    "estimated_cost_usd": 0.00128649,
+    "live_cost_usd": 0.00128629,
+    "elapsed_seconds": 4.403,
+    "split": "test",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "When using pandas read_html() to scrape tables from a web page, what type of object does it return and which function converts string columns into numbers?"
+  },
+  {
+    "query_id": "q18",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "Data chunking attaches metadata such as the chunk number and total chunk count so that the chunks can be reassembled into the original dataset after being transmitted or stored separately [openstax-pds-2025:p100:para:c001, openstax-pds-2025:p100:para:c002]. \n\nThe four main benefits of data chunking are:\n1. **Increased speed:** Dividing a large dataset into smaller chunks allows data processing and transmission to be performed more quickly, reducing the overall processing time [openstax-pds-2025:p100:para:c003].\n2. **Better utilization of resources:** Data chunking enables data to be distributed and processed across multiple machines, making better use of available computing resources [openstax-pds-2025:p100:para:c003].\n3. **Increased fault tolerance:** In case of data corruption or loss, data chunking allows for the retrieval of only the affected chunk rather than the entire dataset [openstax-pds-2025:p100:para:c003].\n4. **Flexibility:** Data chunking allows for the transfer and processing of only the required chunks rather than the entire dataset, providing flexibility in managing large datasets [openstax-pds-2025:p100:para:c003]. [openstax-pds-2025:p100:para:c001] [openstax-pds-2025:p100:para:c002]",
+    "citations": [
+      "openstax-pds-2025:p100:para:c001",
+      "openstax-pds-2025:p100:para:c002",
+      "openstax-pds-2025:p100:para:c003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "data chunking metadata chunk number total chunk count four main benefits",
+        "filter": {
+          "chapter": "Chapter 2"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p100:para:c001",
+            "page": 100,
+            "score": 0.032266,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p100:para:c003",
+            "page": 100,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p100:para:c002",
+            "page": 100,
+            "score": 0.032018,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p100:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\nData chunking is used in data storage systems and data transmission over networks, and it is especially useful when working with large datasets that exceed the capacity of a single machine or when transferring data over a network with limited bandwidth. The divided data in data chunking is known as a chunk or block. The size of each chunk can vary depending on the requirements and range from a few kilobytes to several gigabytes. These chunks are typically organized sequentially, with each chunk containing a set of data from the larger dataset. The process of data chunking also involves adding metadata (data that provides information about other data), such as the chunk number and the total number of chunks, to each chunk.\n\n[openstax-pds-2025:p100:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\nThis metadata allows the chunks to be reassembled into the original dataset after being transmitted or stored separately. Data chunking has several advantages, including the following:\n\n[openstax-pds-2025:p100:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\n1. Increased speed. By dividing a large dataset into smaller chunks, data processing and transmission can be performed more quickly, reducing the overall processing time.\n2. Better utilization of resources. Data chunking enables data to be distributed and processed across multiple machines, making better use of available computing resources.\n3. Increased fault tolerance. In case of data corruption or loss, data chunking allows for the retrieval of only the affected chunk rather than the entire dataset.\n4. Flexibility. Data chunking allows for the transfer and processing of only the required chunks rather than the entire dataset, providing flexibility in managing large datasets.",
+        "context_ids": [
+          "openstax-pds-2025:p100:para:c001",
+          "openstax-pds-2025:p100:para:c002",
+          "openstax-pds-2025:p100:para:c003"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 48.84,
+          "embed_tokens": 12,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 2.4000000000000003e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "data chunking four main benefits",
+        "filter": {
+          "chapter": "Chapter 2"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p100:para:c003",
+            "page": 100,
+            "score": 0.032266,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p100:para:c000",
+            "page": 100,
+            "score": 0.031754,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p100:para:c002",
+            "page": 100,
+            "score": 0.031514,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p100:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\nFigure 2.5 B-Tree Indexing Data Chunking\n\nData chunking, also known as data segmentation or data partitioning, is a technique used to break down large datasets into smaller, more manageable chunks and make them easier to manage, process, analyze, and store. Chunking is particularly useful when datasets are too large to be processed or analyzed as a single unit. By dividing the data into smaller chunks, various processing tasks can be distributed across multiple computing nodes or processing units.\n\n[openstax-pds-2025:p100:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\nThis metadata allows the chunks to be reassembled into the original dataset after being transmitted or stored separately. Data chunking has several advantages, including the following:\n\n[openstax-pds-2025:p100:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\n1. Increased speed. By dividing a large dataset into smaller chunks, data processing and transmission can be performed more quickly, reducing the overall processing time.\n2. Better utilization of resources. Data chunking enables data to be distributed and processed across multiple machines, making better use of available computing resources.\n3. Increased fault tolerance. In case of data corruption or loss, data chunking allows for the retrieval of only the affected chunk rather than the entire dataset.\n4. Flexibility. Data chunking allows for the transfer and processing of only the required chunks rather than the entire dataset, providing flexibility in managing large datasets.\n\n[openstax-pds-2025:p100:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\nDatabase Management Systems\n\nDatabase management is a crucial aspect of data science projects as it involves organizing, storing, retrieving, and managing large volumes of data. In a data science project, a database management system (DBMS) is used to ensure the efficient storage and retrieval of data. Database management systems are software tools used for managing data in a structured format. Their functions are summarized in Table 2.9.",
+        "context_ids": [
+          "openstax-pds-2025:p100:para:c000",
+          "openstax-pds-2025:p100:para:c002",
+          "openstax-pds-2025:p100:para:c003",
+          "openstax-pds-2025:p100:para:c004"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1102.12,
+          "embed_tokens": 6,
+          "embed_cost_usd": 1.2e-07,
+          "embed_reference_cost_usd": 1.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "citation_repair_requested",
+        "bad_citations": [
+          "openstax-pds-2025:p100:para:c001"
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "metadata chunk number total chunk number reassembled",
+        "filter": {
+          "chapter": "Chapter 2"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p100:para:c001",
+            "page": 100,
+            "score": 0.032522,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p100:para:c002",
+            "page": 100,
+            "score": 0.032522,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p100:para:c003",
+            "page": 100,
+            "score": 0.030777,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p100:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\nData chunking is used in data storage systems and data transmission over networks, and it is especially useful when working with large datasets that exceed the capacity of a single machine or when transferring data over a network with limited bandwidth. The divided data in data chunking is known as a chunk or block. The size of each chunk can vary depending on the requirements and range from a few kilobytes to several gigabytes. These chunks are typically organized sequentially, with each chunk containing a set of data from the larger dataset. The process of data chunking also involves adding metadata (data that provides information about other data), such as the chunk number and the total number of chunks, to each chunk.\n\n[openstax-pds-2025:p100:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\nThis metadata allows the chunks to be reassembled into the original dataset after being transmitted or stored separately. Data chunking has several advantages, including the following:\n\n[openstax-pds-2025:p100:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\n1. Increased speed. By dividing a large dataset into smaller chunks, data processing and transmission can be performed more quickly, reducing the overall processing time.\n2. Better utilization of resources. Data chunking enables data to be distributed and processed across multiple machines, making better use of available computing resources.\n3. Increased fault tolerance. In case of data corruption or loss, data chunking allows for the retrieval of only the affected chunk rather than the entire dataset.\n4. Flexibility. Data chunking allows for the transfer and processing of only the required chunks rather than the entire dataset, providing flexibility in managing large datasets.",
+        "context_ids": [
+          "openstax-pds-2025:p100:para:c001",
+          "openstax-pds-2025:p100:para:c002",
+          "openstax-pds-2025:p100:para:c003"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1074.9,
+          "embed_tokens": 9,
+          "embed_cost_usd": 1.8e-07,
+          "embed_reference_cost_usd": 1.8e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p100:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\nData chunking is used in data storage systems and data transmission over networks, and it is especially useful when working with large datasets that exceed the capacity of a single machine or when transferring data over a network with limited bandwidth. The divided data in data chunking is known as a chunk or block. The size of each chunk can vary depending on the requirements and range from a few kilobytes to several gigabytes. These chunks are typically organized sequentially, with each chunk containing a set of data from the larger dataset. The process of data chunking also involves adding metadata (data that provides information about other data), such as the chunk number and the total number of chunks, to each chunk.\n\n[openstax-pds-2025:p100:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\nThis metadata allows the chunks to be reassembled into the original dataset after being transmitted or stored separately. Data chunking has several advantages, including the following:\n\n[openstax-pds-2025:p100:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 100 | section 2.5]\n1. Increased speed. By dividing a large dataset into smaller chunks, data processing and transmission can be performed more quickly, reducing the overall processing time.\n2. Better utilization of resources. Data chunking enables data to be distributed and processed across multiple machines, making better use of available computing resources.\n3. Increased fault tolerance. In case of data corruption or loss, data chunking allows for the retrieval of only the affected chunk rather than the entire dataset.\n4. Flexibility. Data chunking allows for the transfer and processing of only the required chunks rather than the entire dataset, providing flexibility in managing large datasets.",
+    "context_ids": [
+      "openstax-pds-2025:p100:para:c001",
+      "openstax-pds-2025:p100:para:c002",
+      "openstax-pds-2025:p100:para:c003"
+    ],
+    "search_calls": 3,
+    "turns": 5,
+    "llm_prompt_tokens": 9680,
+    "llm_completion_tokens": 936,
+    "rerank_tokens": 0,
+    "embed_tokens": 27,
+    "estimated_cost_usd": 0.00382454,
+    "live_cost_usd": 0.0038243,
+    "elapsed_seconds": 44.658,
+    "split": "test",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "question": "Why does data chunking attach metadata such as chunk number and total chunk count, and what are its four main benefits?"
+  },
+  {
+    "query_id": "q19",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "Access should be revoked when the sensitive data is no longer needed (as it should only be granted for a specified period of time), or immediately if the researcher's authorization or employment changes [openstax-pds-2025:p395:para:c004]. However, the specific compliance regulation (HIPAA) details are not contained in the active retrieval context.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "outside researcher access medical records PII compliance regulation revoked",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p395:para:c000",
+            "page": 395,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p394:para:c006",
+            "page": 394,
+            "score": 0.031754,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p395:para:c002",
+            "page": 395,
+            "score": 0.031746,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p394:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 394 | section 8.1]\nEXAMPLE 8.3\n\nProblem\n\nConsider a data science team working on a revolutionary data science project that would have a huge impact on the health care industry. The project involves gathering and analyzing sensitive medical information from patients, including full names, addresses, phone numbers, and medical histories. The team recognizes the critical importance of maintaining data security to ensure the success and ethical integrity of their work. One day, a request for access to the data is received from a researcher from an\n\n[openstax-pds-2025:p395:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\nagency outside of the team who has heard about their work. What steps should be taken to ensure data security?\n\nSolution\n\nThis data contains personally identifiable information (PII). Moreover, the team needs to ensure that the project complies with HIPAA regulations because there are medical records involved. The following measures should be taken at the beginning of the project and throughout the collection stage.\n\n[openstax-pds-2025:p395:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\n3. Assess need-to-know: The team should evaluate whether the researcher has a legitimate need to know the data. If the data is not relevant to their research or can be obtained through alternative means, access may not be granted. This step ensures that only authorized parties have access to the sensitive data.\n4. Obtain consent from data owner: As the data pertains to confidential medical information of patients, it is important to obtain consent from the data owner before granting access to a third party. This can be done through a formal process where the data owner signs off on granting access to the researcher.",
+        "context_ids": [
+          "openstax-pds-2025:p394:para:c006",
+          "openstax-pds-2025:p395:para:c000",
+          "openstax-pds-2025:p395:para:c002"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1077.5,
+          "embed_tokens": 10,
+          "embed_cost_usd": 2e-07,
+          "embed_reference_cost_usd": 2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "revoked HIPAA PII researcher medical records access",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p395:para:c000",
+            "page": 395,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p394:para:c006",
+            "page": 394,
+            "score": 0.031754,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p395:para:c002",
+            "page": 395,
+            "score": 0.031746,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p394:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 394 | section 8.1]\nEXAMPLE 8.3\n\nProblem\n\nConsider a data science team working on a revolutionary data science project that would have a huge impact on the health care industry. The project involves gathering and analyzing sensitive medical information from patients, including full names, addresses, phone numbers, and medical histories. The team recognizes the critical importance of maintaining data security to ensure the success and ethical integrity of their work. One day, a request for access to the data is received from a researcher from an\n\n[openstax-pds-2025:p395:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\nagency outside of the team who has heard about their work. What steps should be taken to ensure data security?\n\nSolution\n\nThis data contains personally identifiable information (PII). Moreover, the team needs to ensure that the project complies with HIPAA regulations because there are medical records involved. The following measures should be taken at the beginning of the project and throughout the collection stage.\n\n[openstax-pds-2025:p395:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\n3. Assess need-to-know: The team should evaluate whether the researcher has a legitimate need to know the data. If the data is not relevant to their research or can be obtained through alternative means, access may not be granted. This step ensures that only authorized parties have access to the sensitive data.\n4. Obtain consent from data owner: As the data pertains to confidential medical information of patients, it is important to obtain consent from the data owner before granting access to a third party. This can be done through a formal process where the data owner signs off on granting access to the researcher.",
+        "context_ids": [
+          "openstax-pds-2025:p394:para:c006",
+          "openstax-pds-2025:p395:para:c000",
+          "openstax-pds-2025:p395:para:c002"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1155.64,
+          "embed_tokens": 10,
+          "embed_cost_usd": 2e-07,
+          "embed_reference_cost_usd": 2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "revoked access researcher HIPAA",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p395:para:c001",
+            "page": 395,
+            "score": 0.032258,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p395:para:c002",
+            "page": 395,
+            "score": 0.031746,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p395:para:c000",
+            "page": 395,
+            "score": 0.031545,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p395:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\nagency outside of the team who has heard about their work. What steps should be taken to ensure data security?\n\nSolution\n\nThis data contains personally identifiable information (PII). Moreover, the team needs to ensure that the project complies with HIPAA regulations because there are medical records involved. The following measures should be taken at the beginning of the project and throughout the collection stage.\n\n[openstax-pds-2025:p395:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\n1. Review access control policies: The first step in granting access to any sensitive data is to review the access control policies in place. This includes understanding who has access to the data, what level of access they have, and how this access is granted. This will help determine if the researcher should be granted permission and what level of access they should have.\n2. Authenticate the request: Before granting access, the team should verify the authenticity of the request. This can be done by confirming the identity of the requester and their authority to access the data. The researcher must provide proof of their affiliation with a legitimate organization and the purpose of their request.\n\n[openstax-pds-2025:p395:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\n3. Assess need-to-know: The team should evaluate whether the researcher has a legitimate need to know the data. If the data is not relevant to their research or can be obtained through alternative means, access may not be granted. This step ensures that only authorized parties have access to the sensitive data.\n4. Obtain consent from data owner: As the data pertains to confidential medical information of patients, it is important to obtain consent from the data owner before granting access to a third party. This can be done through a formal process where the data owner signs off on granting access to the researcher.",
+        "context_ids": [
+          "openstax-pds-2025:p395:para:c000",
+          "openstax-pds-2025:p395:para:c001",
+          "openstax-pds-2025:p395:para:c002"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1065.12,
+          "embed_tokens": 6,
+          "embed_cost_usd": 1.2e-07,
+          "embed_reference_cost_usd": 1.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "revoked access researcher",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p395:para:c001",
+            "page": 395,
+            "score": 0.032522,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p395:para:c004",
+            "page": 395,
+            "score": 0.032266,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p395:para:c003",
+            "page": 395,
+            "score": 0.031754,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p395:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\n1. Review access control policies: The first step in granting access to any sensitive data is to review the access control policies in place. This includes understanding who has access to the data, what level of access they have, and how this access is granted. This will help determine if the researcher should be granted permission and what level of access they should have.\n2. Authenticate the request: Before granting access, the team should verify the authenticity of the request. This can be done by confirming the identity of the requester and their authority to access the data. The researcher must provide proof of their affiliation with a legitimate organization and the purpose of their request.\n\n[openstax-pds-2025:p395:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\n5. Use secure methods for data transfer: If access is granted, the team must ensure that the data is transferred using secure methods to protect it from any potential breaches. This can include using encryption and secure file-sharing platforms.\n6. Review for due diligence: Once access is granted, the team should continue to monitor and review the usage of the data to ensure that the researcher is only accessing the data for approved purposes. Any breaches or misuse of the data should be reported and addressed immediately.\n\n[openstax-pds-2025:p395:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\n7. Revoke access when necessary: Access to sensitive data should only be granted for a specified period of time and should be revoked when it is no longer needed. If the researcher's authorization or employment changes, their access should be revoked immediately to prevent any potential data breaches.\n\nIn general, data scientists should start by carefully considering the demand for data collection within the data science task. They should ensure that the data being collected is necessary and relevant to the project. Next, they should understand the types and quantity of data being collected to determine the level of security measures needed for different types of data.",
+        "context_ids": [
+          "openstax-pds-2025:p395:para:c001",
+          "openstax-pds-2025:p395:para:c003",
+          "openstax-pds-2025:p395:para:c004"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1067.64,
+          "embed_tokens": 4,
+          "embed_cost_usd": 8e-08,
+          "embed_reference_cost_usd": 8e-08,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "citation_repair_requested",
+        "bad_citations": [
+          "openstax-pds-2025:p395:para:c000"
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p395:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\n1. Review access control policies: The first step in granting access to any sensitive data is to review the access control policies in place. This includes understanding who has access to the data, what level of access they have, and how this access is granted. This will help determine if the researcher should be granted permission and what level of access they should have.\n2. Authenticate the request: Before granting access, the team should verify the authenticity of the request. This can be done by confirming the identity of the requester and their authority to access the data. The researcher must provide proof of their affiliation with a legitimate organization and the purpose of their request.\n\n[openstax-pds-2025:p395:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\n5. Use secure methods for data transfer: If access is granted, the team must ensure that the data is transferred using secure methods to protect it from any potential breaches. This can include using encryption and secure file-sharing platforms.\n6. Review for due diligence: Once access is granted, the team should continue to monitor and review the usage of the data to ensure that the researcher is only accessing the data for approved purposes. Any breaches or misuse of the data should be reported and addressed immediately.\n\n[openstax-pds-2025:p395:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\n7. Revoke access when necessary: Access to sensitive data should only be granted for a specified period of time and should be revoked when it is no longer needed. If the researcher's authorization or employment changes, their access should be revoked immediately to prevent any potential data breaches.\n\nIn general, data scientists should start by carefully considering the demand for data collection within the data science task. They should ensure that the data being collected is necessary and relevant to the project. Next, they should understand the types and quantity of data being collected to determine the level of security measures needed for different types of data.",
+    "context_ids": [
+      "openstax-pds-2025:p395:para:c001",
+      "openstax-pds-2025:p395:para:c003",
+      "openstax-pds-2025:p395:para:c004"
+    ],
+    "search_calls": 4,
+    "turns": 7,
+    "llm_prompt_tokens": 16918,
+    "llm_completion_tokens": 504,
+    "rerank_tokens": 0,
+    "embed_tokens": 30,
+    "estimated_cost_usd": 0.0049861,
+    "live_cost_usd": 0.0049861,
+    "elapsed_seconds": 11.453,
+    "split": "test",
+    "answerable": true,
+    "type": "dieu_kien_ngoai_le",
+    "question": "When an outside researcher requests access to medical records containing PII, which compliance regulation applies and when must access be revoked?"
+  },
+  {
+    "query_id": "q20",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "Abstain: The retrieved text mentions two of the reasons for data source attribution (Accountability and Privacy considerations) and states the requirement for non-publicly available data (obtaining permission and providing proper attribution/citation), but it cuts off before listing all four reasons in full.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "data not publicly available four reasons for data source attribution",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p411:para:c003",
+            "page": 411,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p411:para:c002",
+            "page": 411,
+            "score": 0.031754,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p411:para:c000",
+            "page": 411,
+            "score": 0.031514,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p411:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\nInference and Confidence Intervals for a review of the significance and implications of accuracy and confidence in relation to data reliability and decision-making processes.\n\nFigure 8.10 Data-based Clinical Trials Participants\n\nData Source Attribution\n\nData source attribution is the important practice of clearly identifying and acknowledging the sources employed in the visualizations and reporting of data. It is the data scientist's responsibility to uphold these principles and present data in a manner that is both transparent and ethical. Data source attribution is demanded for several reasons:\n\n[openstax-pds-2025:p411:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\n3. Accountability. Featuring full attribution in the available results allows the rest of the research community to validate and further research the results provided. This safeguard enforces data integrity and holds developers accountable for the claims and conclusions put forth.\n4. Privacy considerations. In some circumstances, the data employed in visualizations may retain sensitive or personal information. Attributing the source of the data can help protect individuals' privacy and avoid potential harm or misuse of their information.\n\n[openstax-pds-2025:p411:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\nIt is important to note that if the data utilized in graphs or reports are not publicly available, permission must be obtained from the source before using it in new research or publication. This would also require proper attribution and citation to the source of the data.\n\nData source attribution is also closely tied to the principles of accessibility and inclusivity. By clearly stating the sources of data, it enables people with different backgrounds and abilities to access and understand the information presented.",
+        "context_ids": [
+          "openstax-pds-2025:p411:para:c000",
+          "openstax-pds-2025:p411:para:c002",
+          "openstax-pds-2025:p411:para:c003"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1144.62,
+          "embed_tokens": 10,
+          "embed_cost_usd": 2e-07,
+          "embed_reference_cost_usd": 2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Data source attribution is demanded for several reasons",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p411:para:c003",
+            "page": 411,
+            "score": 0.032522,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p411:para:c000",
+            "page": 411,
+            "score": 0.032018,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p411:para:c002",
+            "page": 411,
+            "score": 0.032002,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p411:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\nInference and Confidence Intervals for a review of the significance and implications of accuracy and confidence in relation to data reliability and decision-making processes.\n\nFigure 8.10 Data-based Clinical Trials Participants\n\nData Source Attribution\n\nData source attribution is the important practice of clearly identifying and acknowledging the sources employed in the visualizations and reporting of data. It is the data scientist's responsibility to uphold these principles and present data in a manner that is both transparent and ethical. Data source attribution is demanded for several reasons:\n\n[openstax-pds-2025:p411:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\n3. Accountability. Featuring full attribution in the available results allows the rest of the research community to validate and further research the results provided. This safeguard enforces data integrity and holds developers accountable for the claims and conclusions put forth.\n4. Privacy considerations. In some circumstances, the data employed in visualizations may retain sensitive or personal information. Attributing the source of the data can help protect individuals' privacy and avoid potential harm or misuse of their information.\n\n[openstax-pds-2025:p411:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\nIt is important to note that if the data utilized in graphs or reports are not publicly available, permission must be obtained from the source before using it in new research or publication. This would also require proper attribution and citation to the source of the data.\n\nData source attribution is also closely tied to the principles of accessibility and inclusivity. By clearly stating the sources of data, it enables people with different backgrounds and abilities to access and understand the information presented.",
+        "context_ids": [
+          "openstax-pds-2025:p411:para:c000",
+          "openstax-pds-2025:p411:para:c002",
+          "openstax-pds-2025:p411:para:c003"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1135.27,
+          "embed_tokens": 8,
+          "embed_cost_usd": 1.6e-07,
+          "embed_reference_cost_usd": 1.6e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "read_page_chunks",
+        "query": "page:410",
+        "filter": {
+          "page": 410,
+          "document_id": "openstax-pds-2025"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p410:para:c000",
+            "page": 410,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p410:para:c001",
+            "page": 410,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p410:para:c002",
+            "page": 410,
+            "score": 1.0
+          }
+        ],
+        "context": "[openstax-pds-2025:p410:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 410 | section 8.3]\ndetail, which may cause undue confusion, even if the intended labels may be clear from context.\n\nEXAMPLE 8.10\n\nProblem\n\nA data scientist at a health care research institution is analyzing the effects of a new medication on a specific disease. After collecting data from multiple clinical trials, the scientist summarized the results in Table 8.2 and created a histogram to show the distribution of participants across different age groups as shown in Figure 8.9. The scientist included age intervals of 18–25, 26–36, 37–46, 47–56, 57–66, and 67+ in the chart. To provide a complete understanding of the data, what additional information should be included?\n\n[openstax-pds-2025:p410:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 410 | section 8.3]\na. The percentage of participants in each group to accurately depict the proportion of participants in each age group b. The total number of participants to demonstrate the scope of the results c. The number of participants in each age group for a comprehensive overview of the data d. Options A, B, and C should all be included in the chart\n\n[openstax-pds-2025:p410:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 410 | section 8.3]\nAge Participants\n\n18–26 100 27–36 120 37–46 107 47–56 71\n\n57–66 89 67+ 113\n\nTable 8.2 Statistical Data about Clinical Trials Participants\n\nFigure 8.9 Insufficient Information on Participants in Clinical Trials Solution\n\nThe correct answer is D. This is the most appropriate choice because the presentation of results needs to be improved to accurately depict the data. This includes clearly indicating the percentage and total number of participants in each group and the overall number of participants as given in Figure 8.10. See Statistical",
+        "context_ids": [
+          "openstax-pds-2025:p410:para:c000",
+          "openstax-pds-2025:p410:para:c001",
+          "openstax-pds-2025:p410:para:c002"
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Data source attribution is demanded for several reasons 1 2 3 4",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p411:para:c000",
+            "page": 411,
+            "score": 0.032018,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p411:para:c003",
+            "page": 411,
+            "score": 0.031778,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p411:para:c002",
+            "page": 411,
+            "score": 0.031754,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p411:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\nInference and Confidence Intervals for a review of the significance and implications of accuracy and confidence in relation to data reliability and decision-making processes.\n\nFigure 8.10 Data-based Clinical Trials Participants\n\nData Source Attribution\n\nData source attribution is the important practice of clearly identifying and acknowledging the sources employed in the visualizations and reporting of data. It is the data scientist's responsibility to uphold these principles and present data in a manner that is both transparent and ethical. Data source attribution is demanded for several reasons:\n\n[openstax-pds-2025:p411:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\n3. Accountability. Featuring full attribution in the available results allows the rest of the research community to validate and further research the results provided. This safeguard enforces data integrity and holds developers accountable for the claims and conclusions put forth.\n4. Privacy considerations. In some circumstances, the data employed in visualizations may retain sensitive or personal information. Attributing the source of the data can help protect individuals' privacy and avoid potential harm or misuse of their information.\n\n[openstax-pds-2025:p411:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\nIt is important to note that if the data utilized in graphs or reports are not publicly available, permission must be obtained from the source before using it in new research or publication. This would also require proper attribution and citation to the source of the data.\n\nData source attribution is also closely tied to the principles of accessibility and inclusivity. By clearly stating the sources of data, it enables people with different backgrounds and abilities to access and understand the information presented.",
+        "context_ids": [
+          "openstax-pds-2025:p411:para:c000",
+          "openstax-pds-2025:p411:para:c002",
+          "openstax-pds-2025:p411:para:c003"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1194.98,
+          "embed_tokens": 16,
+          "embed_cost_usd": 3.2e-07,
+          "embed_reference_cost_usd": 3.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p411:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\nInference and Confidence Intervals for a review of the significance and implications of accuracy and confidence in relation to data reliability and decision-making processes.\n\nFigure 8.10 Data-based Clinical Trials Participants\n\nData Source Attribution\n\nData source attribution is the important practice of clearly identifying and acknowledging the sources employed in the visualizations and reporting of data. It is the data scientist's responsibility to uphold these principles and present data in a manner that is both transparent and ethical. Data source attribution is demanded for several reasons:\n\n[openstax-pds-2025:p411:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\n3. Accountability. Featuring full attribution in the available results allows the rest of the research community to validate and further research the results provided. This safeguard enforces data integrity and holds developers accountable for the claims and conclusions put forth.\n4. Privacy considerations. In some circumstances, the data employed in visualizations may retain sensitive or personal information. Attributing the source of the data can help protect individuals' privacy and avoid potential harm or misuse of their information.\n\n[openstax-pds-2025:p411:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 411 | section 8.3]\nIt is important to note that if the data utilized in graphs or reports are not publicly available, permission must be obtained from the source before using it in new research or publication. This would also require proper attribution and citation to the source of the data.\n\nData source attribution is also closely tied to the principles of accessibility and inclusivity. By clearly stating the sources of data, it enables people with different backgrounds and abilities to access and understand the information presented.",
+    "context_ids": [
+      "openstax-pds-2025:p411:para:c000",
+      "openstax-pds-2025:p411:para:c002",
+      "openstax-pds-2025:p411:para:c003"
+    ],
+    "search_calls": 4,
+    "turns": 6,
+    "llm_prompt_tokens": 13151,
+    "llm_completion_tokens": 262,
+    "rerank_tokens": 0,
+    "embed_tokens": 34,
+    "estimated_cost_usd": 0.00368143,
+    "live_cost_usd": 0.00368143,
+    "elapsed_seconds": 11.045,
+    "split": "test",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "What requirement applies when graphs or reports use data that is not publicly available, and what are the four reasons for data source attribution?"
+  },
+  {
+    "query_id": "u04",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "The provided textbook text does not state any monthly per-user subscription price for Tableau Desktop or Microsoft Power BI.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Tableau Desktop Microsoft Power BI monthly subscription price",
+        "filter": {
+          "chapter": "Chapter 1"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p040:para:c001",
+            "page": 40,
+            "score": 0.032266,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p039:para:c007",
+            "page": 39,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p033:para:c000",
+            "page": 33,
+            "score": 0.030679,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p033:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 33 | section 1.3]\nFigure 1.5 ch1-courseEvaluations.csv Opened with Microsoft Excel (Used with permission from Microsoft)\n\nHOW TO DOWNLOAD AND OPEN A DATASET FROM THE CH1-DATA SPREADSHEET IN THIS TEXT\n\nA spreadsheet file accompanies each chapter of this textbook. The files include multiple tabs corresponding to a single dataset in the chapter. For example, the spreadsheet file for this chapter (https://openstax.org/r/spreadsheet4) is shown in Figure 1.6. Notice that it includes multiple tabs with the names “ch1-courseEvaluations.csv,” “ch1-cancerdoc.csv,” and “ch1-riris.csv,” which are the names of each dataset.\n\nFigure 1.6 The dataset spreadsheet file for Chapter 1 (Used with permission from Microsoft)\n\n[openstax-pds-2025:p039:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 39 | section 1.4]\nYou’ll find the basics of R and various R code examples in Appendix B: Review of R Studio for Data Science. If you want to learn how to use R, you may want to practice with RStudio (https://openstax.org/r/posit1), a commonly used software application to edit/run R programs.\n\n[openstax-pds-2025:p039:para:c007 | starter/data/Principles-of-Data-Science-WEB.pdf | page 39 | section 1.4]\nPYTHON IN EXCEL\n\nMicrosoft recently launched a new feature for Excel named “Python in Excel.” This feature allows a user to run Python code to analyze data directly in Excel. This textbook does not cover this feature, but instead presents Python separately, as it is also crucial for you to know how to use each tool in its more commonly used environment. If interested, refer to Microsoft’s announcement (https://openstax.org/r/youtu).\n\n[openstax-pds-2025:p040:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 40 | section 1.5]\nOther Data Analysis/Visualization Tools\n\nThere are a few other data analysis tools that are strong in data visualization. Tableau (https://openstax.org/r/tableau1) and PowerBI (https://openstax.org/r/micro) are user-friendly applications for data visualization. They are known for offering more sophisticated, interactive visualizations for high-dimensional data. They also offer a relatively easy user interface for compiling an analysis dashboard. Both allow users to run a simple data analysis as well before visualizing the results, similar to Excel.",
+        "context_ids": [
+          "openstax-pds-2025:p033:para:c000",
+          "openstax-pds-2025:p039:para:c006",
+          "openstax-pds-2025:p039:para:c007",
+          "openstax-pds-2025:p040:para:c001"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 24.87,
+          "embed_tokens": 9,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 1.7999999999999997e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Tableau Power BI subscription price monthly per-user",
+        "filter": {
+          "chapter": "Chapter 1"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p040:para:c001",
+            "page": 40,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p039:para:c002",
+            "page": 39,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p039:para:c007",
+            "page": 39,
+            "score": 0.029857,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p039:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 39 | section 1.4]\nThe user interfaces for both Excel and Google Sheets make these programs very user-friendly for many applications. But these programs have some limitations when it comes to large databases or complex analyses. In these instances, data scientists will often turn to a programming language such as Python, R, or SPSS.\n\n[openstax-pds-2025:p039:para:c007 | starter/data/Principles-of-Data-Science-WEB.pdf | page 39 | section 1.4]\nPYTHON IN EXCEL\n\nMicrosoft recently launched a new feature for Excel named “Python in Excel.” This feature allows a user to run Python code to analyze data directly in Excel. This textbook does not cover this feature, but instead presents Python separately, as it is also crucial for you to know how to use each tool in its more commonly used environment. If interested, refer to Microsoft’s announcement (https://openstax.org/r/youtu).\n\n[openstax-pds-2025:p040:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 40 | section 1.5]\nOther Data Analysis/Visualization Tools\n\nThere are a few other data analysis tools that are strong in data visualization. Tableau (https://openstax.org/r/tableau1) and PowerBI (https://openstax.org/r/micro) are user-friendly applications for data visualization. They are known for offering more sophisticated, interactive visualizations for high-dimensional data. They also offer a relatively easy user interface for compiling an analysis dashboard. Both allow users to run a simple data analysis as well before visualizing the results, similar to Excel.\n\n[openstax-pds-2025:p040:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 40 | section 1.5]\nIn general, data visualization aims to make complex data more understandable and usable. The tools and technology described in this section offer a variety of ways to go about creating visualizations that are most accessible. Refer to Visualizing Data for a deeper discussion of the types of visualizations—charts, graphs, boxplots, histograms, etc.—that can be generated to help find the meaning in data.",
+        "context_ids": [
+          "openstax-pds-2025:p039:para:c002",
+          "openstax-pds-2025:p039:para:c007",
+          "openstax-pds-2025:p040:para:c001",
+          "openstax-pds-2025:p040:para:c002"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1100.22,
+          "embed_tokens": 9,
+          "embed_cost_usd": 1.8e-07,
+          "embed_reference_cost_usd": 1.8e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Tableau Power BI subscription price monthly",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p397:para:c001",
+            "page": 397,
+            "score": 0.032522,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p040:para:c001",
+            "page": 40,
+            "score": 0.031778,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p083:para:c003",
+            "page": 83,
+            "score": 0.016129,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p040:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 40 | section 1.5]\nOther Data Analysis/Visualization Tools\n\nThere are a few other data analysis tools that are strong in data visualization. Tableau (https://openstax.org/r/tableau1) and PowerBI (https://openstax.org/r/micro) are user-friendly applications for data visualization. They are known for offering more sophisticated, interactive visualizations for high-dimensional data. They also offer a relatively easy user interface for compiling an analysis dashboard. Both allow users to run a simple data analysis as well before visualizing the results, similar to Excel.\n\n[openstax-pds-2025:p083:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 83 | section 2.3]\n# Use regex to match and extract data based on specific pattern\nproduct = re.search(r\"product: (.+?),\", data).group(1)\nmodel = re.search(r\"model: (.+?),\", data).group(1)\nprice = re.search(r\"price: (.+?.+?.+?.+?)\", data).group(1)\n\n# Print the extracted data\nprint(\"product: \" + product)\nprint(\"model: \" + model)\nprint(\"price: \" + price)\n\nThe resulting output will look like this:\n\nproduct: iPhone 12 model: A2172 price: $799\n\n[openstax-pds-2025:p397:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 397 | section 8.1]\nspecifies who is responsible for managing and accessing different types of data and what security measures need to be in place to protect it. What and How Much Should Be Shared?\n\n[openstax-pds-2025:p397:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 397 | section 8.1]\nThe scope of the data science project, along with associated requirements, will determine the type and extent of data that can be shared. This data may encompass quantitative, qualitative, tabular, text-based, image- based, and audio-based formats, among others, each of which may require unique methods of sharing. For example, tools like Tableau (https://openstax.org/r/tableau) or Power BI (https://openstax.org/r/microsoft) can be used for sharing tabular data and visualizations, while GitHub (https://openstax.org/r/github) has traditionally been useful for sharing programming code, datasets, and related materials (though today, anything can be shared on GitHub).",
+        "context_ids": [
+          "openstax-pds-2025:p040:para:c001",
+          "openstax-pds-2025:p083:para:c003",
+          "openstax-pds-2025:p397:para:c000",
+          "openstax-pds-2025:p397:para:c001"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1096.43,
+          "embed_tokens": 7,
+          "embed_cost_usd": 1.4e-07,
+          "embed_reference_cost_usd": 1.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "subscription price Tableau Power BI",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p397:para:c001",
+            "page": 397,
+            "score": 0.032522,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p040:para:c001",
+            "page": 40,
+            "score": 0.031778,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p083:para:c003",
+            "page": 83,
+            "score": 0.016129,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p040:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 40 | section 1.5]\nOther Data Analysis/Visualization Tools\n\nThere are a few other data analysis tools that are strong in data visualization. Tableau (https://openstax.org/r/tableau1) and PowerBI (https://openstax.org/r/micro) are user-friendly applications for data visualization. They are known for offering more sophisticated, interactive visualizations for high-dimensional data. They also offer a relatively easy user interface for compiling an analysis dashboard. Both allow users to run a simple data analysis as well before visualizing the results, similar to Excel.\n\n[openstax-pds-2025:p083:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 83 | section 2.3]\n# Use regex to match and extract data based on specific pattern\nproduct = re.search(r\"product: (.+?),\", data).group(1)\nmodel = re.search(r\"model: (.+?),\", data).group(1)\nprice = re.search(r\"price: (.+?.+?.+?.+?)\", data).group(1)\n\n# Print the extracted data\nprint(\"product: \" + product)\nprint(\"model: \" + model)\nprint(\"price: \" + price)\n\nThe resulting output will look like this:\n\nproduct: iPhone 12 model: A2172 price: $799\n\n[openstax-pds-2025:p397:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 397 | section 8.1]\nspecifies who is responsible for managing and accessing different types of data and what security measures need to be in place to protect it. What and How Much Should Be Shared?\n\n[openstax-pds-2025:p397:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 397 | section 8.1]\nThe scope of the data science project, along with associated requirements, will determine the type and extent of data that can be shared. This data may encompass quantitative, qualitative, tabular, text-based, image- based, and audio-based formats, among others, each of which may require unique methods of sharing. For example, tools like Tableau (https://openstax.org/r/tableau) or Power BI (https://openstax.org/r/microsoft) can be used for sharing tabular data and visualizations, while GitHub (https://openstax.org/r/github) has traditionally been useful for sharing programming code, datasets, and related materials (though today, anything can be shared on GitHub).",
+        "context_ids": [
+          "openstax-pds-2025:p040:para:c001",
+          "openstax-pds-2025:p083:para:c003",
+          "openstax-pds-2025:p397:para:c000",
+          "openstax-pds-2025:p397:para:c001"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1194.14,
+          "embed_tokens": 6,
+          "embed_cost_usd": 1.2e-07,
+          "embed_reference_cost_usd": 1.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p040:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 40 | section 1.5]\nOther Data Analysis/Visualization Tools\n\nThere are a few other data analysis tools that are strong in data visualization. Tableau (https://openstax.org/r/tableau1) and PowerBI (https://openstax.org/r/micro) are user-friendly applications for data visualization. They are known for offering more sophisticated, interactive visualizations for high-dimensional data. They also offer a relatively easy user interface for compiling an analysis dashboard. Both allow users to run a simple data analysis as well before visualizing the results, similar to Excel.\n\n[openstax-pds-2025:p083:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 83 | section 2.3]\n# Use regex to match and extract data based on specific pattern\nproduct = re.search(r\"product: (.+?),\", data).group(1)\nmodel = re.search(r\"model: (.+?),\", data).group(1)\nprice = re.search(r\"price: (.+?.+?.+?.+?)\", data).group(1)\n\n# Print the extracted data\nprint(\"product: \" + product)\nprint(\"model: \" + model)\nprint(\"price: \" + price)\n\nThe resulting output will look like this:\n\nproduct: iPhone 12 model: A2172 price: $799\n\n[openstax-pds-2025:p397:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 397 | section 8.1]\nspecifies who is responsible for managing and accessing different types of data and what security measures need to be in place to protect it. What and How Much Should Be Shared?\n\n[openstax-pds-2025:p397:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 397 | section 8.1]\nThe scope of the data science project, along with associated requirements, will determine the type and extent of data that can be shared. This data may encompass quantitative, qualitative, tabular, text-based, image- based, and audio-based formats, among others, each of which may require unique methods of sharing. For example, tools like Tableau (https://openstax.org/r/tableau) or Power BI (https://openstax.org/r/microsoft) can be used for sharing tabular data and visualizations, while GitHub (https://openstax.org/r/github) has traditionally been useful for sharing programming code, datasets, and related materials (though today, anything can be shared on GitHub).",
+    "context_ids": [
+      "openstax-pds-2025:p040:para:c001",
+      "openstax-pds-2025:p083:para:c003",
+      "openstax-pds-2025:p397:para:c000",
+      "openstax-pds-2025:p397:para:c001"
+    ],
+    "search_calls": 4,
+    "turns": 5,
+    "llm_prompt_tokens": 11147,
+    "llm_completion_tokens": 158,
+    "rerank_tokens": 0,
+    "embed_tokens": 31,
+    "estimated_cost_usd": 0.00302437,
+    "live_cost_usd": 0.00302419,
+    "elapsed_seconds": 34.777,
+    "split": "test",
+    "answerable": false,
+    "type": "unanswerable_near_topic",
+    "question": "What monthly per-user subscription price does Chapter 1 state for Tableau Desktop or Microsoft Power BI?"
+  },
+  {
+    "query_id": "u05",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "The retrieved text mentions the 1936 Literary Digest poll and notes that it predicted a victory for Alf Landon [openstax-pds-2025:p072:para:c001], but it does not state how many million ballots were mailed out or the exact percentage of the popular vote that Alf Landon received.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Literary Digest election poll 1936 million ballots Alf Landon percentage popular vote",
+        "filter": {
+          "chapter": "Chapter 2"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p072:para:c001",
+            "page": 72,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p078:para:c001",
+            "page": 78,
+            "score": 0.016129,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p085:para:c000",
+            "page": 85,
+            "score": 0.016129,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p072:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nAvoiding Bias in Survey Questions\n\nUnbiased sampling and unbiased survey methodology are essential for ensuring accurate and reliable results. One well-known real-life instance of sampling bias leading to inaccurate findings is the 1936 Literary Digest poll. This survey aimed to forecast the results of the US presidential election and utilized a mailing list of telephone and automobile owners. This approach was considered biased toward affluent individuals and therefore favored Republican voters. As a consequence, the poll predicted a victory for Republican nominee Alf Landon. However, the actual outcome was a landslide win for Franklin D. Roosevelt (Lusinchi, 2012).\n\n[openstax-pds-2025:p078:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 78 | section 2.3]\nUsing Python to Scrape Data from the Web\n\nAs noted previously, web scraping is a strategy of gathering data from the internet using automated mechanisms or programs. Python is one of the popular programming languages used for web scraping due to its various libraries and frameworks that make it easy to pull and process data from websites.\n\nTo scrape data such as a table from a website using Python, we follow these steps:\n\n1. Import the pandaspandas library. The first step is to import the pandas library (https://openstax.org/r/pandas), which is a popular Python library for data analysis and manipulation.\n\nimport pandas as pd\n\n[openstax-pds-2025:p085:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 85 | section 2.3]\n\"26\": [\"Theodore Roosevelt\", \"New York\"], \"27\": [\"William Howard Taft\", \"Ohio\"], \"28\": [\"Woodrow Wilson\", \"Virginia\"], \"29\": [\"Warren G. Harding\", \"Ohio\"], \"30\": [\"Calvin Coolidge\", \"Vermont\"], \"31\": [\"Herbert Hoover\", \"Iowa\"], \"32\": [\"Franklin D. Roosevelt\", \"New York\"], \"33\": [\"Harry S. Truman\", \"Missouri\"], \"34\": [\"Dwight D. Eisenhower\", \"Texas\"], \"35\": [\"John F. Kennedy\", \"Massachusetts\"], \"36\": [\"Lyndon B. Johnson\", \"Texas\"], \"37\": [\"Richard Nixon\", \"California\"], \"38\": [\"Gerald Ford\", \"Nebraska\"], \"39\": [\"Jimmy Carter\", \"Georgia\"], \"40\": [\"Ronald Reagan\", \"Illinois\"], \"41\": [\"George H. W. Bush\", \"Massachusetts\"], \"42\": [\"Bill Clinton\", \"Arkansas\"], \"43\": [\"George W.",
+        "context_ids": [
+          "openstax-pds-2025:p072:para:c001",
+          "openstax-pds-2025:p078:para:c001",
+          "openstax-pds-2025:p085:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 48.66,
+          "embed_tokens": 16,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 3.199999999999999e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Literary Digest 1936 million ballots Landon percentage",
+        "filter": {
+          "chapter": "Chapter 2"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p072:para:c001",
+            "page": 72,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p074:para:c003",
+            "page": 74,
+            "score": 0.016129,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p085:para:c000",
+            "page": 85,
+            "score": 0.016129,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p072:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nOpen-ended questions allow for more in-depth responses and provide the opportunity for unexpected insights. They also allow respondents to elaborate on their thoughts and provide detailed and personal responses. Closed-ended questions have predetermined answer choices and are effective in gathering quantitative data. They are quick and easy to answer, and their clear and structured format allows for quantifiable results.\n\n[openstax-pds-2025:p072:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72 | section 2.2]\nAvoiding Bias in Survey Questions\n\nUnbiased sampling and unbiased survey methodology are essential for ensuring accurate and reliable results. One well-known real-life instance of sampling bias leading to inaccurate findings is the 1936 Literary Digest poll. This survey aimed to forecast the results of the US presidential election and utilized a mailing list of telephone and automobile owners. This approach was considered biased toward affluent individuals and therefore favored Republican voters. As a consequence, the poll predicted a victory for Republican nominee Alf Landon. However, the actual outcome was a landslide win for Franklin D. Roosevelt (Lusinchi, 2012).\n\n[openstax-pds-2025:p074:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74 | section 2.2]\n8. Quota sampling. Quota sampling is a non-probability sampling technique in which experimenters select participants based on predetermined quotas to guarantee that a certain number or percentage of the population of interest is represented in the sample. These quotas are based on specific demographic characteristics, such as age, gender, ethnicity, and occupation, which are believed to have a direct or indirect relationship with the research topic. Quota sampling is generally used in market research and opinion polls, as it allows for a fast and cost-effective way to gather data from a diverse range of individuals. However, it is important to note that the results of quota sampling may not accurately represent the entire population, as the sample is not randomly selected and may be biased",
+        "context_ids": [
+          "openstax-pds-2025:p072:para:c000",
+          "openstax-pds-2025:p072:para:c001",
+          "openstax-pds-2025:p074:para:c003"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1520.15,
+          "embed_tokens": 11,
+          "embed_cost_usd": 2.2e-07,
+          "embed_reference_cost_usd": 2.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "read_page_chunks",
+        "query": "page:71",
+        "filter": {
+          "page": 71,
+          "document_id": "openstax-pds-2025"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p071:para:c000",
+            "page": 71,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p071:para:c001",
+            "page": 71,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p071:para:c002",
+            "page": 71,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p071:para:c003",
+            "page": 71,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p071:para:c004",
+            "page": 71,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p071:para:c005",
+            "page": 71,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p071:para:c006",
+            "page": 71,
+            "score": 1.0
+          }
+        ],
+        "context": "[openstax-pds-2025:p071:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71 | section 2.2]\nCollecting Data Through Experiments\n\nCollecting data through scientific experiments requires a well-designed experimental scheme, describing the research objectives, variables, and procedures. The establishment of a control specimen is crucial, and data is obtained through systematic properties, measurements, or characteristics. It is crucial to follow ethical guidelines for the proper documentation and ethical utilization of the collected data (see Ethics in Data Collection).\n\n[openstax-pds-2025:p071:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71 | section 2.2]\nConsider this example: Scientist Sally aimed to investigate the impact of sunlight on plant growth. The research inquiry was to determine whether increased exposure to sunlight enhances the growth of plants. Sally experimented with two groups of plants wherein one group received eight hours of sunlight per day, while the other only received four hours. The height of each plant was measured and documented every week for four consecutive weeks. The main research objective was to determine the growth rate of plants exposed to eight hours of sunlight compared to those with only four hours. A total of 20 identical potted plants were used, with one group allocated to the \"sunlight\" condition and the other to the \"limited sunlight\" condition.\n\n[openstax-pds-2025:p071:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71 | section 2.2]\nBoth groups were maintained under identical environmental conditions, including temperature, humidity, and soil moisture. Adequate watering was provided to ensure equal hydration of all plants. The measurements of plant height were obtained and accurately recorded every week. This approach allowed for the collection of precise and reliable data on the impact of sunlight on plant growth, which can serve as a valuable resource for further research and understanding of this relationship.\n\n[openstax-pds-2025:p071:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71 | section 2.2]\nOpen-Ended Versus Closed-Ended Questions\n\nSurveys should generally contain a mix of closed-ended and open-ended questions to gather both quantitative and qualitative data.",
+        "context_ids": [
+          "openstax-pds-2025:p071:para:c000",
+          "openstax-pds-2025:p071:para:c001",
+          "openstax-pds-2025:p071:para:c002",
+          "openstax-pds-2025:p071:para:c006"
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "read_page_chunks",
+        "query": "page:73",
+        "filter": {
+          "page": 73,
+          "document_id": "openstax-pds-2025"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p073:para:c000",
+            "page": 73,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p073:para:c001",
+            "page": 73,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p073:para:c002",
+            "page": 73,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p073:para:c003",
+            "page": 73,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p073:para:c004",
+            "page": 73,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p073:para:c005",
+            "page": 73,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p073:para:c006",
+            "page": 73,
+            "score": 1.0
+          },
+          {
+            "id": "openstax-pds-2025:p073:para:c007",
+            "page": 73,
+            "score": 1.0
+          }
+        ],
+        "context": "[openstax-pds-2025:p073:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 73 | section 2.2]\nfor quality control testing. In the political arena, simple random sampling is commonly used to select randomly registered voters for polls or surveys, ensuring equal representation and minimizing bias in the data collected.\n2. Stratified sampling. Stratified sampling involves splitting the population into subgroups based on specified factors, such as age, area, income, or education level, and taking a random sample from each stratum in proportion to its size in the population. Stratified sampling allows for a more accurate representation of the population as it ensures that all subgroups are adequately represented in the sample. This can be especially useful when the variables being studied vary significantly between the stratified groups.\n\n[openstax-pds-2025:p073:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 73 | section 2.2]\n3. Cluster sampling. With cluster sampling, the population is divided into natural groups or clusters, such as schools, communities, or cities, with a random sample of these clusters picked and all members within the chosen clusters included in the sample. Cluster sampling is helpful to represent the entire population even if it is difficult or time-consuming due to challenges such as identifying clusters, sourcing a list of clusters, traveling to different clusters, and communicating with them. Additionally, data analysis and sample size calculation may be more complex, and there is a risk of bias in the sample. However, cluster sampling can be more cost-effective.\n\n[openstax-pds-2025:p073:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 73 | section 2.2]\nAn example of cluster sampling would be a study on the effectiveness of a new educational program in a state. The state is divided into clusters based on school districts. The researcher uses a random selection process to choose a sample of school districts and then collects data from all the schools within those districts. This method allows the researcher to obtain a representative sample of the state's student population without having to visit each individual school, saving time and resources.",
+        "context_ids": [
+          "openstax-pds-2025:p073:para:c000",
+          "openstax-pds-2025:p073:para:c001",
+          "openstax-pds-2025:p073:para:c002"
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p073:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 73 | section 2.2]\nfor quality control testing. In the political arena, simple random sampling is commonly used to select randomly registered voters for polls or surveys, ensuring equal representation and minimizing bias in the data collected.\n2. Stratified sampling. Stratified sampling involves splitting the population into subgroups based on specified factors, such as age, area, income, or education level, and taking a random sample from each stratum in proportion to its size in the population. Stratified sampling allows for a more accurate representation of the population as it ensures that all subgroups are adequately represented in the sample. This can be especially useful when the variables being studied vary significantly between the stratified groups.\n\n[openstax-pds-2025:p073:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 73 | section 2.2]\n3. Cluster sampling. With cluster sampling, the population is divided into natural groups or clusters, such as schools, communities, or cities, with a random sample of these clusters picked and all members within the chosen clusters included in the sample. Cluster sampling is helpful to represent the entire population even if it is difficult or time-consuming due to challenges such as identifying clusters, sourcing a list of clusters, traveling to different clusters, and communicating with them. Additionally, data analysis and sample size calculation may be more complex, and there is a risk of bias in the sample. However, cluster sampling can be more cost-effective.\n\n[openstax-pds-2025:p073:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 73 | section 2.2]\nAn example of cluster sampling would be a study on the effectiveness of a new educational program in a state. The state is divided into clusters based on school districts. The researcher uses a random selection process to choose a sample of school districts and then collects data from all the schools within those districts. This method allows the researcher to obtain a representative sample of the state's student population without having to visit each individual school, saving time and resources.",
+    "context_ids": [
+      "openstax-pds-2025:p073:para:c000",
+      "openstax-pds-2025:p073:para:c001",
+      "openstax-pds-2025:p073:para:c002"
+    ],
+    "search_calls": 4,
+    "turns": 6,
+    "llm_prompt_tokens": 14696,
+    "llm_completion_tokens": 277,
+    "rerank_tokens": 0,
+    "embed_tokens": 27,
+    "estimated_cost_usd": 0.00409004,
+    "live_cost_usd": 0.00408972,
+    "elapsed_seconds": 8.112,
+    "split": "test",
+    "answerable": false,
+    "type": "unanswerable_near_topic",
+    "question": "In the 1936 Literary Digest election poll discussed in Section 2.2, how many million ballots were mailed out and what exact percentage of the popular vote did Alf Landon receive?"
+  },
+  {
+    "query_id": "u06",
+    "config": "hybrid_expanded_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "The retrieved text in Section 8.1 mentions that HIPAA requires safeguarding sensitive patient health information [openstax-pds-2025:p389:para:c002] and outlines general steps for responding to data breaches (such as notifying affected individuals) [openstax-pds-2025:p396:para:c002], but it does not specify the exact number of calendar days within which an organization must notify affected patients.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "HIPAA notify affected patients calendar days medical data breach Section 8.1",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p396:para:c002",
+            "page": 396,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p394:para:c006",
+            "page": 394,
+            "score": 0.031514,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p401:para:c001",
+            "page": 401,
+            "score": 0.031514,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p394:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 394 | section 8.1]\nEXAMPLE 8.3\n\nProblem\n\nConsider a data science team working on a revolutionary data science project that would have a huge impact on the health care industry. The project involves gathering and analyzing sensitive medical information from patients, including full names, addresses, phone numbers, and medical histories. The team recognizes the critical importance of maintaining data security to ensure the success and ethical integrity of their work. One day, a request for access to the data is received from a researcher from an\n\n[openstax-pds-2025:p396:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 396 | section 8.1]\n3. Notify authorities: Depending on the nature of the breach, it may be necessary to notify authorities such as law enforcement or regulatory agencies. This is especially important for breaches involving personally identifiable information (PII) or sensitive data.\n4. Notify affected individuals: The team must also inform any individuals whose data was compromised in the breach. This notification should include details of the breach, the type of data exposed, and any steps the individual can take to protect themselves.\n5. Secure affected accounts: If the breach involves compromised user accounts, those accounts must be secured immediately. This may involve resetting passwords or disabling accounts.\n\n[openstax-pds-2025:p401:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 401 | section 8.2]\nConsider a health care startup that develops a predictive model to identify patients at high risk of hospitalization due to chronic illnesses. To create the model, the company collects a wide range of sensitive patient data, including medical history, medication records, and biometric information. The company fails to implement robust data protection measures, leading to a breach in which hackers access the patient data. The sensitive nature of this information makes its exposure highly concerning, potentially leading to identity theft or discrimination against affected individuals.",
+        "context_ids": [
+          "openstax-pds-2025:p394:para:c006",
+          "openstax-pds-2025:p396:para:c002",
+          "openstax-pds-2025:p401:para:c001"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1118.54,
+          "embed_tokens": 15,
+          "embed_cost_usd": 3e-07,
+          "embed_reference_cost_usd": 3e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "calendar days notify HIPAA breach",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p396:para:c002",
+            "page": 396,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p396:para:c001",
+            "page": 396,
+            "score": 0.031258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p395:para:c000",
+            "page": 395,
+            "score": 0.031025,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p395:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\nagency outside of the team who has heard about their work. What steps should be taken to ensure data security?\n\nSolution\n\nThis data contains personally identifiable information (PII). Moreover, the team needs to ensure that the project complies with HIPAA regulations because there are medical records involved. The following measures should be taken at the beginning of the project and throughout the collection stage.\n\n[openstax-pds-2025:p396:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 396 | section 8.1]\n1. Identify and contain the breach: The first step is to identify the type and scope of the breach. This may involve investigating any unauthorized access, stolen or lost devices, or other security incidents. Once identified, the breach must be contained to prevent further exposure of sensitive data.\n2. Assess the damage: Once the breach is contained, the team must assess the extent of the damage caused. This may involve determining the type and amount of data that was compromised as well as any potential impact on affected individuals.\n\n[openstax-pds-2025:p396:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 396 | section 8.1]\n3. Notify authorities: Depending on the nature of the breach, it may be necessary to notify authorities such as law enforcement or regulatory agencies. This is especially important for breaches involving personally identifiable information (PII) or sensitive data.\n4. Notify affected individuals: The team must also inform any individuals whose data was compromised in the breach. This notification should include details of the breach, the type of data exposed, and any steps the individual can take to protect themselves.\n5. Secure affected accounts: If the breach involves compromised user accounts, those accounts must be secured immediately. This may involve resetting passwords or disabling accounts.",
+        "context_ids": [
+          "openstax-pds-2025:p395:para:c000",
+          "openstax-pds-2025:p396:para:c001",
+          "openstax-pds-2025:p396:para:c002"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1217.84,
+          "embed_tokens": 6,
+          "embed_cost_usd": 1.2e-07,
+          "embed_reference_cost_usd": 1.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "HIPAA days breach notification",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p396:para:c002",
+            "page": 396,
+            "score": 0.032787,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p396:para:c001",
+            "page": 396,
+            "score": 0.03101,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p396:para:c004",
+            "page": 396,
+            "score": 0.03055,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p396:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 396 | section 8.1]\n1. Identify and contain the breach: The first step is to identify the type and scope of the breach. This may involve investigating any unauthorized access, stolen or lost devices, or other security incidents. Once identified, the breach must be contained to prevent further exposure of sensitive data.\n2. Assess the damage: Once the breach is contained, the team must assess the extent of the damage caused. This may involve determining the type and amount of data that was compromised as well as any potential impact on affected individuals.\n\n[openstax-pds-2025:p396:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 396 | section 8.1]\n3. Notify authorities: Depending on the nature of the breach, it may be necessary to notify authorities such as law enforcement or regulatory agencies. This is especially important for breaches involving personally identifiable information (PII) or sensitive data.\n4. Notify affected individuals: The team must also inform any individuals whose data was compromised in the breach. This notification should include details of the breach, the type of data exposed, and any steps the individual can take to protect themselves.\n5. Secure affected accounts: If the breach involves compromised user accounts, those accounts must be secured immediately. This may involve resetting passwords or disabling accounts.\n\n[openstax-pds-2025:p396:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 396 | section 8.1]\n9. Conduct a post-breach review: After the data breach has been resolved, the team should conduct a post-breach review to identify any weaknesses or vulnerabilities in their security protocols and take steps to address them.\n10. Provide support for affected individuals: The team should also provide support for affected individuals, such as offering credit monitoring services or assistance with any financial or identity theft issues that may arise from the breach.",
+        "context_ids": [
+          "openstax-pds-2025:p396:para:c001",
+          "openstax-pds-2025:p396:para:c002",
+          "openstax-pds-2025:p396:para:c004"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1196.79,
+          "embed_tokens": 5,
+          "embed_cost_usd": 1e-07,
+          "embed_reference_cost_usd": 1e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "calendar days HIPAA",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p389:para:c002",
+            "page": 389,
+            "score": 0.032266,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p395:para:c000",
+            "page": 395,
+            "score": 0.032258,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p392:para:c005",
+            "page": 392,
+            "score": 0.028898,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p389:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 389 | section 8.1]\nSome regulations apply only to certain types of data or data related to certain industries. For example, in the United States, the Health Insurance Portability and Accountability Act (HIPAA) requires the safeguarding of sensitive information related to patient health. Financial institutions in the United States must adhere to the regulations set forth by the Financial Industry Regulatory Authority (FINRA) and the Securities and Exchange Commission (SEC), both of which regulate the use of sensitive financial information. The Family Educational\n\n[openstax-pds-2025:p392:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 392 | section 8.1]\nAn example of a violation of the privacy of an individual or business in the data collection stage may occur when data scientists collect data without pursuing informed consent. Other examples of possible privacy violations during the data collection stage include collecting sensitive information such as health data without explicit consent (as per HIPAA introduced earlier in the chapter), data from minors without their parent’s approval, and data from an individual or group that may be vulnerable or marginalized without proper notification or protection measures in place.\n\n[openstax-pds-2025:p392:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 392 | section 8.1]\nThose who work in higher education need to be aware of FERPA (Family Educational Rights and Privacy Act), which restricts the sharing or obtaining of college students’ academic information without prior consent, even if the requesting party is the student’s parent or guardian.\n\n[openstax-pds-2025:p395:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\nagency outside of the team who has heard about their work. What steps should be taken to ensure data security?\n\nSolution\n\nThis data contains personally identifiable information (PII). Moreover, the team needs to ensure that the project complies with HIPAA regulations because there are medical records involved. The following measures should be taken at the beginning of the project and throughout the collection stage.",
+        "context_ids": [
+          "openstax-pds-2025:p389:para:c002",
+          "openstax-pds-2025:p392:para:c005",
+          "openstax-pds-2025:p392:para:c006",
+          "openstax-pds-2025:p395:para:c000"
+        ],
+        "meta": {
+          "method": "hybrid_rrf",
+          "elapsed_ms": 1227.53,
+          "embed_tokens": 4,
+          "embed_cost_usd": 8e-08,
+          "embed_reference_cost_usd": 8e-08,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p389:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 389 | section 8.1]\nSome regulations apply only to certain types of data or data related to certain industries. For example, in the United States, the Health Insurance Portability and Accountability Act (HIPAA) requires the safeguarding of sensitive information related to patient health. Financial institutions in the United States must adhere to the regulations set forth by the Financial Industry Regulatory Authority (FINRA) and the Securities and Exchange Commission (SEC), both of which regulate the use of sensitive financial information. The Family Educational\n\n[openstax-pds-2025:p392:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 392 | section 8.1]\nAn example of a violation of the privacy of an individual or business in the data collection stage may occur when data scientists collect data without pursuing informed consent. Other examples of possible privacy violations during the data collection stage include collecting sensitive information such as health data without explicit consent (as per HIPAA introduced earlier in the chapter), data from minors without their parent’s approval, and data from an individual or group that may be vulnerable or marginalized without proper notification or protection measures in place.\n\n[openstax-pds-2025:p392:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 392 | section 8.1]\nThose who work in higher education need to be aware of FERPA (Family Educational Rights and Privacy Act), which restricts the sharing or obtaining of college students’ academic information without prior consent, even if the requesting party is the student’s parent or guardian.\n\n[openstax-pds-2025:p395:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 395 | section 8.1]\nagency outside of the team who has heard about their work. What steps should be taken to ensure data security?\n\nSolution\n\nThis data contains personally identifiable information (PII). Moreover, the team needs to ensure that the project complies with HIPAA regulations because there are medical records involved. The following measures should be taken at the beginning of the project and throughout the collection stage.",
+    "context_ids": [
+      "openstax-pds-2025:p389:para:c002",
+      "openstax-pds-2025:p392:para:c005",
+      "openstax-pds-2025:p392:para:c006",
+      "openstax-pds-2025:p395:para:c000"
+    ],
+    "search_calls": 4,
+    "turns": 6,
+    "llm_prompt_tokens": 13346,
+    "llm_completion_tokens": 256,
+    "rerank_tokens": 0,
+    "embed_tokens": 30,
+    "estimated_cost_usd": 0.0037211,
+    "live_cost_usd": 0.0037211,
+    "elapsed_seconds": 14.964,
+    "split": "test",
+    "answerable": false,
+    "type": "unanswerable_near_topic",
+    "question": "Under HIPAA regulations described in Section 8.1, within how many calendar days must an organization notify affected patients after discovering a medical data breach?"
+  }
+]

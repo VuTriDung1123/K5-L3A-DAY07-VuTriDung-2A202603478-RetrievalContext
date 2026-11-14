@@ -1,0 +1,3 @@
+config,split,method,top_k,budget_chars,expand_neighbors,n,hit1_n,hit1_rate,hit3_n,hit3_rate,union3_n,union3_rate,context_hit_n,context_hit_rate,mrr3,filter_compliance,avg_context_chars,median_ms,total_seconds,embed_tokens,rerank_tokens,embed_reference_cost_usd,embed_live_cost_usd,rerank_cost_usd,total_reference_cost_usd
+baseline_dense,test,dense,3,800,False,5,1,0.2,1,0.2,4,0.8,0,0.0,0.2,2/2,553.6,1076.72,6.095,129,0,2.58e-06,2.58e-06,0.0,2.58e-06
+imp1_hybrid_expanded,test,hybrid_rrf,3,2400,True,5,1,0.2,1,0.2,3,0.6,3,0.6,0.2,2/2,2004.6,31.19,0.172,129,0,2.58e-06,0.0,0.0,2.58e-06

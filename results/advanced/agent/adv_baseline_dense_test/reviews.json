@@ -1,0 +1,184 @@
+[
+  {
+    "query_id": "adv_test_t01",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_test_t02",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_test_t03",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_test_t04",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "adv_test_t05",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": 1
+  },
+  {
+    "query_id": "adv_test_t06",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "adv_test_d01",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "adv_test_d02",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 1
+  },
+  {
+    "query_id": "adv_test_d03",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "adv_test_d04",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "adv_test_d05",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 1
+  },
+  {
+    "query_id": "adv_test_c01",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "adv_test_c02",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "adv_test_c03",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "adv_test_c04",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_test_c05",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 1
+  },
+  {
+    "query_id": "adv_test_m01",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "adv_test_m02",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "adv_test_m03",
+    "citation_support": [],
+    "answer_grade": 0
+  },
+  {
+    "query_id": "adv_test_m04",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 1
+  },
+  {
+    "query_id": "adv_test_x01",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_test_x02",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_test_x03",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_test_x04",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2
+  },
+  {
+    "query_id": "adv_test_u01",
+    "citation_support": [],
+    "abstention_correct": true
+  },
+  {
+    "query_id": "adv_test_u02",
+    "citation_support": [],
+    "abstention_correct": true
+  },
+  {
+    "query_id": "adv_test_u03",
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false
+  },
+  {
+    "query_id": "adv_test_u04",
+    "citation_support": [],
+    "abstention_correct": true
+  },
+  {
+    "query_id": "adv_test_u05",
+    "citation_support": [],
+    "abstention_correct": true
+  },
+  {
+    "query_id": "adv_test_u06",
+    "citation_support": [],
+    "abstention_correct": true
+  }
+]
+

@@ -1,0 +1,16 @@
+{
+  "config": "hybrid_expanded_agent",
+  "split": "dev",
+  "model": "gemini-3.5-flash-lite",
+  "cases": 18,
+  "answered": 16,
+  "abstain": 2,
+  "errors": 0,
+  "total_seconds": 175.92,
+  "total_search_calls": 36,
+  "total_llm_prompt_tokens": 92469,
+  "total_llm_completion_tokens": 4139,
+  "total_rerank_tokens": 0,
+  "total_embed_tokens": 298,
+  "total_estimated_cost_usd": 0.02933171
+}

@@ -1,0 +1,1006 @@
+{
+  "source_id": "openstax-pds-2025",
+  "title": "Principles of Data Science",
+  "authors": [
+    "Shaun V. Ault",
+    "Soohyun Nam Liao",
+    "Larry Musolino"
+  ],
+  "publisher": "OpenStax, Rice University",
+  "copyright_year": 2025,
+  "pdf_creation_date": "2026-04-20T12:15:58-05:00",
+  "source_path_or_url": "starter/data/Principles-of-Data-Science-WEB.pdf (https://openstax.org/details/books/principles-data-science)",
+  "source_sha256": "6b47205459a2f4e25a2b2a86369e674a26a5ae566a4cc428dd31047670692398",
+  "license_or_permission": "CC BY-NC-SA 4.0 (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License). Attribution required: 'Access for free at openstax.org.'",
+  "accessed_at": "2026-11-13",
+  "total_physical_pages_in_pdf": 569,
+  "selected_page_count": 107,
+  "total_raw_chars": 320693,
+  "total_normalized_chars": 273946,
+  "page_counting_rule": "1-based physical PDF pages covering the core instructional sections of three chapters: Chapter 1 (Sections 1.1-1.5, PDF pages 19-61, book pages 1-51), Chapter 2 (Sections 2.1-2.5, PDF pages 67-103, book pages 57-93), and Chapter 8 (Sections 8.1-8.3, PDF pages 387-413, book pages 377-403). Excluded: front matter/cover/TOC/preface (pages 1-18), end-of-chapter Key Terms, Group Project, Chapter Review, Critical Thinking, Quantitative Problems, References-only pages (pages 62-66, 104-112, 414-420), and remaining chapters/appendices.",
+  "chapters_included": [
+    {
+      "chapter": "Chapter 1",
+      "title": "What Are Data and Data Science?",
+      "pdf_pages": "19-61",
+      "count": 43
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "Collecting and Preparing Data",
+      "pdf_pages": "67-103",
+      "count": 37
+    },
+    {
+      "chapter": "Chapter 8",
+      "title": "Ethics Throughout the Data Science Cycle",
+      "pdf_pages": "387-413",
+      "count": 27
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "openstax-pds-2025:p019",
+      "pdf_page": 19,
+      "book_page": null,
+      "chapter": "Chapter 1",
+      "section": "1.1",
+      "raw_chars": 1806,
+      "normalized_chars": 1719
+    },
+    {
+      "page_id": "openstax-pds-2025:p020",
+      "pdf_page": 20,
+      "book_page": 10,
+      "chapter": "Chapter 1",
+      "section": "1.1",
+      "raw_chars": 3045,
+      "normalized_chars": 2730
+    },
+    {
+      "page_id": "openstax-pds-2025:p021",
+      "pdf_page": 21,
+      "book_page": 11,
+      "chapter": "Chapter 1",
+      "section": "1.1",
+      "raw_chars": 3965,
+      "normalized_chars": 3760
+    },
+    {
+      "page_id": "openstax-pds-2025:p022",
+      "pdf_page": 22,
+      "book_page": 12,
+      "chapter": "Chapter 1",
+      "section": "1.2",
+      "raw_chars": 4041,
+      "normalized_chars": 3723
+    },
+    {
+      "page_id": "openstax-pds-2025:p023",
+      "pdf_page": 23,
+      "book_page": 13,
+      "chapter": "Chapter 1",
+      "section": "1.2",
+      "raw_chars": 4924,
+      "normalized_chars": 4778
+    },
+    {
+      "page_id": "openstax-pds-2025:p024",
+      "pdf_page": 24,
+      "book_page": 14,
+      "chapter": "Chapter 1",
+      "section": "1.2",
+      "raw_chars": 3672,
+      "normalized_chars": 3372
+    },
+    {
+      "page_id": "openstax-pds-2025:p025",
+      "pdf_page": 25,
+      "book_page": 15,
+      "chapter": "Chapter 1",
+      "section": "1.2",
+      "raw_chars": 3752,
+      "normalized_chars": 3592
+    },
+    {
+      "page_id": "openstax-pds-2025:p026",
+      "pdf_page": 26,
+      "book_page": 16,
+      "chapter": "Chapter 1",
+      "section": "1.3",
+      "raw_chars": 3926,
+      "normalized_chars": 3597
+    },
+    {
+      "page_id": "openstax-pds-2025:p027",
+      "pdf_page": 27,
+      "book_page": 17,
+      "chapter": "Chapter 1",
+      "section": "1.3",
+      "raw_chars": 3731,
+      "normalized_chars": 2503
+    },
+    {
+      "page_id": "openstax-pds-2025:p028",
+      "pdf_page": 28,
+      "book_page": 18,
+      "chapter": "Chapter 1",
+      "section": "1.3",
+      "raw_chars": 3943,
+      "normalized_chars": 3618
+    },
+    {
+      "page_id": "openstax-pds-2025:p029",
+      "pdf_page": 29,
+      "book_page": 19,
+      "chapter": "Chapter 1",
+      "section": "1.3",
+      "raw_chars": 3697,
+      "normalized_chars": 3532
+    },
+    {
+      "page_id": "openstax-pds-2025:p030",
+      "pdf_page": 30,
+      "book_page": 20,
+      "chapter": "Chapter 1",
+      "section": "1.3",
+      "raw_chars": 2444,
+      "normalized_chars": 1650
+    },
+    {
+      "page_id": "openstax-pds-2025:p031",
+      "pdf_page": 31,
+      "book_page": 21,
+      "chapter": "Chapter 1",
+      "section": "1.3",
+      "raw_chars": 3210,
+      "normalized_chars": 1957
+    },
+    {
+      "page_id": "openstax-pds-2025:p032",
+      "pdf_page": 32,
+      "book_page": 22,
+      "chapter": "Chapter 1",
+      "section": "1.3",
+      "raw_chars": 2182,
+      "normalized_chars": 1878
+    },
+    {
+      "page_id": "openstax-pds-2025:p033",
+      "pdf_page": 33,
+      "book_page": 23,
+      "chapter": "Chapter 1",
+      "section": "1.3",
+      "raw_chars": 2102,
+      "normalized_chars": 1826
+    },
+    {
+      "page_id": "openstax-pds-2025:p034",
+      "pdf_page": 34,
+      "book_page": 24,
+      "chapter": "Chapter 1",
+      "section": "1.3",
+      "raw_chars": 2749,
+      "normalized_chars": 2482
+    },
+    {
+      "page_id": "openstax-pds-2025:p035",
+      "pdf_page": 35,
+      "book_page": 25,
+      "chapter": "Chapter 1",
+      "section": "1.3",
+      "raw_chars": 1571,
+      "normalized_chars": 1340
+    },
+    {
+      "page_id": "openstax-pds-2025:p036",
+      "pdf_page": 36,
+      "book_page": 26,
+      "chapter": "Chapter 1",
+      "section": "1.3",
+      "raw_chars": 1151,
+      "normalized_chars": 884
+    },
+    {
+      "page_id": "openstax-pds-2025:p037",
+      "pdf_page": 37,
+      "book_page": 27,
+      "chapter": "Chapter 1",
+      "section": "1.3",
+      "raw_chars": 2094,
+      "normalized_chars": 1829
+    },
+    {
+      "page_id": "openstax-pds-2025:p038",
+      "pdf_page": 38,
+      "book_page": 28,
+      "chapter": "Chapter 1",
+      "section": "1.4",
+      "raw_chars": 2702,
+      "normalized_chars": 2347
+    },
+    {
+      "page_id": "openstax-pds-2025:p039",
+      "pdf_page": 39,
+      "book_page": 29,
+      "chapter": "Chapter 1",
+      "section": "1.4",
+      "raw_chars": 3792,
+      "normalized_chars": 3643
+    },
+    {
+      "page_id": "openstax-pds-2025:p040",
+      "pdf_page": 40,
+      "book_page": 30,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 3172,
+      "normalized_chars": 2843
+    },
+    {
+      "page_id": "openstax-pds-2025:p041",
+      "pdf_page": 41,
+      "book_page": 31,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 2302,
+      "normalized_chars": 2031
+    },
+    {
+      "page_id": "openstax-pds-2025:p042",
+      "pdf_page": 42,
+      "book_page": 32,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 1202,
+      "normalized_chars": 956
+    },
+    {
+      "page_id": "openstax-pds-2025:p043",
+      "pdf_page": 43,
+      "book_page": 33,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 1419,
+      "normalized_chars": 1177
+    },
+    {
+      "page_id": "openstax-pds-2025:p044",
+      "pdf_page": 44,
+      "book_page": 34,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 906,
+      "normalized_chars": 659
+    },
+    {
+      "page_id": "openstax-pds-2025:p045",
+      "pdf_page": 45,
+      "book_page": 35,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 2131,
+      "normalized_chars": 1957
+    },
+    {
+      "page_id": "openstax-pds-2025:p046",
+      "pdf_page": 46,
+      "book_page": 36,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 1342,
+      "normalized_chars": 984
+    },
+    {
+      "page_id": "openstax-pds-2025:p047",
+      "pdf_page": 47,
+      "book_page": 37,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 1276,
+      "normalized_chars": 1045
+    },
+    {
+      "page_id": "openstax-pds-2025:p048",
+      "pdf_page": 48,
+      "book_page": 38,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 1152,
+      "normalized_chars": 890
+    },
+    {
+      "page_id": "openstax-pds-2025:p049",
+      "pdf_page": 49,
+      "book_page": 39,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 1588,
+      "normalized_chars": 1404
+    },
+    {
+      "page_id": "openstax-pds-2025:p050",
+      "pdf_page": 50,
+      "book_page": 40,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 918,
+      "normalized_chars": 677
+    },
+    {
+      "page_id": "openstax-pds-2025:p051",
+      "pdf_page": 51,
+      "book_page": 41,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 989,
+      "normalized_chars": 712
+    },
+    {
+      "page_id": "openstax-pds-2025:p052",
+      "pdf_page": 52,
+      "book_page": 42,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 1541,
+      "normalized_chars": 1093
+    },
+    {
+      "page_id": "openstax-pds-2025:p053",
+      "pdf_page": 53,
+      "book_page": 43,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 749,
+      "normalized_chars": 566
+    },
+    {
+      "page_id": "openstax-pds-2025:p054",
+      "pdf_page": 54,
+      "book_page": 44,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 1338,
+      "normalized_chars": 1013
+    },
+    {
+      "page_id": "openstax-pds-2025:p055",
+      "pdf_page": 55,
+      "book_page": 45,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 565,
+      "normalized_chars": 395
+    },
+    {
+      "page_id": "openstax-pds-2025:p056",
+      "pdf_page": 56,
+      "book_page": 46,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 641,
+      "normalized_chars": 433
+    },
+    {
+      "page_id": "openstax-pds-2025:p057",
+      "pdf_page": 57,
+      "book_page": 47,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 1541,
+      "normalized_chars": 1372
+    },
+    {
+      "page_id": "openstax-pds-2025:p058",
+      "pdf_page": 58,
+      "book_page": 48,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 1055,
+      "normalized_chars": 833
+    },
+    {
+      "page_id": "openstax-pds-2025:p059",
+      "pdf_page": 59,
+      "book_page": 49,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 844,
+      "normalized_chars": 659
+    },
+    {
+      "page_id": "openstax-pds-2025:p060",
+      "pdf_page": 60,
+      "book_page": 50,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 796,
+      "normalized_chars": 573
+    },
+    {
+      "page_id": "openstax-pds-2025:p061",
+      "pdf_page": 61,
+      "book_page": 51,
+      "chapter": "Chapter 1",
+      "section": "1.5",
+      "raw_chars": 533,
+      "normalized_chars": 354
+    },
+    {
+      "page_id": "openstax-pds-2025:p067",
+      "pdf_page": 67,
+      "book_page": null,
+      "chapter": "Chapter 2",
+      "section": "2.0",
+      "raw_chars": 2408,
+      "normalized_chars": 2334
+    },
+    {
+      "page_id": "openstax-pds-2025:p068",
+      "pdf_page": 68,
+      "book_page": 58,
+      "chapter": "Chapter 2",
+      "section": "2.1",
+      "raw_chars": 4124,
+      "normalized_chars": 3499
+    },
+    {
+      "page_id": "openstax-pds-2025:p069",
+      "pdf_page": 69,
+      "book_page": 59,
+      "chapter": "Chapter 2",
+      "section": "2.1",
+      "raw_chars": 3926,
+      "normalized_chars": 2911
+    },
+    {
+      "page_id": "openstax-pds-2025:p070",
+      "pdf_page": 70,
+      "book_page": 60,
+      "chapter": "Chapter 2",
+      "section": "2.1",
+      "raw_chars": 3748,
+      "normalized_chars": 3289
+    },
+    {
+      "page_id": "openstax-pds-2025:p071",
+      "pdf_page": 71,
+      "book_page": 61,
+      "chapter": "Chapter 2",
+      "section": "2.2",
+      "raw_chars": 3955,
+      "normalized_chars": 3799
+    },
+    {
+      "page_id": "openstax-pds-2025:p072",
+      "pdf_page": 72,
+      "book_page": 62,
+      "chapter": "Chapter 2",
+      "section": "2.2",
+      "raw_chars": 4668,
+      "normalized_chars": 4302
+    },
+    {
+      "page_id": "openstax-pds-2025:p073",
+      "pdf_page": 73,
+      "book_page": 63,
+      "chapter": "Chapter 2",
+      "section": "2.2",
+      "raw_chars": 4730,
+      "normalized_chars": 4408
+    },
+    {
+      "page_id": "openstax-pds-2025:p074",
+      "pdf_page": 74,
+      "book_page": 64,
+      "chapter": "Chapter 2",
+      "section": "2.2",
+      "raw_chars": 4892,
+      "normalized_chars": 4410
+    },
+    {
+      "page_id": "openstax-pds-2025:p075",
+      "pdf_page": 75,
+      "book_page": 65,
+      "chapter": "Chapter 2",
+      "section": "2.2",
+      "raw_chars": 4410,
+      "normalized_chars": 4173
+    },
+    {
+      "page_id": "openstax-pds-2025:p076",
+      "pdf_page": 76,
+      "book_page": 66,
+      "chapter": "Chapter 2",
+      "section": "2.3",
+      "raw_chars": 3649,
+      "normalized_chars": 3294
+    },
+    {
+      "page_id": "openstax-pds-2025:p077",
+      "pdf_page": 77,
+      "book_page": 67,
+      "chapter": "Chapter 2",
+      "section": "2.3",
+      "raw_chars": 3876,
+      "normalized_chars": 2747
+    },
+    {
+      "page_id": "openstax-pds-2025:p078",
+      "pdf_page": 78,
+      "book_page": 68,
+      "chapter": "Chapter 2",
+      "section": "2.3",
+      "raw_chars": 4078,
+      "normalized_chars": 3707
+    },
+    {
+      "page_id": "openstax-pds-2025:p079",
+      "pdf_page": 79,
+      "book_page": 69,
+      "chapter": "Chapter 2",
+      "section": "2.3",
+      "raw_chars": 1212,
+      "normalized_chars": 1026
+    },
+    {
+      "page_id": "openstax-pds-2025:p080",
+      "pdf_page": 80,
+      "book_page": 70,
+      "chapter": "Chapter 2",
+      "section": "2.3",
+      "raw_chars": 2445,
+      "normalized_chars": 2154
+    },
+    {
+      "page_id": "openstax-pds-2025:p081",
+      "pdf_page": 81,
+      "book_page": 71,
+      "chapter": "Chapter 2",
+      "section": "2.3",
+      "raw_chars": 2771,
+      "normalized_chars": 2523
+    },
+    {
+      "page_id": "openstax-pds-2025:p082",
+      "pdf_page": 82,
+      "book_page": 72,
+      "chapter": "Chapter 2",
+      "section": "2.3",
+      "raw_chars": 3490,
+      "normalized_chars": 3171
+    },
+    {
+      "page_id": "openstax-pds-2025:p083",
+      "pdf_page": 83,
+      "book_page": 73,
+      "chapter": "Chapter 2",
+      "section": "2.3",
+      "raw_chars": 2891,
+      "normalized_chars": 2726
+    },
+    {
+      "page_id": "openstax-pds-2025:p084",
+      "pdf_page": 84,
+      "book_page": 74,
+      "chapter": "Chapter 2",
+      "section": "2.3",
+      "raw_chars": 3019,
+      "normalized_chars": 2599
+    },
+    {
+      "page_id": "openstax-pds-2025:p085",
+      "pdf_page": 85,
+      "book_page": 75,
+      "chapter": "Chapter 2",
+      "section": "2.3",
+      "raw_chars": 1796,
+      "normalized_chars": 1490
+    },
+    {
+      "page_id": "openstax-pds-2025:p086",
+      "pdf_page": 86,
+      "book_page": 76,
+      "chapter": "Chapter 2",
+      "section": "2.4",
+      "raw_chars": 3985,
+      "normalized_chars": 3599
+    },
+    {
+      "page_id": "openstax-pds-2025:p087",
+      "pdf_page": 87,
+      "book_page": 77,
+      "chapter": "Chapter 2",
+      "section": "2.4",
+      "raw_chars": 4499,
+      "normalized_chars": 4169
+    },
+    {
+      "page_id": "openstax-pds-2025:p088",
+      "pdf_page": 88,
+      "book_page": 78,
+      "chapter": "Chapter 2",
+      "section": "2.4",
+      "raw_chars": 2192,
+      "normalized_chars": 1476
+    },
+    {
+      "page_id": "openstax-pds-2025:p089",
+      "pdf_page": 89,
+      "book_page": 79,
+      "chapter": "Chapter 2",
+      "section": "2.4",
+      "raw_chars": 2073,
+      "normalized_chars": 1044
+    },
+    {
+      "page_id": "openstax-pds-2025:p090",
+      "pdf_page": 90,
+      "book_page": 80,
+      "chapter": "Chapter 2",
+      "section": "2.4",
+      "raw_chars": 4927,
+      "normalized_chars": 3204
+    },
+    {
+      "page_id": "openstax-pds-2025:p091",
+      "pdf_page": 91,
+      "book_page": 81,
+      "chapter": "Chapter 2",
+      "section": "2.4",
+      "raw_chars": 3631,
+      "normalized_chars": 2735
+    },
+    {
+      "page_id": "openstax-pds-2025:p092",
+      "pdf_page": 92,
+      "book_page": 82,
+      "chapter": "Chapter 2",
+      "section": "2.4",
+      "raw_chars": 4265,
+      "normalized_chars": 3096
+    },
+    {
+      "page_id": "openstax-pds-2025:p093",
+      "pdf_page": 93,
+      "book_page": 83,
+      "chapter": "Chapter 2",
+      "section": "2.4",
+      "raw_chars": 4671,
+      "normalized_chars": 3377
+    },
+    {
+      "page_id": "openstax-pds-2025:p094",
+      "pdf_page": 94,
+      "book_page": 84,
+      "chapter": "Chapter 2",
+      "section": "2.4",
+      "raw_chars": 5290,
+      "normalized_chars": 4966
+    },
+    {
+      "page_id": "openstax-pds-2025:p095",
+      "pdf_page": 95,
+      "book_page": 85,
+      "chapter": "Chapter 2",
+      "section": "2.4",
+      "raw_chars": 3149,
+      "normalized_chars": 1754
+    },
+    {
+      "page_id": "openstax-pds-2025:p096",
+      "pdf_page": 96,
+      "book_page": 86,
+      "chapter": "Chapter 2",
+      "section": "2.4",
+      "raw_chars": 4066,
+      "normalized_chars": 1874
+    },
+    {
+      "page_id": "openstax-pds-2025:p097",
+      "pdf_page": 97,
+      "book_page": 87,
+      "chapter": "Chapter 2",
+      "section": "2.4",
+      "raw_chars": 5006,
+      "normalized_chars": 3122
+    },
+    {
+      "page_id": "openstax-pds-2025:p098",
+      "pdf_page": 98,
+      "book_page": 88,
+      "chapter": "Chapter 2",
+      "section": "2.5",
+      "raw_chars": 4263,
+      "normalized_chars": 3873
+    },
+    {
+      "page_id": "openstax-pds-2025:p099",
+      "pdf_page": 99,
+      "book_page": 89,
+      "chapter": "Chapter 2",
+      "section": "2.5",
+      "raw_chars": 3530,
+      "normalized_chars": 3259
+    },
+    {
+      "page_id": "openstax-pds-2025:p100",
+      "pdf_page": 100,
+      "book_page": 90,
+      "chapter": "Chapter 2",
+      "section": "2.5",
+      "raw_chars": 3704,
+      "normalized_chars": 2945
+    },
+    {
+      "page_id": "openstax-pds-2025:p101",
+      "pdf_page": 101,
+      "book_page": 91,
+      "chapter": "Chapter 2",
+      "section": "2.5",
+      "raw_chars": 4116,
+      "normalized_chars": 3377
+    },
+    {
+      "page_id": "openstax-pds-2025:p102",
+      "pdf_page": 102,
+      "book_page": 92,
+      "chapter": "Chapter 2",
+      "section": "2.5",
+      "raw_chars": 3955,
+      "normalized_chars": 3418
+    },
+    {
+      "page_id": "openstax-pds-2025:p103",
+      "pdf_page": 103,
+      "book_page": 93,
+      "chapter": "Chapter 2",
+      "section": "2.5",
+      "raw_chars": 1454,
+      "normalized_chars": 1253
+    },
+    {
+      "page_id": "openstax-pds-2025:p387",
+      "pdf_page": 387,
+      "book_page": null,
+      "chapter": "Chapter 8",
+      "section": "8.0",
+      "raw_chars": 2238,
+      "normalized_chars": 2158
+    },
+    {
+      "page_id": "openstax-pds-2025:p388",
+      "pdf_page": 388,
+      "book_page": 378,
+      "chapter": "Chapter 8",
+      "section": "8.1",
+      "raw_chars": 4469,
+      "normalized_chars": 4092
+    },
+    {
+      "page_id": "openstax-pds-2025:p389",
+      "pdf_page": 389,
+      "book_page": 379,
+      "chapter": "Chapter 8",
+      "section": "8.1",
+      "raw_chars": 1917,
+      "normalized_chars": 1605
+    },
+    {
+      "page_id": "openstax-pds-2025:p390",
+      "pdf_page": 390,
+      "book_page": 380,
+      "chapter": "Chapter 8",
+      "section": "8.1",
+      "raw_chars": 4863,
+      "normalized_chars": 4491
+    },
+    {
+      "page_id": "openstax-pds-2025:p391",
+      "pdf_page": 391,
+      "book_page": 381,
+      "chapter": "Chapter 8",
+      "section": "8.1",
+      "raw_chars": 3745,
+      "normalized_chars": 3519
+    },
+    {
+      "page_id": "openstax-pds-2025:p392",
+      "pdf_page": 392,
+      "book_page": 382,
+      "chapter": "Chapter 8",
+      "section": "8.1",
+      "raw_chars": 4386,
+      "normalized_chars": 3992
+    },
+    {
+      "page_id": "openstax-pds-2025:p393",
+      "pdf_page": 393,
+      "book_page": 383,
+      "chapter": "Chapter 8",
+      "section": "8.1",
+      "raw_chars": 3832,
+      "normalized_chars": 3651
+    },
+    {
+      "page_id": "openstax-pds-2025:p394",
+      "pdf_page": 394,
+      "book_page": 384,
+      "chapter": "Chapter 8",
+      "section": "8.1",
+      "raw_chars": 4340,
+      "normalized_chars": 3967
+    },
+    {
+      "page_id": "openstax-pds-2025:p395",
+      "pdf_page": 395,
+      "book_page": 385,
+      "chapter": "Chapter 8",
+      "section": "8.1",
+      "raw_chars": 3939,
+      "normalized_chars": 3619
+    },
+    {
+      "page_id": "openstax-pds-2025:p396",
+      "pdf_page": 396,
+      "book_page": 386,
+      "chapter": "Chapter 8",
+      "section": "8.1",
+      "raw_chars": 4551,
+      "normalized_chars": 4009
+    },
+    {
+      "page_id": "openstax-pds-2025:p397",
+      "pdf_page": 397,
+      "book_page": 387,
+      "chapter": "Chapter 8",
+      "section": "8.1",
+      "raw_chars": 4066,
+      "normalized_chars": 3861
+    },
+    {
+      "page_id": "openstax-pds-2025:p398",
+      "pdf_page": 398,
+      "book_page": 388,
+      "chapter": "Chapter 8",
+      "section": "8.2",
+      "raw_chars": 3934,
+      "normalized_chars": 3529
+    },
+    {
+      "page_id": "openstax-pds-2025:p399",
+      "pdf_page": 399,
+      "book_page": 389,
+      "chapter": "Chapter 8",
+      "section": "8.2",
+      "raw_chars": 4794,
+      "normalized_chars": 4648
+    },
+    {
+      "page_id": "openstax-pds-2025:p400",
+      "pdf_page": 400,
+      "book_page": 390,
+      "chapter": "Chapter 8",
+      "section": "8.2",
+      "raw_chars": 4085,
+      "normalized_chars": 3548
+    },
+    {
+      "page_id": "openstax-pds-2025:p401",
+      "pdf_page": 401,
+      "book_page": 391,
+      "chapter": "Chapter 8",
+      "section": "8.2",
+      "raw_chars": 4393,
+      "normalized_chars": 4243
+    },
+    {
+      "page_id": "openstax-pds-2025:p402",
+      "pdf_page": 402,
+      "book_page": 392,
+      "chapter": "Chapter 8",
+      "section": "8.2",
+      "raw_chars": 4257,
+      "normalized_chars": 3814
+    },
+    {
+      "page_id": "openstax-pds-2025:p403",
+      "pdf_page": 403,
+      "book_page": 393,
+      "chapter": "Chapter 8",
+      "section": "8.2",
+      "raw_chars": 4033,
+      "normalized_chars": 3853
+    },
+    {
+      "page_id": "openstax-pds-2025:p404",
+      "pdf_page": 404,
+      "book_page": 394,
+      "chapter": "Chapter 8",
+      "section": "8.2",
+      "raw_chars": 2258,
+      "normalized_chars": 1949
+    },
+    {
+      "page_id": "openstax-pds-2025:p405",
+      "pdf_page": 405,
+      "book_page": 395,
+      "chapter": "Chapter 8",
+      "section": "8.3",
+      "raw_chars": 4096,
+      "normalized_chars": 3872
+    },
+    {
+      "page_id": "openstax-pds-2025:p406",
+      "pdf_page": 406,
+      "book_page": 396,
+      "chapter": "Chapter 8",
+      "section": "8.3",
+      "raw_chars": 1911,
+      "normalized_chars": 1579
+    },
+    {
+      "page_id": "openstax-pds-2025:p407",
+      "pdf_page": 407,
+      "book_page": 397,
+      "chapter": "Chapter 8",
+      "section": "8.3",
+      "raw_chars": 2863,
+      "normalized_chars": 2554
+    },
+    {
+      "page_id": "openstax-pds-2025:p408",
+      "pdf_page": 408,
+      "book_page": 398,
+      "chapter": "Chapter 8",
+      "section": "8.3",
+      "raw_chars": 2460,
+      "normalized_chars": 1116
+    },
+    {
+      "page_id": "openstax-pds-2025:p409",
+      "pdf_page": 409,
+      "book_page": 399,
+      "chapter": "Chapter 8",
+      "section": "8.3",
+      "raw_chars": 977,
+      "normalized_chars": 699
+    },
+    {
+      "page_id": "openstax-pds-2025:p410",
+      "pdf_page": 410,
+      "book_page": 400,
+      "chapter": "Chapter 8",
+      "section": "8.3",
+      "raw_chars": 2588,
+      "normalized_chars": 1544
+    },
+    {
+      "page_id": "openstax-pds-2025:p411",
+      "pdf_page": 411,
+      "book_page": 401,
+      "chapter": "Chapter 8",
+      "section": "8.3",
+      "raw_chars": 3241,
+      "normalized_chars": 2977
+    },
+    {
+      "page_id": "openstax-pds-2025:p412",
+      "pdf_page": 412,
+      "book_page": 402,
+      "chapter": "Chapter 8",
+      "section": "8.3",
+      "raw_chars": 4822,
+      "normalized_chars": 4448
+    },
+    {
+      "page_id": "openstax-pds-2025:p413",
+      "pdf_page": 413,
+      "book_page": 403,
+      "chapter": "Chapter 8",
+      "section": "8.3",
+      "raw_chars": 272,
+      "normalized_chars": 120
+    }
+  ]
+}

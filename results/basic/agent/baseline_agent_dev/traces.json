@@ -1,0 +1,2115 @@
+[
+  {
+    "query_id": "q01",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "According to the Anaconda 2020 survey cited in the textbook, data scientists spend about half (roughly 50%) of the entire data science process on data collection and cleaning [openstax-pds-2025:p021:para:c000].",
+    "citations": [
+      "openstax-pds-2025:p021:para:c000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Anaconda 2020 survey data collection and cleaning fraction data science process",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p021:para:c000",
+            "page": 21,
+            "score": 0.524907,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c003",
+            "page": 98,
+            "score": 0.487818,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p086:para:c001",
+            "page": 86,
+            "score": 0.483017,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p021:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 21]\nFigure 1.3 The Data Science Cycle\n\nAlthough data collection and preparation may sound like simple tasks compared to the more important work of analysis, they are actually the most time- and effort-consuming steps in the data science cycle. According to a survey conducted by Anaconda (2020), data scientists spend about half of the entire process in data collection and cleaning, while data analysis and communication take about a quarter to a third of the time each, depending on the job.",
+        "context_ids": [
+          "openstax-pds-2025:p021:para:c000"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1671.94,
+          "embed_tokens": 14,
+          "embed_cost_usd": 2.8e-07,
+          "embed_reference_cost_usd": 2.8e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p021:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 21]\nFigure 1.3 The Data Science Cycle\n\nAlthough data collection and preparation may sound like simple tasks compared to the more important work of analysis, they are actually the most time- and effort-consuming steps in the data science cycle. According to a survey conducted by Anaconda (2020), data scientists spend about half of the entire process in data collection and cleaning, while data analysis and communication take about a quarter to a third of the time each, depending on the job.",
+    "context_ids": [
+      "openstax-pds-2025:p021:para:c000"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 1229,
+    "llm_completion_tokens": 141,
+    "rerank_tokens": 0,
+    "embed_tokens": 14,
+    "estimated_cost_usd": 0.00051903,
+    "live_cost_usd": 0.00051903,
+    "elapsed_seconds": 4.007,
+    "split": "dev",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "According to the Anaconda 2020 survey cited in the textbook, roughly what fraction of the data science process do data scientists spend on data collection and cleaning?"
+  },
+  {
+    "query_id": "q02",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "Class size data shifts from being treated as continuous data to discrete data if the campus enforces a restriction that all classes must be 200 seats or less, which limits the class size values to a finite set of 200 numbers (1, 2, 3, ..., 198, 199, 200). [openstax-pds-2025:p028:para:c005]",
+    "citations": [
+      "openstax-pds-2025:p028:para:c005"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "class size data continuous discrete campus restriction",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p028:para:c005",
+            "page": 28,
+            "score": 0.65463,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p028:para:c004",
+            "page": 28,
+            "score": 0.514811,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p027:para:c002",
+            "page": 27,
+            "score": 0.426859,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p028:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 28]\nFrom the previous example, the class size 100, 150, etc. are numbers with the implied unit “students.” Also, they indicate measurable quantities as they are head counts. Therefore, the class size is numeric data. It is also continuous data since the size numbers seem to be any natural numbers and these numbers are chosen from an infinite set of numbers, the set of natural numbers. Note that whether data is continuous (or discrete) also depends on the context. For example, the same class size data can be discrete if the campus enforces all classes to be 200 seats or less. Such restriction makes the class size values be chosen from a finite set of 200 numbers: 1, 2, 3, ..., 198, 199, 200.",
+        "context_ids": [
+          "openstax-pds-2025:p028:para:c005"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 51.53,
+          "embed_tokens": 7,
+          "embed_cost_usd": 0.0,
+          "embed_reference_cost_usd": 1.4000000000000004e-07,
+          "embed_cached": true,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p028:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 28]\nFrom the previous example, the class size 100, 150, etc. are numbers with the implied unit “students.” Also, they indicate measurable quantities as they are head counts. Therefore, the class size is numeric data. It is also continuous data since the size numbers seem to be any natural numbers and these numbers are chosen from an infinite set of numbers, the set of natural numbers. Note that whether data is continuous (or discrete) also depends on the context. For example, the same class size data can be discrete if the campus enforces all classes to be 200 seats or less. Such restriction makes the class size values be chosen from a finite set of 200 numbers: 1, 2, 3, ..., 198, 199, 200.",
+    "context_ids": [
+      "openstax-pds-2025:p028:para:c005"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 1267,
+    "llm_completion_tokens": 169,
+    "rerank_tokens": 0,
+    "embed_tokens": 7,
+    "estimated_cost_usd": 0.00057039,
+    "live_cost_usd": 0.00057025,
+    "elapsed_seconds": 1.492,
+    "split": "dev",
+    "answerable": true,
+    "type": "dieu_kien_ngoai_le",
+    "question": "Under what campus restriction does class size data shift from being treated as continuous data to discrete data?"
+  },
+  {
+    "query_id": "q03",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "Ahead of Hurricane Frances in 2004, Walmart used data on sales from Hurricane Charley (which hit several weeks earlier) to forecast product demand [openstax-pds-2025:p023:para:c001]. Executives discovered that sales of strawberry Pop-Tarts had increased by about sevenfold during Hurricane Charley, so Walmart shipped extra supplies of strawberry Pop-Tarts to stores in the path of Hurricane Frances [openstax-pds-2025:p023:para:c001]. The historical data analysis also guided decisions on how many checkout associates to assign at various times of the day and where to place popular products [openstax-pds-2025:p023:para:c001].",
+    "citations": [
+      "openstax-pds-2025:p023:para:c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Walmart historical storm sales data Hurricane Frances 2004",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p023:para:c001",
+            "page": 23,
+            "score": 0.674862,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p023:para:c000",
+            "page": 23,
+            "score": 0.464621,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p023:para:c008",
+            "page": 23,
+            "score": 0.277295,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p023:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23]\nA week before the hurricane’s arrival, staff were asked to look back at their data on sales during Hurricane Charley, which hit several weeks earlier, and then come up with some forecasts about product demand ahead of Frances (Hays, 2004). Among other insights, the executives discovered that strawberry Pop-Tart sales increased by about sevenfold during that time. As a result, in the days before Hurricane Frances, Walmart shipped extra supplies of strawberry Pop-Tarts to stores in the storm’s path (Hays, 2004). The analysis also provided insights on how many checkout associates to assign at different times of the day, where to place popular products, and many other sales and product details.",
+        "context_ids": [
+          "openstax-pds-2025:p023:para:c001"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1010.72,
+          "embed_tokens": 11,
+          "embed_cost_usd": 2.2e-07,
+          "embed_reference_cost_usd": 2.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p023:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23]\nA week before the hurricane’s arrival, staff were asked to look back at their data on sales during Hurricane Charley, which hit several weeks earlier, and then come up with some forecasts about product demand ahead of Frances (Hays, 2004). Among other insights, the executives discovered that strawberry Pop-Tart sales increased by about sevenfold during that time. As a result, in the days before Hurricane Frances, Walmart shipped extra supplies of strawberry Pop-Tarts to stores in the storm’s path (Hays, 2004). The analysis also provided insights on how many checkout associates to assign at different times of the day, where to place popular products, and many other sales and product details.",
+    "context_ids": [
+      "openstax-pds-2025:p023:para:c001"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 1254,
+    "llm_completion_tokens": 246,
+    "rerank_tokens": 0,
+    "embed_tokens": 11,
+    "estimated_cost_usd": 0.00068272,
+    "live_cost_usd": 0.00068272,
+    "elapsed_seconds": 3.201,
+    "split": "dev",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "question": "How did Walmart use historical storm sales data to prepare inventory ahead of Hurricane Frances in 2004?"
+  },
+  {
+    "query_id": "q04",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "The retrieved text for Example 1.8 presents the questions regarding how many items and attributes are in the Jeopardy dataset and what the third item is [openstax-pds-2025:p038:para:c000], but it does not provide the answers or the list index for the third item.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Example 1.8 JSON Jeopardy dataset items attributes list index third item",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p038:para:c000",
+            "page": 38,
+            "score": 0.768598,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p038:para:c001",
+            "page": 38,
+            "score": 0.695733,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p034:para:c001",
+            "page": 34,
+            "score": 0.518165,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p038:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 38]\nEXAMPLE 1.8\n\nProblem\n\nThe Jeopardy dataset (ch1-jeopardy.json (https://openstax.org/r/filed15)) is formatted in JSON. Download and open it with a code editor (e.g., Notepad, Sublime Text, Xcode, Visual Studio Code).\n\n• How many items are there in the dataset?\n• How many attributes are there in the dataset?\n• What is the third item in the dataset?",
+        "context_ids": [
+          "openstax-pds-2025:p038:para:c000"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 833.2,
+          "embed_tokens": 16,
+          "embed_cost_usd": 3.2e-07,
+          "embed_reference_cost_usd": 3.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Example 1.8 Jeopardy dataset items attributes third item solution",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p038:para:c001",
+            "page": 38,
+            "score": 0.732457,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p038:para:c000",
+            "page": 38,
+            "score": 0.730735,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p030:para:c002",
+            "page": 30,
+            "score": 0.522656,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p038:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 38]\nEXAMPLE 1.8\n\nProblem\n\nThe Jeopardy dataset (ch1-jeopardy.json (https://openstax.org/r/filed15)) is formatted in JSON. Download and open it with a code editor (e.g., Notepad, Sublime Text, Xcode, Visual Studio Code).\n\n• How many items are there in the dataset?\n• How many attributes are there in the dataset?\n• What is the third item in the dataset?",
+        "context_ids": [
+          "openstax-pds-2025:p038:para:c000"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1007.82,
+          "embed_tokens": 14,
+          "embed_cost_usd": 2.8e-07,
+          "embed_reference_cost_usd": 2.8e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Example 1.8 Jeopardy ch1-jeopardy.json",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p038:para:c000",
+            "page": 38,
+            "score": 0.716384,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p038:para:c001",
+            "page": 38,
+            "score": 0.503802,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p033:para:c002",
+            "page": 33,
+            "score": 0.373082,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p038:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 38]\nEXAMPLE 1.8\n\nProblem\n\nThe Jeopardy dataset (ch1-jeopardy.json (https://openstax.org/r/filed15)) is formatted in JSON. Download and open it with a code editor (e.g., Notepad, Sublime Text, Xcode, Visual Studio Code).\n\n• How many items are there in the dataset?\n• How many attributes are there in the dataset?\n• What is the third item in the dataset?",
+        "context_ids": [
+          "openstax-pds-2025:p038:para:c000"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1013.71,
+          "embed_tokens": 15,
+          "embed_cost_usd": 3e-07,
+          "embed_reference_cost_usd": 3e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p038:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 38]\nEXAMPLE 1.8\n\nProblem\n\nThe Jeopardy dataset (ch1-jeopardy.json (https://openstax.org/r/filed15)) is formatted in JSON. Download and open it with a code editor (e.g., Notepad, Sublime Text, Xcode, Visual Studio Code).\n\n• How many items are there in the dataset?\n• How many attributes are there in the dataset?\n• What is the third item in the dataset?",
+    "context_ids": [
+      "openstax-pds-2025:p038:para:c000"
+    ],
+    "search_calls": 3,
+    "turns": 4,
+    "llm_prompt_tokens": 3337,
+    "llm_completion_tokens": 179,
+    "rerank_tokens": 0,
+    "embed_tokens": 45,
+    "estimated_cost_usd": 0.00110365,
+    "live_cost_usd": 0.00110365,
+    "elapsed_seconds": 6.162,
+    "split": "dev",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "In Example 1.8, how many items and attributes are in the JSON Jeopardy dataset, and at what list index is the third item located?"
+  },
+  {
+    "query_id": "q05",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "Based on the retrieved text, there is no mention or explanation regarding why global search keywords collected by a search engine cannot be analyzed directly without preprocessing when studying nighttime food searches.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "global search keywords nighttime food searches preprocessing analyzed directly",
+        "filter": {
+          "chapter": "Chapter 1"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p021:para:c003",
+            "page": 21,
+            "score": 0.64219,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p023:para:c002",
+            "page": 23,
+            "score": 0.428774,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p031:para:c000",
+            "page": 31,
+            "score": 0.402094,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p023:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23]\nIn addition, the company has launched social media analytics efforts to investigate hot keywords on social media and promptly make related products available (ProjectPro, 2015).\n\n[openstax-pds-2025:p031:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 31]\nEXAMPLE 1.6\n\nProblem\n\nThe dataset from the previous example is processed so that now each search record is summarized as up to three words, along with the timestamp (i.e., when the search occurred). Is this dataset structured or unstructured?\n\nSolution\n\nIt is a structured dataset since every entry of this dataset is in the same structure with two attributes: a short keyword along with the timestamp.",
+        "context_ids": [
+          "openstax-pds-2025:p023:para:c002",
+          "openstax-pds-2025:p031:para:c000"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 947.15,
+          "embed_tokens": 9,
+          "embed_cost_usd": 1.8e-07,
+          "embed_reference_cost_usd": 1.8e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "nighttime food searches search engine keywords preprocessing",
+        "filter": {
+          "chapter": "Chapter 1"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p021:para:c003",
+            "page": 21,
+            "score": 0.546078,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p023:para:c002",
+            "page": 23,
+            "score": 0.363996,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p031:para:c000",
+            "page": 31,
+            "score": 0.3607,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p023:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23]\nIn addition, the company has launched social media analytics efforts to investigate hot keywords on social media and promptly make related products available (ProjectPro, 2015).\n\n[openstax-pds-2025:p031:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 31]\nEXAMPLE 1.6\n\nProblem\n\nThe dataset from the previous example is processed so that now each search record is summarized as up to three words, along with the timestamp (i.e., when the search occurred). Is this dataset structured or unstructured?\n\nSolution\n\nIt is a structured dataset since every entry of this dataset is in the same structure with two attributes: a short keyword along with the timestamp.",
+        "context_ids": [
+          "openstax-pds-2025:p023:para:c002",
+          "openstax-pds-2025:p031:para:c000"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 908.4,
+          "embed_tokens": 8,
+          "embed_cost_usd": 1.6e-07,
+          "embed_reference_cost_usd": 1.6e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "preprocessing search engine keywords data science",
+        "filter": {
+          "chapter": "Chapter 1"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p021:para:c003",
+            "page": 21,
+            "score": 0.563087,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p023:para:c002",
+            "page": 23,
+            "score": 0.484221,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p031:para:c000",
+            "page": 31,
+            "score": 0.445897,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p023:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23]\nIn addition, the company has launched social media analytics efforts to investigate hot keywords on social media and promptly make related products available (ProjectPro, 2015).\n\n[openstax-pds-2025:p031:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 31]\nEXAMPLE 1.6\n\nProblem\n\nThe dataset from the previous example is processed so that now each search record is summarized as up to three words, along with the timestamp (i.e., when the search occurred). Is this dataset structured or unstructured?\n\nSolution\n\nIt is a structured dataset since every entry of this dataset is in the same structure with two attributes: a short keyword along with the timestamp.",
+        "context_ids": [
+          "openstax-pds-2025:p023:para:c002",
+          "openstax-pds-2025:p031:para:c000"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 984.79,
+          "embed_tokens": 7,
+          "embed_cost_usd": 1.4e-07,
+          "embed_reference_cost_usd": 1.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p023:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 23]\nIn addition, the company has launched social media analytics efforts to investigate hot keywords on social media and promptly make related products available (ProjectPro, 2015).\n\n[openstax-pds-2025:p031:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 31]\nEXAMPLE 1.6\n\nProblem\n\nThe dataset from the previous example is processed so that now each search record is summarized as up to three words, along with the timestamp (i.e., when the search occurred). Is this dataset structured or unstructured?\n\nSolution\n\nIt is a structured dataset since every entry of this dataset is in the same structure with two attributes: a short keyword along with the timestamp.",
+    "context_ids": [
+      "openstax-pds-2025:p023:para:c002",
+      "openstax-pds-2025:p031:para:c000"
+    ],
+    "search_calls": 3,
+    "turns": 5,
+    "llm_prompt_tokens": 5772,
+    "llm_completion_tokens": 177,
+    "rerank_tokens": 0,
+    "embed_tokens": 24,
+    "estimated_cost_usd": 0.00170898,
+    "live_cost_usd": 0.00170898,
+    "elapsed_seconds": 31.611,
+    "split": "dev",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "question": "Why can't global search keywords collected by a search engine be analyzed directly without preprocessing when studying nighttime food searches?"
+  },
+  {
+    "query_id": "q06",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "The two cell types added by the '+ Code' and '+ Text' buttons in Google Colaboratory notebooks are a **code cell** (for the code you want to run) and a **text cell** (to add text descriptions or notes) [openstax-pds-2025:p041:para:c003].",
+    "citations": [
+      "openstax-pds-2025:p041:para:c003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Google Colaboratory notebooks cell types Code Text buttons",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p041:para:c003",
+            "page": 41,
+            "score": 0.636023,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p041:para:c001",
+            "page": 41,
+            "score": 0.602649,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p046:para:c000",
+            "page": 46,
+            "score": 0.550761,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p041:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 41]\nThe gray area with the play button is called a cell. A cell is a block where you can type either code or plain text. Notice that there are two buttons on top of the first cell—“+ Code” and “+ Text.” These two buttons add a code or text cell, respectively. A code cell is for the code you want to run; a text cell is to add any text description or note.\n\nLet’s run a Python program on Colab. Type the following code in a code cell.",
+        "context_ids": [
+          "openstax-pds-2025:p041:para:c003"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 2128.25,
+          "embed_tokens": 10,
+          "embed_cost_usd": 2e-07,
+          "embed_reference_cost_usd": 2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p041:para:c003 | starter/data/Principles-of-Data-Science-WEB.pdf | page 41]\nThe gray area with the play button is called a cell. A cell is a block where you can type either code or plain text. Notice that there are two buttons on top of the first cell—“+ Code” and “+ Text.” These two buttons add a code or text cell, respectively. A code cell is for the code you want to run; a text cell is to add any text description or note.\n\nLet’s run a Python program on Colab. Type the following code in a code cell.",
+    "context_ids": [
+      "openstax-pds-2025:p041:para:c003"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 1216,
+    "llm_completion_tokens": 149,
+    "rerank_tokens": 0,
+    "embed_tokens": 10,
+    "estimated_cost_usd": 0.0005277,
+    "live_cost_usd": 0.0005277,
+    "elapsed_seconds": 4.484,
+    "split": "dev",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "In Google Colaboratory notebooks, what are the two cell types added by the '+ Code' and '+ Text' buttons?"
+  },
+  {
+    "query_id": "q07",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "I must abstain from answering because the retrieved corpus does not contain information explaining why a survey questionnaire should begin with simple questions and undergo a pilot test before full deployment.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "survey questionnaire begin with simple questions pilot test full deployment",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p071:para:c005",
+            "page": 71,
+            "score": 0.598336,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p071:para:c006",
+            "page": 71,
+            "score": 0.434457,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p071:para:c004",
+            "page": 71,
+            "score": 0.420879,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p071:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71]\nOpen-Ended Versus Closed-Ended Questions\n\nSurveys should generally contain a mix of closed-ended and open-ended questions to gather both quantitative and qualitative data.\n\n[openstax-pds-2025:p071:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71]\nDesigning the Survey\n\nThe process of data collection through surveys is a crucial aspect of research—and one that requires careful planning and execution to gather accurate and reliable data. The first step, as stated earlier, is to clearly define the research objectives and determine the appropriate target population. This will help you structure the survey and identify the specific questions that need to be included.",
+        "context_ids": [
+          "openstax-pds-2025:p071:para:c006",
+          "openstax-pds-2025:p071:para:c004"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 950.86,
+          "embed_tokens": 10,
+          "embed_cost_usd": 2e-07,
+          "embed_reference_cost_usd": 2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "pilot test simple questions survey questionnaire",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p071:para:c005",
+            "page": 71,
+            "score": 0.586509,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p071:para:c004",
+            "page": 71,
+            "score": 0.403823,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p071:para:c006",
+            "page": 71,
+            "score": 0.39663,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p071:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71]\nOpen-Ended Versus Closed-Ended Questions\n\nSurveys should generally contain a mix of closed-ended and open-ended questions to gather both quantitative and qualitative data.\n\n[openstax-pds-2025:p071:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71]\nDesigning the Survey\n\nThe process of data collection through surveys is a crucial aspect of research—and one that requires careful planning and execution to gather accurate and reliable data. The first step, as stated earlier, is to clearly define the research objectives and determine the appropriate target population. This will help you structure the survey and identify the specific questions that need to be included.",
+        "context_ids": [
+          "openstax-pds-2025:p071:para:c006",
+          "openstax-pds-2025:p071:para:c004"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1049.57,
+          "embed_tokens": 7,
+          "embed_cost_usd": 1.4e-07,
+          "embed_reference_cost_usd": 1.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "pilot survey questionnaire",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p071:para:c005",
+            "page": 71,
+            "score": 0.544623,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p071:para:c004",
+            "page": 71,
+            "score": 0.433189,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p392:para:c000",
+            "page": 392,
+            "score": 0.402317,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p071:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71]\nOpen-Ended Versus Closed-Ended Questions\n\nSurveys should generally contain a mix of closed-ended and open-ended questions to gather both quantitative and qualitative data.\n\n[openstax-pds-2025:p071:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71]\nDesigning the Survey\n\nThe process of data collection through surveys is a crucial aspect of research—and one that requires careful planning and execution to gather accurate and reliable data. The first step, as stated earlier, is to clearly define the research objectives and determine the appropriate target population. This will help you structure the survey and identify the specific questions that need to be included.",
+        "context_ids": [
+          "openstax-pds-2025:p071:para:c006",
+          "openstax-pds-2025:p071:para:c004"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1185.74,
+          "embed_tokens": 4,
+          "embed_cost_usd": 8e-08,
+          "embed_reference_cost_usd": 8e-08,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p071:para:c006 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71]\nOpen-Ended Versus Closed-Ended Questions\n\nSurveys should generally contain a mix of closed-ended and open-ended questions to gather both quantitative and qualitative data.\n\n[openstax-pds-2025:p071:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 71]\nDesigning the Survey\n\nThe process of data collection through surveys is a crucial aspect of research—and one that requires careful planning and execution to gather accurate and reliable data. The first step, as stated earlier, is to clearly define the research objectives and determine the appropriate target population. This will help you structure the survey and identify the specific questions that need to be included.",
+    "context_ids": [
+      "openstax-pds-2025:p071:para:c006",
+      "openstax-pds-2025:p071:para:c004"
+    ],
+    "search_calls": 3,
+    "turns": 5,
+    "llm_prompt_tokens": 5473,
+    "llm_completion_tokens": 140,
+    "rerank_tokens": 0,
+    "embed_tokens": 21,
+    "estimated_cost_usd": 0.00157867,
+    "live_cost_usd": 0.00157867,
+    "elapsed_seconds": 7.474,
+    "split": "dev",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "Why should a survey questionnaire begin with simple questions and undergo a pilot test before full deployment?"
+  },
+  {
+    "query_id": "q08",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "The 1936 *Literary Digest* poll wrongly predicted a victory for Alf Landon because of sampling bias [openstax-pds-2025:p072:para:c001]. The survey utilized a mailing list consisting of telephone and automobile owners, which was biased toward affluent individuals and consequently favored Republican voters [openstax-pds-2025:p072:para:c001].",
+    "citations": [
+      "openstax-pds-2025:p072:para:c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "1936 Literary Digest election poll Alf Landon Franklin D Roosevelt sampling bias",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p072:para:c001",
+            "page": 72,
+            "score": 0.632279,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p085:para:c000",
+            "page": 85,
+            "score": 0.401471,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p084:para:c004",
+            "page": 84,
+            "score": 0.351473,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p072:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72]\nAvoiding Bias in Survey Questions\n\nUnbiased sampling and unbiased survey methodology are essential for ensuring accurate and reliable results. One well-known real-life instance of sampling bias leading to inaccurate findings is the 1936 Literary Digest poll. This survey aimed to forecast the results of the US presidential election and utilized a mailing list of telephone and automobile owners. This approach was considered biased toward affluent individuals and therefore favored Republican voters. As a consequence, the poll predicted a victory for Republican nominee Alf Landon. However, the actual outcome was a landslide win for Franklin D. Roosevelt (Lusinchi, 2012).",
+        "context_ids": [
+          "openstax-pds-2025:p072:para:c001"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1021.37,
+          "embed_tokens": 14,
+          "embed_cost_usd": 2.8e-07,
+          "embed_reference_cost_usd": 2.8e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p072:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 72]\nAvoiding Bias in Survey Questions\n\nUnbiased sampling and unbiased survey methodology are essential for ensuring accurate and reliable results. One well-known real-life instance of sampling bias leading to inaccurate findings is the 1936 Literary Digest poll. This survey aimed to forecast the results of the US presidential election and utilized a mailing list of telephone and automobile owners. This approach was considered biased toward affluent individuals and therefore favored Republican voters. As a consequence, the poll predicted a victory for Republican nominee Alf Landon. However, the actual outcome was a landslide win for Franklin D. Roosevelt (Lusinchi, 2012).",
+    "context_ids": [
+      "openstax-pds-2025:p072:para:c001"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 1243,
+    "llm_completion_tokens": 176,
+    "rerank_tokens": 0,
+    "embed_tokens": 14,
+    "estimated_cost_usd": 0.00057503,
+    "live_cost_usd": 0.00057503,
+    "elapsed_seconds": 3.166,
+    "split": "dev",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "question": "What caused the 1936 Literary Digest election poll to wrongly predict a victory for Alf Landon over Franklin D. Roosevelt?"
+  },
+  {
+    "query_id": "q09",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "Based on the provided text, snowball sampling is typically appropriate in situations where it is difficult to access a particular population (such as hard-to-reach or sensitive populations) [openstax-pds-2025:p074:para:c002]. It relies on the assumption that individuals with similar characteristics or experiences tend to associate with one another and can provide referrals [openstax-pds-2025:p074:para:c002]. \n\nThe major drawback that limits its conclusions is that it may be biased and limit the generalizability of the findings [openstax-pds-2025:p074:para:c002].",
+    "citations": [
+      "openstax-pds-2025:p074:para:c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "snowball sampling appropriate drawback limits conclusions",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p074:para:c002",
+            "page": 74,
+            "score": 0.658871,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p074:para:c004",
+            "page": 74,
+            "score": 0.525615,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p072:para:c004",
+            "page": 72,
+            "score": 0.49085,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p074:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74]\n7. Snowball sampling. Snowball sampling is typically used in situations where it is difficult to access a particular population; it relies on the assumption that people with similar characteristics or experiences tend to associate with each other and can provide valuable referrals. This type of sampling can be useful in studying hard-to-reach or sensitive populations, but it may also be biased and limit the generalizability of findings.\n\n[openstax-pds-2025:p074:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74]\ntoward certain characteristics. Therefore, the findings from studies using quota sampling should be interpreted with caution.",
+        "context_ids": [
+          "openstax-pds-2025:p074:para:c002",
+          "openstax-pds-2025:p074:para:c004"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 934.76,
+          "embed_tokens": 7,
+          "embed_cost_usd": 1.4e-07,
+          "embed_reference_cost_usd": 1.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer",
+        "via": "text_fallback"
+      }
+    ],
+    "context": "[openstax-pds-2025:p074:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74]\n7. Snowball sampling. Snowball sampling is typically used in situations where it is difficult to access a particular population; it relies on the assumption that people with similar characteristics or experiences tend to associate with each other and can provide valuable referrals. This type of sampling can be useful in studying hard-to-reach or sensitive populations, but it may also be biased and limit the generalizability of findings.\n\n[openstax-pds-2025:p074:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 74]\ntoward certain characteristics. Therefore, the findings from studies using quota sampling should be interpreted with caution.",
+    "context_ids": [
+      "openstax-pds-2025:p074:para:c002",
+      "openstax-pds-2025:p074:para:c004"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 1260,
+    "llm_completion_tokens": 176,
+    "rerank_tokens": 0,
+    "embed_tokens": 7,
+    "estimated_cost_usd": 0.00057914,
+    "live_cost_usd": 0.00057914,
+    "elapsed_seconds": 2.935,
+    "split": "dev",
+    "answerable": true,
+    "type": "dieu_kien_ngoai_le",
+    "question": "When is snowball sampling appropriate, and what major drawback limits its conclusions?"
+  },
+  {
+    "query_id": "q10",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "Based on the provided chapter text, MCAR (missing completely at random) data is defined as missing data not related to any other variables, with no underlying cause for its absence [openstax-pds-2025:p087:para:c001]. However, the retrieved text does not provide information or definitions regarding MAR (missing at random) or how its variable dependencies differ from MCAR [openstax-pds-2025:p087:para:c001].",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "MAR missing at random MCAR missing completely at random variable dependencies",
+        "filter": {
+          "chapter": "Chapter 2"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p087:para:c001",
+            "page": 87,
+            "score": 0.67306,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p087:para:c002",
+            "page": 87,
+            "score": 0.59847,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p087:para:c003",
+            "page": 87,
+            "score": 0.575813,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p087:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 87]\nIt is important to distinguish between different types of missing data. MCAR (missing completely at random) data is missing data not related to any other variables, with no underlying cause for its absence. Consider data collection with a survey asking about driving habits. One of the demographic questions asks for income level. Some respondents accidentally skip this question, and so there is missing data for income, but this is not related to the variables being collected related to driving habits.",
+        "context_ids": [
+          "openstax-pds-2025:p087:para:c001"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 982.84,
+          "embed_tokens": 12,
+          "embed_cost_usd": 2.4e-07,
+          "embed_reference_cost_usd": 2.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "MAR missing at random dependent variable observed",
+        "filter": {
+          "chapter": "Chapter 2"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p087:para:c002",
+            "page": 87,
+            "score": 0.633662,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p087:para:c001",
+            "page": 87,
+            "score": 0.573259,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p087:para:c003",
+            "page": 87,
+            "score": 0.573127,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p087:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 87]\nIt is important to distinguish between different types of missing data. MCAR (missing completely at random) data is missing data not related to any other variables, with no underlying cause for its absence. Consider data collection with a survey asking about driving habits. One of the demographic questions asks for income level. Some respondents accidentally skip this question, and so there is missing data for income, but this is not related to the variables being collected related to driving habits.",
+        "context_ids": [
+          "openstax-pds-2025:p087:para:c001"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 910.26,
+          "embed_tokens": 7,
+          "embed_cost_usd": 1.4e-07,
+          "embed_reference_cost_usd": 1.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "missing at random MAR",
+        "filter": {
+          "chapter": "Chapter 2"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p087:para:c002",
+            "page": 87,
+            "score": 0.641569,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p087:para:c003",
+            "page": 87,
+            "score": 0.596621,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p087:para:c001",
+            "page": 87,
+            "score": 0.553568,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p087:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 87]\nIt is important to distinguish between different types of missing data. MCAR (missing completely at random) data is missing data not related to any other variables, with no underlying cause for its absence. Consider data collection with a survey asking about driving habits. One of the demographic questions asks for income level. Some respondents accidentally skip this question, and so there is missing data for income, but this is not related to the variables being collected related to driving habits.",
+        "context_ids": [
+          "openstax-pds-2025:p087:para:c001"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1027.34,
+          "embed_tokens": 4,
+          "embed_cost_usd": 8e-08,
+          "embed_reference_cost_usd": 8e-08,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p087:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 87]\nIt is important to distinguish between different types of missing data. MCAR (missing completely at random) data is missing data not related to any other variables, with no underlying cause for its absence. Consider data collection with a survey asking about driving habits. One of the demographic questions asks for income level. Some respondents accidentally skip this question, and so there is missing data for income, but this is not related to the variables being collected related to driving habits.",
+    "context_ids": [
+      "openstax-pds-2025:p087:para:c001"
+    ],
+    "search_calls": 3,
+    "turns": 5,
+    "llm_prompt_tokens": 4794,
+    "llm_completion_tokens": 282,
+    "rerank_tokens": 0,
+    "embed_tokens": 23,
+    "estimated_cost_usd": 0.00162196,
+    "live_cost_usd": 0.00162196,
+    "elapsed_seconds": 45.654,
+    "split": "dev",
+    "answerable": true,
+    "type": "dieu_kien_ngoai_le",
+    "question": "How does MAR (missing at random) differ from MCAR (missing completely at random) in terms of variable dependencies?"
+  },
+  {
+    "query_id": "q11",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "The retrieved text explains that lossy compression reduces data size by permanently extracting data considered irrelevant or redundant, which significantly decreases file sizes but results in some data loss (often used for multimedia/images where quality changes aren't noticeable). The text cites **MP3** and **JPEG** as examples of lossy compression. However, the retrieved passage cuts off before explaining lossless compression or providing examples for it [openstax-pds-2025:p098:para:c005].",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "lossy compression lossless compression file formats examples",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p098:para:c006",
+            "page": 98,
+            "score": 0.694207,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c005",
+            "page": 98,
+            "score": 0.602989,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p099:para:c000",
+            "page": 99,
+            "score": 0.444238,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p098:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98]\nData Compression\n\nData compression is a method of reducing file size while retaining essential information; it can be applied to many types of databases. Data compression is classified into two categories, lossy and lossless:\n\n• Lossy compression reduces the size of data by permanently extracting particular data that is considered irrelevant or redundant. This method can significantly decrease file sizes, but it also results in a loss of some data. Lossy compression is often utilized for multimedia files and images, where slight modifications in quality may not be noticeable to the human eye. Examples of lossy compression include MP3 and JPEG.",
+        "context_ids": [
+          "openstax-pds-2025:p098:para:c005"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1112.47,
+          "embed_tokens": 9,
+          "embed_cost_usd": 1.8e-07,
+          "embed_reference_cost_usd": 1.8e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "lossless compression file formats examples",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p098:para:c006",
+            "page": 98,
+            "score": 0.679835,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c005",
+            "page": 98,
+            "score": 0.567976,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p099:para:c000",
+            "page": 99,
+            "score": 0.437671,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p098:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98]\nData Compression\n\nData compression is a method of reducing file size while retaining essential information; it can be applied to many types of databases. Data compression is classified into two categories, lossy and lossless:\n\n• Lossy compression reduces the size of data by permanently extracting particular data that is considered irrelevant or redundant. This method can significantly decrease file sizes, but it also results in a loss of some data. Lossy compression is often utilized for multimedia files and images, where slight modifications in quality may not be noticeable to the human eye. Examples of lossy compression include MP3 and JPEG.",
+        "context_ids": [
+          "openstax-pds-2025:p098:para:c005"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1097.9,
+          "embed_tokens": 6,
+          "embed_cost_usd": 1.2e-07,
+          "embed_reference_cost_usd": 1.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "lossless compression examples",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p098:para:c006",
+            "page": 98,
+            "score": 0.694677,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c005",
+            "page": 98,
+            "score": 0.592593,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p099:para:c000",
+            "page": 99,
+            "score": 0.454847,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p098:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98]\nData Compression\n\nData compression is a method of reducing file size while retaining essential information; it can be applied to many types of databases. Data compression is classified into two categories, lossy and lossless:\n\n• Lossy compression reduces the size of data by permanently extracting particular data that is considered irrelevant or redundant. This method can significantly decrease file sizes, but it also results in a loss of some data. Lossy compression is often utilized for multimedia files and images, where slight modifications in quality may not be noticeable to the human eye. Examples of lossy compression include MP3 and JPEG.",
+        "context_ids": [
+          "openstax-pds-2025:p098:para:c005"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1053.14,
+          "embed_tokens": 4,
+          "embed_cost_usd": 8e-08,
+          "embed_reference_cost_usd": 8e-08,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p098:para:c005 | starter/data/Principles-of-Data-Science-WEB.pdf | page 98]\nData Compression\n\nData compression is a method of reducing file size while retaining essential information; it can be applied to many types of databases. Data compression is classified into two categories, lossy and lossless:\n\n• Lossy compression reduces the size of data by permanently extracting particular data that is considered irrelevant or redundant. This method can significantly decrease file sizes, but it also results in a loss of some data. Lossy compression is often utilized for multimedia files and images, where slight modifications in quality may not be noticeable to the human eye. Examples of lossy compression include MP3 and JPEG.",
+    "context_ids": [
+      "openstax-pds-2025:p098:para:c005"
+    ],
+    "search_calls": 3,
+    "turns": 5,
+    "llm_prompt_tokens": 4870,
+    "llm_completion_tokens": 210,
+    "rerank_tokens": 0,
+    "embed_tokens": 19,
+    "estimated_cost_usd": 0.00153288,
+    "live_cost_usd": 0.00153288,
+    "elapsed_seconds": 7.951,
+    "split": "dev",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "What is the difference between lossy compression and lossless compression, and which file formats are cited as examples of each?"
+  },
+  {
+    "query_id": "q12",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "Based on the retrieved text, individual autonomy in ethical data collection means that individuals maintain control over the decisions regarding the collection and use of their data [openstax-pds-2025:p388:para:c001]. However, the retrieved corpus does not contain any mention of a fitness app example illustrating this concept [openstax-pds-2025:p388:para:c001].",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "individual autonomy ethical data collection fitness app",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p388:para:c002",
+            "page": 388,
+            "score": 0.697976,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p388:para:c001",
+            "page": 388,
+            "score": 0.537897,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p025:para:c000",
+            "page": 25,
+            "score": 0.532917,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p388:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388]\nData collection is an essential practice in many fields, and those performing the data collection are responsible for adhering to the highest ethical standards so that the best interest of every any party affected by the project is maintained. These standards include respecting individuals’ privacy, accurately representing data, and disclosing collection intentions. First and foremost, it is important to ensure that data is used appropriately within the boundaries of the collected data’s purpose and that individual autonomy is respected—in other words, that individuals maintain control over the decisions regarding the collection and use of their data.",
+        "context_ids": [
+          "openstax-pds-2025:p388:para:c001"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1058.61,
+          "embed_tokens": 7,
+          "embed_cost_usd": 1.4e-07,
+          "embed_reference_cost_usd": 1.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "fitness app individual autonomy data collection",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p388:para:c002",
+            "page": 388,
+            "score": 0.713895,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p025:para:c000",
+            "page": 25,
+            "score": 0.516464,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p392:para:c007",
+            "page": 392,
+            "score": 0.470957,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p388:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388]\nData collection is an essential practice in many fields, and those performing the data collection are responsible for adhering to the highest ethical standards so that the best interest of every any party affected by the project is maintained. These standards include respecting individuals’ privacy, accurately representing data, and disclosing collection intentions. First and foremost, it is important to ensure that data is used appropriately within the boundaries of the collected data’s purpose and that individual autonomy is respected—in other words, that individuals maintain control over the decisions regarding the collection and use of their data.",
+        "context_ids": [
+          "openstax-pds-2025:p388:para:c001"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 976.1,
+          "embed_tokens": 6,
+          "embed_cost_usd": 1.2e-07,
+          "embed_reference_cost_usd": 1.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "fitness app",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p025:para:c000",
+            "page": 25,
+            "score": 0.395111,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p388:para:c002",
+            "page": 388,
+            "score": 0.376903,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p020:para:c003",
+            "page": 20,
+            "score": 0.283815,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p388:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388]\nData collection is an essential practice in many fields, and those performing the data collection are responsible for adhering to the highest ethical standards so that the best interest of every any party affected by the project is maintained. These standards include respecting individuals’ privacy, accurately representing data, and disclosing collection intentions. First and foremost, it is important to ensure that data is used appropriately within the boundaries of the collected data’s purpose and that individual autonomy is respected—in other words, that individuals maintain control over the decisions regarding the collection and use of their data.",
+        "context_ids": [
+          "openstax-pds-2025:p388:para:c001"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1000.22,
+          "embed_tokens": 2,
+          "embed_cost_usd": 4e-08,
+          "embed_reference_cost_usd": 4e-08,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p388:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 388]\nData collection is an essential practice in many fields, and those performing the data collection are responsible for adhering to the highest ethical standards so that the best interest of every any party affected by the project is maintained. These standards include respecting individuals’ privacy, accurately representing data, and disclosing collection intentions. First and foremost, it is important to ensure that data is used appropriately within the boundaries of the collected data’s purpose and that individual autonomy is respected—in other words, that individuals maintain control over the decisions regarding the collection and use of their data.",
+    "context_ids": [
+      "openstax-pds-2025:p388:para:c001"
+    ],
+    "search_calls": 3,
+    "turns": 4,
+    "llm_prompt_tokens": 3329,
+    "llm_completion_tokens": 181,
+    "rerank_tokens": 0,
+    "embed_tokens": 15,
+    "estimated_cost_usd": 0.00110405,
+    "live_cost_usd": 0.00110405,
+    "elapsed_seconds": 6.992,
+    "split": "dev",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "What does individual autonomy mean in ethical data collection, and what fitness app example illustrates it?"
+  },
+  {
+    "query_id": "q13",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "Anonymization and pseudonymization differ in how they handle identifying information in a dataset:\n\n* **Anonymization** involves removing personal identifying information (which can include techniques like removing or encrypting identifying information) from datasets to make sensitive data usable for analysis without the risk of exposing personal information [openstax-pds-2025:p390:para:c001].\n* **Pseudonymization** involves replacing sensitive information with artificial identifiers or codes while still maintaining its usefulness for analysis [openstax-pds-2025:p390:para:c001].",
+    "citations": [
+      "openstax-pds-2025:p390:para:c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "anonymization pseudonymization sensitive personal information dataset",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p390:para:c001",
+            "page": 390,
+            "score": 0.689113,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p401:para:c005",
+            "page": 401,
+            "score": 0.665075,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p402:para:c000",
+            "page": 402,
+            "score": 0.624522,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p390:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 390]\nBased on the project's purposes, data may need to be either anonymized or pseudonymized. Anonymization is the act of removing personal identifying information from datasets and other forms of data to make sensitive information usable for analysis without the risk of exposing personal information. This can involve techniques such as removing or encrypting identifying information. Pseudonymization is the act of replacing sensitive information in a dataset with artificial identifiers or codes while still maintaining its usefulness for analysis. These techniques may be required to comply with data protection laws.",
+        "context_ids": [
+          "openstax-pds-2025:p390:para:c001"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1011.68,
+          "embed_tokens": 10,
+          "embed_cost_usd": 2e-07,
+          "embed_reference_cost_usd": 2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p390:para:c001 | starter/data/Principles-of-Data-Science-WEB.pdf | page 390]\nBased on the project's purposes, data may need to be either anonymized or pseudonymized. Anonymization is the act of removing personal identifying information from datasets and other forms of data to make sensitive information usable for analysis without the risk of exposing personal information. This can involve techniques such as removing or encrypting identifying information. Pseudonymization is the act of replacing sensitive information in a dataset with artificial identifiers or codes while still maintaining its usefulness for analysis. These techniques may be required to comply with data protection laws.",
+    "context_ids": [
+      "openstax-pds-2025:p390:para:c001"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 1199,
+    "llm_completion_tokens": 204,
+    "rerank_tokens": 0,
+    "embed_tokens": 10,
+    "estimated_cost_usd": 0.00060595,
+    "live_cost_usd": 0.00060595,
+    "elapsed_seconds": 3.083,
+    "split": "dev",
+    "answerable": true,
+    "type": "truc_tiep",
+    "question": "How do anonymization and pseudonymization differ when protecting sensitive personal information in a dataset?"
+  },
+  {
+    "query_id": "q14",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "The retrieved text from Chapter 8 discusses how outliers can skew data or, when removed, cause important information about performance to not be accurately represented [openstax-pds-2025:p407:para:c002]. However, the text does not contain information explaining how limited features introduce bias into an analytical algorithm. Therefore, I must abstain.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "outliers limited features bias analytical algorithm",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p400:para:c000",
+            "page": 400,
+            "score": 0.603328,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p407:para:c001",
+            "page": 407,
+            "score": 0.546112,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p407:para:c002",
+            "page": 407,
+            "score": 0.502467,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p407:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 407]\nThe second data scientist chooses to remove the outliers from the data and only includes the data points that fall within a certain range. This results in a cleaner and more consistent trend in the graph, as the outliers are not shown to skew the data. However, removing the outliers may cause important information about the sales performance to not be accurately represented.",
+        "context_ids": [
+          "openstax-pds-2025:p407:para:c002"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 958.94,
+          "embed_tokens": 7,
+          "embed_cost_usd": 1.4e-07,
+          "embed_reference_cost_usd": 1.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "limited features bias algorithm",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p400:para:c001",
+            "page": 400,
+            "score": 0.483821,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p400:para:c000",
+            "page": 400,
+            "score": 0.481256,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p400:para:c004",
+            "page": 400,
+            "score": 0.476742,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p407:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 407]\nThe second data scientist chooses to remove the outliers from the data and only includes the data points that fall within a certain range. This results in a cleaner and more consistent trend in the graph, as the outliers are not shown to skew the data. However, removing the outliers may cause important information about the sales performance to not be accurately represented.",
+        "context_ids": [
+          "openstax-pds-2025:p407:para:c002"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1045.52,
+          "embed_tokens": 4,
+          "embed_cost_usd": 8e-08,
+          "embed_reference_cost_usd": 8e-08,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "outliers limited features bias",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p400:para:c000",
+            "page": 400,
+            "score": 0.560408,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p407:para:c001",
+            "page": 407,
+            "score": 0.526106,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p400:para:c001",
+            "page": 400,
+            "score": 0.493959,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p407:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 407]\nThe second data scientist chooses to remove the outliers from the data and only includes the data points that fall within a certain range. This results in a cleaner and more consistent trend in the graph, as the outliers are not shown to skew the data. However, removing the outliers may cause important information about the sales performance to not be accurately represented.",
+        "context_ids": [
+          "openstax-pds-2025:p407:para:c002"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1144.02,
+          "embed_tokens": 5,
+          "embed_cost_usd": 1e-07,
+          "embed_reference_cost_usd": 1e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p407:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 407]\nThe second data scientist chooses to remove the outliers from the data and only includes the data points that fall within a certain range. This results in a cleaner and more consistent trend in the graph, as the outliers are not shown to skew the data. However, removing the outliers may cause important information about the sales performance to not be accurately represented.",
+    "context_ids": [
+      "openstax-pds-2025:p407:para:c002"
+    ],
+    "search_calls": 3,
+    "turns": 6,
+    "llm_prompt_tokens": 6035,
+    "llm_completion_tokens": 249,
+    "rerank_tokens": 0,
+    "embed_tokens": 16,
+    "estimated_cost_usd": 0.00188257,
+    "live_cost_usd": 0.00188257,
+    "elapsed_seconds": 42.596,
+    "split": "dev",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "question": "How can outliers and limited features introduce bias into an analytical algorithm?"
+  },
+  {
+    "query_id": "q15",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "answered",
+    "answer": "By 2040, greenhouse gas emissions from information and communication technology (ICT) and data science sources are expected to exceed 14% of global greenhouse gas emissions [openstax-pds-2025:p404:para:c002].",
+    "citations": [
+      "openstax-pds-2025:p404:para:c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "environmental concern data science ICT energy consumption 2040",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p404:para:c002",
+            "page": 404,
+            "score": 0.662389,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p404:para:c001",
+            "page": 404,
+            "score": 0.542117,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p024:para:c003",
+            "page": 24,
+            "score": 0.486414,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p404:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 404]\nGlobal electricity consumption related to information and communication technology (of which significant support goes to data science tasks) is estimated to account for between 1 and 1.5% of all global electricity demand (https://openstax.org/r/iea), and greenhouse gas emissions from these sources are expected to exceed 14% of global emissions of greenhouse gasses by 2040 (Nordgren, 2023). The environmental effects of data science must be considered alongside other ethical issues if we hope to maintain a sustainable relationship with the Earth.",
+        "context_ids": [
+          "openstax-pds-2025:p404:para:c002"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1221.15,
+          "embed_tokens": 11,
+          "embed_cost_usd": 2.2e-07,
+          "embed_reference_cost_usd": 2.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[openstax-pds-2025:p404:para:c002 | starter/data/Principles-of-Data-Science-WEB.pdf | page 404]\nGlobal electricity consumption related to information and communication technology (of which significant support goes to data science tasks) is estimated to account for between 1 and 1.5% of all global electricity demand (https://openstax.org/r/iea), and greenhouse gas emissions from these sources are expected to exceed 14% of global emissions of greenhouse gasses by 2040 (Nordgren, 2023). The environmental effects of data science must be considered alongside other ethical issues if we hope to maintain a sustainable relationship with the Earth.",
+    "context_ids": [
+      "openstax-pds-2025:p404:para:c002"
+    ],
+    "search_calls": 1,
+    "turns": 2,
+    "llm_prompt_tokens": 1228,
+    "llm_completion_tokens": 136,
+    "rerank_tokens": 0,
+    "embed_tokens": 11,
+    "estimated_cost_usd": 0.00051122,
+    "live_cost_usd": 0.00051122,
+    "elapsed_seconds": 2.744,
+    "split": "dev",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "question": "What environmental concern does the textbook raise regarding large-scale data science and ICT energy consumption by 2040?"
+  },
+  {
+    "query_id": "u01",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "The retrieved text does not contain information about the Anaconda 2020 survey or the percentages of respondents reporting Python versus R as their primary programming language.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Anaconda 2020 survey Python versus R percentage primary programming language",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p039:para:c004",
+            "page": 39,
+            "score": 0.610069,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p039:para:c005",
+            "page": 39,
+            "score": 0.468786,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p040:para:c000",
+            "page": 40,
+            "score": 0.436977,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p039:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 39]\nPython and R are two of the most commonly used programming languages today. Both are open-source programming languages. While Python started as a general-purpose language that covers various types of tasks (e.g., numerical computation, data analysis, image processing, and web development), R is more specifically designed for statistical computing and graphics. Both use simple syntax compared to conventional programming languages such as Java or C/C++. They offer a broad collection of packages for data manipulation, statistical analysis, visualization, machine learning, and complex data modeling tasks.",
+        "context_ids": [
+          "openstax-pds-2025:p039:para:c004"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 892.24,
+          "embed_tokens": 13,
+          "embed_cost_usd": 2.6e-07,
+          "embed_reference_cost_usd": 2.6e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Anaconda 2020 survey Python R percentage",
+        "filter": {
+          "chapter": "Chapter 1"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p039:para:c004",
+            "page": 39,
+            "score": 0.417565,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p049:para:c001",
+            "page": 49,
+            "score": 0.376889,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p039:para:c005",
+            "page": 39,
+            "score": 0.365698,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p039:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 39]\nPython and R are two of the most commonly used programming languages today. Both are open-source programming languages. While Python started as a general-purpose language that covers various types of tasks (e.g., numerical computation, data analysis, image processing, and web development), R is more specifically designed for statistical computing and graphics. Both use simple syntax compared to conventional programming languages such as Java or C/C++. They offer a broad collection of packages for data manipulation, statistical analysis, visualization, machine learning, and complex data modeling tasks.",
+        "context_ids": [
+          "openstax-pds-2025:p039:para:c004"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 991.85,
+          "embed_tokens": 9,
+          "embed_cost_usd": 1.8e-07,
+          "embed_reference_cost_usd": 1.8e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Anaconda 2020 survey",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p402:para:c004",
+            "page": 402,
+            "score": 0.291584,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p094:para:c004",
+            "page": 94,
+            "score": 0.27418,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p052:para:c001",
+            "page": 52,
+            "score": 0.270956,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p039:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 39]\nPython and R are two of the most commonly used programming languages today. Both are open-source programming languages. While Python started as a general-purpose language that covers various types of tasks (e.g., numerical computation, data analysis, image processing, and web development), R is more specifically designed for statistical computing and graphics. Both use simple syntax compared to conventional programming languages such as Java or C/C++. They offer a broad collection of packages for data manipulation, statistical analysis, visualization, machine learning, and complex data modeling tasks.",
+        "context_ids": [
+          "openstax-pds-2025:p039:para:c004"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 913.5,
+          "embed_tokens": 6,
+          "embed_cost_usd": 1.2e-07,
+          "embed_reference_cost_usd": 1.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p039:para:c004 | starter/data/Principles-of-Data-Science-WEB.pdf | page 39]\nPython and R are two of the most commonly used programming languages today. Both are open-source programming languages. While Python started as a general-purpose language that covers various types of tasks (e.g., numerical computation, data analysis, image processing, and web development), R is more specifically designed for statistical computing and graphics. Both use simple syntax compared to conventional programming languages such as Java or C/C++. They offer a broad collection of packages for data manipulation, statistical analysis, visualization, machine learning, and complex data modeling tasks.",
+    "context_ids": [
+      "openstax-pds-2025:p039:para:c004"
+    ],
+    "search_calls": 3,
+    "turns": 5,
+    "llm_prompt_tokens": 4886,
+    "llm_completion_tokens": 158,
+    "rerank_tokens": 0,
+    "embed_tokens": 28,
+    "estimated_cost_usd": 0.00145906,
+    "live_cost_usd": 0.00145906,
+    "elapsed_seconds": 7.025,
+    "split": "dev",
+    "answerable": false,
+    "type": "unanswerable_near_topic",
+    "question": "According to the Anaconda 2020 survey cited in Chapter 1, what exact percentage of respondents reported using Python versus R as their primary programming language?"
+  },
+  {
+    "query_id": "u02",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "The retrieved corpus does not contain information about a specific numerical compression ratio or file-size reduction percentage reported for Huffman coding on standard English text files.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Huffman coding compression ratio file size reduction percentage standard English text files Section 2.5",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p099:para:c000",
+            "page": 99,
+            "score": 0.651953,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c006",
+            "page": 98,
+            "score": 0.560651,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c005",
+            "page": 98,
+            "score": 0.519174,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p099:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 99]\nefficient use of binary digits and reduces the overall size of the data without losing any information during compression. Huffman coding is applied to data that require fast and efficient compression, such as video compression, image compression, and data transmission and storage.\n\nFigure 2.4 Huffman Tree Diagrams Data Storage",
+        "context_ids": [
+          "openstax-pds-2025:p099:para:c000"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1221.96,
+          "embed_tokens": 18,
+          "embed_cost_usd": 3.6e-07,
+          "embed_reference_cost_usd": 3.6e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Section 2.5 Huffman coding compression ratio file-size reduction percentage standard English text files",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p099:para:c000",
+            "page": 99,
+            "score": 0.613285,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c006",
+            "page": 98,
+            "score": 0.529734,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c005",
+            "page": 98,
+            "score": 0.500372,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p099:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 99]\nefficient use of binary digits and reduces the overall size of the data without losing any information during compression. Huffman coding is applied to data that require fast and efficient compression, such as video compression, image compression, and data transmission and storage.\n\nFigure 2.4 Huffman Tree Diagrams Data Storage",
+        "context_ids": [
+          "openstax-pds-2025:p099:para:c000"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 917.23,
+          "embed_tokens": 17,
+          "embed_cost_usd": 3.4e-07,
+          "embed_reference_cost_usd": 3.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "Huffman coding standard English text files compression ratio percentage",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-pds-2025:p099:para:c000",
+            "page": 99,
+            "score": 0.58284,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c006",
+            "page": 98,
+            "score": 0.51266,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p098:para:c005",
+            "page": 98,
+            "score": 0.450979,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p099:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 99]\nefficient use of binary digits and reduces the overall size of the data without losing any information during compression. Huffman coding is applied to data that require fast and efficient compression, such as video compression, image compression, and data transmission and storage.\n\nFigure 2.4 Huffman Tree Diagrams Data Storage",
+        "context_ids": [
+          "openstax-pds-2025:p099:para:c000"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1103.73,
+          "embed_tokens": 10,
+          "embed_cost_usd": 2e-07,
+          "embed_reference_cost_usd": 2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p099:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 99]\nefficient use of binary digits and reduces the overall size of the data without losing any information during compression. Huffman coding is applied to data that require fast and efficient compression, such as video compression, image compression, and data transmission and storage.\n\nFigure 2.4 Huffman Tree Diagrams Data Storage",
+    "context_ids": [
+      "openstax-pds-2025:p099:para:c000"
+    ],
+    "search_calls": 3,
+    "turns": 5,
+    "llm_prompt_tokens": 4400,
+    "llm_completion_tokens": 184,
+    "rerank_tokens": 0,
+    "embed_tokens": 45,
+    "estimated_cost_usd": 0.0013769,
+    "live_cost_usd": 0.0013769,
+    "elapsed_seconds": 8.453,
+    "split": "dev",
+    "answerable": false,
+    "type": "unanswerable_near_topic",
+    "question": "What specific numerical compression ratio or file-size reduction percentage does Section 2.5 report for Huffman coding on standard English text files?"
+  },
+  {
+    "query_id": "u03",
+    "config": "baseline_agent",
+    "model": "gemini-3.5-flash-lite",
+    "status": "abstain",
+    "answer": "I must abstain from answering because the retrieved text does not contain information about the maximum monetary fine under GDPR.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "GDPR maximum monetary fine percentage global annual turnover Section 8.1",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p389:para:c000",
+            "page": 389,
+            "score": 0.423099,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p388:para:c005",
+            "page": 388,
+            "score": 0.413248,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p388:para:c006",
+            "page": 388,
+            "score": 0.405274,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p389:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 389]\ntransparently. Figure 8.2 and Figure 8.3 summarize the GDPR and CCPA/CPRA principles. This GDPR Checklist for Data Controllers (https://openstax.org/r/gdpr1) on the EU website presents the principles in an actionable format for organizations.\n\nFigure 8.2 GDPR Principles\n\nFigure 8.3 CCPA/CPRA Principles",
+        "context_ids": [
+          "openstax-pds-2025:p389:para:c000"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 991.39,
+          "embed_tokens": 14,
+          "embed_cost_usd": 2.8e-07,
+          "embed_reference_cost_usd": 2.8e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "GDPR fine percentage global annual turnover",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p388:para:c006",
+            "page": 388,
+            "score": 0.447609,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p389:para:c000",
+            "page": 389,
+            "score": 0.447171,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p388:para:c005",
+            "page": 388,
+            "score": 0.427446,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p389:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 389]\ntransparently. Figure 8.2 and Figure 8.3 summarize the GDPR and CCPA/CPRA principles. This GDPR Checklist for Data Controllers (https://openstax.org/r/gdpr1) on the EU website presents the principles in an actionable format for organizations.\n\nFigure 8.2 GDPR Principles\n\nFigure 8.3 CCPA/CPRA Principles",
+        "context_ids": [
+          "openstax-pds-2025:p389:para:c000"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1014.54,
+          "embed_tokens": 7,
+          "embed_cost_usd": 1.4e-07,
+          "embed_reference_cost_usd": 1.4e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_corpus",
+        "query": "GDPR fine euros percentage turnover",
+        "filter": {
+          "chapter": "Chapter 8"
+        },
+        "results": [
+          {
+            "id": "openstax-pds-2025:p389:para:c000",
+            "page": 389,
+            "score": 0.466838,
+            "rank": 1
+          },
+          {
+            "id": "openstax-pds-2025:p388:para:c006",
+            "page": 388,
+            "score": 0.442993,
+            "rank": 2
+          },
+          {
+            "id": "openstax-pds-2025:p388:para:c005",
+            "page": 388,
+            "score": 0.387876,
+            "rank": 3
+          }
+        ],
+        "context": "[openstax-pds-2025:p389:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 389]\ntransparently. Figure 8.2 and Figure 8.3 summarize the GDPR and CCPA/CPRA principles. This GDPR Checklist for Data Controllers (https://openstax.org/r/gdpr1) on the EU website presents the principles in an actionable format for organizations.\n\nFigure 8.2 GDPR Principles\n\nFigure 8.3 CCPA/CPRA Principles",
+        "context_ids": [
+          "openstax-pds-2025:p389:para:c000"
+        ],
+        "meta": {
+          "method": "dense",
+          "elapsed_ms": 1068.4,
+          "embed_tokens": 6,
+          "embed_cost_usd": 1.2e-07,
+          "embed_reference_cost_usd": 1.2e-07,
+          "embed_cached": false,
+          "rerank_tokens": 0,
+          "rerank_cost_usd": 0.0
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "[openstax-pds-2025:p389:para:c000 | starter/data/Principles-of-Data-Science-WEB.pdf | page 389]\ntransparently. Figure 8.2 and Figure 8.3 summarize the GDPR and CCPA/CPRA principles. This GDPR Checklist for Data Controllers (https://openstax.org/r/gdpr1) on the EU website presents the principles in an actionable format for organizations.\n\nFigure 8.2 GDPR Principles\n\nFigure 8.3 CCPA/CPRA Principles",
+    "context_ids": [
+      "openstax-pds-2025:p389:para:c000"
+    ],
+    "search_calls": 3,
+    "turns": 5,
+    "llm_prompt_tokens": 4753,
+    "llm_completion_tokens": 172,
+    "rerank_tokens": 0,
+    "embed_tokens": 27,
+    "estimated_cost_usd": 0.00144679,
+    "live_cost_usd": 0.00144679,
+    "elapsed_seconds": 42.899,
+    "split": "dev",
+    "answerable": false,
+    "type": "unanswerable_near_topic",
+    "question": "Under GDPR as described in Section 8.1, what is the maximum monetary fine (in euros or percentage of global annual turnover) for regulatory non-compliance?"
+  }
+]

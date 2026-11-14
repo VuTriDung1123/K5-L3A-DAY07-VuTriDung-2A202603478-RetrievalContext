@@ -1,0 +1,6 @@
+project-includes = ["src", "tests", "starter/src", "starter/scripts"]
+python-version = "3.14"
+python-interpreter-path = "starter/.venv/Scripts/python.exe"
+search-path = ["."]
+site-package-path = ["starter/.venv/Lib/site-packages"]
+

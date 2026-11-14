@@ -1,0 +1,493 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "According to the Anaconda 2020 survey cited in the textbook, roughly what fraction of the data science process do data scientists spend on data collection and cleaning?",
+    "answerable": true,
+    "expected_answer": "About half of the entire process is spent on data collection and cleaning, while data analysis and communication take roughly a quarter to a third each.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 21,
+        "evidence": "According to a survey conducted by Anaconda (2020), data scientists spend about half of the entire process in data collection and cleaning"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 21,
+    "gold_section": "1.1",
+    "evidence_quote": "According to a survey conducted by Anaconda (2020), data scientists spend about half of the entire process in data collection and cleaning, while data analysis and communication take about a quarter to a third of the time each, depending on the job.",
+    "required_clauses": [
+      "According to a survey conducted by Anaconda (2020), data scientists spend about half of the entire process in data collection and cleaning"
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Under what campus restriction does class size data shift from being treated as continuous data to discrete data?",
+    "answerable": true,
+    "expected_answer": "If the campus enforces all classes to be 200 seats or less, limiting values to the finite set 1 through 200.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 28,
+        "evidence": "the same class size data can be discrete if the campus enforces all classes to be 200 seats or less"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 28,
+    "gold_section": "1.3",
+    "evidence_quote": "Note that whether data is continuous (or discrete) also depends on the context. For example, the same class size data can be discrete if the campus enforces all classes to be 200 seats or less. Such restriction makes the class size values be chosen from a finite set of 200 numbers: 1, 2, 3, ..., 198, 199, 200.",
+    "required_clauses": [
+      "the same class size data can be discrete if the campus enforces all classes to be 200 seats or less"
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "How did Walmart use historical storm sales data to prepare inventory ahead of Hurricane Frances in 2004?",
+    "answerable": true,
+    "expected_answer": "Staff analyzed Hurricane Charley sales data, found strawberry Pop-Tart sales jumped sevenfold, and shipped extra supplies to stores in Hurricane Frances's path.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 23,
+        "evidence": "sales during Hurricane Charley"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 23,
+    "gold_section": "1.2",
+    "evidence_quote": "A week before the hurricane’s arrival, staff were asked to look back at their data on sales during Hurricane Charley, which hit several weeks earlier, and then come up with some forecasts about product demand ahead of Frances (Hays, 2004). Among other insights, the executives discovered that strawberry Pop-Tart sales increased by about sevenfold during that time. As a result, in the days before Hurricane Frances, Walmart shipped extra supplies of strawberry Pop-Tarts to stores in the storm’s path (Hays, 2004).",
+    "required_clauses": [
+      "sales during Hurricane Charley",
+      "strawberry Pop-Tart sales increased by about sevenfold",
+      "shipped extra supplies of strawberry Pop-Tarts to stores in the storm’s path"
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "In Example 1.8, how many items and attributes are in the JSON Jeopardy dataset, and at what list index is the third item located?",
+    "answerable": true,
+    "expected_answer": "409 items, 7 attributes per item, and the third item is located at index 2.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 38,
+        "evidence": "There are 409 items in the dataset, and each item has seven attributes"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 38,
+    "gold_section": "1.3",
+    "evidence_quote": "There are 409 items in the dataset, and each item has seven attributes: “category”, “air_date”, “question”, “value”, “answer”, “round”, and “show_number”. The third item is located at index 2 of the first list as shown in Figure 1.14.",
+    "required_clauses": [
+      "There are 409 items in the dataset, and each item has seven attributes",
+      "The third item is located at index 2 of the first list"
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Why can't global search keywords collected by a search engine be analyzed directly without preprocessing when studying nighttime food searches?",
+    "answerable": true,
+    "expected_answer": "Keywords appear in multiple languages, nighttime varies by each user's time zone, and records can contain typos, nonsensical strings, or blanks.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 21,
+        "evidence": "search keywords will probably be in different languages"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 21,
+    "gold_section": "1.1",
+    "evidence_quote": "The search keywords will probably be in different languages, and users live all around the Earth, so nighttime will vary by each user’s time zone. Even then, some search keywords would have some typos, simply not make sense, or even remain blank if the Google server somehow failed to store that specific search history record.",
+    "required_clauses": [
+      "search keywords will probably be in different languages",
+      "nighttime will vary by each user’s time zone",
+      "typos, simply not make sense, or even remain blank"
+    ],
+    "filter": {
+      "chapter": "Chapter 1"
+    },
+    "filter_context": "Pre-supplied course module context: user is reviewing Chapter 1 (Data Science Cycle) where the Google nighttime food-search example appears."
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "In Google Colaboratory notebooks, what are the two cell types added by the '+ Code' and '+ Text' buttons?",
+    "answerable": true,
+    "expected_answer": "A code cell for runnable Python code and a text cell for written descriptions or notes.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 41,
+        "evidence": "two buttons on top of the first cell—“+ Code” and “+ Text.”"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 41,
+    "gold_section": "1.5",
+    "evidence_quote": "Notice that there are two buttons on top of the first cell—“+ Code” and “+ Text.” These two buttons add a code or text cell, respectively. A code cell is for the code you want to run; a text cell is to add any text description or note.",
+    "required_clauses": [
+      "two buttons on top of the first cell—“+ Code” and “+ Text.”",
+      "A code cell is for the code you want to run; a text cell is to add any text description or note."
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Why should a survey questionnaire begin with simple questions and undergo a pilot test before full deployment?",
+    "answerable": true,
+    "expected_answer": "Starting with simple questions builds rapport so respondents are more willing to answer harder ones; pilot testing catches confusing questions and issues before full rollout.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 71,
+        "evidence": "build a rapport with the respondents and increase their willingness to answer more difficult questions"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 71,
+    "gold_section": "2.2",
+    "evidence_quote": "A survey should begin with simple and easy-to-answer questions and progress to more complex or sensitive ones. This can help build a rapport with the respondents and increase their willingness to answer more difficult questions. Additionally, the researcher may consider mixing up the response options for multiple-choice questions to avoid response bias. To ensure the quality of the data collected, the survey questionnaire should undergo a pilot test with a small group of individuals from the target population. This allows the researcher to identify any potential issues or confusion with the questions and make necessary adjustments before administering the survey to the larger population.",
+    "required_clauses": [
+      "build a rapport with the respondents and increase their willingness to answer more difficult questions",
+      "pilot test with a small group of individuals from the target population",
+      "identify any potential issues or confusion with the questions"
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "What caused the 1936 Literary Digest election poll to wrongly predict a victory for Alf Landon over Franklin D. Roosevelt?",
+    "answerable": true,
+    "expected_answer": "It drew from telephone and automobile owners (biasing toward affluent Republican voters) and relied primarily on closed-ended questions.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 72,
+        "evidence": "mailing list of telephone and automobile owners"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 72,
+    "gold_section": "2.2",
+    "evidence_quote": "This survey aimed to forecast the results of the US presidential election and utilized a mailing list of telephone and automobile owners. This approach was considered biased toward affluent individuals and therefore favored Republican voters. As a consequence, the poll predicted a victory for Republican nominee Alf Landon. However, the actual outcome was a landslide win for Franklin D. Roosevelt (Lusinchi, 2012). This discrepancy can be attributed to the biased sampling method as well as the use of primarily closed-ended questions, which may not have accurately captured the opinions of all voters.",
+    "required_clauses": [
+      "mailing list of telephone and automobile owners",
+      "biased toward affluent individuals and therefore favored Republican voters",
+      "biased sampling method as well as the use of primarily closed-ended questions"
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "When is snowball sampling appropriate, and what major drawback limits its conclusions?",
+    "answerable": true,
+    "expected_answer": "It is useful when studying hard-to-reach or sensitive populations through participant referrals, but it may introduce bias and limit generalizability.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 74,
+        "evidence": "difficult to access a particular population"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 74,
+    "gold_section": "2.2",
+    "evidence_quote": "7. Snowball sampling. Snowball sampling is typically used in situations where it is difficult to access a particular population; it relies on the assumption that people with similar characteristics or experiences tend to associate with each other and can provide valuable referrals. This type of sampling can be useful in studying hard-to-reach or sensitive populations, but it may also be biased and limit the generalizability of findings.",
+    "required_clauses": [
+      "difficult to access a particular population",
+      "studying hard-to-reach or sensitive populations, but it may also be biased and limit the generalizability of findings"
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "How does MAR (missing at random) differ from MCAR (missing completely at random) in terms of variable dependencies?",
+    "answerable": true,
+    "expected_answer": "MCAR is unrelated to any variables with no underlying cause, whereas MAR is related to other observed variables (such as age) but not to unknown or unmeasured variables.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 87,
+        "evidence": "MCAR (missing completely at random) data is missing data not related to any other variables, with no underlying cause for its absence."
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 87,
+    "gold_section": "2.4",
+    "evidence_quote": "MCAR (missing completely at random) data is missing data not related to any other variables, with no underlying cause for its absence. ... MAR (missing at random) data is missing data related to other variables but not to any unknown or unmeasured variables.",
+    "required_clauses": [
+      "MCAR (missing completely at random) data is missing data not related to any other variables, with no underlying cause for its absence.",
+      "MAR (missing at random) data is missing data related to other variables but not to any unknown or unmeasured variables."
+    ],
+    "filter": {
+      "chapter": "Chapter 2"
+    },
+    "filter_context": "Pre-supplied course module context: user is studying Chapter 2 (Data Cleaning and Preprocessing) and asks about missingness mechanisms."
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What is the difference between lossy compression and lossless compression, and which file formats are cited as examples of each?",
+    "answerable": true,
+    "expected_answer": "Lossy permanently removes irrelevant/redundant data (e.g., MP3, JPEG), while lossless shrinks size without discarding data so the original can be reconstructed intact (e.g., ZIP, RAR, PNG).",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 98,
+        "evidence": "Lossy compression reduces the size of data by permanently extracting particular data"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 98,
+    "gold_section": "2.5",
+    "evidence_quote": "• Lossy compression reduces the size of data by permanently extracting particular data that is considered irrelevant or redundant. ... Examples of lossy compression include MP3 and JPEG.\n• Lossless compression aims to reduce file size without removing any data. ... Examples of lossless compression include ZIP, RAR, and PNG.",
+    "required_clauses": [
+      "Lossy compression reduces the size of data by permanently extracting particular data",
+      "Examples of lossy compression include MP3 and JPEG.",
+      "Lossless compression aims to reduce file size without removing any data.",
+      "Examples of lossless compression include ZIP, RAR, and PNG."
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What does individual autonomy mean in ethical data collection, and what fitness app example illustrates it?",
+    "answerable": true,
+    "expected_answer": "Individual autonomy means people retain control over what data is collected and how it is used, such as choosing in a fitness app to track steps and heart rate while declining location or sleep tracking.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 388,
+        "evidence": "individuals maintain control over the decisions regarding the collection and use of their data"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 388,
+    "gold_section": "8.1",
+    "evidence_quote": "individual autonomy is respected—in other words, that individuals maintain control over the decisions regarding the collection and use of their data.\n\nFor example, if someone is using a fitness tracking app, they may want to track their daily steps and heart rate but not their location or sleep patterns. They should have the autonomy to choose which data points they want to collect and which ones they do not.",
+    "required_clauses": [
+      "individuals maintain control over the decisions regarding the collection and use of their data",
+      "fitness tracking app, they may want to track their daily steps and heart rate but not their location or sleep patterns"
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "How do anonymization and pseudonymization differ when protecting sensitive personal information in a dataset?",
+    "answerable": true,
+    "expected_answer": "Anonymization strips or encrypts personally identifying information completely, whereas pseudonymization substitutes artificial identifiers or codes for sensitive fields while keeping records linkable for analysis.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 390,
+        "evidence": "Anonymization is the act of removing personal identifying information from datasets"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 390,
+    "gold_section": "8.1",
+    "evidence_quote": "Anonymization is the act of removing personal identifying information from datasets and other forms of data to make sensitive information usable for analysis without the risk of exposing personal information. This can involve techniques such as removing or encrypting identifying information. Pseudonymization is the act of replacing sensitive information in a dataset with artificial identifiers or codes while still maintaining its usefulness for analysis.",
+    "required_clauses": [
+      "Anonymization is the act of removing personal identifying information from datasets",
+      "Pseudonymization is the act of replacing sensitive information in a dataset with artificial identifiers or codes"
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "How can outliers and limited features introduce bias into an analytical algorithm?",
+    "answerable": true,
+    "expected_answer": "Outliers can drastically shift algorithmic outcomes due to extreme values, and limited features leave the model with an incomplete view of the data, causing inaccurate or biased decisions.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 400,
+        "evidence": "1. Outliers. An outlier might cause an algorithm to drastically change its outcomes due to its abnormality compared to the rest of the data."
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 400,
+    "gold_section": "8.2",
+    "evidence_quote": "1. Outliers. An outlier might cause an algorithm to drastically change its outcomes due to its abnormality compared to the rest of the data.\n4. Limited features. If there are not enough features to represent the data accurately or completely, the algorithm will likely have an incomplete understanding of the data, leading to inaccurate outcomes or biased decisions.",
+    "required_clauses": [
+      "1. Outliers. An outlier might cause an algorithm to drastically change its outcomes due to its abnormality compared to the rest of the data.",
+      "4. Limited features. If there are not enough features to represent the data accurately or completely, the algorithm will likely have an incomplete understanding of the data, leading to inaccurate outcomes or biased decisions."
+    ],
+    "filter": {
+      "chapter": "Chapter 8"
+    },
+    "filter_context": "Pre-supplied course module context: user is studying Chapter 8 (Ethics in Data Analysis and Modeling) and asks specifically about algorithmic bias factors."
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "What environmental concern does the textbook raise regarding large-scale data science and ICT energy consumption by 2040?",
+    "answerable": true,
+    "expected_answer": "ICT (including heavy data science server workloads) uses 1%–1.5% of global electricity and its greenhouse gas emissions are projected to exceed 14% of global emissions by 2040.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 404,
+        "evidence": "between 1 and 1.5% of all global electricity demand"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 404,
+    "gold_section": "8.2",
+    "evidence_quote": "Global electricity consumption related to information and communication technology (of which significant support goes to data science tasks) is estimated to account for between 1 and 1.5% of all global electricity demand (https://openstax.org/r/iea), and greenhouse gas emissions from these sources are expected to exceed 14% of global emissions of greenhouse gasses by 2040 (Nordgren, 2023).",
+    "required_clauses": [
+      "between 1 and 1.5% of all global electricity demand",
+      "exceed 14% of global emissions of greenhouse gasses by 2040"
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Why could the 'Semester' attribute in the course evaluation example be treated as either nominal or ordinal depending on the analysis?",
+    "answerable": true,
+    "expected_answer": "It is nominal when treated purely as unordered labels, but can be treated as ordinal when chronological sequence (e.g., Fall 2020 before Spring 2021) matters, such as in time-series datasets.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 29,
+        "evidence": "semester and instructor do not have orders to follow"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 29,
+    "gold_section": "1.3",
+    "evidence_quote": "The former two data are nominal since the semester and instructor do not have orders to follow, while the latter is ordinal since there is a notion of degree (Not recommended at all ~ Highly recommended). You may argue that the semester could have chronological ordering: Fall 2020 comes before Spring 2021, Fall 2021 follows Fall 2020. If you want to value that notion for your analysis, you could consider the semester data to be ordinal as well—the chronological ordering is indeed critical when you are looking at a time-series dataset.",
+    "required_clauses": [
+      "semester and instructor do not have orders to follow",
+      "semester could have chronological ordering",
+      "you could consider the semester data to be ordinal as well"
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "When using pandas read_html() to scrape tables from a web page, what type of object does it return and which function converts string columns into numbers?",
+    "answerable": true,
+    "expected_answer": "read_html() returns a list of DataFrame objects, and pandas to_numeric() converts string values into numeric format.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 78,
+        "evidence": "read HTML tables from a web page and convert them into a list of DataFrame objects"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 78,
+    "gold_section": "2.3",
+    "evidence_quote": "This function is used to read HTML tables from a web page and convert them into a list of DataFrame objects. ... We can use the to_numeric() function from pandas to convert strings to numbers and then store the result in a new column in the DataFrame.",
+    "required_clauses": [
+      "read HTML tables from a web page and convert them into a list of DataFrame objects",
+      "to_numeric() function from pandas to convert strings to numbers"
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Why does data chunking attach metadata such as chunk number and total chunk count, and what are its four main benefits?",
+    "answerable": true,
+    "expected_answer": "Metadata lets separately stored or transmitted chunks be reassembled into the original dataset; the four benefits are increased speed, better resource utilization, increased fault tolerance, and flexibility.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 100,
+        "evidence": "allows the chunks to be reassembled into the original dataset after being transmitted or stored separately"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 100,
+    "gold_section": "2.5",
+    "evidence_quote": "The process of data chunking also involves adding metadata (data that provides information about other data), such as the chunk number and the total number of chunks, to each chunk. This metadata allows the chunks to be reassembled into the original dataset after being transmitted or stored separately. Data chunking has several advantages, including the following:\n1. Increased speed. ...\n2. Better utilization of resources. ...\n3. Increased fault tolerance. ...\n4. Flexibility. ...",
+    "required_clauses": [
+      "allows the chunks to be reassembled into the original dataset after being transmitted or stored separately",
+      "1. Increased speed.",
+      "2. Better utilization of resources.",
+      "3. Increased fault tolerance.",
+      "4. Flexibility."
+    ],
+    "filter": {
+      "chapter": "Chapter 2"
+    },
+    "filter_context": "Pre-supplied course module context: user is studying Chapter 2 (Section 2.5 Handling Large Datasets) and asks about distributed data chunking."
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "When an outside researcher requests access to medical records containing PII, which compliance regulation applies and when must access be revoked?",
+    "answerable": true,
+    "expected_answer": "The team must comply with HIPAA regulations, grant time-limited access only when needed, and revoke access immediately if the researcher's authorization or employment changes.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 395,
+        "evidence": "complies with HIPAA regulations because there are medical records involved"
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 395,
+    "gold_section": "8.1",
+    "evidence_quote": "Moreover, the team needs to ensure that the project complies with HIPAA regulations because there are medical records involved. ... 7. Revoke access when necessary: Access to sensitive data should only be granted for a specified period of time and should be revoked when it is no longer needed. If the researcher's authorization or employment changes, their access should be revoked immediately to prevent any potential data breaches.",
+    "required_clauses": [
+      "complies with HIPAA regulations because there are medical records involved",
+      "If the researcher's authorization or employment changes, their access should be revoked immediately"
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "What requirement applies when graphs or reports use data that is not publicly available, and what are the four reasons for data source attribution?",
+    "answerable": true,
+    "expected_answer": "For non-public data, prior permission must be obtained from the source alongside proper attribution and citation; the four reasons for attribution are accuracy/credibility, trust/transparency, accountability, and privacy considerations.",
+    "gold": [
+      {
+        "source_id": "openstax-pds-2025",
+        "page": 411,
+        "evidence": "1. Accuracy and credibility."
+      }
+    ],
+    "gold_source_id": "openstax-pds-2025",
+    "gold_page": 411,
+    "gold_section": "8.3",
+    "evidence_quote": "Data source attribution is demanded for several reasons:\n1. Accuracy and credibility. ...\n2. Trust and transparency. ...\n3. Accountability. ...\n4. Privacy considerations. ...\nIt is important to note that if the data utilized in graphs or reports are not publicly available, permission must be obtained from the source before using it in new research or publication. This would also require proper attribution and citation to the source of the data.",
+    "required_clauses": [
+      "1. Accuracy and credibility.",
+      "2. Trust and transparency.",
+      "3. Accountability.",
+      "4. Privacy considerations.",
+      "if the data utilized in graphs or reports are not publicly available, permission must be obtained from the source"
+    ],
+    "filter": {
+      "chapter": "Chapter 8"
+    },
+    "filter_context": "Pre-supplied course module context: user is studying Chapter 8 (Section 8.3 Ethics in Visualization and Reporting)."
+  }
+]

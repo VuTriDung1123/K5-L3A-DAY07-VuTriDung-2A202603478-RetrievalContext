@@ -1,0 +1,44 @@
+[
+  {
+    "mode": "dense",
+    "split": "test",
+    "top_k": 6,
+    "n_answerable": 24,
+    "page_hit_n": 24,
+    "page_hit_rate": 1.0,
+    "asset_cases": 20,
+    "asset_hit_n": 20,
+    "asset_hit_rate": 1.0,
+    "median_ms": 1298.56,
+    "total_seconds": 31.374,
+    "embed_tokens": 1429
+  },
+  {
+    "mode": "bm25",
+    "split": "test",
+    "top_k": 6,
+    "n_answerable": 24,
+    "page_hit_n": 24,
+    "page_hit_rate": 1.0,
+    "asset_cases": 20,
+    "asset_hit_n": 20,
+    "asset_hit_rate": 1.0,
+    "median_ms": 9.0,
+    "total_seconds": 0.221,
+    "embed_tokens": 0
+  },
+  {
+    "mode": "hybrid",
+    "split": "test",
+    "top_k": 6,
+    "n_answerable": 24,
+    "page_hit_n": 24,
+    "page_hit_rate": 1.0,
+    "asset_cases": 20,
+    "asset_hit_n": 20,
+    "asset_hit_rate": 1.0,
+    "median_ms": 43.39,
+    "total_seconds": 1.061,
+    "embed_tokens": 1429
+  }
+]

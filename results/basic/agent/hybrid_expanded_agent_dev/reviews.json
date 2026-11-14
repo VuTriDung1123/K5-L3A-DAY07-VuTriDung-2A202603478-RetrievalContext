@@ -1,0 +1,21 @@
+[
+  {"query_id": "q01", "answer_grade": 2, "citation_support": [true], "notes": "Correct half of process spent on collection/cleaning; p021:para:c000."},
+  {"query_id": "q02", "answer_grade": 2, "citation_support": [true], "notes": "Correct 200 seats restriction making class size finite/discrete; p028:para:c005."},
+  {"query_id": "q03", "answer_grade": 2, "citation_support": [true], "notes": "Complete Hurricane Charley forecast, 7x Pop-Tarts, shipments & staffing; p023:para:c001."},
+  {"query_id": "q04", "answer_grade": 2, "citation_support": [true], "notes": "Correct 409 items, 7 attributes, index 2; neighbor expansion rescued p038:para:c001."},
+  {"query_id": "q05", "answer_grade": 2, "citation_support": [true], "notes": "Covers different languages, time zones, typos/nonsense/blank records; p021:para:c003."},
+  {"query_id": "q06", "answer_grade": 2, "citation_support": [true], "notes": "Covers code cell and text cell accurately; p041:para:c003."},
+  {"query_id": "q07", "answer_grade": 2, "citation_support": [true], "notes": "Explains rapport with simple first questions and pilot testing to spot issues; p071:para:c005."},
+  {"query_id": "q08", "answer_grade": 2, "citation_support": [true, true], "notes": "Both telephone/auto mailing list bias (p072:para:c001) and closed-ended questions (p072:para:c002) cited & supported."},
+  {"query_id": "q09", "answer_grade": 2, "citation_support": [true], "notes": "Correct hard-to-reach populations and bias/generalizability caveat; p074:para:c002."},
+  {"query_id": "q10", "answer_grade": 2, "citation_support": [true, true], "notes": "Both MCAR (p087:para:c001) and MAR (p087:para:c002) explained accurately via expanded page packing."},
+  {"query_id": "q11", "answer_grade": 2, "citation_support": [true, true], "notes": "Lossy (MP3, JPEG) vs Lossless (ZIP, RAR, PNG) completely contrasted and cited (p098:para:c005, c006)."},
+  {"query_id": "q12", "answer_grade": 2, "citation_support": [true, true], "notes": "Individual autonomy concept (p388:para:c001) and fitness app example (p388:para:c002) both covered & cited."},
+  {"query_id": "q13", "answer_grade": 2, "citation_support": [true], "notes": "Accurate anonymization vs pseudonymization including lookup reversal; structured citation p401:para:c005 supports both."},
+  {"query_id": "q14", "answer_grade": 2, "citation_support": [true], "notes": "Explains both outliers and limited features introducing bias; p400:para:c000."},
+  {"query_id": "q15", "answer_grade": 1, "citation_support": [true], "notes": "Partial (1/2): accurately cites >14% emissions by 2040 (p404:para:c002) but omits 1-1.5% global electricity share."},
+  {"query_id": "u01", "abstention_correct": true, "citation_support": [], "notes": "Correct abstention on Python vs R %."},
+  {"query_id": "u02", "abstention_correct": false, "citation_support": [true, true], "notes": "False answer schema bug: answer text correctly states no numerical compression ratio is reported in p098:c006/p099:c000, yet model passed decision='answer' instead of 'abstain'."},
+  {"query_id": "u03", "abstention_correct": true, "citation_support": [], "notes": "Correct abstention on GDPR fine amount."}
+]
+

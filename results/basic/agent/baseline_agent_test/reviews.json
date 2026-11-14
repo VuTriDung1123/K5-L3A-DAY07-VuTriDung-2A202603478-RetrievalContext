@@ -1,0 +1,11 @@
+[
+  {"query_id": "q16", "answer_grade": 0, "citation_support": [], "notes": "False abstention under 800-char greedy dense budget."},
+  {"query_id": "q17", "answer_grade": 0, "citation_support": [], "notes": "False abstention: found read_html() list of DataFrames in p078:para:c002, clipped to_numeric() in p078:para:c004."},
+  {"query_id": "q18", "answer_grade": 0, "citation_support": [], "notes": "False abstention: found chunking metadata in p100:para:c002, clipped the four benefits list in p100:para:c003."},
+  {"query_id": "q19", "answer_grade": 0, "citation_support": [], "notes": "False abstention: found HIPAA in p395:para:c000, clipped revocation rule in p395:para:c004."},
+  {"query_id": "q20", "answer_grade": 0, "citation_support": [], "notes": "False abstention: found non-public data permission in p411:para:c003, clipped attribution reasons list."},
+  {"query_id": "u04", "abstention_correct": true, "citation_support": [], "notes": "Correct abstention on Tableau/Power BI price."},
+  {"query_id": "u05", "abstention_correct": true, "citation_support": [], "notes": "Correct abstention on 1936 Literary Digest ballot count and Landon vote %."},
+  {"query_id": "u06", "abstention_correct": true, "citation_support": [], "notes": "Correct abstention on HIPAA calendar-day notification window."}
+]
+

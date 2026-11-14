@@ -1,0 +1,18 @@
+{
+  "config": "adv_baseline_dense",
+  "split": "test",
+  "model": "gemini-3.1-flash-lite",
+  "cases": 30,
+  "answered": 15,
+  "abstain": 15,
+  "errors": 0,
+  "total_seconds": 733.882,
+  "total_search_calls": 74,
+  "total_vision_calls": 0,
+  "total_llm_prompt_tokens": 308867,
+  "total_llm_completion_tokens": 12135,
+  "total_vision_prompt_tokens": 0,
+  "total_vision_completion_tokens": 0,
+  "total_embed_tokens": 1377,
+  "total_estimated_cost_usd": 0.09544679
+}
